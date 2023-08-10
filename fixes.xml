@@ -51,6 +51,29 @@ Separate volume control of sound effects and music</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>240180</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>ab4bba28-8e93-415a-96f8-c9a1e1dd3989</Guid>
+        <Url>duke_nukem_2_rigel_v1.zip</Url>
+        <Description>Rigel Engine v0.9.1
+https://github.com/lethal-guitar/RigelEngine
+
+This project is a re-implementation of the game Duke Nukem II.
+
+Compared to running the original in an emulator, RigelEngine offers many modern enhancements and usability improvements, including:
+
+wide-screen mode
+smooth scrolling &amp; movement mode with increased frame rate
+quick saving
+improved game controller support
+extended modding features</Description>
+        <Name>Rigel Engine</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>8880</GameId>
     <Fixes>
       <FixEntity>
