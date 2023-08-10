@@ -102,9 +102,7 @@ Additionally removes pillar boxes in 21:9 resolutions.</Description>
       <FixEntity>
         <Guid>f6432821-49c7-49c4-9db1-5380c846ae27</Guid>
         <Url>heretic_crispy_v1.zip</Url>
-        <Description>Includes:
-
-Crispy Heretic 6.0
+        <Description>Crispy Heretic 6.0
 https://github.com/fabiangreffrath/crispy-doom
 
 Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
@@ -122,9 +120,7 @@ https://www.doomworld.com/forum/topic/64778-heretic-minor-sprite-fixing-and-wide
       <FixEntity>
         <Guid>8309af69-08b9-419e-87bb-85665444efb7</Guid>
         <Url>hexen_crispy_v1.zip</Url>
-        <Description>Includes:
-
-Crispy Hexen 6.0
+        <Description>Crispy Hexen 6.0
 https://github.com/fabiangreffrath/crispy-doom
 
 Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
@@ -142,9 +138,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
       <FixEntity>
         <Guid>8fd5cf5a-30c3-4582-9c1d-9f2d81dfe4f2</Guid>
         <Url>hexendd_crispy_v1.zip</Url>
-        <Description>Includes:
-
-Crispy Hexen 6.0
+        <Description>Crispy Hexen 6.0
 https://github.com/fabiangreffrath/crispy-doom
 
 Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
@@ -152,6 +146,29 @@ Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display 
 Widescreen Assets
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
         <Name>Crispy Hexen + Widescreen Sprites</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>40990</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>f02cb30d-1101-4890-a55f-cd53d0a7942f</Guid>
+        <Url>mafia_widescreen_v1.zip</Url>
+        <Description>Mafia Widescreen Fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/mafia
+
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+Fixed FMVs
+Added an option to increase draw distance
+Added an option to change fps limit
+Added an option to fix issue with settings
+Added an option to make windowed mode borderless
+Added an option to set deadzone for left stick and right stick on gamepad (otherwise camera just spins on its own)</Description>
+        <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -175,8 +192,18 @@ IndirectSound emulates audio hardware acceleration on modern Windows operating s
         <Guid>b5106584-27a2-4bc9-b79c-80b244352a71</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mp1/MaxPayne.WidescreenFix.zip</Url>
         <Description>Widescreen fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/mp1
 
-https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/mp1</Description>
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+Fixed FMVs
+Adjustable FOV via ini
+Added an option to make graphic novels fullscreen
+Added an option to disable cutscene borders
+Added an option to load save game automatically on startup
+Added an option to change save game directory
+Added an option to keep the game running on minimize</Description>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -189,8 +216,18 @@ https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/mp1</Description>
         <Guid>12ccb6bc-100c-4fdb-8d2f-642f0fcb21aa</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mp2/MaxPayne2.WidescreenFix.zip</Url>
         <Description>Widescreen fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/mp2
 
-https://github.com/ThirteenAG/WidescreenFixesPack/releases/mp2</Description>
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+Fixed FMVs
+Adjustable FOV via ini
+Added an option to make graphic novels fullscreen
+Added an option to disable cutscene borders
+Added an option to load save game automatically on startup
+Added an option to change save game directory
+Added an option to keep the game running on minimize</Description>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
