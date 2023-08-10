@@ -5,9 +5,21 @@
     <Fixes>
       <FixEntity>
         <Guid>bc8649ea-8ec2-4abe-9c61-3317c80e0c39</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/blake_stone_aog_bstone_v1.zip</Url>
+        <Url>blake_stone_aog_bstone_v1.zip</Url>
         <Description>bstone v1.2.12-2
-https://github.com/bibendovsky/bstone</Description>
+https://github.com/bibendovsky/bstone
+
+BStone is unofficial source port for "Blake Stone" game series: "Aliens Of Gold" and "Planet Strike".
+
+Features:
+
+High resolution vanilla rendering
+3D-rendering
+Upscale texture filter
+Support for external textures
+Allows to customize control bindings
+3D-audio
+Separate volume control of sound effects and music</Description>
         <Name>bstone</Name>
         <Version>1</Version>
       </FixEntity>
@@ -18,9 +30,21 @@ https://github.com/bibendovsky/bstone</Description>
     <Fixes>
       <FixEntity>
         <Guid>5e1c6726-0263-40bd-a084-f908ed1295ae</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/blake_stone_ps_bstone_v1.zip</Url>
+        <Url>blake_stone_ps_bstone_v1.zip</Url>
         <Description>bstone v1.2.12-2
-https://github.com/bibendovsky/bstone</Description>
+https://github.com/bibendovsky/bstone
+
+BStone is unofficial source port for "Blake Stone" game series: "Aliens Of Gold" and "Planet Strike".
+
+Features:
+
+High resolution vanilla rendering
+3D-rendering
+Upscale texture filter
+Support for external textures
+Allows to customize control bindings
+3D-audio
+Separate volume control of sound effects and music</Description>
         <Name>bstone</Name>
         <Version>1</Version>
       </FixEntity>
@@ -31,7 +55,7 @@ https://github.com/bibendovsky/bstone</Description>
     <Fixes>
       <FixEntity>
         <Guid>b041bccf-5637-481f-b6a8-ac51e53c089b</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/freedom_force_mouse_v1.zip</Url>
+        <Url>freedom_force_mouse_v1.zip</Url>
         <Description>Fix for mouse cursor being stuck in attack mode. 
 Exe file taken from the GOG version.</Description>
         <Name>Cursor fix</Name>
@@ -39,7 +63,7 @@ Exe file taken from the GOG version.</Description>
       </FixEntity>
       <FixEntity>
         <Guid>12dd8560-a94e-4868-a109-66ff460f44d3</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/freedom_force_mouse_219_v1.zip</Url>
+        <Url>freedom_force_mouse_219_v1.zip</Url>
         <Description>Fix for mouse cursor being stuck in attack mode. 
 Exe file taken from the GOG version.
 
@@ -54,11 +78,13 @@ Additionally removes pillar boxes in 21:9 resolutions.</Description>
     <Fixes>
       <FixEntity>
         <Guid>f6432821-49c7-49c4-9db1-5380c846ae27</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/heretic_crispy_v1.zip</Url>
+        <Url>heretic_crispy_v1.zip</Url>
         <Description>Includes:
 
 Crispy Heretic 6.0
 https://github.com/fabiangreffrath/crispy-doom
+
+Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
 
 Heretic Minor Sprite Fixing and Widescreen-Friendly Project 1.0
 https://www.doomworld.com/forum/topic/64778-heretic-minor-sprite-fixing-and-widescreen-friendly-project-v10-release/</Description>
@@ -72,11 +98,13 @@ https://www.doomworld.com/forum/topic/64778-heretic-minor-sprite-fixing-and-wide
     <Fixes>
       <FixEntity>
         <Guid>8309af69-08b9-419e-87bb-85665444efb7</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/hexen_crispy_v1.zip</Url>
+        <Url>hexen_crispy_v1.zip</Url>
         <Description>Includes:
 
 Crispy Hexen 6.0
 https://github.com/fabiangreffrath/crispy-doom
+
+Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
 
 Widescreen Assets
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
@@ -90,11 +118,13 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
     <Fixes>
       <FixEntity>
         <Guid>8fd5cf5a-30c3-4582-9c1d-9f2d81dfe4f2</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/hexendd_crispy_v1.zip</Url>
+        <Url>hexendd_crispy_v1.zip</Url>
         <Description>Includes:
 
 Crispy Hexen 6.0
 https://github.com/fabiangreffrath/crispy-doom
+
+Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
 
 Widescreen Assets
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
@@ -108,8 +138,13 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
     <Fixes>
       <FixEntity>
         <Guid>60c10e0e-eb3e-4f2e-841c-0c31b7f4593e</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/max_payne_sound_v1.zip</Url>
-        <Description>IndirectSound 0.20</Description>
+        <Url>max_payne_sound_v1.zip</Url>
+        <Description>IndirectSound 0.20
+https://www.indirectsound.com/
+
+IndirectSound emulates audio hardware acceleration on modern Windows operating systems. This enables older games to have 3D positional audio (i.e. surround sound played out of rear and side speakers) like they were intended to when they were originally released.
+
+</Description>
         <Name>Audio Fix</Name>
         <Version>1</Version>
       </FixEntity>
