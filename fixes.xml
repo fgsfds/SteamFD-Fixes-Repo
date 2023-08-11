@@ -537,4 +537,25 @@ This patch was made to offer all Unreal players a new, completely overworked and
       </FixEntity>
     </Fixes>
   </FixesList>
+  <FixesList>
+    <GameId>1170760</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>af07b5e1-e803-4740-984d-ff3c407caaf2</Guid>
+        <Url>xiii_patch_v1.zip</Url>
+        <Description>Patch 1.4.2.1 by Arthur
+https://www.moddb.com/games/xiii/downloads/xiii-all-in-one-installer</Description>
+        <Name>Unofficial Patch 1.4</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>4eca8ab9-949c-4851-80d9-64e3265e1aef</Guid>
+        <Url>xiii_uw_v1.zip</Url>
+        <Description>Sets resolution to 2560x1080
+Requires Unofficial Patch 1.4</Description>
+        <Name>2560x1080 Resolution</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
 </ArrayOfFixesList>
