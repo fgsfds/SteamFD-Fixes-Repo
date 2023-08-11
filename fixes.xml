@@ -271,10 +271,9 @@ Added an option to set deadzone for left stick and right stick on gamepad (other
         <Guid>60c10e0e-eb3e-4f2e-841c-0c31b7f4593e</Guid>
         <Url>max_payne_sound_v1.zip</Url>
         <Description>IndirectSound 0.20
-https://www.indirectsound.com/
+https://github.com/kcat/dsoal
 
-IndirectSound emulates audio hardware acceleration on modern Windows operating systems. This enables older games to have 3D positional audio (i.e. surround sound played out of rear and side speakers) like they were intended to when they were originally released.
-
+This project is for a DirectSound DLL replacement. It implements the DirectSound interfaces by translating the calls to OpenAL, and fools applications into thinking there is a hardware accelerated sound device. EAX is also implemented (up to version 4) by using OpenAL's EAX extension, allowing for environmental reverb with sound obstruction and occlusion effects.
 </Description>
         <Name>Audio Fix</Name>
         <Version>1</Version>
