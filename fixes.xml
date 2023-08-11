@@ -453,4 +453,20 @@ Fixed Field of View</Description>
       </FixEntity>
     </Fixes>
   </FixesList>
+  <FixesList>
+    <GameId>32400</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>65572422-e300-4e54-b960-423c900d1028</Guid>
+        <Url>dark_forces_fengine_v1.zip</Url>
+        <Description>The Force Engine v1.09.410
+https://theforceengine.github.io/
+
+The Force Engine is a project with the goal to reverse engineer and rebuild the Jedi Engine for modern systems and the games that used that engine - Dark Forces and Outlaws. The project will include modern, built-in tools, such as a level editor and will make it easy to play Dark Forces and Outlaws on modern systems as well as the many community mods designed to work with the original games.</Description>
+        <InstallFolder />
+        <Name>The Force Engine</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
 </ArrayOfFixesList>
