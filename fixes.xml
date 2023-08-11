@@ -5,7 +5,7 @@
     <Fixes>
       <FixEntity>
         <Guid>bc8649ea-8ec2-4abe-9c61-3317c80e0c39</Guid>
-        <Url>blake_stone_aog_bstone_v1.zip</Url>
+        <Url>blake_stone_bstone_v1.zip</Url>
         <Description>bstone v1.2.12-2
 https://github.com/bibendovsky/bstone
 
@@ -20,6 +20,7 @@ Support for external textures
 Allows to customize control bindings
 3D-audio
 Separate volume control of sound effects and music</Description>
+        <InstallFolder>Blake Stone - Aliens of Gold</InstallFolder>
         <Name>bstone</Name>
         <Version>1</Version>
       </FixEntity>
@@ -30,7 +31,7 @@ Separate volume control of sound effects and music</Description>
     <Fixes>
       <FixEntity>
         <Guid>5e1c6726-0263-40bd-a084-f908ed1295ae</Guid>
-        <Url>blake_stone_ps_bstone_v1.zip</Url>
+        <Url>blake_stone_bstone_v1.zip</Url>
         <Description>bstone v1.2.12-2
 https://github.com/bibendovsky/bstone
 
@@ -45,6 +46,7 @@ Support for external textures
 Allows to customize control bindings
 3D-audio
 Separate volume control of sound effects and music</Description>
+        <InstallFolder>Blake Stone - Planet Strike</InstallFolder>
         <Name>bstone</Name>
         <Version>1</Version>
       </FixEntity>
