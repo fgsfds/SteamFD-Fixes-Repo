@@ -329,4 +329,40 @@ REQUIRES ASI Loader</Description>
       </FixEntity>
     </Fixes>
   </FixesList>
+  <FixesList>
+    <GameId>1174180</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>03cd34f5-ba0e-42de-86f9-b05b63064574</Guid>
+        <Url>rdr2_no_black_bars_v1.zip</Url>
+        <Description>No Black Bars v1.01
+https://www.nexusmods.com/reddeadredemption2/mods/349
+
+Script Hook RDR2 v1.0.1491.17
+http://dev-c.com/rdr2/scripthookrdr2/
+
+Removes the black bars appearing top, bottom, left, &amp; right especially during cutscenes for ultrawide owners (21:9).</Description>
+        <Name>No Black Bars</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>11550</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>ebfc6fda-07db-4c42-8ae8-67d9d0588ebc</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/secondsight/SecondSight.WidescreenFix.zip</Url>
+        <Description>Second Sight Widescreen Fix
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/secondsight
+
+Fixed Resolution
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View</Description>
+        <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
 </ArrayOfFixesList>
