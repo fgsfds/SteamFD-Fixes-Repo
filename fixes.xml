@@ -147,6 +147,19 @@ Additionally removes pillar boxes in 21:9 resolutions.</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>12210</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>f46efd2c-9bb5-430e-9e38-b5fce605860f</Guid>
+        <Url>https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v1.77/GTAIV.EFLC.FusionFix.zip</Url>
+        <Description>This projects aims to fix some issues in Grand Theft Auto IV: Complete Edition.</Description>
+        <PathToInstall>GTAIV</PathToInstall>
+        <Name>Fusion Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>2390</GameId>
     <Fixes>
       <FixEntity>
