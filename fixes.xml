@@ -153,7 +153,7 @@ Additionally removes pillar boxes in 21:9 resolutions.</Description>
         <Guid>f46efd2c-9bb5-430e-9e38-b5fce605860f</Guid>
         <Url>https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v1.77/GTAIV.EFLC.FusionFix.zip</Url>
         <Description>This projects aims to fix some issues in Grand Theft Auto IV: Complete Edition.</Description>
-        <PathToInstall>GTAIV</PathToInstall>
+        <InstallFolder>GTAIV</InstallFolder>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -218,7 +218,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
     <Fixes>
       <FixEntity>
         <Guid>f02cb30d-1101-4890-a55f-cd53d0a7942f</Guid>
-        <Url>mafia_widescreen_v1.zip</Url>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mafia/Mafia.WidescreenFix.zip</Url>
         <Description>Mafia Widescreen Fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/mafia
 
@@ -231,6 +231,7 @@ Added an option to change fps limit
 Added an option to fix issue with settings
 Added an option to make windowed mode borderless
 Added an option to set deadzone for left stick and right stick on gamepad (otherwise camera just spins on its own)</Description>
+        <InstallFolder>Mafia</InstallFolder>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -356,6 +357,28 @@ http://dev-c.com/rdr2/scripthookrdr2/
 
 Removes the black bars appearing top, bottom, left, &amp; right especially during cutscenes for ultrawide owners (21:9).</Description>
         <Name>No Black Bars</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>222480</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>bf59f76e-b8fa-48f6-97f4-2201c4d5f5c2</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/rerev/ResidentEvilRevelations.FusionFix.zip</Url>
+        <Description>Resident Evil Revelations Fusion Fix
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/rerev
+
+Unlocks all available display resolutions
+Unlocks FPS when FRAME RATE option is set to VARIABLE
+Added UltraWide support
+FMVs are stretched in UltraWide
+Added an option to disable damage overlay
+Added an option to enable borderless windowed mode
+Added an option to increase FOV</Description>
+        <InstallFolder />
+        <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
