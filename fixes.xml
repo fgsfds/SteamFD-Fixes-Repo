@@ -51,6 +51,26 @@ Separate volume control of sound effects and music</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>15270</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>53b41e26-cddf-4764-a82b-bd900f3ffc24</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/coldfear/ColdFear.WidescreenFix.zip</Url>
+        <Description>Cold Fear Widescreen Fix
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/coldfear
+
+Fixed Resolution
+Fixed HUD
+Fixed Field of View
+Fixed FMVs
+Added an option to disable cutscene borders
+Added an option to make FMVs fullscreen</Description>
+        <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>17470</GameId>
     <Fixes>
       <FixEntity>
