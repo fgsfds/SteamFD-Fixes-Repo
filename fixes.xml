@@ -139,8 +139,38 @@ Doom 2 Minor Sprite Fixing Project - v2.0
 https://www.doomworld.com/forum/topic/62403-doom-2-minor-sprite-fixing-project-v20-release-updated-112822/
 
 Widescreen Assets
-https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
+https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/
+
+Ultrawide Statusbar
+https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
         <InstallFolder>base</InstallFolder>
+        <Name>Crispy Doom</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>2300</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>90e84122-5f4e-4c78-995b-bb58c9144bde</Guid>
+        <Url>doom2_crispy_v1.zip</Url>
+        <Description>Crispy Doom 6.0
+https://github.com/fabiangreffrath/crispy-doom
+
+Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
+
+Doom 2 Minor Sprite Fixing Project - v2.0
+https://www.doomworld.com/forum/topic/62403-doom-2-minor-sprite-fixing-project-v20-release-updated-112822/
+
+The Master Levels: Upgrade/QoL Pack
+https://www.doomworld.com/forum/topic/119465-the-master-levels-upgradeqol-pack-relaunched-and-complete/
+
+Widescreen Assets
+https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/
+
+Ultrawide Statusbar
+https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
         <Name>Crispy Doom</Name>
         <Version>1</Version>
       </FixEntity>
