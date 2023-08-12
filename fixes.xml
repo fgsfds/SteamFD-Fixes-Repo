@@ -544,6 +544,7 @@ This patch was made to offer all Unreal players a new, completely overworked and
         <Url>xiii_patch_v1.zip</Url>
         <Description>Patch 1.4.2.1 by Arthur
 https://www.moddb.com/games/xiii/downloads/xiii-all-in-one-installer</Description>
+        <FilesToDelete>system\User.ini;system\XIII.ini</FilesToDelete>
         <Name>Unofficial Patch 1.4</Name>
         <Version>1</Version>
       </FixEntity>
