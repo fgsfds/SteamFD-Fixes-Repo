@@ -21,6 +21,7 @@ Allows to customize control bindings
 3D-audio
 Separate volume control of sound effects and music</Description>
         <InstallFolder>Blake Stone - Aliens of Gold</InstallFolder>
+        <Dependencies />
         <Name>bstone</Name>
         <Version>1</Version>
       </FixEntity>
@@ -47,6 +48,7 @@ Allows to customize control bindings
 3D-audio
 Separate volume control of sound effects and music</Description>
         <InstallFolder>Blake Stone - Planet Strike</InstallFolder>
+        <Dependencies />
         <Name>bstone</Name>
         <Version>1</Version>
       </FixEntity>
@@ -67,6 +69,7 @@ Fixed Field of View
 Fixed FMVs
 Added an option to disable cutscene borders
 Added an option to make FMVs fullscreen</Description>
+        <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -89,6 +92,7 @@ https://www.nexusmods.com/darksouls/mods/45
 Allows for easy, understandable editing of the DSfix configuration without having to mess around directly with the configuration file.</Description>
         <InstallFolder>DATA</InstallFolder>
         <ConfigFile>DSFixGUI.exe</ConfigFile>
+        <Dependencies />
         <Name>DSFix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -104,6 +108,7 @@ Allows for easy, understandable editing of the DSfix configuration without havin
 https://community.pcgamingwiki.com/files/file/840-dead-space-mouse-fix/
 
 This fix makes Dead Space use raw mouse input without any additional smoothing or acceleration. It works with VSync and high frame rates and is easy to install without having to fiddle around with FPS limiters or config files.</Description>
+        <Dependencies />
         <Name>Mouse Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -119,6 +124,7 @@ This fix makes Dead Space use raw mouse input without any additional smoothing o
 https://community.pcgamingwiki.com/files/file/976-dead-space-2-mouse-fix/
 
 This fix makes Dead Space 2 use raw mouse input without any additional smoothing or acceleration. It works with VSync and high frame rates and is easy to install without having to fiddle around with FPS limiters or config files.</Description>
+        <Dependencies />
         <Name>Mouse Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -144,6 +150,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
 Ultrawide Statusbar
 https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
         <InstallFolder>base</InstallFolder>
+        <Dependencies />
         <Name>Crispy Doom</Name>
         <Version>1</Version>
       </FixEntity>
@@ -171,6 +178,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
 
 Ultrawide Statusbar
 https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
+        <Dependencies />
         <Name>Crispy Doom</Name>
         <Version>1</Version>
       </FixEntity>
@@ -194,6 +202,7 @@ smooth scrolling &amp; movement mode with increased frame rate
 quick saving
 improved game controller support
 extended modding features</Description>
+        <Dependencies />
         <Name>Rigel Engine</Name>
         <Version>1</Version>
       </FixEntity>
@@ -207,6 +216,7 @@ extended modding features</Description>
         <Url>freedom_force_mouse_v1.zip</Url>
         <Description>Fix for mouse cursor being stuck in attack mode. 
 Exe file taken from the GOG version.</Description>
+        <Dependencies />
         <Name>Cursor fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -217,6 +227,7 @@ Exe file taken from the GOG version.</Description>
 Exe file taken from the GOG version.
 
 Additionally removes pillar boxes in 21:9 resolutions.</Description>
+        <Dependencies />
         <Name>Cursor fix + 21:9 patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -233,6 +244,7 @@ https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix
 
 This projects aims to fix some issues in Grand Theft Auto IV: Complete Edition.</Description>
         <InstallFolder>GTAIV</InstallFolder>
+        <Dependencies />
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -252,6 +264,7 @@ Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display 
 Heretic Minor Sprite Fixing and Widescreen-Friendly Project 1.0
 https://www.doomworld.com/forum/topic/64778-heretic-minor-sprite-fixing-and-widescreen-friendly-project-v10-release/</Description>
         <InstallFolder>base</InstallFolder>
+        <Dependencies />
         <Name>Crispy Heretic + Widescreen Sprites</Name>
         <Version>1</Version>
       </FixEntity>
@@ -271,6 +284,7 @@ Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display 
 Widescreen Assets
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
         <InstallFolder>base</InstallFolder>
+        <Dependencies />
         <Name>Crispy Hexen + Widescreen Sprites</Name>
         <Version>1</Version>
       </FixEntity>
@@ -290,6 +304,7 @@ Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display 
 Widescreen Assets
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
         <InstallFolder>base</InstallFolder>
+        <Dependencies />
         <Name>Crispy Hexen + Widescreen Sprites</Name>
         <Version>1</Version>
       </FixEntity>
@@ -314,6 +329,7 @@ Added an option to fix issue with settings
 Added an option to make windowed mode borderless
 Added an option to set deadzone for left stick and right stick on gamepad (otherwise camera just spins on its own)</Description>
         <InstallFolder>Mafia</InstallFolder>
+        <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -330,6 +346,7 @@ https://github.com/kcat/dsoal
 
 This project is for a DirectSound DLL replacement. It implements the DirectSound interfaces by translating the calls to OpenAL, and fools applications into thinking there is a hardware accelerated sound device. EAX is also implemented (up to version 4) by using OpenAL's EAX extension, allowing for environmental reverb with sound obstruction and occlusion effects.
 </Description>
+        <Dependencies />
         <Name>Audio Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -349,6 +366,7 @@ Added an option to disable cutscene borders
 Added an option to load save game automatically on startup
 Added an option to change save game directory
 Added an option to keep the game running on minimize</Description>
+        <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -373,6 +391,7 @@ Added an option to disable cutscene borders
 Added an option to load save game automatically on startup
 Added an option to change save game directory
 Added an option to keep the game running on minimize</Description>
+        <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -389,6 +408,7 @@ https://github.com/ThirteenAG/Ultimate-ASI-Loader
 
 This is a DLL file which adds ASI plugin loading functionality to any game.</Description>
         <InstallFolder>Max Payne 3</InstallFolder>
+        <Dependencies />
         <Name>ASI Loader</Name>
         <Version>1</Version>
       </FixEntity>
@@ -402,6 +422,9 @@ This is a small project intended to add ability to hide skip button in Max Payne
 
 REQUIRES ASI Loader</Description>
         <InstallFolder>Max Payne 3</InstallFolder>
+        <Dependencies>
+          <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
+        </Dependencies>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -421,6 +444,9 @@ Spanned or centred 16:9 HUD adjustment.
 Gameplay FOV adjustment without affecting cutscenes/other camera types.
 
 REQUIRES ASI Loader</Description>
+        <Dependencies>
+          <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
+        </Dependencies>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -435,6 +461,7 @@ REQUIRES ASI Loader</Description>
         <Description>Prince of Persia: The Sands of Time v1.0.0.1
 http://ps2wide.net/pc.html#popst</Description>
         <ConfigFile>pop.ini</ConfigFile>
+        <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -453,6 +480,7 @@ Script Hook RDR2 v1.0.1491.17
 http://dev-c.com/rdr2/scripthookrdr2/
 
 Removes the black bars appearing top, bottom, left, &amp; right especially during cutscenes for ultrawide owners (21:9).</Description>
+        <Dependencies />
         <Name>No Black Bars</Name>
         <Version>1</Version>
       </FixEntity>
@@ -468,6 +496,7 @@ Removes the black bars appearing top, bottom, left, &amp; right especially durin
 
 Removes pillarboxing and extends FOV in ultrawide resolutions</Description>
         <InstallFolder />
+        <Dependencies />
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -490,6 +519,7 @@ Added an option to disable damage overlay
 Added an option to enable borderless windowed mode
 Added an option to increase FOV</Description>
         <InstallFolder />
+        <Dependencies />
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -510,6 +540,7 @@ Warning
 This game uses Valve Anti Cheat for raid mode in multiplayer.
 I highly recommend that you DO NOT play this mode with this fix installed.</Description>
         <InstallFolder />
+        <Dependencies />
         <Name>RERevFix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -537,6 +568,7 @@ Added an option to disable film grain
 Added an option to enable borderless windowed mode
 Added an option to increase FOV</Description>
         <InstallFolder />
+        <Dependencies />
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -555,6 +587,7 @@ Fixed Resolution
 Fixed Aspect Ratio
 Fixed HUD
 Fixed Field of View</Description>
+        <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -571,6 +604,7 @@ https://theforceengine.github.io/
 
 The Force Engine is a project with the goal to reverse engineer and rebuild the Jedi Engine for modern systems and the games that used that engine - Dark Forces and Outlaws. The project will include modern, built-in tools, such as a level editor and will make it easy to play Dark Forces and Outlaws on modern systems as well as the many community mods designed to work with the original games.</Description>
         <InstallFolder />
+        <Dependencies />
         <Name>The Force Engine</Name>
         <Version>1</Version>
       </FixEntity>
@@ -586,6 +620,7 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
 https://www.oldunreal.com/downloads/unreal/oldunreal-patches/
 
 This patch was made to offer all Unreal players a new, completely overworked and fixed version for our old "love". Although the main target was bugfixing, many improvements have been made and a lot of additions found their way into this new version. The general gameplay and the game itself was not touched and it should remain 100% compatible to old mods and maps.</Description>
+        <Dependencies />
         <Name>227 Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -602,6 +637,7 @@ https://www.moddb.com/games/xiii/downloads/xiii-all-in-one-installer
 
 It is recommended to create a new in-game profile after installing this patch.</Description>
         <FilesToDelete>system\User.ini;system\XIII.ini</FilesToDelete>
+        <Dependencies />
         <Name>Unofficial Patch 1.4</Name>
         <Version>1</Version>
       </FixEntity>
@@ -611,6 +647,9 @@ It is recommended to create a new in-game profile after installing this patch.</
         <Description>Sets resolution to 2560x1080
 Requires Unofficial Patch 1.4</Description>
         <FilesToDelete>system\User.ini;system\XIII.ini</FilesToDelete>
+        <Dependencies>
+          <guid>af07b5e1-e803-4740-984d-ff3c407caaf2</guid>
+        </Dependencies>
         <Name>2560x1080 Resolution</Name>
         <Version>1</Version>
       </FixEntity>
