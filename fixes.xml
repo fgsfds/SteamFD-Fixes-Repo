@@ -691,6 +691,14 @@ Added an option to change goggles' light color</Description>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
+      <FixEntity>
+        <Guid>5957032c-24ff-4035-a994-c06076431899</Guid>
+        <Url>scct_no_intro_v1.zip</Url>
+        <Description />
+        <Dependencies />
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
     </Fixes>
   </FixesList>
   <FixesList>
