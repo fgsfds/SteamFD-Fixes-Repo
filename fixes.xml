@@ -501,6 +501,24 @@ Removes the black bars appearing top, bottom, left, &amp; right especially durin
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>254700</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>28b4ad6e-47b1-4cad-8e1d-e66b7d2c69ba</Guid>
+        <Url />
+        <Description>re4_tweaks v1.9.1
+https://github.com/nipkownix/re4_tweaks
+
+A project designed to fix and tweak the "UHD" port of Resident Evil 4 on Steam.</Description>
+        <InstallFolder>Bin32</InstallFolder>
+        <ConfigFile>Bin32\dinput8.ini</ConfigFile>
+        <Dependencies />
+        <Name>re4_tweaks</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>21690</GameId>
     <Fixes>
       <FixEntity>
