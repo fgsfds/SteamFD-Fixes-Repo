@@ -501,6 +501,54 @@ Removes the black bars appearing top, bottom, left, &amp; right especially durin
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>21690</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>0d30b6de-b08f-437b-a5f2-eec90c0e1c61</Guid>
+        <Url>https://github.com/Lyall/RE5Fix/releases/download/v1.0.4/RE5Fix_v1.0.4.zip</Url>
+        <Description>RE5Fix v1.0.4
+https://github.com/Lyall/RE5Fix
+
+This is a DLL hook that fixes various issues with Resident Evil 5 relating to ultrawide support and more.
+
+FOV adjustment.
+Uncap 120 FPS limit.
+Remove yellow colour filter.
+Adjust shadow quality.
+Remove 4096x4096 resolution limit.
+Fixed UI scaling using ultrawide.
+Fixed ERROR 09: Unsupported Function crash using ultrawide.
+Fixed stretched movie playback.</Description>
+        <ConfigFile>RE5Fix.ini</ConfigFile>
+        <Dependencies />
+        <Name>RE5Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>221040</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>1e2c81fb-cb4d-47a6-bbdf-25be71e259ac</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re6/ResidentEvil6.FusionFix.zip</Url>
+        <Description>Resident Evil 6 Fusion Fix
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/re6
+
+Makes local split-screen coop mode fullscreen
+Added UltraWide support
+Some on-screen effects will be disabled in coop and UltraWide (damage, blood etc)
+Unlocks FPS when FRAME RATE option is set to VARIABLE
+Added an option to skip intro
+Added an option to enable borderless windowed mode</Description>
+        <ConfigFile>scripts\ResidentEvil6.FusionFix.ini</ConfigFile>
+        <Dependencies />
+        <Name>Fusion Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>418370</GameId>
     <Fixes>
       <FixEntity>
@@ -533,6 +581,7 @@ Added an option to disable damage overlay
 Added an option to enable borderless windowed mode
 Added an option to increase FOV</Description>
         <InstallFolder />
+        <ConfigFile>scripts\ResidentEvilRevelations.FusionFix.ini</ConfigFile>
         <Dependencies />
         <Name>Fusion Fix</Name>
         <Version>1</Version>
@@ -554,6 +603,7 @@ Warning
 This game uses Valve Anti Cheat for raid mode in multiplayer.
 I highly recommend that you DO NOT play this mode with this fix installed.</Description>
         <InstallFolder />
+        <ConfigFile>RERevFix.ini</ConfigFile>
         <Dependencies />
         <Name>RERevFix</Name>
         <Version>1</Version>
@@ -582,6 +632,7 @@ Added an option to disable film grain
 Added an option to enable borderless windowed mode
 Added an option to increase FOV</Description>
         <InstallFolder />
+        <ConfigFile>scripts\ResidentEvilRevelations2.FusionFix.ini</ConfigFile>
         <Dependencies />
         <Name>Fusion Fix</Name>
         <Version>1</Version>
