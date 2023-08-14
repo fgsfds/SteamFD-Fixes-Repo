@@ -541,7 +541,7 @@ Fixed UI scaling using ultrawide.
 Fixed ERROR 09: Unsupported Function crash using ultrawide.
 Fixed stretched movie playback.
 
-*Disabled by default. Check config in order to chenge these settings.</Description>
+*Disabled by default. Check config in order to change these settings.</Description>
         <ConfigFile>RE5Fix.ini</ConfigFile>
         <Dependencies />
         <Name>RE5Fix</Name>
