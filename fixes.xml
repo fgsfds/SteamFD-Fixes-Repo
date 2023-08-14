@@ -69,6 +69,7 @@ Fixed Field of View
 Fixed FMVs
 Added an option to disable cutscene borders
 Added an option to make FMVs fullscreen</Description>
+        <ConfigFile>scripts\ColdFear.WidescreenFix.ini</ConfigFile>
         <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -91,7 +92,7 @@ https://www.nexusmods.com/darksouls/mods/45
 
 Allows for easy, understandable editing of the DSfix configuration without having to mess around directly with the configuration file.</Description>
         <InstallFolder>DATA</InstallFolder>
-        <ConfigFile>DSFixGUI.exe</ConfigFile>
+        <ConfigFile>DATA\DSFixGUI.exe</ConfigFile>
         <Dependencies />
         <Name>DSFix</Name>
         <Version>1</Version>
@@ -244,6 +245,7 @@ https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix
 
 This projects aims to fix some issues in Grand Theft Auto IV: Complete Edition.</Description>
         <InstallFolder>GTAIV</InstallFolder>
+        <ConfigFile>GTAIV\plugins\GTAIV.EFLC.FusionFix.ini</ConfigFile>
         <Dependencies />
         <Name>Fusion Fix</Name>
         <Version>1</Version>
@@ -343,6 +345,7 @@ Added an option to fix issue with settings
 Added an option to make windowed mode borderless
 Added an option to set deadzone for left stick and right stick on gamepad (otherwise camera just spins on its own)</Description>
         <InstallFolder>Mafia</InstallFolder>
+        <ConfigFile>Mafia\scripts\Mafia.WidescreenFix.ini</ConfigFile>
         <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -380,6 +383,7 @@ Added an option to disable cutscene borders
 Added an option to load save game automatically on startup
 Added an option to change save game directory
 Added an option to keep the game running on minimize</Description>
+        <ConfigFile>scripts\MaxPayne.WidescreenFix.ini</ConfigFile>
         <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -405,6 +409,7 @@ Added an option to disable cutscene borders
 Added an option to load save game automatically on startup
 Added an option to change save game directory
 Added an option to keep the game running on minimize</Description>
+        <ConfigFile>scripts\MaxPayne2.WidescreenFix.ini</ConfigFile>
         <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -436,6 +441,7 @@ This is a small project intended to add ability to hide skip button in Max Payne
 
 REQUIRES ASI Loader</Description>
         <InstallFolder>Max Payne 3</InstallFolder>
+        <ConfigFile>plugins\MaxPayne3.FusionFix.ini</ConfigFile>
         <Dependencies>
           <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
         </Dependencies>
@@ -458,6 +464,7 @@ Spanned or centred 16:9 HUD adjustment.
 Gameplay FOV adjustment without affecting cutscenes/other camera types.
 
 REQUIRES ASI Loader</Description>
+        <ConfigFile>plugins\MaxPayne3Fix.ini</ConfigFile>
         <Dependencies>
           <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
         </Dependencies>
@@ -670,6 +677,7 @@ Fixed Resolution
 Fixed Aspect Ratio
 Fixed HUD
 Fixed Field of View</Description>
+        <ConfigFile>scripts\SecondSight.WidescreenFix.ini</ConfigFile>
         <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -707,6 +715,7 @@ Fixed Aspect Ratio
 Fixed HUD
 Fixed Field of View
 Fixed FMVs</Description>
+        <ConfigFile>system\scripts\SplinterCell.WidescreenFix.ini</ConfigFile>
         <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -756,6 +765,7 @@ Fixed HUD
 Fixed Field of View
 Fixed FMVs
 Added an option to change goggles' light color</Description>
+        <ConfigFile>System\scripts\SplinterCellChaosTheory.WidescreenFix.ini</ConfigFile>
         <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -785,6 +795,7 @@ Fixed HUD
 Fixed Field of View
 Fixed FMVs
 Added an option to change goggles' light color</Description>
+        <ConfigFile>SCDA-Offline\System\scripts\SplinterCellDoubleAgent.WidescreenFix.ini</ConfigFile>
         <Dependencies />
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
