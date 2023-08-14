@@ -673,6 +673,27 @@ Affected levels include Defense Ministry and CIA HQ.</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>13570</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>d2797d6c-e7c0-48d9-9cf9-ff3210a26df8</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scct/SplinterCellChaosTheory.WidescreenFix.zip</Url>
+        <Description>Splinter Cell Widescreen Fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scct
+
+Fixed Resolution
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+Fixed FMVs
+Added an option to change goggles' light color</Description>
+        <Dependencies />
+        <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>213120</GameId>
     <Fixes>
       <FixEntity>
