@@ -441,7 +441,7 @@ This is a small project intended to add ability to hide skip button in Max Payne
 
 REQUIRES ASI Loader</Description>
         <InstallFolder>Max Payne 3</InstallFolder>
-        <ConfigFile>plugins\MaxPayne3.FusionFix.ini</ConfigFile>
+        <ConfigFile>Max Payne 3\plugins\MaxPayne3.FusionFix.ini</ConfigFile>
         <Dependencies>
           <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
         </Dependencies>
@@ -464,7 +464,7 @@ Spanned or centred 16:9 HUD adjustment.
 Gameplay FOV adjustment without affecting cutscenes/other camera types.
 
 REQUIRES ASI Loader</Description>
-        <ConfigFile>plugins\MaxPayne3Fix.ini</ConfigFile>
+        <ConfigFile>Max Payne 3\plugins\MaxPayne3Fix.ini</ConfigFile>
         <Dependencies>
           <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
         </Dependencies>
