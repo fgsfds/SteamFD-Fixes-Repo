@@ -635,6 +635,14 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
         <Name>Black Screen Fix</Name>
         <Version>1</Version>
       </FixEntity>
+      <FixEntity>
+        <Guid>1a02b1c2-8422-4588-b88f-e6fd37ad3e03</Guid>
+        <Url>tffoc_no_intro_v1.zip</Url>
+        <Description />
+        <Dependencies />
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
     </Fixes>
   </FixesList>
   <FixesList>
