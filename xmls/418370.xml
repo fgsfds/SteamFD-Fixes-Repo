@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FixesList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameId>418370</GameId>
+  <Fixes>
+    <FixEntity>
+      <Guid>93b3856d-b4f8-4365-ab52-a50cb77a851d</Guid>
+      <Url>re7_uw_v1.zip</Url>
+      <Description>REFramework v1.5.1
+
+Removes pillarboxing and extends FOV in ultrawide resolutions</Description>
+      <InstallFolder />
+      <Dependencies />
+      <Name>Ultrawide Fix</Name>
+      <Version>1</Version>
+    </FixEntity>
+  </Fixes>
+</FixesList>

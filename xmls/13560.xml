@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FixesList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameId>13560</GameId>
+  <Fixes>
+    <FixEntity>
+      <Guid>9da1a9db-2049-46ac-a6ce-b956999e7806</Guid>
+      <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/sc/SplinterCell.WidescreenFix.zip</Url>
+      <Description>Splinter Cell Widescreen Fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/sc
+
+Fixed Resolution
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+Fixed FMVs</Description>
+      <Dependencies />
+      <Name>Widescreen Fix</Name>
+      <Version>1</Version>
+    </FixEntity>
+    <FixEntity>
+      <Guid>0ee10d29-aada-4156-b922-43e1eb5ad0d7</Guid>
+      <Url>sc_loading_screens_v1.zip</Url>
+      <Description>Adds new loading screens for bonus missions that fit much better with the rest of the game and flesh out the story.
+
+Restores the correct loading screens displayed between Kalinatek and Chinese Embassy from the leaked Xbox prototype.</Description>
+      <Dependencies />
+      <Name>Improved Loading Screens</Name>
+      <Version>1</Version>
+    </FixEntity>
+    <FixEntity>
+      <Guid>e637be0c-be3a-45cc-9cc2-146f6e83e91d</Guid>
+      <Url>sc_textures_fix_v1.zip</Url>
+      <Description>Disables problematic texture shaders that render incorrectly on PC at certain angles, improving visual quality.
+
+Affected levels include Defense Ministry and CIA HQ.</Description>
+      <Dependencies />
+      <Name>Texture Shader Fixes</Name>
+      <Version>1</Version>
+    </FixEntity>
+    <FixEntity>
+      <Guid>ffc5c3d3-adc1-48c8-85e6-29687e6e9356</Guid>
+      <Url>sc_no_intro_v1.zip</Url>
+      <Description />
+      <Dependencies />
+      <Name>No Intro Fix</Name>
+      <Version>1</Version>
+    </FixEntity>
+  </Fixes>
+</FixesList>

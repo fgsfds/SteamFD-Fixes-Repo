@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FixesList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameId>222480</GameId>
+  <Fixes>
+    <FixEntity>
+      <Guid>bf59f76e-b8fa-48f6-97f4-2201c4d5f5c2</Guid>
+      <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/rerev/ResidentEvilRevelations.FusionFix.zip</Url>
+      <Description>Resident Evil Revelations Fusion Fix
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/rerev
+
+Unlocks all available display resolutions
+Unlocks FPS when FRAME RATE option is set to VARIABLE
+Added UltraWide support
+FMVs are stretched in UltraWide
+Added an option to disable damage overlay
+Added an option to enable borderless windowed mode
+Added an option to increase FOV</Description>
+      <InstallFolder />
+      <Dependencies />
+      <Name>Fusion Fix</Name>
+      <Version>1</Version>
+    </FixEntity>
+    <FixEntity>
+      <Guid>60728c70-6503-49f3-8d7f-8c9d07f7e8c9</Guid>
+      <Url>https://github.com/Lyall/RERevFix/releases/download/v1.0.0/RERevFix.v1.0.0.zip</Url>
+      <Description>RERevFix v1.0
+https://github.com/Lyall/RERevFix
+
+This is a DLL hook that fixes various issues with Resident Evil Revelations relating to ultrawide support and more.
+
+Support for ultrawide/custom resolutions.
+FOV adjustment.
+Uncap 120 FPS limit.
+Adjust shadow quality.
+
+Warning
+This game uses Valve Anti Cheat for raid mode in multiplayer.
+I highly recommend that you DO NOT play this mode with this fix installed.</Description>
+      <InstallFolder />
+      <Dependencies />
+      <Name>RERevFix</Name>
+      <Version>1</Version>
+    </FixEntity>
+  </Fixes>
+</FixesList>

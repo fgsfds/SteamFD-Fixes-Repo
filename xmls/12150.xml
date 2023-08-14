@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FixesList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameId>12150</GameId>
+  <Fixes>
+    <FixEntity>
+      <Guid>12ccb6bc-100c-4fdb-8d2f-642f0fcb21aa</Guid>
+      <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mp2/MaxPayne2.WidescreenFix.zip</Url>
+      <Description>Widescreen fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/mp2
+
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+Fixed FMVs
+Adjustable FOV via ini
+Added an option to make graphic novels fullscreen
+Added an option to disable cutscene borders
+Added an option to load save game automatically on startup
+Added an option to change save game directory
+Added an option to keep the game running on minimize</Description>
+      <Dependencies />
+      <Name>Widescreen Fix</Name>
+      <Version>1</Version>
+    </FixEntity>
+  </Fixes>
+</FixesList>

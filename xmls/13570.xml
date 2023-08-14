@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FixesList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameId>13570</GameId>
+  <Fixes>
+    <FixEntity>
+      <Guid>d2797d6c-e7c0-48d9-9cf9-ff3210a26df8</Guid>
+      <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scct/SplinterCellChaosTheory.WidescreenFix.zip</Url>
+      <Description>Splinter Cell Widescreen Fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scct
+
+Fixed Resolution
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+Fixed FMVs
+Added an option to change goggles' light color</Description>
+      <Dependencies />
+      <Name>Widescreen Fix</Name>
+      <Version>1</Version>
+    </FixEntity>
+    <FixEntity>
+      <Guid>5957032c-24ff-4035-a994-c06076431899</Guid>
+      <Url>scct_no_intro_v1.zip</Url>
+      <Description />
+      <Dependencies />
+      <Name>No Intro Fix</Name>
+      <Version>1</Version>
+    </FixEntity>
+  </Fixes>
+</FixesList>

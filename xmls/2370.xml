@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FixesList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameId>2370</GameId>
+  <Fixes>
+    <FixEntity>
+      <Guid>8fd5cf5a-30c3-4582-9c1d-9f2d81dfe4f2</Guid>
+      <Url>hexendd_crispy_v1.zip</Url>
+      <Description>Crispy Hexen 6.0
+https://github.com/fabiangreffrath/crispy-doom
+
+Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
+
+Widescreen Assets
+https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
+      <InstallFolder>base</InstallFolder>
+      <Dependencies />
+      <Name>Crispy Hexen + Widescreen Sprites</Name>
+      <Version>1</Version>
+    </FixEntity>
+  </Fixes>
+</FixesList>
