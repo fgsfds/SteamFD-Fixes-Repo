@@ -702,6 +702,27 @@ Added an option to change goggles' light color</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>13580</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>89de542e-bc87-49a6-904a-6c2360340e5d</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scda/SplinterCellDoubleAgent.WidescreenFix.zip</Url>
+        <Description>Splinter Cell Widescreen Fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scda
+
+Fixed Resolution
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+Fixed FMVs
+Added an option to change goggles' light color</Description>
+        <Dependencies />
+        <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>213120</GameId>
     <Fixes>
       <FixEntity>
