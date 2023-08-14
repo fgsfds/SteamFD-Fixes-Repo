@@ -437,9 +437,7 @@ This is a DLL file which adds ASI plugin loading functionality to any game.</Des
         <Description>FusionFix v1.4
 https://github.com/ThirteenAG/MaxPayne3.FusionFix
 
-This is a small project intended to add ability to hide skip button in Max Payne 3. Additionally, added an option to increase the size of subtitle text outlines and prevent Hoboken Alleys coop map from crashing the game.
-
-REQUIRES ASI Loader</Description>
+This is a small project intended to add ability to hide skip button in Max Payne 3. Additionally, added an option to increase the size of subtitle text outlines and prevent Hoboken Alleys coop map from crashing the game.</Description>
         <InstallFolder>Max Payne 3</InstallFolder>
         <ConfigFile>Max Payne 3\plugins\MaxPayne3.FusionFix.ini</ConfigFile>
         <Dependencies>
@@ -461,9 +459,7 @@ Stops fullscreen mode from using your highest-available resolution. (Thanks Rose
 Correctly scaled FMV playback.
 Correctly scaled loading screens.
 Spanned or centred 16:9 HUD adjustment.
-Gameplay FOV adjustment without affecting cutscenes/other camera types.
-
-REQUIRES ASI Loader</Description>
+Gameplay FOV adjustment without affecting cutscenes/other camera types.</Description>
         <ConfigFile>Max Payne 3\plugins\MaxPayne3Fix.ini</ConfigFile>
         <Dependencies>
           <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
@@ -536,14 +532,16 @@ https://github.com/Lyall/RE5Fix
 
 This is a DLL hook that fixes various issues with Resident Evil 5 relating to ultrawide support and more.
 
-FOV adjustment.
-Uncap 120 FPS limit.
-Remove yellow colour filter.
-Adjust shadow quality.
+FOV adjustment.*
+Uncap 120 FPS limit.*
+Remove yellow colour filter.*
+Adjust shadow quality.*
 Remove 4096x4096 resolution limit.
 Fixed UI scaling using ultrawide.
 Fixed ERROR 09: Unsupported Function crash using ultrawide.
-Fixed stretched movie playback.</Description>
+Fixed stretched movie playback.
+
+*Disabled by default. Check config in order to chenge these settings.</Description>
         <ConfigFile>RE5Fix.ini</ConfigFile>
         <Dependencies />
         <Name>RE5Fix</Name>
