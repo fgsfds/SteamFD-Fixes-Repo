@@ -625,6 +625,19 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>213120</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>5c68e172-e3e5-422f-a28b-7da315dbdb2c</Guid>
+        <Url>tffoc_black_screen_v1.zip</Url>
+        <Description>Fixes black screen when English language is selected on a cheap Russian retail version</Description>
+        <Dependencies />
+        <Name>Black Screen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>13250</GameId>
     <Fixes>
       <FixEntity>
