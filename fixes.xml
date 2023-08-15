@@ -256,7 +256,7 @@ Many different options available in the config</Description>
       <FixEntity>
         <Guid>8a05daea-b579-4fa0-9e7d-91abcf914271</Guid>
         <Url>gta3_silent_v1.zip</Url>
-        <Description>Silent Patch 1.1
+        <Description>Silent Patch 1.1 Build 8
 SilentPatch - DDraw component Build 5
 https://gtaforums.com/topic/669045-silentpatch/
 
@@ -270,7 +270,7 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
       </FixEntity>
       <FixEntity>
         <Guid>002bf5eb-7b99-4519-895c-4592f4512228</Guid>
-        <Url>gta3_nointro_v1.zip</Url>
+        <Url>gta3vssa_nointro_v1.zip</Url>
         <Description />
         <InstallFolder>movies</InstallFolder>
         <Dependencies />
@@ -312,13 +312,58 @@ ColAccel is a .asi plugin for GTA IV and EFLC which creates a 'colCache.dat' fil
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>12120</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>0c283cd8-d599-41e7-8adf-6c20f3baad04</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gtasa/GTASA.WidescreenFix.zip</Url>
+        <Description>Widescreen Fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gtasa
+
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+
+Many different options available in the config</Description>
+        <ConfigFile>scripts\GTASA.WidescreenFix.ini</ConfigFile>
+        <Dependencies />
+        <Name>Widescren Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>3bcf4b1a-8471-4ba7-8117-8745e7885152</Guid>
+        <Url>https://silent.rockstarvision.com/uploads/SilentPatchSA.zip</Url>
+        <Description>Silent Patch 1.1 Build 32
+https://gtaforums.com/topic/669045-silentpatch/
+
+Patch that fixes a lot of problems with the game. Check the link above for a full changelog.</Description>
+        <InstallFolder>scripts</InstallFolder>
+        <ConfigFile>scripts\SilentPatchSA.ini</ConfigFile>
+        <Dependencies>
+          <guid>0c283cd8-d599-41e7-8adf-6c20f3baad04</guid>
+        </Dependencies>
+        <Name>Silent Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>ceb00db5-ecb9-41f4-a843-e5c586769d9e</Guid>
+        <Url>gta3vssa_nointro_v1.zip</Url>
+        <Description />
+        <InstallFolder>movies</InstallFolder>
+        <Dependencies />
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>12110</GameId>
     <Fixes>
       <FixEntity>
         <Guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gtavc/GTAVC.WidescreenFix.zip</Url>
         <Description>Widescreen Fix by ThirteenAG
-https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gtavc
 
 Fixed Aspect Ratio
 Fixed HUD
@@ -333,7 +378,11 @@ Many different options available in the config</Description>
       <FixEntity>
         <Guid>25d283f1-f185-479a-b73d-4bb374461951</Guid>
         <Url>gtavc_silent_v1.zip</Url>
-        <Description />
+        <Description>Silent Patch 1.1 Build 10
+SilentPatch - DDraw component Build 5
+https://gtaforums.com/topic/669045-silentpatch/
+
+Patch that fixes a lot of problems with the game. Check the link above for a full changelog.</Description>
         <ConfigFile>scripts\SilentPatchVC.ini</ConfigFile>
         <Dependencies>
           <guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</guid>
@@ -343,7 +392,7 @@ Many different options available in the config</Description>
       </FixEntity>
       <FixEntity>
         <Guid>1af29817-a7cb-439a-8989-fad6b54f1696</Guid>
-        <Url>gta3_nointro_v1.zip</Url>
+        <Url>gta3vssa_nointro_v1.zip</Url>
         <Description />
         <InstallFolder>movies</InstallFolder>
         <Dependencies />
