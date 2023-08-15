@@ -4,7 +4,8 @@
 		<Version>1</Version>
 		<Date>2023-08-14T00:00:00</Date>
 		<Content>Initial release</Content>
-	</NewsEntity><NewsEntity>
+	</NewsEntity>
+	<NewsEntity>
 		<Version>3</Version>
 		<Date>2023-08-15T00:00:00</Date>
 		<Content>Added various fixes for:
@@ -12,5 +13,13 @@ GTA 3
 GTA Vice City
 GTA San Andreas
 Bully</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>4</Version>
+		<Date>2023-08-15T00:00:00</Date>
+		<Content>Added various fixes for:
+Prince of Persia The Sands of Time
+Warrior Within
+Two Thrones</Content>
 	</NewsEntity>
 </ArrayOfNewsEntity>
