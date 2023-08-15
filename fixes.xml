@@ -235,6 +235,51 @@ Additionally removes pillar boxes in 21:9 resolutions.</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>12100</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>d8f77b17-7fbb-48dc-9cd8-a56298df6dc6</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gta3/GTA3.WidescreenFix.zip</Url>
+        <Description>Widescreen Fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3
+
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+
+Many different options available in the config</Description>
+        <ConfigFile>scripts\GTA3.WidescreenFix.ini</ConfigFile>
+        <Dependencies />
+        <Name>Widescren Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>8a05daea-b579-4fa0-9e7d-91abcf914271</Guid>
+        <Url>gta3_silent_v1.zip</Url>
+        <Description>Silent Patch 1.1
+SilentPatch - DDraw component Build 5
+https://gtaforums.com/topic/669045-silentpatch/
+
+Patch that fixes a lot of problems with the game. Check the link above for a full changelog.</Description>
+        <ConfigFile>scripts\SilentPatchIII.ini</ConfigFile>
+        <Dependencies>
+          <guid>d8f77b17-7fbb-48dc-9cd8-a56298df6dc6</guid>
+        </Dependencies>
+        <Name>Silent Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>002bf5eb-7b99-4519-895c-4592f4512228</Guid>
+        <Url>gta3_nointro_v1.zip</Url>
+        <Description />
+        <InstallFolder>movies</InstallFolder>
+        <Dependencies />
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>12210</GameId>
     <Fixes>
       <FixEntity>

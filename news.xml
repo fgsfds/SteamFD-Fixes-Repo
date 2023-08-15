@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfNewsEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<NewsEntity>
+		<Version>1</Version>
+		<Date>2023-08-14T00:00:00</Date>
+		<Content>Initial release</Content>
+	</NewsEntity><NewsEntity>
+		<Version>2</Version>
+		<Date>2023-08-15T00:00:00</Date>
+		<Content>Added fixes for:
+GTA 3
+GTA Vice City
+GTA San Andreas</Content>
+	</NewsEntity>
+</ArrayOfNewsEntity>
