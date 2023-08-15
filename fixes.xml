@@ -611,6 +611,25 @@ Added an option to keep the game running on minimize</Description>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
+      <FixEntity>
+        <Guid>0a78381e-87eb-4196-b657-2a56b18e7bda</Guid>
+        <Url>max_payne_jpeg_v1.zip</Url>
+        <Description>Modified DLL that fixes "Corrupt JPEG data" on Ryzen CPUs</Description>
+        <Dependencies />
+        <Name>Corrupt JPEG data Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>429410a0-e119-49fa-bee0-4746462afd8d</Guid>
+        <Url>max_payne_indirectsound_v1.zip</Url>
+        <Description>IndirectSound v0.20
+https://www.indirectsound.com/downloads.html
+
+IndirectSound emulates audio hardware acceleration on modern Windows operating systems. This enables older games to have 3D positional audio (i.e. surround sound played out of rear and side speakers) like they were intended to when they were originally released.</Description>
+        <Dependencies />
+        <Name>Audio Fix #2</Name>
+        <Version>1</Version>
+      </FixEntity>
     </Fixes>
   </FixesList>
   <FixesList>
