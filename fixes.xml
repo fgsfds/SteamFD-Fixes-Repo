@@ -716,7 +716,7 @@ http://ps2wide.net/pc.html#popst</Description>
         <Description>The Unofficial Patch 1.4.3
 https://www.nexusmods.com/princeofpersiathetwothrones/mods/10
 
- his patch will fix most of the problems left for 18 years by UBISOFT.</Description>
+This patch will fix most of the problems left for 18 years by UBISOFT.</Description>
         <ConfigFile>patch.ini</ConfigFile>
         <FilesToDelete>pop3.bf</FilesToDelete>
         <RunAfterInstall>patch.bat</RunAfterInstall>
