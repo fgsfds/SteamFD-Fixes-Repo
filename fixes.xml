@@ -697,12 +697,54 @@ Gameplay FOV adjustment without affecting cutscenes/other camera types.</Descrip
     <Fixes>
       <FixEntity>
         <Guid>08d7bc44-afbf-430d-98c2-375da2ec5c6a</Guid>
-        <Url>pop_sot_v1.zip</Url>
+        <Url>pop_sot_patch_v1.zip</Url>
         <Description>Prince of Persia: The Sands of Time v1.0.0.1
 http://ps2wide.net/pc.html#popst</Description>
         <ConfigFile>pop.ini</ConfigFile>
         <Dependencies />
         <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>13530</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>76cca9e6-522c-426c-b612-a6a8499f7d2e</Guid>
+        <Url>pop_tt_patch_v1.zip</Url>
+        <Description>The Unofficial Patch 1.4.3
+https://www.nexusmods.com/princeofpersiathetwothrones/mods/10
+
+ his patch will fix most of the problems left for 18 years by UBISOFT.</Description>
+        <ConfigFile>patch.ini</ConfigFile>
+        <FilesToDelete>pop3.bf</FilesToDelete>
+        <RunAfterInstall>patch.bat</RunAfterInstall>
+        <Dependencies />
+        <Name>Unofficial Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>13500</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>a0d168d7-1959-4fc9-8cde-2d5f80f63412</Guid>
+        <Url>pop_ww_patch_v1.zip</Url>
+        <Description>The Unofficial Patch 1.0.1
+https://www.nexusmods.com/princeofpersiawarriorwithin/mods/10
+
+A collection of fixes for Prince of Persia Warrior Withing to make this game playable for modern PCs.
+
+Mouse Fix ( Removed Mouse Dead Zones and some parts of the acceleration)
+Removed Camera Blockers when you run.
+Fixed Camera Speed on Y Axis.
+100 FPS cap to fix audio desync ( For some reason 60fps is broken but on 100fps the game works fine.)
+Proper 16:9 and FOV options (YOU HAVE TO EDIT pop2.ini FILE TO ADD YOUR RESOLUTION)</Description>
+        <ConfigFile>pop2.ini</ConfigFile>
+        <Dependencies />
+        <Name>Unofficial Patch</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
