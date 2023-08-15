@@ -312,6 +312,47 @@ ColAccel is a .asi plugin for GTA IV and EFLC which creates a 'colCache.dat' fil
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>12110</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gtavc/GTAVC.WidescreenFix.zip</Url>
+        <Description>Widescreen Fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3
+
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+
+Many different options available in the config</Description>
+        <ConfigFile>scripts\GTAVC.WidescreenFix.ini</ConfigFile>
+        <Dependencies />
+        <Name>Widescren Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>25d283f1-f185-479a-b73d-4bb374461951</Guid>
+        <Url>gtavc_silent_v1.zip</Url>
+        <Description />
+        <ConfigFile>scripts\SilentPatchVC.ini</ConfigFile>
+        <Dependencies>
+          <guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</guid>
+        </Dependencies>
+        <Name>Silent Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>1af29817-a7cb-439a-8989-fad6b54f1696</Guid>
+        <Url>gta3_nointro_v1.zip</Url>
+        <Description />
+        <InstallFolder>movies</InstallFolder>
+        <Dependencies />
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>2390</GameId>
     <Fixes>
       <FixEntity>
