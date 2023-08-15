@@ -705,6 +705,15 @@ http://ps2wide.net/pc.html#popst</Description>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
+      <FixEntity>
+        <Guid>20696bb2-168c-46af-a4c5-37fbf6875621</Guid>
+        <Url>pop_sot_nointro_v1.zip</Url>
+        <Description />
+        <InstallFolder>Video</InstallFolder>
+        <Dependencies />
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
     </Fixes>
   </FixesList>
   <FixesList>
@@ -722,6 +731,15 @@ This patch will fix most of the problems left for 18 years by UBISOFT.</Descript
         <RunAfterInstall>patch.bat</RunAfterInstall>
         <Dependencies />
         <Name>Unofficial Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>4ceee222-be15-434b-a797-68a50b26f1e3</Guid>
+        <Url>pop_wwtt_nointro_v1.zip</Url>
+        <Description />
+        <InstallFolder>Video</InstallFolder>
+        <Dependencies />
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -745,6 +763,15 @@ Proper 16:9 and FOV options (YOU HAVE TO EDIT pop2.ini FILE TO ADD YOUR RESOLUTI
         <ConfigFile>pop2.ini</ConfigFile>
         <Dependencies />
         <Name>Unofficial Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>b1fd31f1-7e15-498e-849e-3f715ca91010</Guid>
+        <Url>pop_wwtt_nointro_v1.zip</Url>
+        <Description />
+        <InstallFolder>Video</InstallFolder>
+        <Dependencies />
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
