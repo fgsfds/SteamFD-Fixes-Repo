@@ -55,6 +55,52 @@ Separate volume control of sound effects and music</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>12200</GameId>
+    <Fixes>
+      <FixEntity>
+        <Guid>9c129caf-ec64-4b87-9d9f-373b41fe7fff</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/bully/Bully.WidescreenFix.zip</Url>
+        <Description>Bully: Scholarship Edition Widescreen Fix by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/bully
+
+Fixed Resolution (Ultra-Wide)
+Fixed Aspect Ratio (Ultra-Wide)
+Fixed HUD (Ultra-Wide)
+Fixed Field of View (Ultra-Wide)
+Fixed FMVs
+Unlocked all resolutions supported by the OS
+Fixed an issue when last selected resolution is reset upon startup
+Adjustable FOV via ini</Description>
+        <ConfigFile>plugins\Bully.WidescreenFix.ini</ConfigFile>
+        <Dependencies />
+        <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>270bcc84-cadb-451b-956f-e7489b154d93</Guid>
+        <Url>bully_silent_v1.zip</Url>
+        <Description>SilentPatch for Bully: Scholarship Edition Build 3 BETA
+https://cookieplmonster.github.io/mods/bully/
+
+SilentPatch attempts to fix Bully memory management completely, so it behaves in the same way independent of Windows version. This is not the only fix included, however - most notably, it attempts to improve gameplay experience by improving frame pacing, as well as fixing a few other issues.</Description>
+        <ConfigFile>plugins\SilentPatchBully.ini</ConfigFile>
+        <Dependencies>
+          <guid>9c129caf-ec64-4b87-9d9f-373b41fe7fff</guid>
+        </Dependencies>
+        <Name>Silent Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>b78ca50c-b0e5-4520-8731-f6b22014b851</Guid>
+        <Url>bully_nointro_v1.zip</Url>
+        <Description />
+        <Dependencies />
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>15270</GameId>
     <Fixes>
       <FixEntity>
