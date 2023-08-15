@@ -277,6 +277,20 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
+      <FixEntity>
+        <Guid>cb9380c0-2c61-4f3d-b100-832304b0d694</Guid>
+        <Url>gta3_ginput_v1.zip</Url>
+        <Description>GInputIII 1.11 by Silent
+https://gtaforums.com/topic/562765-ginput/
+
+This modification completely rewrites GTA controls handling and ditches DirectInput in favour of XInput. This way, your PlayStation 3 and XBOX 360 pads will be handled by the game just perfectly, taking advantage of all their features, including analog triggers.</Description>
+        <ConfigFile>scripts\GInputIII.ini</ConfigFile>
+        <Dependencies>
+          <guid>d8f77b17-7fbb-48dc-9cd8-a56298df6dc6</guid>
+        </Dependencies>
+        <Name>GInput</Name>
+        <Version>1</Version>
+      </FixEntity>
     </Fixes>
   </FixesList>
   <FixesList>
@@ -354,6 +368,20 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
+      <FixEntity>
+        <Guid>5af511ba-373b-4a76-ac56-26404c143242</Guid>
+        <Url>gtasa_ginput_v1.zip</Url>
+        <Description>GInputSA 1.11 by Silent
+https://gtaforums.com/topic/562765-ginput/
+
+This modification completely rewrites GTA controls handling and ditches DirectInput in favour of XInput. This way, your PlayStation 3 and XBOX 360 pads will be handled by the game just perfectly, taking advantage of all their features, including analog triggers.</Description>
+        <ConfigFile>scripts\GInputSA.ini</ConfigFile>
+        <Dependencies>
+          <guid>0c283cd8-d599-41e7-8adf-6c20f3baad04</guid>
+        </Dependencies>
+        <Name>GInput</Name>
+        <Version>1</Version>
+      </FixEntity>
     </Fixes>
   </FixesList>
   <FixesList>
@@ -397,6 +425,20 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
         <InstallFolder>movies</InstallFolder>
         <Dependencies />
         <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>0bc6acef-d261-49a7-af02-88265125467b</Guid>
+        <Url>gtavs_ginput_v1.zip</Url>
+        <Description>GInputVC 1.11a by Silent
+https://gtaforums.com/topic/562765-ginput/
+
+This modification completely rewrites GTA controls handling and ditches DirectInput in favour of XInput. This way, your PlayStation 3 and XBOX 360 pads will be handled by the game just perfectly, taking advantage of all their features, including analog triggers.</Description>
+        <ConfigFile>scripts\GInputVC.ini</ConfigFile>
+        <Dependencies>
+          <guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</guid>
+        </Dependencies>
+        <Name>GInput</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
