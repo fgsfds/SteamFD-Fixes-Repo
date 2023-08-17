@@ -2,6 +2,7 @@
 <ArrayOfFixesList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <FixesList>
     <GameId>358190</GameId>
+    <GameName>Blake Stone: Aliens of Gold</GameName>
     <Fixes>
       <FixEntity>
         <Guid>bc8649ea-8ec2-4abe-9c61-3317c80e0c39</Guid>
@@ -29,6 +30,7 @@ Separate volume control of sound effects and music</Description>
   </FixesList>
   <FixesList>
     <GameId>358310</GameId>
+    <GameName>Blake Stone: Planet Strike</GameName>
     <Fixes>
       <FixEntity>
         <Guid>5e1c6726-0263-40bd-a084-f908ed1295ae</Guid>
@@ -56,6 +58,7 @@ Separate volume control of sound effects and music</Description>
   </FixesList>
   <FixesList>
     <GameId>12200</GameId>
+    <GameName>Bully: Scholarship Edition</GameName>
     <Fixes>
       <FixEntity>
         <Guid>9c129caf-ec64-4b87-9d9f-373b41fe7fff</Guid>
@@ -102,6 +105,7 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
   </FixesList>
   <FixesList>
     <GameId>15270</GameId>
+    <GameName>Cold Fear</GameName>
     <Fixes>
       <FixEntity>
         <Guid>53b41e26-cddf-4764-a82b-bd900f3ffc24</Guid>
@@ -124,6 +128,7 @@ Added an option to make FMVs fullscreen</Description>
   </FixesList>
   <FixesList>
     <GameId>211420</GameId>
+    <GameName>DARK SOULS™: Prepare To Die Edition</GameName>
     <Fixes>
       <FixEntity>
         <Guid>3b050833-82c5-49d0-85ca-e688b5c911bc</Guid>
@@ -147,6 +152,7 @@ Allows for easy, understandable editing of the DSfix configuration without havin
   </FixesList>
   <FixesList>
     <GameId>17470</GameId>
+    <GameName>Dead Space (2008)</GameName>
     <Fixes>
       <FixEntity>
         <Guid>6f7d51bf-f87c-4cc8-8f19-b09d8cbcb60b</Guid>
@@ -163,6 +169,7 @@ This fix makes Dead Space use raw mouse input without any additional smoothing o
   </FixesList>
   <FixesList>
     <GameId>47780</GameId>
+    <GameName>Dead Space 2</GameName>
     <Fixes>
       <FixEntity>
         <Guid>c2884e09-5746-4eed-8e41-8b8529fd8f2a</Guid>
@@ -179,6 +186,7 @@ This fix makes Dead Space 2 use raw mouse input without any additional smoothing
   </FixesList>
   <FixesList>
     <GameId>2280</GameId>
+    <GameName>DOOM (1993)</GameName>
     <Fixes>
       <FixEntity>
         <Guid>2568a112-e7cc-4c35-b984-7fd98ea22fac</Guid>
@@ -205,6 +213,7 @@ https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
   </FixesList>
   <FixesList>
     <GameId>2300</GameId>
+    <GameName>DOOM II</GameName>
     <Fixes>
       <FixEntity>
         <Guid>90e84122-5f4e-4c78-995b-bb58c9144bde</Guid>
@@ -233,6 +242,7 @@ https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
   </FixesList>
   <FixesList>
     <GameId>240180</GameId>
+    <GameName>Duke Nukem 2</GameName>
     <Fixes>
       <FixEntity>
         <Guid>ab4bba28-8e93-415a-96f8-c9a1e1dd3989</Guid>
@@ -257,6 +267,7 @@ extended modding features</Description>
   </FixesList>
   <FixesList>
     <GameId>8880</GameId>
+    <GameName>Freedom Force</GameName>
     <Fixes>
       <FixEntity>
         <Guid>b041bccf-5637-481f-b6a8-ac51e53c089b</Guid>
@@ -282,6 +293,7 @@ Additionally removes pillar boxes in 21:9 resolutions.</Description>
   </FixesList>
   <FixesList>
     <GameId>12100</GameId>
+    <GameName>Grand Theft Auto III</GameName>
     <Fixes>
       <FixEntity>
         <Guid>d8f77b17-7fbb-48dc-9cd8-a56298df6dc6</Guid>
@@ -341,6 +353,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
   </FixesList>
   <FixesList>
     <GameId>12210</GameId>
+    <GameName>Grand Theft Auto IV: The Complete Edition</GameName>
     <Fixes>
       <FixEntity>
         <Guid>f46efd2c-9bb5-430e-9e38-b5fce605860f</Guid>
@@ -373,6 +386,7 @@ ColAccel is a .asi plugin for GTA IV and EFLC which creates a 'colCache.dat' fil
   </FixesList>
   <FixesList>
     <GameId>12120</GameId>
+    <GameName>Grand Theft Auto: San Andreas</GameName>
     <Fixes>
       <FixEntity>
         <Guid>0c283cd8-d599-41e7-8adf-6c20f3baad04</Guid>
@@ -432,6 +446,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
   </FixesList>
   <FixesList>
     <GameId>12110</GameId>
+    <GameName>Grand Theft Auto: Vice City</GameName>
     <Fixes>
       <FixEntity>
         <Guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</Guid>
@@ -491,6 +506,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
   </FixesList>
   <FixesList>
     <GameId>2390</GameId>
+    <GameName>Heretic: Shadow of the Serpent Riders</GameName>
     <Fixes>
       <FixEntity>
         <Guid>f6432821-49c7-49c4-9db1-5380c846ae27</Guid>
@@ -511,6 +527,7 @@ https://www.doomworld.com/forum/topic/64778-heretic-minor-sprite-fixing-and-wide
   </FixesList>
   <FixesList>
     <GameId>2360</GameId>
+    <GameName>Hexen: Beyond Heretic</GameName>
     <Fixes>
       <FixEntity>
         <Guid>8309af69-08b9-419e-87bb-85665444efb7</Guid>
@@ -531,6 +548,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
   </FixesList>
   <FixesList>
     <GameId>2370</GameId>
+    <GameName>Hexen: Deathkings of the Dark Citadel</GameName>
     <Fixes>
       <FixEntity>
         <Guid>8fd5cf5a-30c3-4582-9c1d-9f2d81dfe4f2</Guid>
@@ -551,6 +569,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
   </FixesList>
   <FixesList>
     <GameId>40990</GameId>
+    <GameName>Mafia</GameName>
     <Fixes>
       <FixEntity>
         <Guid>f02cb30d-1101-4890-a55f-cd53d0a7942f</Guid>
@@ -577,8 +596,9 @@ Added an option to set deadzone for left stick and right stick on gamepad (other
   </FixesList>
   <FixesList>
     <GameId>12140</GameId>
+    <GameName>Max Payne</GameName>
     <Fixes>
-	<FixEntity>
+      <FixEntity>
         <Guid>429410a0-e119-49fa-bee0-4746462afd8d</Guid>
         <Url>max_payne_indirectsound_v1.zip</Url>
         <Description>IndirectSound v0.20
@@ -629,11 +649,12 @@ Added an option to keep the game running on minimize</Description>
         <Dependencies />
         <Name>Corrupt JPEG data Fix</Name>
         <Version>1</Version>
-      </FixEntity>      
+      </FixEntity>
     </Fixes>
   </FixesList>
   <FixesList>
     <GameId>12150</GameId>
+    <GameName>Max Payne 2: The Fall of Max Payne</GameName>
     <Fixes>
       <FixEntity>
         <Guid>12ccb6bc-100c-4fdb-8d2f-642f0fcb21aa</Guid>
@@ -660,6 +681,7 @@ Added an option to keep the game running on minimize</Description>
   </FixesList>
   <FixesList>
     <GameId>204100</GameId>
+    <GameName>Max Payne 3</GameName>
     <Fixes>
       <FixEntity>
         <Guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</Guid>
@@ -713,6 +735,7 @@ Gameplay FOV adjustment without affecting cutscenes/other camera types.</Descrip
   </FixesList>
   <FixesList>
     <GameId>13600</GameId>
+    <GameName>Prince of Persia: The Sands of Time</GameName>
     <Fixes>
       <FixEntity>
         <Guid>08d7bc44-afbf-430d-98c2-375da2ec5c6a</Guid>
@@ -737,6 +760,7 @@ http://ps2wide.net/pc.html#popst</Description>
   </FixesList>
   <FixesList>
     <GameId>13530</GameId>
+    <GameName>Prince of Persia: The Two Thrones</GameName>
     <Fixes>
       <FixEntity>
         <Guid>76cca9e6-522c-426c-b612-a6a8499f7d2e</Guid>
@@ -765,6 +789,7 @@ This patch will fix most of the problems left for 18 years by UBISOFT.</Descript
   </FixesList>
   <FixesList>
     <GameId>13500</GameId>
+    <GameName>Prince of Persia: Warrior Within</GameName>
     <Fixes>
       <FixEntity>
         <Guid>a0d168d7-1959-4fc9-8cde-2d5f80f63412</Guid>
@@ -797,6 +822,7 @@ Proper 16:9 and FOV options (YOU HAVE TO EDIT pop2.ini FILE TO ADD YOUR RESOLUTI
   </FixesList>
   <FixesList>
     <GameId>1174180</GameId>
+    <GameName>Red Dead Redemption 2</GameName>
     <Fixes>
       <FixEntity>
         <Guid>03cd34f5-ba0e-42de-86f9-b05b63064574</Guid>
@@ -816,6 +842,7 @@ Removes the black bars appearing top, bottom, left, &amp; right especially durin
   </FixesList>
   <FixesList>
     <GameId>254700</GameId>
+    <GameName>Resident Evil 4 (2005)</GameName>
     <Fixes>
       <FixEntity>
         <Guid>28b4ad6e-47b1-4cad-8e1d-e66b7d2c69ba</Guid>
@@ -834,6 +861,7 @@ A project designed to fix and tweak the "UHD" port of Resident Evil 4 on Steam.<
   </FixesList>
   <FixesList>
     <GameId>21690</GameId>
+    <GameName>Resident Evil 5</GameName>
     <Fixes>
       <FixEntity>
         <Guid>0d30b6de-b08f-437b-a5f2-eec90c0e1c61</Guid>
@@ -862,6 +890,7 @@ Fixed stretched movie playback.
   </FixesList>
   <FixesList>
     <GameId>221040</GameId>
+    <GameName>Resident Evil 6</GameName>
     <Fixes>
       <FixEntity>
         <Guid>1e2c81fb-cb4d-47a6-bbdf-25be71e259ac</Guid>
@@ -884,6 +913,7 @@ Added an option to enable borderless windowed mode</Description>
   </FixesList>
   <FixesList>
     <GameId>418370</GameId>
+    <GameName>Resident Evil 7 Biohazard</GameName>
     <Fixes>
       <FixEntity>
         <Guid>93b3856d-b4f8-4365-ab52-a50cb77a851d</Guid>
@@ -900,6 +930,7 @@ Removes pillarboxing and extends FOV in ultrawide resolutions</Description>
   </FixesList>
   <FixesList>
     <GameId>222480</GameId>
+    <GameName>Resident Evil Revelations</GameName>
     <Fixes>
       <FixEntity>
         <Guid>bf59f76e-b8fa-48f6-97f4-2201c4d5f5c2</Guid>
@@ -946,6 +977,7 @@ I highly recommend that you DO NOT play this mode with this fix installed.</Desc
   </FixesList>
   <FixesList>
     <GameId>287290</GameId>
+    <GameName>Resident Evil Revelations 2</GameName>
     <Fixes>
       <FixEntity>
         <Guid>5b112d57-c2b8-4170-9d14-4fc29e2b5125</Guid>
@@ -975,6 +1007,7 @@ Added an option to increase FOV</Description>
   </FixesList>
   <FixesList>
     <GameId>11550</GameId>
+    <GameName>Second Sight</GameName>
     <Fixes>
       <FixEntity>
         <Guid>ebfc6fda-07db-4c42-8ae8-67d9d0588ebc</Guid>
@@ -995,6 +1028,7 @@ Fixed Field of View</Description>
   </FixesList>
   <FixesList>
     <GameId>32400</GameId>
+    <GameName>STAR WARS™: Dark Forces</GameName>
     <Fixes>
       <FixEntity>
         <Guid>65572422-e300-4e54-b960-423c900d1028</Guid>
@@ -1012,6 +1046,7 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
   </FixesList>
   <FixesList>
     <GameId>13560</GameId>
+    <GameName>Tom Clancy's Splinter Cell</GameName>
     <Fixes>
       <FixEntity>
         <Guid>9da1a9db-2049-46ac-a6ce-b956999e7806</Guid>
@@ -1061,6 +1096,7 @@ Affected levels include Defense Ministry and CIA HQ.</Description>
   </FixesList>
   <FixesList>
     <GameId>13570</GameId>
+    <GameName>Tom Clancy's Splinter Cell: Chaos Theory</GameName>
     <Fixes>
       <FixEntity>
         <Guid>d2797d6c-e7c0-48d9-9cf9-ff3210a26df8</Guid>
@@ -1091,6 +1127,7 @@ Added an option to change goggles' light color</Description>
   </FixesList>
   <FixesList>
     <GameId>13580</GameId>
+    <GameName>Tom Clancy's Splinter Cell: Double Agent</GameName>
     <Fixes>
       <FixEntity>
         <Guid>89de542e-bc87-49a6-904a-6c2360340e5d</Guid>
@@ -1113,6 +1150,7 @@ Added an option to change goggles' light color</Description>
   </FixesList>
   <FixesList>
     <GameId>213120</GameId>
+    <GameName>Transformers: Fall of Cybertron</GameName>
     <Fixes>
       <FixEntity>
         <Guid>5c68e172-e3e5-422f-a28b-7da315dbdb2c</Guid>
@@ -1134,6 +1172,7 @@ Added an option to change goggles' light color</Description>
   </FixesList>
   <FixesList>
     <GameId>13250</GameId>
+    <GameName>Unreal Gold</GameName>
     <Fixes>
       <FixEntity>
         <Guid>d5f480c5-815e-4627-b00e-09594492da92</Guid>
@@ -1150,6 +1189,7 @@ This patch was made to offer all Unreal players a new, completely overworked and
   </FixesList>
   <FixesList>
     <GameId>1170760</GameId>
+    <GameName>XIII - Classic</GameName>
     <Fixes>
       <FixEntity>
         <Guid>af07b5e1-e803-4740-984d-ff3c407caaf2</Guid>
