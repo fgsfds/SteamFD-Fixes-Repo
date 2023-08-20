@@ -127,6 +127,35 @@ Added an option to make FMVs fullscreen</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>242980</GameId>
+    <GameName>Daikatana</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>8a6ff69b-eaf6-4026-b735-e0be3140c347</Guid>
+        <Url>daikatana_patch13_v1.zip</Url>
+        <Description>Daikatana 1.3 Build: 08-17-2023
+https://bitbucket.org/daikatana13/daikatana
+
+Daikatana 1.3 is a community created game patch for Daikatana. It offers very substantial fixes and updates to Daikatana, and is updated constantly.
+
+Significant Updates:
+Multiplayer support is available through Qtracker.
+Adds support for widescreen resolutions and anisotropic filtering.
+Loading now doesn't require the ticking sound to be played. Loading is much faster.
+Updated and greatly improved AI paths and nodes.
+Options to play without sidekicks.
+Option to make sidekicks invincible.
+HD texture support.
+Glowmap support.
+Supported added for mouse buttons.
+And many more.</Description>
+        <Dependencies />
+        <Name>Patch 1.3</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>211420</GameId>
     <GameName>DARK SOULS™: Prepare To Die Edition</GameName>
     <Fixes>
@@ -327,15 +356,6 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
         <Version>1</Version>
       </FixEntity>
       <FixEntity>
-        <Guid>002bf5eb-7b99-4519-895c-4592f4512228</Guid>
-        <Url>gta3vssa_nointro_v1.zip</Url>
-        <Description />
-        <InstallFolder>movies</InstallFolder>
-        <Dependencies />
-        <Name>No Intro Fix</Name>
-        <Version>1</Version>
-      </FixEntity>
-      <FixEntity>
         <Guid>cb9380c0-2c61-4f3d-b100-832304b0d694</Guid>
         <Url>gta3_ginput_v1.zip</Url>
         <Description>GInputIII 1.11 by Silent
@@ -347,6 +367,15 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
           <guid>d8f77b17-7fbb-48dc-9cd8-a56298df6dc6</guid>
         </Dependencies>
         <Name>GInput</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>002bf5eb-7b99-4519-895c-4592f4512228</Guid>
+        <Url>gta3vssa_nointro_v1.zip</Url>
+        <Description />
+        <InstallFolder>movies</InstallFolder>
+        <Dependencies />
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -420,15 +449,6 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
         <Version>1</Version>
       </FixEntity>
       <FixEntity>
-        <Guid>ceb00db5-ecb9-41f4-a843-e5c586769d9e</Guid>
-        <Url>gta3vssa_nointro_v1.zip</Url>
-        <Description />
-        <InstallFolder>movies</InstallFolder>
-        <Dependencies />
-        <Name>No Intro Fix</Name>
-        <Version>1</Version>
-      </FixEntity>
-      <FixEntity>
         <Guid>5af511ba-373b-4a76-ac56-26404c143242</Guid>
         <Url>gtasa_ginput_v1.zip</Url>
         <Description>GInputSA 1.11 by Silent
@@ -440,6 +460,15 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
           <guid>0c283cd8-d599-41e7-8adf-6c20f3baad04</guid>
         </Dependencies>
         <Name>GInput</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>ceb00db5-ecb9-41f4-a843-e5c586769d9e</Guid>
+        <Url>gta3vssa_nointro_v1.zip</Url>
+        <Description />
+        <InstallFolder>movies</InstallFolder>
+        <Dependencies />
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -480,15 +509,6 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
         <Version>1</Version>
       </FixEntity>
       <FixEntity>
-        <Guid>1af29817-a7cb-439a-8989-fad6b54f1696</Guid>
-        <Url>gta3vssa_nointro_v1.zip</Url>
-        <Description />
-        <InstallFolder>movies</InstallFolder>
-        <Dependencies />
-        <Name>No Intro Fix</Name>
-        <Version>1</Version>
-      </FixEntity>
-      <FixEntity>
         <Guid>0bc6acef-d261-49a7-af02-88265125467b</Guid>
         <Url>gtavs_ginput_v1.zip</Url>
         <Description>GInputVC 1.11a by Silent
@@ -500,6 +520,15 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
           <guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</guid>
         </Dependencies>
         <Name>GInput</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>1af29817-a7cb-439a-8989-fad6b54f1696</Guid>
+        <Url>gta3vssa_nointro_v1.zip</Url>
+        <Description />
+        <InstallFolder>movies</InstallFolder>
+        <Dependencies />
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -1213,35 +1242,6 @@ Requires Unofficial Patch 1.4</Description>
           <guid>af07b5e1-e803-4740-984d-ff3c407caaf2</guid>
         </Dependencies>
         <Name>2560x1080 Resolution</Name>
-        <Version>1</Version>
-      </FixEntity>
-    </Fixes>
-  </FixesList>
-  <FixesList>
-    <GameId>242980</GameId>
-    <GameName>Daikatana</GameName>
-    <Fixes>
-      <FixEntity>
-        <Guid>8a6ff69b-eaf6-4026-b735-e0be3140c347</Guid>
-        <Url>daikatana_patch13_v1.zip</Url>
-        <Description>Daikatana 1.3 Build: 08-17-2023
-https://bitbucket.org/daikatana13/daikatana
-
-Daikatana 1.3 is a community created game patch for Daikatana. It offers very substantial fixes and updates to Daikatana, and is updated constantly.
-
-Significant Updates:
-Multiplayer support is available through Qtracker.
-Adds support for widescreen resolutions and anisotropic filtering.
-Loading now doesn't require the ticking sound to be played. Loading is much faster.
-Updated and greatly improved AI paths and nodes.
-Options to play without sidekicks.
-Option to make sidekicks invincible.
-HD texture support.
-Glowmap support.
-Supported added for mouse buttons.
-And many more.</Description>
-        <Dependencies />
-        <Name>Patch 1.3</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
