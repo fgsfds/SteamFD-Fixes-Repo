@@ -8,11 +8,7 @@
 	<NewsEntity>
 		<Version>2</Version>
 		<Date>2023-08-15T00:00:00</Date>
-		<Content>Added various fixes for:
-GTA 3
-GTA Vice City
-GTA San Andreas
-Bully</Content>
+		<Content>Added various fixes for GTA 3, Vice City, San Andreas, Bully</Content>
 	</NewsEntity>
 	<NewsEntity>
 		<Version>3</Version>

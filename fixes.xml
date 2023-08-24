@@ -7,7 +7,7 @@
       <FixEntity>
         <Guid>bc8649ea-8ec2-4abe-9c61-3317c80e0c39</Guid>
         <Url>blake_stone_bstone_v1.zip</Url>
-        <Description>bstone v1.2.12-2
+        <Description>*bstone v1.2.12-2
 https://github.com/bibendovsky/bstone
 
 BStone is unofficial source port for "Blake Stone" game series: "Aliens Of Gold" and "Planet Strike".
@@ -35,7 +35,7 @@ Separate volume control of sound effects and music</Description>
       <FixEntity>
         <Guid>5e1c6726-0263-40bd-a084-f908ed1295ae</Guid>
         <Url>blake_stone_bstone_v1.zip</Url>
-        <Description>bstone v1.2.12-2
+        <Description>*bstone v1.2.12-2
 https://github.com/bibendovsky/bstone
 
 BStone is unofficial source port for "Blake Stone" game series: "Aliens Of Gold" and "Planet Strike".
@@ -63,7 +63,7 @@ Separate volume control of sound effects and music</Description>
       <FixEntity>
         <Guid>9c129caf-ec64-4b87-9d9f-373b41fe7fff</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/bully/Bully.WidescreenFix.zip</Url>
-        <Description>Bully: Scholarship Edition Widescreen Fix by ThirteenAG
+        <Description>*Bully: Scholarship Edition Widescreen Fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/bully
 
 Fixed Resolution (Ultra-Wide)
@@ -82,7 +82,7 @@ Adjustable FOV via ini</Description>
       <FixEntity>
         <Guid>270bcc84-cadb-451b-956f-e7489b154d93</Guid>
         <Url>bully_silent_v1.zip</Url>
-        <Description>SilentPatch for Bully: Scholarship Edition Build 3 BETA
+        <Description>*SilentPatch for Bully: Scholarship Edition Build 3 BETA
 https://cookieplmonster.github.io/mods/bully/
 
 SilentPatch attempts to fix Bully memory management completely, so it behaves in the same way independent of Windows version. This is not the only fix included, however - most notably, it attempts to improve gameplay experience by improving frame pacing, as well as fixing a few other issues.</Description>
@@ -110,7 +110,7 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
       <FixEntity>
         <Guid>53b41e26-cddf-4764-a82b-bd900f3ffc24</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/coldfear/ColdFear.WidescreenFix.zip</Url>
-        <Description>Cold Fear Widescreen Fix
+        <Description>*Cold Fear Widescreen Fix
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/coldfear
 
 Fixed Resolution
@@ -133,7 +133,7 @@ Added an option to make FMVs fullscreen</Description>
       <FixEntity>
         <Guid>8a6ff69b-eaf6-4026-b735-e0be3140c347</Guid>
         <Url>daikatana_patch13_v1.zip</Url>
-        <Description>Daikatana 1.3 Build: 08-17-2023
+        <Description>*Daikatana 1.3 Build: 08-17-2023
 https://bitbucket.org/daikatana13/daikatana
 
 Daikatana 1.3 is a community created game patch for Daikatana. It offers very substantial fixes and updates to Daikatana, and is updated constantly.
@@ -162,12 +162,12 @@ And many more.</Description>
       <FixEntity>
         <Guid>3b050833-82c5-49d0-85ca-e688b5c911bc</Guid>
         <Url>dark_souls_dsfix_v1.zip</Url>
-        <Description>DSFix v2.4
+        <Description>*DSFix v2.4
 https://www.nexusmods.com/darksouls/mods/19
 
 DSfix is a wrapper .dll that allows your to adjust Dark Souls' rendering resolution, improve the quality of the game's DoF effect, add SSAO and SMAA, hide and show the mouse cursor and hud using a toggle key, take screenshots, periodically back up your save game, change the game's language, load texture mods and more.
 
-Morten242s UI for DSfix
+*Morten242s UI for DSfix
 https://www.nexusmods.com/darksouls/mods/45
 
 Allows for easy, understandable editing of the DSfix configuration without having to mess around directly with the configuration file.</Description>
@@ -186,7 +186,7 @@ Allows for easy, understandable editing of the DSfix configuration without havin
       <FixEntity>
         <Guid>6f7d51bf-f87c-4cc8-8f19-b09d8cbcb60b</Guid>
         <Url>dead_space_mouse_fix_v1.zip</Url>
-        <Description>Dead Space Mouse Fix
+        <Description>*Dead Space Mouse Fix
 https://community.pcgamingwiki.com/files/file/840-dead-space-mouse-fix/
 
 This fix makes Dead Space use raw mouse input without any additional smoothing or acceleration. It works with VSync and high frame rates and is easy to install without having to fiddle around with FPS limiters or config files.</Description>
@@ -203,7 +203,7 @@ This fix makes Dead Space use raw mouse input without any additional smoothing o
       <FixEntity>
         <Guid>c2884e09-5746-4eed-8e41-8b8529fd8f2a</Guid>
         <Url>dead_space_2_mouse_fix_v1.zip</Url>
-        <Description>Dead Space 2 Mouse Fix
+        <Description>*Dead Space 2 Mouse Fix
 https://community.pcgamingwiki.com/files/file/976-dead-space-2-mouse-fix/
 
 This fix makes Dead Space 2 use raw mouse input without any additional smoothing or acceleration. It works with VSync and high frame rates and is easy to install without having to fiddle around with FPS limiters or config files.</Description>
@@ -220,18 +220,18 @@ This fix makes Dead Space 2 use raw mouse input without any additional smoothing
       <FixEntity>
         <Guid>2568a112-e7cc-4c35-b984-7fd98ea22fac</Guid>
         <Url>doom1_crispy_v1.zip</Url>
-        <Description>Crispy Doom 6.0
+        <Description>*Crispy Doom 6.0
 https://github.com/fabiangreffrath/crispy-doom
 
 Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
 
-Doom 2 Minor Sprite Fixing Project - v2.0
+*Doom 2 Minor Sprite Fixing Project - v2.0
 https://www.doomworld.com/forum/topic/62403-doom-2-minor-sprite-fixing-project-v20-release-updated-112822/
 
-Widescreen Assets
+*Widescreen Assets
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/
 
-Ultrawide Statusbar
+*Ultrawide Statusbar
 https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
         <InstallFolder>base</InstallFolder>
         <Dependencies />
@@ -247,21 +247,21 @@ https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
       <FixEntity>
         <Guid>90e84122-5f4e-4c78-995b-bb58c9144bde</Guid>
         <Url>doom2_crispy_v1.zip</Url>
-        <Description>Crispy Doom 6.0
+        <Description>*Crispy Doom 6.0
 https://github.com/fabiangreffrath/crispy-doom
 
 Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
 
-Doom 2 Minor Sprite Fixing Project - v2.0
+*Doom 2 Minor Sprite Fixing Project - v2.0
 https://www.doomworld.com/forum/topic/62403-doom-2-minor-sprite-fixing-project-v20-release-updated-112822/
 
-The Master Levels: Upgrade/QoL Pack
+*The Master Levels: Upgrade/QoL Pack
 https://www.doomworld.com/forum/topic/119465-the-master-levels-upgradeqol-pack-relaunched-and-complete/
 
-Widescreen Assets
+*Widescreen Assets
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/
 
-Ultrawide Statusbar
+*Ultrawide Statusbar
 https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
         <Dependencies />
         <Name>Crispy Doom</Name>
@@ -276,7 +276,7 @@ https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
       <FixEntity>
         <Guid>ab4bba28-8e93-415a-96f8-c9a1e1dd3989</Guid>
         <Url>duke_nukem_2_rigel_v1.zip</Url>
-        <Description>Rigel Engine v0.9.1
+        <Description>*Rigel Engine v0.9.1
 https://github.com/lethal-guitar/RigelEngine
 
 This project is a re-implementation of the game Duke Nukem II.
@@ -327,7 +327,7 @@ Additionally removes pillar boxes in 21:9 resolutions.</Description>
       <FixEntity>
         <Guid>d8f77b17-7fbb-48dc-9cd8-a56298df6dc6</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gta3/GTA3.WidescreenFix.zip</Url>
-        <Description>Widescreen Fix by ThirteenAG
+        <Description>*Widescreen Fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3
 
 Fixed Aspect Ratio
@@ -343,8 +343,8 @@ Many different options available in the config</Description>
       <FixEntity>
         <Guid>8a05daea-b579-4fa0-9e7d-91abcf914271</Guid>
         <Url>gta3_silent_v1.zip</Url>
-        <Description>Silent Patch 1.1 Build 8
-SilentPatch - DDraw component Build 5
+        <Description>*Silent Patch 1.1 Build 8
+*SilentPatch - DDraw component Build 5
 https://gtaforums.com/topic/669045-silentpatch/
 
 Patch that fixes a lot of problems with the game. Check the link above for a full changelog.</Description>
@@ -358,7 +358,7 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
       <FixEntity>
         <Guid>cb9380c0-2c61-4f3d-b100-832304b0d694</Guid>
         <Url>gta3_ginput_v1.zip</Url>
-        <Description>GInputIII 1.11 by Silent
+        <Description>*GInputIII 1.11 by Silent
 https://gtaforums.com/topic/562765-ginput/
 
 This modification completely rewrites GTA controls handling and ditches DirectInput in favour of XInput. This way, your PlayStation 3 and XBOX 360 pads will be handled by the game just perfectly, taking advantage of all their features, including analog triggers.</Description>
@@ -387,7 +387,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
       <FixEntity>
         <Guid>f46efd2c-9bb5-430e-9e38-b5fce605860f</Guid>
         <Url>https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v1.77/GTAIV.EFLC.FusionFix.zip</Url>
-        <Description>GTAIV EFLC FusionFix v1.77
+        <Description>*GTAIV EFLC FusionFix v1.77
 https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix
 
 This projects aims to fix some issues in Grand Theft Auto IV: Complete Edition.</Description>
@@ -400,7 +400,7 @@ This projects aims to fix some issues in Grand Theft Auto IV: Complete Edition.<
       <FixEntity>
         <Guid>38a898bc-d88f-4a15-9876-b3b84a8549f0</Guid>
         <Url>https://github.com/ThirteenAG/IV.EFLC.ColAccel/releases/download/v1.5/IV.EFLC.ColAccel.zip</Url>
-        <Description>ColAccel v1.5
+        <Description>*ColAccel v1.5
 https://github.com/ThirteenAG/IV.EFLC.ColAccel
 
 ColAccel is a .asi plugin for GTA IV and EFLC which creates a 'colCache.dat' file on the first load, containing all the data actually used by the game from the collision meshes and accelerating your game load time by 50% or more.</Description>
@@ -420,7 +420,7 @@ ColAccel is a .asi plugin for GTA IV and EFLC which creates a 'colCache.dat' fil
       <FixEntity>
         <Guid>0c283cd8-d599-41e7-8adf-6c20f3baad04</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gtasa/GTASA.WidescreenFix.zip</Url>
-        <Description>Widescreen Fix by ThirteenAG
+        <Description>*Widescreen Fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gtasa
 
 Fixed Aspect Ratio
@@ -436,7 +436,7 @@ Many different options available in the config</Description>
       <FixEntity>
         <Guid>3bcf4b1a-8471-4ba7-8117-8745e7885152</Guid>
         <Url>https://silent.rockstarvision.com/uploads/SilentPatchSA.zip</Url>
-        <Description>Silent Patch 1.1 Build 32
+        <Description>*Silent Patch 1.1 Build 32
 https://gtaforums.com/topic/669045-silentpatch/
 
 Patch that fixes a lot of problems with the game. Check the link above for a full changelog.</Description>
@@ -451,7 +451,7 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
       <FixEntity>
         <Guid>5af511ba-373b-4a76-ac56-26404c143242</Guid>
         <Url>gtasa_ginput_v1.zip</Url>
-        <Description>GInputSA 1.11 by Silent
+        <Description>*GInputSA 1.11 by Silent
 https://gtaforums.com/topic/562765-ginput/
 
 This modification completely rewrites GTA controls handling and ditches DirectInput in favour of XInput. This way, your PlayStation 3 and XBOX 360 pads will be handled by the game just perfectly, taking advantage of all their features, including analog triggers.</Description>
@@ -480,7 +480,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
       <FixEntity>
         <Guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gtavc/GTAVC.WidescreenFix.zip</Url>
-        <Description>Widescreen Fix by ThirteenAG
+        <Description>*Widescreen Fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gtavc
 
 Fixed Aspect Ratio
@@ -496,8 +496,8 @@ Many different options available in the config</Description>
       <FixEntity>
         <Guid>25d283f1-f185-479a-b73d-4bb374461951</Guid>
         <Url>gtavc_silent_v1.zip</Url>
-        <Description>Silent Patch 1.1 Build 10
-SilentPatch - DDraw component Build 5
+        <Description>*Silent Patch 1.1 Build 10
+*SilentPatch - DDraw component Build 5
 https://gtaforums.com/topic/669045-silentpatch/
 
 Patch that fixes a lot of problems with the game. Check the link above for a full changelog.</Description>
@@ -511,7 +511,7 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
       <FixEntity>
         <Guid>0bc6acef-d261-49a7-af02-88265125467b</Guid>
         <Url>gtavs_ginput_v1.zip</Url>
-        <Description>GInputVC 1.11a by Silent
+        <Description>*GInputVC 1.11a by Silent
 https://gtaforums.com/topic/562765-ginput/
 
 This modification completely rewrites GTA controls handling and ditches DirectInput in favour of XInput. This way, your PlayStation 3 and XBOX 360 pads will be handled by the game just perfectly, taking advantage of all their features, including analog triggers.</Description>
@@ -540,12 +540,12 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
       <FixEntity>
         <Guid>f6432821-49c7-49c4-9db1-5380c846ae27</Guid>
         <Url>heretic_crispy_v1.zip</Url>
-        <Description>Crispy Heretic 6.0
+        <Description>*Crispy Heretic 6.0
 https://github.com/fabiangreffrath/crispy-doom
 
 Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
 
-Heretic Minor Sprite Fixing and Widescreen-Friendly Project 1.0
+*Heretic Minor Sprite Fixing and Widescreen-Friendly Project 1.0
 https://www.doomworld.com/forum/topic/64778-heretic-minor-sprite-fixing-and-widescreen-friendly-project-v10-release/</Description>
         <InstallFolder>base</InstallFolder>
         <Dependencies />
@@ -561,12 +561,12 @@ https://www.doomworld.com/forum/topic/64778-heretic-minor-sprite-fixing-and-wide
       <FixEntity>
         <Guid>8309af69-08b9-419e-87bb-85665444efb7</Guid>
         <Url>hexen_crispy_v1.zip</Url>
-        <Description>Crispy Hexen 6.0
+        <Description>*Crispy Hexen 6.0
 https://github.com/fabiangreffrath/crispy-doom
 
 Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
 
-Widescreen Assets
+*Widescreen Assets
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
         <InstallFolder>base</InstallFolder>
         <Dependencies />
@@ -582,12 +582,12 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
       <FixEntity>
         <Guid>8fd5cf5a-30c3-4582-9c1d-9f2d81dfe4f2</Guid>
         <Url>hexendd_crispy_v1.zip</Url>
-        <Description>Crispy Hexen 6.0
+        <Description>*Crispy Hexen 6.0
 https://github.com/fabiangreffrath/crispy-doom
 
 Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.
 
-Widescreen Assets
+*Widescreen Assets
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
         <InstallFolder>base</InstallFolder>
         <Dependencies />
@@ -603,7 +603,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
       <FixEntity>
         <Guid>f02cb30d-1101-4890-a55f-cd53d0a7942f</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mafia/Mafia.WidescreenFix.zip</Url>
-        <Description>Mafia Widescreen Fix by ThirteenAG
+        <Description>*Mafia Widescreen Fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/mafia
 
 Fixed Aspect Ratio
@@ -630,7 +630,7 @@ Added an option to set deadzone for left stick and right stick on gamepad (other
       <FixEntity>
         <Guid>429410a0-e119-49fa-bee0-4746462afd8d</Guid>
         <Url>max_payne_indirectsound_v1.zip</Url>
-        <Description>IndirectSound v0.20
+        <Description>*IndirectSound v0.20
 https://www.indirectsound.com/downloads.html
 
 IndirectSound emulates audio hardware acceleration on modern Windows operating systems. This enables older games to have 3D positional audio (i.e. surround sound played out of rear and side speakers) like they were intended to when they were originally released.</Description>
@@ -641,7 +641,7 @@ IndirectSound emulates audio hardware acceleration on modern Windows operating s
       <FixEntity>
         <Guid>60c10e0e-eb3e-4f2e-841c-0c31b7f4593e</Guid>
         <Url>max_payne_dsoal_v1.zip</Url>
-        <Description>dsoal
+        <Description>*dsoal
 https://github.com/kcat/dsoal
 
 This project is for a DirectSound DLL replacement. It implements the DirectSound interfaces by translating the calls to OpenAL, and fools applications into thinking there is a hardware accelerated sound device. EAX is also implemented (up to version 4) by using OpenAL's EAX extension, allowing for environmental reverb with sound obstruction and occlusion effects.
@@ -653,7 +653,7 @@ This project is for a DirectSound DLL replacement. It implements the DirectSound
       <FixEntity>
         <Guid>b5106584-27a2-4bc9-b79c-80b244352a71</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mp1/MaxPayne.WidescreenFix.zip</Url>
-        <Description>Widescreen fix by ThirteenAG
+        <Description>*Widescreen fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/mp1
 
 Fixed Aspect Ratio
@@ -688,7 +688,7 @@ Added an option to keep the game running on minimize</Description>
       <FixEntity>
         <Guid>12ccb6bc-100c-4fdb-8d2f-642f0fcb21aa</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mp2/MaxPayne2.WidescreenFix.zip</Url>
-        <Description>Widescreen fix by ThirteenAG
+        <Description>*Widescreen fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/mp2
 
 Fixed Aspect Ratio
@@ -715,7 +715,7 @@ Added an option to keep the game running on minimize</Description>
       <FixEntity>
         <Guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</Guid>
         <Url>https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v5.2/Ultimate-ASI-Loader.zip</Url>
-        <Description>Ultimate ASI Loader v5.2
+        <Description>*Ultimate ASI Loader v5.2
 https://github.com/ThirteenAG/Ultimate-ASI-Loader
 
 This is a DLL file which adds ASI plugin loading functionality to any game.</Description>
@@ -727,7 +727,7 @@ This is a DLL file which adds ASI plugin loading functionality to any game.</Des
       <FixEntity>
         <Guid>d9641d60-6883-4fde-8dac-1d627b66afd9</Guid>
         <Url>https://github.com/ThirteenAG/MaxPayne3.FusionFix/releases/download/v1.4/MaxPayne3.FusionFix.zip</Url>
-        <Description>FusionFix v1.4
+        <Description>*FusionFix v1.4
 https://github.com/ThirteenAG/MaxPayne3.FusionFix
 
 This is a small project intended to add ability to hide skip button in Max Payne 3. Additionally, added an option to increase the size of subtitle text outlines and prevent Hoboken Alleys coop map from crashing the game.</Description>
@@ -742,7 +742,7 @@ This is a small project intended to add ability to hide skip button in Max Payne
       <FixEntity>
         <Guid>6bb2e8f6-416a-4068-a190-e6dc7a335a14</Guid>
         <Url>max_payne_3_uwfix_v1.zip</Url>
-        <Description>Max Payne 3 Fix v1.0
+        <Description>*Max Payne 3 Fix v1.0
 https://github.com/Lyall/MaxPayne3Fix
 
 This is a fix for several issues with ultrawide/wider displays in Max Payne 3.
@@ -769,7 +769,7 @@ Gameplay FOV adjustment without affecting cutscenes/other camera types.</Descrip
       <FixEntity>
         <Guid>08d7bc44-afbf-430d-98c2-375da2ec5c6a</Guid>
         <Url>pop_sot_patch_v1.zip</Url>
-        <Description>Prince of Persia: The Sands of Time v1.0.0.1
+        <Description>*Prince of Persia: The Sands of Time v1.0.0.1
 http://ps2wide.net/pc.html#popst</Description>
         <ConfigFile>pop.ini</ConfigFile>
         <Dependencies />
@@ -794,7 +794,7 @@ http://ps2wide.net/pc.html#popst</Description>
       <FixEntity>
         <Guid>76cca9e6-522c-426c-b612-a6a8499f7d2e</Guid>
         <Url>pop_tt_patch_v1.zip</Url>
-        <Description>The Unofficial Patch 1.4.3
+        <Description>*The Unofficial Patch 1.4.3
 https://www.nexusmods.com/princeofpersiathetwothrones/mods/10
 
 This patch will fix most of the problems left for 18 years by UBISOFT.</Description>
@@ -823,7 +823,7 @@ This patch will fix most of the problems left for 18 years by UBISOFT.</Descript
       <FixEntity>
         <Guid>a0d168d7-1959-4fc9-8cde-2d5f80f63412</Guid>
         <Url>pop_ww_patch_v1.zip</Url>
-        <Description>The Unofficial Patch 1.0.1
+        <Description>*The Unofficial Patch 1.0.1
 https://www.nexusmods.com/princeofpersiawarriorwithin/mods/10
 
 A collection of fixes for Prince of Persia Warrior Withing to make this game playable for modern PCs.
@@ -856,10 +856,10 @@ Proper 16:9 and FOV options (YOU HAVE TO EDIT pop2.ini FILE TO ADD YOUR RESOLUTI
       <FixEntity>
         <Guid>03cd34f5-ba0e-42de-86f9-b05b63064574</Guid>
         <Url>rdr2_no_black_bars_v1.zip</Url>
-        <Description>No Black Bars v1.01
+        <Description>N*o Black Bars v1.01
 https://www.nexusmods.com/reddeadredemption2/mods/349
 
-Script Hook RDR2 v1.0.1491.17
+*Script Hook RDR2 v1.0.1491.17
 http://dev-c.com/rdr2/scripthookrdr2/
 
 Removes the black bars appearing top, bottom, left, &amp; right especially during cutscenes for ultrawide owners (21:9).</Description>
@@ -876,7 +876,7 @@ Removes the black bars appearing top, bottom, left, &amp; right especially durin
       <FixEntity>
         <Guid>28b4ad6e-47b1-4cad-8e1d-e66b7d2c69ba</Guid>
         <Url>https://github.com/nipkownix/re4_tweaks/releases/download/1.9.1/re4_tweaks1.9.1.zip</Url>
-        <Description>re4_tweaks v1.9.1
+        <Description>*re4_tweaks v1.9.1
 https://github.com/nipkownix/re4_tweaks
 
 A project designed to fix and tweak the "UHD" port of Resident Evil 4 on Steam.</Description>
@@ -895,7 +895,7 @@ A project designed to fix and tweak the "UHD" port of Resident Evil 4 on Steam.<
       <FixEntity>
         <Guid>0d30b6de-b08f-437b-a5f2-eec90c0e1c61</Guid>
         <Url>https://github.com/Lyall/RE5Fix/releases/download/v1.0.4/RE5Fix_v1.0.4.zip</Url>
-        <Description>RE5Fix v1.0.4
+        <Description>*RE5Fix v1.0.4
 https://github.com/Lyall/RE5Fix
 
 This is a DLL hook that fixes various issues with Resident Evil 5 relating to ultrawide support and more.
@@ -924,7 +924,7 @@ Fixed stretched movie playback.
       <FixEntity>
         <Guid>1e2c81fb-cb4d-47a6-bbdf-25be71e259ac</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re6/ResidentEvil6.FusionFix.zip</Url>
-        <Description>Resident Evil 6 Fusion Fix
+        <Description>*Resident Evil 6 Fusion Fix
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/re6
 
 Makes local split-screen coop mode fullscreen
@@ -947,7 +947,7 @@ Added an option to enable borderless windowed mode</Description>
       <FixEntity>
         <Guid>93b3856d-b4f8-4365-ab52-a50cb77a851d</Guid>
         <Url>re7_uw_v1.zip</Url>
-        <Description>REFramework v1.5.1
+        <Description>*REFramework v1.5.1
 
 Removes pillarboxing and extends FOV in ultrawide resolutions</Description>
         <InstallFolder />
@@ -964,7 +964,7 @@ Removes pillarboxing and extends FOV in ultrawide resolutions</Description>
       <FixEntity>
         <Guid>bf59f76e-b8fa-48f6-97f4-2201c4d5f5c2</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/rerev/ResidentEvilRevelations.FusionFix.zip</Url>
-        <Description>Resident Evil Revelations Fusion Fix
+        <Description>*Resident Evil Revelations Fusion Fix
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/rerev
 
 Unlocks all available display resolutions
@@ -973,7 +973,11 @@ Added UltraWide support
 FMVs are stretched in UltraWide
 Added an option to disable damage overlay
 Added an option to enable borderless windowed mode
-Added an option to increase FOV</Description>
+Added an option to increase FOV
+
+*Warning
+This game uses Valve Anti Cheat for raid mode in multiplayer.
+It is recommended NOT to play this mode with this fix installed.</Description>
         <InstallFolder />
         <ConfigFile>scripts\ResidentEvilRevelations.FusionFix.ini</ConfigFile>
         <Dependencies />
@@ -983,7 +987,7 @@ Added an option to increase FOV</Description>
       <FixEntity>
         <Guid>60728c70-6503-49f3-8d7f-8c9d07f7e8c9</Guid>
         <Url>https://github.com/Lyall/RERevFix/releases/download/v1.0.0/RERevFix.v1.0.0.zip</Url>
-        <Description>RERevFix v1.0
+        <Description>*RERevFix v1.0
 https://github.com/Lyall/RERevFix
 
 This is a DLL hook that fixes various issues with Resident Evil Revelations relating to ultrawide support and more.
@@ -993,9 +997,9 @@ FOV adjustment.
 Uncap 120 FPS limit.
 Adjust shadow quality.
 
-Warning
+*Warning
 This game uses Valve Anti Cheat for raid mode in multiplayer.
-I highly recommend that you DO NOT play this mode with this fix installed.</Description>
+It is recommended NOT to play this mode with this fix installed.</Description>
         <InstallFolder />
         <ConfigFile>RERevFix.ini</ConfigFile>
         <Dependencies />
@@ -1011,7 +1015,7 @@ I highly recommend that you DO NOT play this mode with this fix installed.</Desc
       <FixEntity>
         <Guid>5b112d57-c2b8-4170-9d14-4fc29e2b5125</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/rerev2/ResidentEvilRevelations2.FusionFix.zip</Url>
-        <Description>Resident Evil Revelations 2 Fusion Fix
+        <Description>*Resident Evil Revelations 2 Fusion Fix
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/rerev2
 
 Makes local split-screen coop mode fullscreen
@@ -1041,7 +1045,7 @@ Added an option to increase FOV</Description>
       <FixEntity>
         <Guid>ebfc6fda-07db-4c42-8ae8-67d9d0588ebc</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/secondsight/SecondSight.WidescreenFix.zip</Url>
-        <Description>Second Sight Widescreen Fix
+        <Description>*Second Sight Widescreen Fix
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/secondsight
 
 Fixed Resolution
@@ -1062,7 +1066,7 @@ Fixed Field of View</Description>
       <FixEntity>
         <Guid>65572422-e300-4e54-b960-423c900d1028</Guid>
         <Url>dark_forces_fengine_v1.zip</Url>
-        <Description>The Force Engine v1.09.410
+        <Description>*The Force Engine v1.09.410
 https://theforceengine.github.io/
 
 The Force Engine is a project with the goal to reverse engineer and rebuild the Jedi Engine for modern systems and the games that used that engine - Dark Forces and Outlaws. The project will include modern, built-in tools, such as a level editor and will make it easy to play Dark Forces and Outlaws on modern systems as well as the many community mods designed to work with the original games.</Description>
@@ -1080,7 +1084,7 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
       <FixEntity>
         <Guid>9da1a9db-2049-46ac-a6ce-b956999e7806</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/sc/SplinterCell.WidescreenFix.zip</Url>
-        <Description>Splinter Cell Widescreen Fix by ThirteenAG
+        <Description>*Splinter Cell Widescreen Fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/sc
 
 Fixed Resolution
@@ -1096,7 +1100,7 @@ Fixed FMVs</Description>
       <FixEntity>
         <Guid>0ee10d29-aada-4156-b922-43e1eb5ad0d7</Guid>
         <Url>sc_loading_screens_v1.zip</Url>
-        <Description>Adds new loading screens for bonus missions that fit much better with the rest of the game and flesh out the story.
+        <Description>*Adds new loading screens for bonus missions that fit much better with the rest of the game and flesh out the story.
 
 Restores the correct loading screens displayed between Kalinatek and Chinese Embassy from the leaked Xbox prototype.</Description>
         <Dependencies />
@@ -1130,7 +1134,7 @@ Affected levels include Defense Ministry and CIA HQ.</Description>
       <FixEntity>
         <Guid>d2797d6c-e7c0-48d9-9cf9-ff3210a26df8</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scct/SplinterCellChaosTheory.WidescreenFix.zip</Url>
-        <Description>Splinter Cell Widescreen Fix by ThirteenAG
+        <Description>*Splinter Cell Widescreen Fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scct
 
 Fixed Resolution
@@ -1161,7 +1165,7 @@ Added an option to change goggles' light color</Description>
       <FixEntity>
         <Guid>89de542e-bc87-49a6-904a-6c2360340e5d</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scda/SplinterCellDoubleAgent.WidescreenFix.zip</Url>
-        <Description>Splinter Cell Widescreen Fix by ThirteenAG
+        <Description>*Splinter Cell Widescreen Fix by ThirteenAG
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scda
 
 Fixed Resolution
@@ -1206,7 +1210,7 @@ Added an option to change goggles' light color</Description>
       <FixEntity>
         <Guid>d5f480c5-815e-4627-b00e-09594492da92</Guid>
         <Url>unreal_227_v1.zip</Url>
-        <Description>Oldunreal's 227 Patch
+        <Description>*Oldunreal's 227 Patch
 https://www.oldunreal.com/downloads/unreal/oldunreal-patches/
 
 This patch was made to offer all Unreal players a new, completely overworked and fixed version for our old "love". Although the main target was bugfixing, many improvements have been made and a lot of additions found their way into this new version. The general gameplay and the game itself was not touched and it should remain 100% compatible to old mods and maps.</Description>
@@ -1223,7 +1227,7 @@ This patch was made to offer all Unreal players a new, completely overworked and
       <FixEntity>
         <Guid>af07b5e1-e803-4740-984d-ff3c407caaf2</Guid>
         <Url>xiii_patch_v1.zip</Url>
-        <Description>Patch 1.4.2.1 by Arthur
+        <Description>*Patch 1.4.2.1 by Arthur
 https://www.moddb.com/games/xiii/downloads/xiii-all-in-one-installer
 
 It is recommended to create a new in-game profile after installing this patch.</Description>
