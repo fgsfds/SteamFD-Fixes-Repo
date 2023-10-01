@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfNewsEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<NewsEntity>
+		<Version>1</Version>
+		<Date>2023-09-08T00:00:00</Date>
+		<Content>Initial release</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>2</Version>
+		<Date>2023-09-11T00:00:00</Date>
+		<Content>Superheater 0.3.0 released.
+You will need to download and install this update manually from Github.
+Sorry for inconvenience.</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>3</Version>
+		<Date>2023-09-14T00:00:00</Date>
+		<Content>Added:
+Tomb Raider Legend: Crash Fix, Ultrawide Fix, No Into Fix
+Tomb Raider Anniversary: Ultrawide Fix, No Intro Fix
+Timeshift: Crash Fix, No Intro Fix
+Hitman Codename 47: Widescreen Fix, No Intro Fix
+Hitman Silent Assassin: Censorship Fix, Widescreen Fix, No Intro Fix
+Hitman Contracts: Widescreen Fix, No Intro Fix
+Hitman Blood Money: Widescreen Fix, No Intro Fix</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>4</Version>
+		<Date>2023-09-16T00:00:00</Date>
+		<Content>Added:
+FarCry Fix
+Fallout 2 Restoration Project v27
+
+Updated:
+Fallout 2 Unofficial Patch to v27
+Falout 1 Fixt</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>5</Version>
+		<Date>2023-09-17T00:00:00</Date>
+		<Content>Added:
+Doom 3 / RoE: dhewm3, The Lost Mission, Custom resolution autoexec
+Prey 2006: Graphics Settings Fix, Ultrawide Fix
+Quake 4: Graphics Settings Fix, Ultrawide Fix
+Redneck Rampage / Rides Again: Raze port
+Blood: Raze, NotBlood ports
+Powerslave DOS: Raze port
+NAM: Raze port
+World War II GI: Raze port
+GTA IV: dxvk</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>6</Version>
+		<Date>2023-09-21T00:00:00</Date>
+		<Content>Added:
+Fallout 1: Et Tu
+Deus Ex: Deus Exe
+Disciples 2: GL Wrapper
+Duke Nukem Mahnattan Project: Enhanced Edition
+Desperados: Resolution Fix</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>7</Version>
+		<Date>2023-09-22T00:00:00</Date>
+		<Content>Updated:
+Fallout 2 Unofficial Patch to v28
+Fallout 2 Restoration Project to v28
+Dark Forces The Force Engine to v1.09.500</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>8</Version>
+		<Date>2023-09-26T00:00:00</Date>
+		<Content>Added:
+Wolfenstein 3D: ECWolf source port
+Vampire: The Masquerade - Bloodlines: Mandatory Fixes, Unofficial Patch Basic and Plus
+Freedom Force + FF vs the 3rd Reich: Universal Widescreen Fix</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>9</Version>
+		<Date>2023-09-28T00:00:00</Date>
+		<Content>Added:
+Callisto Protocol: No Intro Fix
+Dawn of War + Winter Assault: (Ultra)Widescreen Fix
+Dawn of War + Addons: Camera Zoom Mod
+Nier Automata: NAOMI
+Hyperdimension Neptunia Re;Birth 1, 2, 3: Neptastic Mod</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>10</Version>
+		<Date>2023-10-01T00:00:00</Date>
+		<Content>Added:
+Return to Castle Wolfenstein: Unofficial Patch
+No intro fixes for Bound by Flame, DarkStar One, Enclave, Of Orcs And Men, Velvet Assassin
+
+Updated:
+Ultrawide fixes for Tomb Rider Legend and Anniversary</Content>
+	</NewsEntity>
+</ArrayOfNewsEntity>
