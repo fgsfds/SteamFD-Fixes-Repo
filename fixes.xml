@@ -2660,7 +2660,7 @@ The Plus Patch adds various tweaks and lots of content.</Description>
     <Fixes>
       <FixEntity>
         <Guid>a28629c8-c3d5-4a9d-a780-908ac91225b2</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/blob/master/fixes/empty.zip</Url>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
         <Description />
         <Variants />
         <InstallFolder />
