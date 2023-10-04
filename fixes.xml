@@ -1780,8 +1780,8 @@ Fixes aspect ratio at 21:9 resolutions</Description>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
         <Description />
         <Variants />
-        <InstallFolder>KidGame\Movies</InstallFolder>
-        <FilesToDelete>CL_Deepsilver.bik;CL_GhM.bik;CL_Kadokawa.bik;CL_UTech.bik</FilesToDelete>
+        <InstallFolder />
+        <FilesToDelete>KidGame\Movies\CL_Deepsilver.bik;KidGame\Movies\CL_GhM.bik;KidGame\Movies\CL_Kadokawa.bik;KidGame\Movies\CL_UTech.bik</FilesToDelete>
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
@@ -2342,8 +2342,8 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
         <Description />
         <Variants />
-        <InstallFolder>ExampleGame\Movies</InstallFolder>
-        <FilesToDelete>BIK_Boot_Capcom.bik;BIK_Boot_Legal.bik;BIK_Boot_Legal_DD_SCEA.bik;BIK_Boot_NVIDIA.bik</FilesToDelete>
+        <InstallFolder />
+        <FilesToDelete>ExampleGame\Movies\BIK_Boot_Capcom.bik;ExampleGame\Movies\BIK_Boot_Legal.bik;ExampleGame\Movies\BIK_Boot_Legal_DD_SCEA.bik;ExampleGame\Movies\BIK_Boot_NVIDIA.bik</FilesToDelete>
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
@@ -2564,8 +2564,8 @@ Fixes various crashes and adds native widescreen support. It's only applied to t
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
         <Description />
         <Variants />
-        <InstallFolder>LiquidGame\Movies</InstallFolder>
-        <FilesToDelete>BinkLogo.bik;FMODLogo.bik;Legal.bik;Logos.bik;UnrealLogo.bik</FilesToDelete>
+        <InstallFolder />
+        <FilesToDelete>LiquidGame\Movies\BinkLogo.bik;LiquidGame\Movies\FMODLogo.bik;LiquidGame\Movies\Legal.bik;LiquidGame\Movies\Logos.bik;LiquidGame\Movies\UnrealLogo.bik</FilesToDelete>
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
