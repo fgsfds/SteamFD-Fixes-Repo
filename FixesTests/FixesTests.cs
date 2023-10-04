@@ -37,6 +37,14 @@ namespace FixesTests
             {
                 foreach (var fix in fixes.Fixes)
                 {
+                    if (!fix.Url.EndsWith(".zip"))
+                    {
+                        Trace.WriteLine("Url is not a zip: " + fix.Url);
+                        isFailed = true;
+
+                        continue;
+                    }
+
                     if (fix.Url.Contains("/blob/"))
                     {
                         Trace.WriteLine("Invalid Url: " + fix.Url);
