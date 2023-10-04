@@ -9,15 +9,29 @@ namespace FixesTests
         [TestMethod]
         public void DeserializeXmlAndCheckIfFilesExist()
         {
+            Process process = new()
+            {
+                StartInfo = new ProcessStartInfo("git")
+                {
+                    UseShellExecute = false,
+                    RedirectStandardInput = true,
+                    RedirectStandardOutput = true,
+                    Arguments = "rev-parse --abbrev-ref HEAD"
+                }
+            };
+            process.Start();
+
+            var branchName = process.StandardOutput.ReadLine();
+
             var result = FixesProvider.DeserializeFixesXml();
 
             Assert.IsNotNull(result);
 
-            var doesFixEsists = result.Any(x => x.GameId == 108710);
+            var doesFixExist = result.Any(x => x.GameId == 108710);
 
-            Assert.IsTrue(doesFixEsists);
+            Assert.IsTrue(doesFixExist);
 
-            List<string> fileCheckResults = new();
+            var isFailed = false;
 
             foreach (var fixes in result)
             {
@@ -25,31 +39,39 @@ namespace FixesTests
                 {
                     if (fix.Url.Contains("/blob/"))
                     {
-                        fileCheckResults.Add("Invalid Url: " + fix.Url);
+                        Trace.WriteLine("Invalid Url: " + fix.Url);
+                        isFailed = true;
+
                         continue;
                     }
 
-                    var fileCheckResult = FileChecker.CheckOnlineFile(new Uri(fix.Url));
+                    Uri url;
+
+                    if (branchName is not null &&
+                        !branchName.Equals("master"))
+                    {
+                        url = new Uri(fix.Url.Replace("/master/", $"/{branchName}/"));
+                    }
+                    else
+                    {
+                        url = new Uri(fix.Url);
+                    }
+
+                    var fileCheckResult = FileChecker.CheckOnlineFile(url);
 
                     if (fileCheckResult is not null)
                     {
-                        fileCheckResults.Add(fileCheckResult);
+                        Trace.WriteLine(fileCheckResult);
+                        isFailed = true;
+
                         continue;
                     }
 
-                    Trace.WriteLine(fix.Url + " is OK");
+                    Trace.WriteLine(url + " is OK");
                 }
             }
 
-            if (fileCheckResults.Any())
-            {
-                foreach (var fileCheckResult in fileCheckResults)
-                {
-                    Trace.WriteLine(fileCheckResult);
-                }
-            }
-
-            Assert.IsFalse(fileCheckResults.Any());
+            Assert.IsFalse(isFailed);
         }
     }
 }
