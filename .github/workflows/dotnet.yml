@@ -1,13 +1,16 @@
 # This workflow will build a .NET project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
 
-name: Build and Test
+name: Fixes Urls test
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches:
+      - master
+      - test
+    pull_request:
+      - master
+      - test
 
 jobs:
   Build_and_Test:
