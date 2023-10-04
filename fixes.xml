@@ -1362,6 +1362,41 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>2610</GameId>
+    <GameName>GUN</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>a8f25be0-49d1-4bd3-8fb5-384c42639f3d</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gun/Gun.WidescreenFix.zip</Url>
+        <Description>*Gun Widescreen Fix*
+by ThirteenAG
+
+Fixed Resolution
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View</Description>
+        <Variants />
+        <ConfigFile>scripts\Gun.WidescreenFix.ini</ConfigFile>
+        <FilesToDelete />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>cbc9192d-e440-468b-999f-6b1910aac708</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <FilesToDelete>data\movies\ATVI.bik;data\movies\BEENOX.bik;data\movies\NSINTRO.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>2390</GameId>
     <GameName>Heretic: Shadow of the Serpent Riders</GameName>
     <Fixes>

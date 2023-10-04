@@ -150,6 +150,10 @@ Grand Theft Auto: Vice City
 - GInput
 - No Intro Fix
 
+GUN
+- Widescreen Fix
+- No Intro Fix
+
 Heretic: Shadow of the Serpent Riders
 - Crispy Heretic + Widescreen Sprites
 
