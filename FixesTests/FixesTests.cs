@@ -23,12 +23,21 @@ namespace FixesTests
             {
                 foreach (var fix in fixes.Fixes)
                 {
+                    if (fix.Url.Contains("/blob/"))
+                    {
+                        fileCheckResults.Add("Invalid Url: " + fix.Url);
+                        continue;
+                    }
+
                     var fileCheckResult = FileChecker.CheckOnlineFile(new Uri(fix.Url));
 
                     if (fileCheckResult is not null)
                     {
                         fileCheckResults.Add(fileCheckResult);
+                        continue;
                     }
+
+                    Trace.WriteLine(fix.Url + " is OK");
                 }
             }
 
