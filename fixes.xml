@@ -452,6 +452,40 @@ https://www.nexusmods.com/control/mods/12</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>71230</GameId>
+    <GameName>Crazy Taxi</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>29122dcf-0b7b-426f-ba36-ba513c700806</Guid>
+        <Url>https://github.com/CookiePLMonster/SilentPatchCT/releases/download/BUILD-1/SilentPatchCT.zip</Url>
+        <Description>*SilentPatch for Crazy Taxi*
+by CookiePLMonster
+https://github.com/CookiePLMonster/SilentPatchCT
+
+This modification fixes several bugs in the Steam version of Crazy Taxi. While some of the bugs (such as broken analog steering) already had unofficial fixes in the past, they are shipped as an executable edit and they can have some side effects depending on the gamepad used. SilentPatch also fixes several other bugs not covered by other fixes, e.g. a crash when booting the game with steering wheels connected. With this patch, the game is fully playable with a steering wheel (and a shifter), providing a full arcade experience.
+
+*Featured fixes*
+Issues with analog steering and pressure sensitive triggers have been fixed. This applies both to XInput and DirectInput controllers.
+A crash when starting the game with specific DirectInput devices (e.g. steering wheels) has been fixed.
+Analog stick deadzones have been refined slightly to improve steering responsiveness and make it feel closer to the Dreamcast release.
+Alt + F4 now works correctly.
+When using the Windowed mode, window size has been corrected to avoid distorting the image.
+When using the Windowed mode, maximizing is now disallowed by disabling the Maximize button rather by making it non-functional.
+Restored several missing cheats/hotkeys from the original PC version. These are:
+Reset Camera (Shift+Alt+F5)
+Cinematic Camera (Shift+Alt+F6)
+First Person Camera (Shift+Alt+F7)
+Show Speedometer (Shift+Alt+F8)
+</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>SilentPatch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>242980</GameId>
     <GameName>Daikatana</GameName>
     <Fixes>
@@ -562,6 +596,25 @@ This fix makes Dead Space 2 use raw mouse input without any additional smoothing
         <Dependencies />
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Mouse Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>215630</GameId>
+    <GameName>Demonicon</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>b4ea8134-185c-4c9c-8fe5-664cf6ca9646</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description>*Demonicon Skip Intro Logos*
+
+Four .bik files removed to speed up game start as total logo load time is over a minute.</Description>
+        <Variants />
+        <FilesToDelete>data\video\demonicon_logo.bik;data\video\kalypso_noumena.bik;data\video\logopark_de.bik;data\video\logopark_en.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -827,6 +880,27 @@ https://community.pcgamingwiki.com/files/file/90-enclave-intro-skip/
 Blank intro video files for Enclave, that skip the intro logo videos.</Description>
         <Variants />
         <InstallFolder>Sbz1\Videos</InstallFolder>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>204030</GameId>
+    <GameName>Fable - The Lost Chapters</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>7d17c43e-3acc-458e-96c6-8618061b49c6</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/fable_nointro.zip</Url>
+        <Description>*Fable: The Lost Chapters intro skip*
+by Garrett
+https://community.pcgamingwiki.com/files/file/457-fable-the-lost-chapters-intro-skip/
+
+Blank intro logo video files for Fable: The Lost Chapters.</Description>
+        <Variants />
+        <InstallFolder>data\Video</InstallFolder>
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
@@ -1663,6 +1737,24 @@ Fixes aspect ratio at 21:9 resolutions</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>261110</GameId>
+    <GameName>Killer is Dead</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>a3dab64e-1b32-4ccc-b0b4-81883ed149e6</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <InstallFolder>KidGame\Movies</InstallFolder>
+        <FilesToDelete>CL_Deepsilver.bik;CL_GhM.bik;CL_Kadokawa.bik;CL_UTech.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>40990</GameId>
     <GameName>Mafia</GameName>
     <Fixes>
@@ -1687,6 +1779,27 @@ Added an option to set deadzone for left stick and right stick on gamepad (other
         <Dependencies />
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>232750</GameId>
+    <GameName>Mars: War Logs</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>29d58c48-f1fe-4c4b-a646-c413a6b1ad9f</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/mars_nointro.zip</Url>
+        <Description>*Mars: War Logs Skip Intro Video*
+by blazinfastjohny
+https://community.pcgamingwiki.com/files/file/2363-mars-war-logs-skip-intro-video-file/
+
+Mars: War Logs Skip Intro Video File.</Description>
+        <Variants />
+        <InstallFolder>boot\datapc\video</InstallFolder>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -2186,6 +2299,24 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>228300</GameId>
+    <GameName>Remember Me</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>558a7f55-1f44-45bd-a05e-610a76c84942</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <InstallFolder>ExampleGame\Movies</InstallFolder>
+        <FilesToDelete>BIK_Boot_Capcom.bik;BIK_Boot_Legal.bik;BIK_Boot_Legal_DD_SCEA.bik;BIK_Boot_NVIDIA.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>254700</GameId>
     <GameName>Resident Evil 4 (2005)</GameName>
     <Fixes>
@@ -2390,6 +2521,24 @@ Fixes various crashes and adds native widescreen support. It's only applied to t
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>12770</GameId>
+    <GameName>Rise of the Argonauts</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>95d4bea2-d5a1-4765-a2c6-04354cf5e487</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <InstallFolder>LiquidGame\Movies</InstallFolder>
+        <FilesToDelete>BinkLogo.bik;FMODLogo.bik;Legal.bik;Logos.bik;UnrealLogo.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>11550</GameId>
     <GameName>Second Sight</GameName>
     <Fixes>
@@ -2408,6 +2557,50 @@ Fixed Field of View</Description>
         <Dependencies />
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>6030</GameId>
+    <GameName>STAR WARS™ Jedi Knight II: Jedi Outcast™</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>d2ce2937-c876-4e8a-9474-0c65cbcb8d56</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sw_jedi_outcast_academy_nointro.zip</Url>
+        <Description>Star Wars: Jedi Knight II: Jedi Outcast intro skip
+by Garrett
+https://community.pcgamingwiki.com/files/file/827-star-wars-jedi-knight-%C3%A2%E2%82%AC%E2%80%9C-jedi-outcast-and-jedi-academy-intro-skip
+
+Intro videos will be skipped for both single player and multiplayer modes.
+This fix was made using the Quake Video Maker.</Description>
+        <Variants />
+        <InstallFolder>GameData\base</InstallFolder>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>6020</GameId>
+    <GameName>STAR WARS™ Jedi Knight: Jedi Academy™</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>36aa8f17-0f7d-41b8-9eda-a73d23608c98</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sw_jedi_outcast_academy_nointro.zip</Url>
+        <Description>Star Wars: Jedi Knight: Jedi Academy intro skip
+by Garrett
+https://community.pcgamingwiki.com/files/file/827-star-wars-jedi-knight-%C3%A2%E2%82%AC%E2%80%9C-jedi-outcast-and-jedi-academy-intro-skip
+
+Intro videos will be skipped for both single player and multiplayer modes.
+This fix was made using the Quake Video Maker.</Description>
+        <Variants />
+        <InstallFolder>GameData\base</InstallFolder>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -2442,6 +2635,27 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
         <Description />
         <Variants />
         <FilesToDelete>TheCallistoProtocol\Content\Movies\AMD_Logo_4K.bk2;TheCallistoProtocol\Content\Movies\Bink_Krafton_SDS_Logos.bk2;TheCallistoProtocol\Content\Movies\Intro_logo_Krafton_SDS.bk2;TheCallistoProtocol\Content\Movies\Krafton_SDS_logos_4k.bk2;TheCallistoProtocol\Content\Movies\Unreal_InstaLOD_logos.bk2;TheCallistoProtocol\Content\Movies\Unreal_Logo_4K.bk2;TheCallistoProtocol\Content\Movies\Wwise_InstaLOD_Logos_4K.bk2;TheCallistoProtocol\Content\Movies\Bink_Krafton_SDS_Logos.uasset</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>338390</GameId>
+    <GameName>The Technomancer</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>0777a751-0b6a-4cff-9933-53541cd192a2</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/technomancer_nointro.zip</Url>
+        <Description>*The Technomancer - Empty Intros*
+by Suicide Machine
+https://community.pcgamingwiki.com/files/file/748-the-technomancer-empty-intros/
+
+Empty logo intros for The Technomancer.</Description>
+        <Variants />
+        <InstallFolder>boot\data\video</InstallFolder>
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>

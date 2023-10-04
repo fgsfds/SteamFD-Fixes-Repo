@@ -53,6 +53,9 @@ Control Ultimate Edition
 - HDR Ultrawide DLSS RT Patch
 - No Intro Fix
 
+Crazy Taxi
+- SilentPatch
+
 Daikatana
 - Patch 1.3
 
@@ -67,6 +70,9 @@ Dead Space (2008)
 
 Dead Space 2
 - Mouse Fix
+
+Demonicon
+- No Intro Fix
 
 Desperados - Wanted Dead or Alive
 - Resolution Fix
@@ -97,6 +103,9 @@ Duke Nukem: Manhattan Project
 - Enhanced Edition
 
 Enclave
+- No Intro Fix
+
+Fable - The Lost Chapters
 - No Intro Fix
 
 Fallout
@@ -181,8 +190,14 @@ Kane & Lynch: Dead Men
 - FOV Fix
 - Ultrawide Fix
 
+Killer is Dead
+- No Intro Fix
+
 Mafia
 - Widescreen Fix
+
+Mars: War Logs
+- No Intro Fix
 
 Max Payne
 - IndirectSound
@@ -244,6 +259,9 @@ Redneck Rampage
 Redneck Rampage Rides Again
 - Raze
 
+Remember Me
+- No Intro Fix
+
 Resident Evil 4 (2005)
 - re4_tweaks
 
@@ -266,13 +284,25 @@ Resident Evil Revelations 2
 Return to Castle Wolfenstein
 - Unofficial  Patch
 
+Rise of the Argonauts
+- No Intro Fix
+
 Second Sight
 - Widescreen Fix
+
+STAR WARS™ Jedi Knight II: Jedi Outcast™
+- No Intro Fix
+
+STAR WARS™ Jedi Knight: Jedi Academy™
+- No Intro Fix
 
 STAR WARS™: Dark Forces
 - The Force Engine
 
 The Callisto Protocol
+- No Intro Fix
+
+The Technomancer
 - No Intro Fix
 
 TimeShift
