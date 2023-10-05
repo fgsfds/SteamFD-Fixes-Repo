@@ -203,6 +203,47 @@ Separate volume control of sound effects and music</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>242960</GameId>
+    <GameName>Blood Omen 2: Legacy of Kain</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>3b9b9ec0-b906-44f7-b9e2-eb256adfd009</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/lok_blood_omen_2_revamped.zip</Url>
+        <Description>*Blood Omen 2: Re-vamped*
+https://classicrebirth.com/index.php/blood-omen-2-re-vamped/
+
+Re-vamped is a plug&amp;play patch (i.e. just one DLL, no extra fiddling required) aimed at fixing several problems with the Steam and GOG digital releases of Legacy of Kain: Blood Omen 2.
+
+Integrates D3D8to9 for better support of recent graphics cards;
+Fixes random audio crashes caused by FMOD and illegal memory access during loading transitions;
+Fixes issues with mouse freely roaming away from the game’s window;
+Enables the game to run in windowed mode (becomes borderless windowed if you pick the same resolution as your desktop) and adds various framerates speeds (30, 60, 120 fps) , with dedicated options in game;
+Replaces the broken hardware FSAA (Full Scene Anti Aliasing) with a more modern SMAA (Subpixel Morphological Anti Aliasing) usable in 32 bit modes;
+Fixes motion blur to work while Anti Aliasing is enabled, improves the general quality of the effect, and adds an option in game to toggle it;
+Implements hardware gamma adjustments via shaders, making the gamma settings functional in windowed mode;
+Replaces DirectInput7 with DirectInput8 and XInput, allowing most controllers to be detectable and with all buttons functioning;
+Reworks the BINK player to run at the current resolution and centers the video accordingly;
+Adds adaptive widescreen support based on your current resolution.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Re-vamped</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>28c545ad-b5c9-46e2-ae06-b9e2b7596e7b</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description>This fix removes intro videos</Description>
+        <Variants />
+        <FilesToDelete>data\bo2intro.dat;data\crystal.dat;data\eidos.dat</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>1010750</GameId>
     <GameName>Blood: Fresh Supply</GameName>
     <Fixes>
@@ -1778,13 +1819,126 @@ Fixes aspect ratio at 21:9 resolutions</Description>
       <FixEntity>
         <Guid>a3dab64e-1b32-4ccc-b0b4-81883ed149e6</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
-        <Description />
+        <Description>This fix removes intro videos</Description>
         <Variants />
         <InstallFolder />
         <FilesToDelete>KidGame\Movies\CL_Deepsilver.bik;KidGame\Movies\CL_GhM.bik;KidGame\Movies\CL_Kadokawa.bik;KidGame\Movies\CL_UTech.bik</FilesToDelete>
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>224300</GameId>
+    <GameName>Legacy of Kain: Defiance</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>e02c7010-5c85-40a1-b83b-d8731cfe0df4</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/lok_defiance_widescreen.zip</Url>
+        <Description>*Widescreen fix for Legacy of Kain: Defiance ver. 1.1.0.0*
+by nemesis2000 &lt;nemesis2000@yandex.ru&gt;
+http://ps2wide.net/pc.html</Description>
+        <Variants />
+        <ConfigFile>sr3.ini</ConfigFile>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>d6e4f8d6-4b86-4911-8aa7-adb7479499ca</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description>This fix removes intro videos</Description>
+        <Variants />
+        <FilesToDelete>movies\eidos.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>224920</GameId>
+    <GameName>Legacy of Kain: Soul Reaver</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>9ae11558-532d-40d1-b5a5-3bbec2925b29</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/lok_soul_reaver_sr1patch.zip</Url>
+        <Description>*sr1patch*
+by wrace
+https://steamcommunity.com/sharedfiles/filedetails/?id=1733917759
+
+Returns a dynamic soundtrack, or rather its similarity (Yes, it is far from the console versions, but nevertheless!), fixes most of the various problems, includes support of subtitles and achievements; also adds a debug menu to the game for particularly curious inquisitive enthusiasts - the menu is called by the "~" [tilde] key on the keyboard, and now also native support of WideScreen, native support of all gamepads and support of vibration for XInput gamepads, support of mouse and additional hotkeys (section [Hotkeys] in kain2.txt in help), and additional menu item 'New Game+' to start it with already solved block puzzles.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>sr1patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>6c10d82e-7079-455c-a6a6-6155dd8df9a2</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description>This fix removes intro videos</Description>
+        <Variants />
+        <FilesToDelete>crylogo.bik;publogo.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>224940</GameId>
+    <GameName>Legacy of Kain: Soul Reaver 2</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>ca3f1459-877f-42fe-8808-5e27baa87bbc</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/lok_soul_reaver_2_fixer.zip</Url>
+        <Description>*Soul Reaver 2: Soul Fixer*
+https://classicrebirth.com/index.php/soul-reaver-2-soul-fixer/
+
+Soul Fixer is a plug&amp;play patch (i.e. just one DLL, no extra fiddling required) aimed at fixing several problems with the Steam and GoG digital releases of Legacy of Kain: Soul Reaver 2.
+
+Replaces Direct3D8 with Direct3D9 (thanks Direct3D8to9!) for better support of recent graphics cards and to allow software like Reshade;
+Fixes random audio crashes/softlocks caused by FMOD;
+Fixes issues with irresponsive resolution switching, mouse kidnapping, and tabbing in/out;
+Enables the game to run in windowed mode (becomes borderless windowed if you pick the same resolution as your desktop) and adds various framerates speeds (30, 60, 120 fps) , with dedicated options in game;
+Add an in-game option to toggle VSync for fullscreen mode;
+Replaces the broken hardware FSAA (Full Scene Anti Aliasing) with a more modern SMAA (Subpixel Morphological Anti Aliasing) usable in 32 bit modes;
+Fixes Motion Blur (aka “Full screen effects”) to work while Anti Aliasing is enabled, improves the general quality of the effect, and adds an option in game to toggle it whenever it’s possible;
+Implements hardware gamma adjustments via shaders, making the gamma settings functional in windowed mode;
+Replaces DirectInput7 with DirectInput8 and XInput, allowing most controllers to be detectable and with all buttons functioning;
+Reworks the BINK player to run at the current resolution and zooms/aligns the video accordingly;
+Integrates and reworks nemesis2000’s widescreen fix to function according to your currently selected resolution (i.e. no need to specify the aspect ratio in a configuration file, it auto adjusts the aspect ratio) and adds a couple other fixes for some 2D elements displaying with square pixels instead of stretched (logos, Dark Chronicles);
+Allows the English executable to run with any officially localized version of the game’s data – just switch bigfile.dat and you’re good.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Soul Fixer</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>6fafd969-173a-41b2-8aac-79b1ea6f8b59</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/lok_soul_reaver_2_enhancer.zip</Url>
+        <Description>*Set of optional features for improving Legacy of Kain: Soul Reaver 2 gameplay*
+by Wrace
+https://steamcommunity.com/sharedfiles/filedetails/?id=2970772395
+
+Adds additional items to the Pause menu which allow to skip (speed up) ingame cinematics, save the game at any location, and manipulate with some parameters of hero (including Invincible feature).
+
+Adds additional feature for the in-game Map which allows to teleport between locations on that map which are accessible at this time (century), excepting Stronghold (because the last one has important triggers which must be always activated by the user), by providing the appropriate hint at the left bottom corner of the map.
+
+Activates the official game's feature Autoface Toggle Mode (Defiance default feature - holding autoface without necessity to hold its button).
+
+Fixes the old bug with the movement forward in the autoface (can't move) and swim (move forward instead of turn) modes if one uses the “keyboard + mouse” control scheme.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Enhancer</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -2340,7 +2494,7 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
       <FixEntity>
         <Guid>558a7f55-1f44-45bd-a05e-610a76c84942</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
-        <Description />
+        <Description>This fix removes intro videos</Description>
         <Variants />
         <InstallFolder />
         <FilesToDelete>ExampleGame\Movies\BIK_Boot_Capcom.bik;ExampleGame\Movies\BIK_Boot_Legal.bik;ExampleGame\Movies\BIK_Boot_Legal_DD_SCEA.bik;ExampleGame\Movies\BIK_Boot_NVIDIA.bik</FilesToDelete>
@@ -2562,7 +2716,7 @@ Fixes various crashes and adds native widescreen support. It's only applied to t
       <FixEntity>
         <Guid>95d4bea2-d5a1-4765-a2c6-04354cf5e487</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
-        <Description />
+        <Description>This fix removes intro videos</Description>
         <Variants />
         <InstallFolder />
         <FilesToDelete>LiquidGame\Movies\BinkLogo.bik;LiquidGame\Movies\FMODLogo.bik;LiquidGame\Movies\Legal.bik;LiquidGame\Movies\Logos.bik;LiquidGame\Movies\UnrealLogo.bik</FilesToDelete>

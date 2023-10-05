@@ -24,6 +24,10 @@ Blake Stone: Aliens of Gold
 Blake Stone: Planet Strike
 - bstone
 
+Blood Omen 2: Legacy of Kain
+- Re-vamped
+- No Intro Fix
+
 Blood: Fresh Supply
 - Voxel Pack
 
@@ -196,6 +200,18 @@ Kane & Lynch: Dead Men
 
 Killer is Dead
 - No Intro Fix
+
+Legacy of Kain: Defiance
+- Widescreen Fix
+- No Intro Fix
+
+Legacy of Kain: Soul Reaver
+- sr1patch
+- No Intro Fix
+
+Legacy of Kain: Soul Reaver 2
+- Soul Fixer
+- Enhancer
 
 Mafia
 - Widescreen Fix

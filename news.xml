@@ -104,4 +104,13 @@ Gun: Widescreen Fix
 
 No intro fixes for Demonicon, Fable - The Lost Chapters, Killer is Dead, Mars: War Logs, Remember Me, Rise of the Argonauts, STAR WARS Jedi Knight, Jedi Academy, The Technomancer</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>12</Version>
+		<Date>2023-10-05T00:00:00</Date>
+		<Content>Added:
+Legacy of Kain Blood Omen 2: Re-vamped, No intro
+Legacy of Kain Defiance: Widescreen Fix, No intro
+Legacy of Kain Soul Reaver: sr1patch, No Intro
+Legacy of Kain Soul Reaver 2: Soul Fixer, Enhancer</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>
