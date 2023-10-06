@@ -701,6 +701,80 @@ Deus Exe is a replacement executable for Deus Ex. It's compatible with the GOTY 
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>238010</GameId>
+    <GameName>Deus Ex: Human Revolution - Director's Cut</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>19e378bc-7cf0-4353-9e4e-e995f64bca71</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/deusex_hr_telemetry.zip</Url>
+        <Description>https://www.gog.com/forum/deus_ex_human_revolution_directors_cut/crash_freeze_on_completion_of_first_takedown_or_successful_hack/post21
+
+Patch that fixes crashes/freezez causes by telemetry and a large number of cores</Description>
+        <Dependencies />
+        <SupportedOSes />
+        <Name>Crash Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>2c7b801b-c966-47a2-8f0a-8387a40afa14</Guid>
+        <Url>https://github.com/CookiePLMonster/DXHRDC-GFX/releases/latest/download/DXHRDC-GFX.zip</Url>
+        <Description>*Gold Filter Restoration *
+by CookiePLMonster
+https://github.com/CookiePLMonster/DXHRDC-GFX
+
+A plugin for Deus Ex: Human Revolution Director’s Cut, restoring the gold filter, post processing and shading from the original Deus Ex: Human Revolution.
+
+With this plugin, you can freely choose what elements of the game’s visuals should be changed. The following options are available:
+
+Color grading - enabled, disabled
+Bloom - DC style, HR style
+Lighting - DC style, DC style with fixes, HR style
+The configuration menu (accessed by pressing F11) also allows to freely modify color grading attributes or select from 3 presets based on the data taken directly from DXHR.</Description>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Gold Filter Restoration</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>6920</GameId>
+    <GameName>Deus Ex: Invisible War</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>3f782807-0ca7-4a93-aeb1-489ba23d8fde</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/deusex_2_visible_upgrade.zip</Url>
+        <Description>*Visible Upgrade: Unofficial patch for Deus Ex 2*
+https://www.ttlg.com/forums/showthread.php?t=147423
+
+The patch contains various bugfixes and game improvements such as widescreen support, and provides a few tweaks. It optionally bundles the Unified Texture Pack. It works with the GOG and Steam versions of the game.
+
+Original game bugs and issues that have been fixed or improved:
+
+Multicore fix. Can be switched off for better performance (when it works)
+Some speed-up of level loading, especially with vsync on
+Fix for the desktop being visible during level loading on Vista and up. (Fullscreen only)
+Fix for the mouse freezing or becoming invisible when using large font size settings in Windows
+
+Game improvements:
+
+All resolutions reported by the system, plus an optional custom display mode, are available from the options screen. The aspect ratio is shown as well
+Easy switching between fullscreen and windowed mode
+Field of view adjustment for widescreen is automatic - the horizontal view is extended instead of cropping off the top and bottom. This includes conversations and binocular/scope zoom
+In addition the FOV can be adjusted to the user's preference
+The HUD and menus are shown correctly, regardless of resolution and aspect ratio. In 3-monitor modes, the HUD is constricted to the middle monitor by default
+Loading screens are shown correctly, at 4:3 aspect
+The intro and cutscenes, which are letterboxed, are allowed to crop to fit the monitor (up to 16:9, a bit less when subtitles are on)
+The fullscreen game can run on a display other than the primary. (Experimental)</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Visible Upgrade</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>1640</GameId>
     <GameName>Disciples II: Gallean's Return</GameName>
     <Fixes>

@@ -84,6 +84,13 @@ Desperados - Wanted Dead or Alive
 Deus Ex: Game of the Year Edition
 - Deus Exe
 
+Deus Ex: Human Revolution - Director's Cut
+- Crash Fix
+- Gold Filter Restoration
+
+Deus Ex: Invisible War
+- Visible Upgrade
+
 Disciples II: Gallean's Return
 - GL Wrapper
 
