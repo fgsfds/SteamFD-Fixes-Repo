@@ -113,4 +113,13 @@ Legacy of Kain Defiance: Widescreen Fix, No intro
 Legacy of Kain Soul Reaver: sr1patch, No Intro
 Legacy of Kain Soul Reaver 2: Soul Fixer, Enhancer</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>13</Version>
+		<Date>2023-10-06T00:00:00</Date>
+		<Content>Added:
+Deus Ex: Human Revolution - Director's Cut: Crash Fix, Gold Filter Restoration
+Deus Ex: Invisible War: Visible Upgrade
+Dead Island / Riptide Definitive Edition: Essential Fix
+Official DRM-Free Patches for Chantelise, Recettear, Tropico 3</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>

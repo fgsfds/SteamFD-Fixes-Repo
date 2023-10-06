@@ -396,6 +396,27 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>70420</GameId>
+    <GameName>Chantelise</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>2a6ce248-5a07-4318-9110-da97324d7629</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/chantelise_drmfree.zip</Url>
+        <Description>*Chantelise - Official DRM-Free Patch*
+https://web.archive.org/web/20201205135931/http://www.carpefulgur.com/chantelise/downloads.htm
+
+This official patch makes the game DRM-Free. The game version number is unchanged. 
+
+After installing the patch, the game can be run directly from the chantelise.exe executable without having to run Steam.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Official DRM-Free Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>15270</GameId>
     <GameName>Cold Fear</GameName>
     <Fixes>
@@ -604,6 +625,64 @@ Blank intro video file for Darkstar One.</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>383150</GameId>
+    <GameName>Dead Island Definitive Edition</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>48bb7c97-fcc7-4cf1-aa3f-e0f1dd576067</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dead_island_de_essential.zip</Url>
+        <Description>*Essential Fix*
+https://www.nexusmods.com/deadisland/mods/29
+
+- Disables some disgusting postprocessing effects which should have had an option to begin with
+- Removes Chromatic Aberration
+- Removes all Motion- and Radial- Blur while sprinting or when running out of stamina
+- Removes any Depth of Field during combat
+- Removes all Glow and Bloom
+- Removes any obnoxious huge Lens Flares and all Sun Rays
+- Tweaked Field of View from 62.5 to 75
+- Fixed Firearm recoil (needed for the Field of View tweak, or else hip firing becomes impossible)
+- Made movement more responsive, more like Dying Light (no more delayed movement which felt like input lag)
+- Show weapon during sprint, like Dying Light</Description>
+        <Variants />
+        <InstallFolder>DI</InstallFolder>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Essential Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>383180</GameId>
+    <GameName>Dead Island: Riptide Definitive Edition</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>7b93095e-a14c-4b6b-97d8-98313b6d4973</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dead_island_de_essential.zip</Url>
+        <Description>*Essential Fix*
+https://www.nexusmods.com/deadisland/mods/29
+
+- Disables some disgusting postprocessing effects which should have had an option to begin with
+- Removes Chromatic Aberration
+- Removes all Motion- and Radial- Blur while sprinting or when running out of stamina
+- Removes any Depth of Field during combat
+- Removes all Glow and Bloom
+- Removes any obnoxious huge Lens Flares and all Sun Rays
+- Tweaked Field of View from 62.5 to 75
+- Fixed Firearm recoil (needed for the Field of View tweak, or else hip firing becomes impossible)
+- Made movement more responsive, more like Dying Light (no more delayed movement which felt like input lag)
+- Show weapon during sprint, like Dying Light</Description>
+        <Variants />
+        <InstallFolder>DIR</InstallFolder>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Essential Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>17470</GameId>
     <GameName>Dead Space (2008)</GameName>
     <Fixes>
@@ -710,6 +789,7 @@ Deus Exe is a replacement executable for Deus Ex. It's compatible with the GOTY 
         <Description>https://www.gog.com/forum/deus_ex_human_revolution_directors_cut/crash_freeze_on_completion_of_first_takedown_or_successful_hack/post21
 
 Patch that fixes crashes/freezez causes by telemetry and a large number of cores</Description>
+        <Variants />
         <Dependencies />
         <SupportedOSes />
         <Name>Crash Fix</Name>
@@ -730,6 +810,7 @@ Color grading - enabled, disabled
 Bloom - DC style, HR style
 Lighting - DC style, DC style with fixes, HR style
 The configuration menu (accessed by pressing F11) also allows to freely modify color grading attributes or select from 3 presets based on the data taken directly from DXHR.</Description>
+        <Variants />
         <Dependencies />
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Gold Filter Restoration</Name>
@@ -2502,6 +2583,27 @@ Includes Ultra Graphics Fix</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>70400</GameId>
+    <GameName>Recettear: An Item Shop's Tale</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>30f36266-e18c-4864-a340-168c164a5b63</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/recettear_drmfree.zip</Url>
+        <Description>*Recettear: An Item Shop's Tale - Official DRM-Free Patch*
+https://web.archive.org/web/20211106063628/http://www.carpefulgur.com/recettear/downloads.htm
+
+This official patch makes the game DRM-Free. The game version number is unchanged. 
+
+After installing the patch, the game can be run directly from the recettear.exe executable without having to run Steam.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Official DRM-Free Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>1174180</GameId>
     <GameName>Red Dead Redemption 2</GameName>
     <Fixes>
@@ -3192,6 +3294,29 @@ Fixes stretching in ultrawide and wider resolutions</Description>
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>23490</GameId>
+    <GameName>Tropico 3 - Steam Special Edition</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>3910c5b1-3caa-4ef5-96a2-76c9e1ec0f1e</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tropico_3_drmfree.zip</Url>
+        <Description>Tropico 3 - DRM-Free Patch
+https://www.patches-scrolls.de/patch/4536/7
+
+Installing this patch makes the game DRM-Free. The game version number is unchanged. 
+
+Notes: This released patch v1.17 contains a DRM-Free .exe that is the exact same version as the steam version .exe. Only the DRM-Free .exe is required from the download and included in this patch here.
+
+After installing the patch, the game can be run directly from the tropico3.exe executable without having to run Steam.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Official DRM-Free Patch</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>

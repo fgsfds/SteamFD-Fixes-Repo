@@ -46,6 +46,9 @@ Bully: Scholarship Edition
 - Silent Patch
 - No Intro Fix
 
+Chantelise
+- Official DRM-Free Patch
+
 Cold Fear
 - Widescreen Fix
 
@@ -68,6 +71,12 @@ DARK SOULS™: Prepare To Die Edition
 
 DarkStar One
 - No Intro Fix
+
+Dead Island Definitive Edition
+- Essential Fix
+
+Dead Island: Riptide Definitive Edition
+- Essential Fix
 
 Dead Space (2008)
 - Mouse Fix
@@ -277,6 +286,9 @@ Quake 4
 - Ultra Graphics Fix
 - Ultrawide Fix
 
+Recettear: An Item Shop's Tale
+- Official DRM-Free Patch
+
 Red Dead Redemption 2
 - No Black Bars
 
@@ -364,6 +376,9 @@ Tomb Raider: Legend
 Transformers: Fall of Cybertron
 - Black Screen Fix
 - No Intro Fix
+
+Tropico 3 - Steam Special Edition
+- Official DRM-Free Patch
 
 Unreal Gold
 - 227i Patch
