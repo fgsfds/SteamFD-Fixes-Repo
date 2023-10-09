@@ -34,6 +34,55 @@
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>214490</GameId>
+    <GameName>Alien: Isolation</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>db117586-16db-48c8-bac7-6b86023dfa02</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <InstallFolder />
+        <FilesToDelete>DATA\UI\MOVIES\AMD_IDENT.USM;DATA\UI\MOVIES\CA_IDENT.USM;DATA\UI\MOVIES\FOX_IDENT.USM</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>7ab13599-656e-433d-a973-109a46a93440</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <InstallFolder />
+        <FilesToDelete>share/data/ui/movies/loading_ident.webm;share/data/ui/movies/ca_feral_ident.webm;share/data/ui/movies/fox_ident.webm</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>1700</GameId>
+    <GameName>Arx Fatalis</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>5b27cab7-3042-4bdc-bc66-32a2a30c97f0</Guid>
+        <Url>https://github.com/arx/ArxLibertatis/releases/download/1.2.1/arx-libertatis-1.2.1-windows.zip</Url>
+        <Description>*Arx Libertatis 1.2.1*
+https://github.com/arx/ArxLibertatis
+
+Arx Libertatis 1.2.1 updates and improves Arx Fatalis by supporting modern systems, porting the game to new systems, as well as eliminating bugs and limitations.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>Arx Libertatis</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>8170</GameId>
     <GameName>Battlestations: Pacific</GameName>
     <Fixes>
@@ -396,6 +445,40 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>234080</GameId>
+    <GameName>Castlevania: Lords of Shadow - Ultimate Edition</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>d5a66f71-03b7-42ca-99e1-06f1565f546a</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <InstallFolder />
+        <FilesToDelete>bik\0F3E1581650A393C.bik;bik\5D92185F11FF78C6.bik;bik\840AF5545E1B3717.bik;bik\D26AAFE1AA7385A4.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>239250</GameId>
+    <GameName>Castlevania: Lords of Shadow 2</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>07ce9b50-d8eb-4045-91b1-08c9e0b1981d</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <FilesToDelete>bik\28409563.bik;bik\138243771.bik;bik\226441803.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>70420</GameId>
     <GameName>Chantelise</GameName>
     <Fixes>
@@ -543,6 +626,60 @@ Show Speedometer (Shift+Alt+F8)
         <Dependencies />
         <SupportedOSes>Windows</SupportedOSes>
         <Name>SilentPatch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>17300</GameId>
+    <GameName>Crysis</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>5bc1ab26-9396-4b7d-a18b-29fe3ae196f8</Guid>
+        <Url>https://github.com/ccomrade/c1-launcher/releases/download/v4/c1-launcher-v4-build.zip</Url>
+        <Description>*C1-Launcher v4*
+https://github.com/ccomrade/c1-launcher
+
+An open-source replacement of Crysis (2007) executables.
+
+No compatibility mode is required to make the game work on modern systems.
+Fixes engine crash on systems with more than 32 logical processors.
+Fixes low refresh rate in fullscreen DX10 mode. Thanks to Guzz and Vladislav.
+Annoying startup video ads are automatically skipped.
+Max settings (Very High) are available in DX9 mode as well.
+Game running in DX9 mode can connect to DX10 servers. Everything works just like in DX10 mode.
+Advantages of pre-ordered version are available to everyone.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>C1-Launcher</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>17340</GameId>
+    <GameName>Crysis Wars</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>bfd8ac2d-27ba-4c13-8686-803c1582a138</Guid>
+        <Url>https://github.com/ccomrade/c1-launcher/releases/download/v4/c1-launcher-v4-build.zip</Url>
+        <Description>*C1-Launcher v4*
+https://github.com/ccomrade/c1-launcher
+
+An open-source replacement of Crysis (2007) executables.
+
+No compatibility mode is required to make the game work on modern systems.
+Fixes engine crash on systems with more than 32 logical processors.
+Fixes low refresh rate in fullscreen DX10 mode. Thanks to Guzz and Vladislav.
+Annoying startup video ads are automatically skipped.
+Max settings (Very High) are available in DX9 mode as well.
+Game running in DX9 mode can connect to DX10 servers. Everything works just like in DX10 mode.
+Advantages of pre-ordered version are available to everyone.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>C1-Launcher</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -716,6 +853,38 @@ This fix makes Dead Space 2 use raw mouse input without any additional smoothing
         <Dependencies />
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Mouse Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>247660</GameId>
+    <GameName>Deadly Premonition: The Director's Cut</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>a9fa9377-54b7-4de0-bf4e-0001c988c885</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/deadly_premonotion_dpfix095.zip</Url>
+        <Description>*DPfix 0.9.5*
+https://community.pcgamingwiki.com/files/file/896-dpfix095zip/
+
+It's an interception DINPUT8.dll that you place in the same folder as the game executable. It intercepts the game's calls to the DirectX 9 API and changes them as necessary to enable a higher internal rendering resolution and various other features.
+
+Also includes no intro fix</Description>
+        <ConfigFile>DPfix.ini</ConfigFile>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>dpfix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>402a5bd2-a4dd-41ba-b438-d2ee9a205a74</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/deadly_premonition_ultrawide.zip</Url>
+        <Description>Fixes stretching in ultrawide and wider resolutions</Description>
+        <Dependencies>
+          <guid>a9fa9377-54b7-4de0-bf4e-0001c988c885</guid>
+        </Dependencies>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Ultrawide Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -1238,6 +1407,84 @@ Also includes 64-bit patches and a configuration file with the highest possible 
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Far Cry Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>6220</GameId>
+    <GameName>FlatOut</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>8d0d37db-bcd6-47b9-858f-121a7402e368</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/flatout_1_ZPatchFO1_v1.5.zip</Url>
+        <Description>*ZPatch FO1 v1.5*
+by Zolika1351
+https://zolika1351.pages.dev/mods/fo1patch
+
+Fix the stretched HUD and zoomed in FOV without breaking menus
+Remove 100FPS limit
+Remove forced VSync
+Fix crash when exiting race with FPS unlocked
+Force borderless windowed mode
+Skip intro videos and remove the 5 second wait on the legal screen</Description>
+        <Variants />
+        <ConfigFile>ZPatchFO1.ini</ConfigFile>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>ZPatch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>2990</GameId>
+    <GameName>FlatOut 2</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>227999c5-a823-4461-8f95-453c6a343bd2</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/flatout_2_ZPatchFO2_v2.4.zip</Url>
+        <Description>*ZPatch FO2 v2.4*
+by Zolika1351
+https://zolika1351.pages.dev/mods/fo2patch
+
+Use OpenSpy for Multiplayer
+Fix the stretched HUD and zoomed in FOV without breaking menus
+Remove 100FPS limit
+Remove forced VSync
+Force borderless windowed mode
+Add splitscreen option into Multiplayer menu and fix instant quit (Will break online multiplayer, enable only when needed)
+Increase the 524KB menucar limit
+Fix backface culling on menu cars
+Skip intro videos and remove the 5 second wait on the legal screen</Description>
+        <Variants />
+        <ConfigFile>ZPatchFO2.ini</ConfigFile>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>ZPatch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>203510</GameId>
+    <GameName>Fortune Summoners: Secret of the Elemental Stone</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>e43f3767-80ae-4ad9-9bb2-a9d40ba4f0a2</Guid>
+        <Url>https://github.com/narzoul/DDrawCompat/releases/download/v0.4.0/DDrawCompat-v0.4.0.zip</Url>
+        <Description>*DDrawCompat v0.4.0*
+by narzoul
+https://github.com/narzoul/DDrawCompat
+
+This single ddraw.dll file increases performance in Fortune Summoners.
+
+The DDrawCompat project is a DirectDraw and Direct3D 1-7 compatibility, performance and visual enhancements for games in Windows Vista, 7, 8, 10 and 11.
+</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Performance Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>

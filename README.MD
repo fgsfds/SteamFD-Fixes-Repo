@@ -6,6 +6,13 @@ Alan Wake
 Alan Wake's American Nightmare
 - No Intro Fix
 
+Alien: Isolation
+- No Intro Fix
+- No Intro Fix
+
+Arx Fatalis
+- Arx Libertatis
+
 Battlestations: Pacific
 - Xliveless
 - Steamless Exe
@@ -46,6 +53,12 @@ Bully: Scholarship Edition
 - Silent Patch
 - No Intro Fix
 
+Castlevania: Lords of Shadow - Ultimate Edition
+- No Intro Fix
+
+Castlevania: Lords of Shadow 2
+- No Intro Fix
+
 Chantelise
 - Official DRM-Free Patch
 
@@ -62,6 +75,12 @@ Control Ultimate Edition
 
 Crazy Taxi
 - SilentPatch
+
+Crysis
+- C1-Launcher
+
+Crysis Wars
+- C1-Launcher
 
 Daikatana
 - Patch 1.3
@@ -83,6 +102,10 @@ Dead Space (2008)
 
 Dead Space 2
 - Mouse Fix
+
+Deadly Premonition: The Director's Cut
+- dpfix
+- Ultrawide Fix
 
 Demonicon
 - No Intro Fix
@@ -139,6 +162,15 @@ Fallout 2
 
 Far Cry
 - Far Cry Fix
+
+FlatOut
+- ZPatch
+
+FlatOut 2
+- ZPatch
+
+Fortune Summoners: Secret of the Elemental Stone
+- Performance Fix
 
 Freedom Force
 - Cursor fix

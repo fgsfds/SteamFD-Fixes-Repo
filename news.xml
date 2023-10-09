@@ -122,4 +122,15 @@ Deus Ex: Invisible War: Visible Upgrade
 Dead Island / Riptide Definitive Edition: Essential Fix
 Official DRM-Free Patches for Chantelise, Recettear, Tropico 3</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>14</Version>
+		<Date>2023-10-09T00:00:00</Date>
+		<Content>Added:
+Flatout 1/2: ZPatch
+Arx Fatalis: Arx Libertatis
+Crysys / Crysis Wars: C1-Launcher
+Fortune Summoners: Performance Fix
+Deadly Premonition: dpfix, Ultrawide Fix
+No Intro Fixes for: Alien Isolation, Castlevania: Lords of Shadow 1/2</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>
