@@ -39,7 +39,7 @@ namespace FixesTests
                 {
                     if (!fix.Url.EndsWith(".zip"))
                     {
-                        Trace.WriteLine("Url is not a zip: " + fix.Url);
+                        Trace.TraceError($"{fixes.GameName}, url is not a zip: {fix.Url}");
                         isFailed = true;
 
                         continue;
@@ -47,7 +47,7 @@ namespace FixesTests
 
                     if (fix.Url.Contains("/blob/"))
                     {
-                        Trace.WriteLine("Invalid Url: " + fix.Url);
+                        Trace.TraceError($"{fixes.GameName}, invalid Url: {fix.Url}");
                         isFailed = true;
 
                         continue;
@@ -69,7 +69,7 @@ namespace FixesTests
 
                     if (fileCheckResult is not null)
                     {
-                        Trace.WriteLine(fileCheckResult);
+                        Trace.TraceError($"{fixes.GameName}, {fileCheckResult}");
                         isFailed = true;
 
                         continue;
