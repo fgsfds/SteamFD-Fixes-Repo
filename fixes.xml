@@ -83,6 +83,81 @@ Arx Libertatis 1.2.1 updates and improves Arx Fatalis by supporting modern syste
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>15100</GameId>
+    <GameName>Assassin's Creed</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>6f3c0fa7-4cdf-4a8f-a96c-3185afc27b91</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ass_creed_1_eagle_patch.zip</Url>
+        <Description>*Assassin's Creed 1 - Eagle Patch*
+by Sergeanur
+https://github.com/Sergeanur/EaglePatch
+
+EaglePatchAC1 is an ASI plugin that fixes a number of issues in Assassin's Creed: Director's Cut Edition
+
+Features:
+* Unlocked multisampling on high resolutions
+* Added support of all XInput controllers
+* Added detection of hotplugged controllers
+* Removed support of DInput controllers
+* Gamepad and kb/mouse controls work at the same time (read note below)
+* Added ini setting for enabling PS3-like controls
+* Added ini setting to skip intro videos (without having to rename files)
+* [DX10 only] Fixed doubling of resolution modes in settings</Description>
+        <Variants />
+        <ConfigFile>scripts\EaglePatchAC1.ini</ConfigFile>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Eagle Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>13401908-3b8e-45a9-95b9-dfb105f25565</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <InstallFolder />
+        <FilesToDelete>Videos\DemoIntro.bik;Videos\UBI_LOGO.bik;Videos\Ubisoft_Presents.bik;Videos\Warning_Disclaimer.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>33230</GameId>
+    <GameName>Assassin's Creed II</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>ca50f9c0-b5d7-45ee-907e-4e4d0910cb5d</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ass_creed_2_eagle_patch.zip</Url>
+        <Description>*Assassin's Creed 2 - Eagle Patch*
+by Sergeanur
+https://github.com/Sergeanur/EaglePatch
+
+EaglePatchAC2 is an ASI plugin that fixes a number of issues in Assassin's Creed II.
+
+Features:
+* Improved shadow map size from 1024 to 4096 (only when shadow quality is maxed out in game's settings; can be disabled in ini)
+* Draw distance maxed out for buildings, peds and flags (can be disabled in ini)
+* Enables UPlay bonuses - Auditore Crypt, Altair robes, extra knifes, bonus dye (can be disabled in ini)
+* Added support of all XInput controllers
+* Added detection of hotplugged controllers
+* Removed support of DInput controllers
+* Gamepad and kb/mouse controls work at the same time (read note below)
+* Added ini setting for enabling PS3-like controls
+* Added ini setting to skip intro videos (without having to rename files)</Description>
+        <Variants />
+        <ConfigFile>scripts\EaglePatchAC2.ini</ConfigFile>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Eagle Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>8170</GameId>
     <GameName>Battlestations: Pacific</GameName>
     <Fixes>
@@ -369,6 +444,24 @@ Lock cursor to game window - Both the original version and the "Terminal Cut" ha
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>49520</GameId>
+    <GameName>Borderlands 2</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>d6227361-7199-49cd-9aee-520799a68696</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <InstallFolder />
+        <FilesToDelete>WillowGame\Movies\2K_logo_4K.bik;WillowGame\Movies\Gearbox_logo_4K.bik;WillowGame\Movies\NVidia_4K.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>243930</GameId>
     <GameName>Bound By Flame</GameName>
     <Fixes>
@@ -470,6 +563,7 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
         <Guid>07ce9b50-d8eb-4045-91b1-08c9e0b1981d</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
         <Description />
+        <Variants />
         <FilesToDelete>bik\28409563.bik;bik\138243771.bik;bik\226441803.bik</FilesToDelete>
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
@@ -870,6 +964,7 @@ https://community.pcgamingwiki.com/files/file/896-dpfix095zip/
 It's an interception DINPUT8.dll that you place in the same folder as the game executable. It intercepts the game's calls to the DirectX 9 API and changes them as necessary to enable a higher internal rendering resolution and various other features.
 
 Also includes no intro fix</Description>
+        <Variants />
         <ConfigFile>DPfix.ini</ConfigFile>
         <Dependencies />
         <SupportedOSes>Windows</SupportedOSes>
@@ -880,6 +975,7 @@ Also includes no intro fix</Description>
         <Guid>402a5bd2-a4dd-41ba-b438-d2ee9a205a74</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/deadly_premonition_ultrawide.zip</Url>
         <Description>Fixes stretching in ultrawide and wider resolutions</Description>
+        <Variants />
         <Dependencies>
           <guid>a9fa9377-54b7-4de0-bf4e-0001c988c885</guid>
         </Dependencies>
@@ -1050,6 +1146,72 @@ Disciples II: Added new borders image for ingame windows/dialogs. Thanks to Мо
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>GL Wrapper</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>205100</GameId>
+    <GameName>Dishonored</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>ebd796f0-b755-4b90-b471-9e9dec7ee789</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <FilesToDelete>DishonoredGame\Movies\Legal.bik;DishonoredGame\Movies\LogoArkane.bik;DishonoredGame\Movies\LogoBethesda.bik;DishonoredGame\Movies\UE3_logo.bik;DishonoredGame\Movies\ZenimaxLegal.bik;DishonoredGame\Movies\ZenimaxLegalFR.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>403640</GameId>
+    <GameName>Dishonored 2</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>705bfb3a-d08e-4a15-9f25-7fe5485b6947</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dishonored_2_nointro.zip</Url>
+        <Description />
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>217980</GameId>
+    <GameName>Dishonored RHCP</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>ebd796f0-b755-4b90-b471-9e9dec7ee788</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <FilesToDelete>DishonoredGame\Movies\Legal.bik;DishonoredGame\Movies\LogoArkane.bik;DishonoredGame\Movies\LogoBethesda.bik;DishonoredGame\Movies\UE3_logo.bik;DishonoredGame\Movies\ZenimaxLegal.bik;DishonoredGame\Movies\ZenimaxLegalFR.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>614570</GameId>
+    <GameName>Dishonored®: Death of the Outsider™</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>0dff6b1c-ae1a-43e0-b12b-7b9dbd05b826</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dishonored_2_nointro.zip</Url>
+        <Description />
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -2166,6 +2328,31 @@ Nep: Nep</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>6880</GameId>
+    <GameName>Just Cause</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>b8f1ba1c-8dec-4050-bbd1-c340fdf04935</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/justcause/JustCause.WidescreenFix.zip</Url>
+        <Description>*Just Cause Widescreen Fix*
+by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/justcause
+
+Fixed Resolution
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+Fixed FMVs</Description>
+        <Variants />
+        <ConfigFile>scripts\JustCause.WidescreenFix.ini</ConfigFile>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>8080</GameId>
     <GameName>Kane &amp; Lynch: Dead Men</GameName>
     <Fixes>
@@ -2228,6 +2415,43 @@ Fixes aspect ratio at 21:9 resolutions</Description>
         <Dependencies />
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>38430</GameId>
+    <GameName>Kingpin</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>8a719a2f-031b-4b0c-b264-b666c55acc96</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/kingpin_patch_v9.zip</Url>
+        <Description>*Kingpin Unofficial Patch v9*
+https://www.kingpin.info/download/index.php?dir=kingpin/patches/unofficial/windows/mh%27s_kingpin_patch
+
+This is a patch for Kingpin that fixes a number of bugs and adds some other
+improvements too. 
+
+New features and tweaks
+Asynchronous frame and physics/network updates
+More screen resolution options
+FOV auto-adjustment
+Anti-aliasing
+Improved lighting of see-through surfaces
+Improved dynamic lighting
+Improved effect visibility
+Improved shadows
+Increased visibility range
+Consistent HUD layout
+HUD enlarging
+Weapon key binding
+Raw mouse input
+More precise mouse movement
+Support for 5 mouse buttons</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Unofficial Patch</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -2796,6 +3020,38 @@ This patch adds widescreen support to Project: Snowblind. In particular, it make
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>3830</GameId>
+    <GameName>Psychonauts</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>2423c6c5-9e2d-43c2-9bb2-9fab0f3eaa27</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/psychonauts/Psychonauts.WidescreenFix.zip</Url>
+        <Description>*Psychonauts Widescreen Fix*
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/psychonauts
+
+Fixed HUD
+Fixed FMVs</Description>
+        <Variants />
+        <ConfigFile>scripts\Psychonauts.WidescreenFix.ini</ConfigFile>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>f158238b-df4b-43cb-857e-a2c2ed3b478a</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/empty.zip</Url>
+        <Description />
+        <Variants />
+        <FilesToDelete>WorkResource\cutscenes\prerendered\DFLogo.bik;WorkResource\cutscenes\prerendered\MajescoLogo.bik</FilesToDelete>
+        <Dependencies />
+        <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>2210</GameId>
     <GameName>Quake 4</GameName>
     <Fixes>
@@ -3166,6 +3422,30 @@ Fixed HUD
 Fixed Field of View</Description>
         <Variants />
         <ConfigFile>scripts\SecondSight.WidescreenFix.ini</ConfigFile>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>3700</GameId>
+    <GameName>Sniper Elite</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>14ecc28b-10d9-4943-a675-dd5691c7fbb0</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/sniperelite/SniperElite.WidescreenFix.zip</Url>
+        <Description>*Sniper Elite Widescreen Fix*
+by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/sniperelite
+
+Fixed Resolution
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View</Description>
+        <Variants />
+        <ConfigFile>scripts\SniperElite.WidescreenFix.ini</ConfigFile>
         <Dependencies />
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>

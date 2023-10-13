@@ -133,4 +133,15 @@ Fortune Summoners: Performance Fix
 Deadly Premonition: dpfix, Ultrawide Fix
 No Intro Fixes for: Alien Isolation, Castlevania: Lords of Shadow 1/2</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>15</Version>
+		<Date>2023-10-13T00:00:00</Date>
+		<Content>Added:
+Assassin's Creed 1/2: Eagle Patch
+Psychonauts: Widescreen Fix
+Kingpin: Unofficial Patch
+Sniper Elite: Widescreen Fix
+Just Cause: Widescreen Fix
+No Intro Fixes for: Assassin's Creed 1, Borderlands 2, Dishonored 1/2/DotO, Psychonauts</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>

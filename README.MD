@@ -13,6 +13,13 @@ Alien: Isolation
 Arx Fatalis
 - Arx Libertatis
 
+Assassin's Creed
+- Eagle Patch
+- No Intro Fix
+
+Assassin's Creed II
+- Eagle Patch
+
 Battlestations: Pacific
 - Xliveless
 - Steamless Exe
@@ -44,6 +51,9 @@ Blood: One Unit Whole Blood
 
 BloodRayne: Terminal Cut
 - Tweaks
+
+Borderlands 2
+- No Intro Fix
 
 Bound By Flame
 - No Intro Fix
@@ -125,6 +135,18 @@ Deus Ex: Invisible War
 
 Disciples II: Gallean's Return
 - GL Wrapper
+
+Dishonored
+- No Intro Fix
+
+Dishonored 2
+- No Intro Fix
+
+Dishonored RHCP
+- No Intro Fix
+
+Dishonored®: Death of the Outsider™
+- No Intro Fix
 
 DOOM (1993)
 - Crispy Doom
@@ -241,6 +263,9 @@ Hyperdimension Neptunia Re;Birth2 Sisters Generation
 Hyperdimension Neptunia Re;Birth3 V Generation
 - Neptastic Mod
 
+Just Cause
+- Widescreen Fix
+
 Kane & Lynch: Dead Men
 - Xliveless
 - FOV Fix
@@ -248,6 +273,9 @@ Kane & Lynch: Dead Men
 
 Killer is Dead
 - No Intro Fix
+
+Kingpin
+- Unofficial Patch
 
 Legacy of Kain: Defiance
 - Widescreen Fix
@@ -314,6 +342,10 @@ Prince of Persia: Warrior Within
 Project: Snowblind
 - Widescreen Fix
 
+Psychonauts
+- Widescreen Fix
+- No Intro Fix
+
 Quake 4
 - Ultra Graphics Fix
 - Ultrawide Fix
@@ -359,6 +391,9 @@ Rise of the Argonauts
 - No Intro Fix
 
 Second Sight
+- Widescreen Fix
+
+Sniper Elite
 - Widescreen Fix
 
 STAR WARS™ Jedi Knight II: Jedi Outcast™
