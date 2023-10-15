@@ -292,6 +292,10 @@ Legacy of Kain: Soul Reaver 2
 Mafia
 - Widescreen Fix
 
+Manhunt
+- Manhunt Fixer
+- MHP
+
 Mars: War Logs
 - No Intro Fix
 
@@ -392,6 +396,9 @@ Rise of the Argonauts
 
 Second Sight
 - Widescreen Fix
+
+Septerra Core
+- SR
 
 Sniper Elite
 - Widescreen Fix

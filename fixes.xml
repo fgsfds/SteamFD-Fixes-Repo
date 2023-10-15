@@ -2599,6 +2599,64 @@ Added an option to set deadzone for left stick and right stick on gamepad (other
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>12130</GameId>
+    <GameName>Manhunt</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>5af13294-80ba-4681-b65e-0ade9812c101</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/manhunt_fixer.zip</Url>
+        <Description>*Manhunt Widescreen Fix*
+*d3d8-wrapper v1.38*
+by ThirteenAG
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/manhunt
+https://github.com/ThirteenAG/d3d8-wrapper
+
+Fixed Aspect Ratio
+Fixed HUD
+Fixed Field of View
+Fixed FMVs
+Adjustable FOV via ini
+Added an option to change save game directory
+
+*MHNoDRM*
+by Fire-Head
+https://github.com/Fire-Head/MHNoDRM
+
+MHNoDRM is a plugin that removes persistently active anti-piracy measures in Steam release of Manhunt accidentally left by Rockstar Games since 22 May 2010 update. It's made by emulating correct SecuROM triggers behavior and provides an alternative way to fix the game without replacing/modifying original executable.
+
+*Manhunt.AudioFix*
+by ermaccer
+https://github.com/ermaccer/Manhunt.AudioFix
+
+This plugin will stop any audio or music from looping.</Description>
+        <Variants />
+        <ConfigFile>d3d8.ini</ConfigFile>
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>Manhunt Fixer</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>3cc82ef8-0b6d-481f-834b-3d67ae81d956</Guid>
+        <Url>https://github.com/Fire-Head/MHP/releases/download/1.1/MHP.zip</Url>
+        <Description>*MPH v 1.1*
+by Fire-Head
+https://github.com/Fire-Head/MHP
+
+MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt to the PC.</Description>
+        <Variants />
+        <InstallFolder>scripts</InstallFolder>
+        <ConfigFile>scripts\MHP.ini</ConfigFile>
+        <Dependencies>
+          <guid>5af13294-80ba-4681-b65e-0ade9812c101</guid>
+        </Dependencies>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>MHP</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>232750</GameId>
     <GameName>Mars: War Logs</GameName>
     <Fixes>
@@ -3425,6 +3483,26 @@ Fixed Field of View</Description>
         <Dependencies />
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>253940</GameId>
+    <GameName>Septerra Core</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>4d5a2314-6716-4374-a92f-8bed0573eecd</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/septerra_core_sr_v1.04.zip</Url>
+        <Description>*Septerra Core v1.04.0.10*
+by M-HT
+https://github.com/M-HT/SR
+
+Recompiled 32-bit executable that allows the game to run flawlessly on modern Windows and Linux systems with minimal setup.</Description>
+        <Variants />
+        <Dependencies />
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>SR</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
