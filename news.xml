@@ -151,4 +151,11 @@ No Intro Fixes for: Assassin's Creed 1, Borderlands 2, Dishonored 1/2/DotO, Psyc
 Manhunt: Fixer, MHP
 Septerra Core: SR</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>17</Version>
+		<Date>2023-10-17T00:00:00</Date>
+		<Content>Superheater 0.6.0 is deprecated and won't get any new fixes.
+		
+Update to 0.7.0</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>
