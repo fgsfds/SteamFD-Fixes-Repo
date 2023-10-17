@@ -1,6 +1,4 @@
-﻿using System.Collections.ObjectModel;
-
-namespace FixesTests.Helpers
+﻿namespace FixesTests.Helpers
 {
     /// <summary>
     /// Entity containing game information and a list of fixes for it
@@ -10,28 +8,17 @@ namespace FixesTests.Helpers
         /// <summary>
         /// Steam ID of the game
         /// </summary>
-        public int GameId { get; init; }
+        public int GameId { get; set; }
 
         /// <summary>
         /// Game title
         /// </summary>
-        public string GameName { get; init; }
+        public string GameName { get; set; }
 
         /// <summary>
         /// List of fixes 
         /// </summary>
-        public ObservableCollection<FixEntity> Fixes { get; init; }
-
-        public FixesList(
-            int gameId,
-            string gameName,
-            ObservableCollection<FixEntity> fixes
-            )
-        {
-            GameId = gameId;
-            GameName = gameName;
-            Fixes = fixes;
-        }
+        public List<FixEntity> Fixes { get; set; }
 
         /// <summary>
         /// Serializer constructor
@@ -59,17 +46,17 @@ namespace FixesTests.Helpers
         /// <summary>
         /// Fix GUID
         /// </summary>
-        public Guid Guid { get; init; }
+        public Guid Guid { get; set; }
 
         /// <summary>
         /// Download URL
         /// </summary>
-        public string Url { get; set; }
+        public string? Url { get; set; }
 
         /// <summary>
         /// Fix description
         /// </summary>
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         /// <summary>
         /// List of fix's variants
@@ -94,13 +81,13 @@ namespace FixesTests.Helpers
         /// List of files that will be backed up and deleted before the fix is installed
         /// Paths are relative to the game folder, separated by ;
         /// </summary>
-        public string? FilesToDelete { get; set; }
+        public List<string>? FilesToDelete { get; set; }
 
         /// <summary>
         /// List of files that will be backed up before the fix is installed, and the original file will remain
         /// Paths are relative to the game folder, separated by ;
         /// </summary>
-        public string? FilesToBackup { get; set; }
+        public List<string>? FilesToBackup { get; set; }
 
         /// <summary>
         /// File that will be run after the fix is installed
@@ -111,6 +98,6 @@ namespace FixesTests.Helpers
         /// <summary>
         /// List of fixes GUIDs that are required for this fix
         /// </summary>
-        public List<Guid> Dependencies { get; set; }
+        public List<Guid>? Dependencies { get; set; }
     }
 }

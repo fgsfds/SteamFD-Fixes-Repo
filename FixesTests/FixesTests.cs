@@ -37,6 +37,11 @@ namespace FixesTests
             {
                 foreach (var fix in fixes.Fixes)
                 {
+                    if (fix.Url is null)
+                    {
+                        continue;
+                    }
+
                     if (!fix.Url.EndsWith(".zip"))
                     {
                         Trace.TraceError($"{fixes.GameName}, url is not a zip: {fix.Url}");
