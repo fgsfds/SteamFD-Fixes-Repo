@@ -8,6 +8,9 @@
         <Guid>e2cfbadc-fe21-4898-bf47-e6a9c7f784d4</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/alan_wake_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -22,6 +25,9 @@
         <Guid>26ee6157-8a47-4d70-8bc0-2cc2dd6a5cb5</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/alan_wake_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -40,6 +46,9 @@
           <string>DATA\UI\MOVIES\CA_IDENT.USM</string>
           <string>DATA\UI\MOVIES\FOX_IDENT.USM</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -52,6 +61,9 @@
           <string>share/data/ui/movies/ca_feral_ident.webm</string>
           <string>share/data/ui/movies/fox_ident.webm</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -69,6 +81,11 @@
 https://github.com/arx/ArxLibertatis
 
 Arx Libertatis 1.2.1 updates and improves Arx Fatalis by supporting modern systems, porting the game to new systems, as well as eliminating bugs and limitations.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Arx Libertatis</Name>
         <Version>1</Version>
@@ -97,6 +114,11 @@ Features:
 * Added ini setting to skip intro videos (without having to rename files)
 * [DX10 only] Fixed doubling of resolution modes in settings</Description>
         <ConfigFile>scripts\EaglePatchAC1.ini</ConfigFile>
+        <Tags>
+          <string>#controller_support</string>
+          <string>#enhancements</string>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Eagle Patch</Name>
         <Version>1</Version>
@@ -110,6 +132,9 @@ Features:
           <string>Videos\Ubisoft_Presents.bik</string>
           <string>Videos\Warning_Disclaimer.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -139,6 +164,12 @@ Features:
 * Added ini setting for enabling PS3-like controls
 * Added ini setting to skip intro videos (without having to rename files)</Description>
         <ConfigFile>scripts\EaglePatchAC2.ini</ConfigFile>
+        <Tags>
+          <string>#additional_content</string>
+          <string>#controller_support</string>
+          <string>#enhancements</string>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Eagle Patch</Name>
         <Version>1</Version>
@@ -164,6 +195,9 @@ Features:
         <Guid>e94c8993-3acc-4cd3-a803-643aa170f29d</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bsp_steamless_v1.zip</Url>
         <Description>Steamless Exe that fixes crash on start</Description>
+        <Tags>
+          <string>#crashfix</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Steamless Exe</Name>
         <Version>1</Version>
@@ -190,6 +224,9 @@ Leyte Gulf
 Aleutian Islands
 The Volcano Map 
 Choke Point Map</Description>
+        <Tags>
+          <string>#additional_content</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>DLC Pack</Name>
         <Version>1</Version>
@@ -199,6 +236,9 @@ Choke Point Map</Description>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bsp_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>movies</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -222,6 +262,10 @@ Going wider than 16:9 will break UI</Description>
         <FilesToDelete>
           <string>sally_clean.bf</string>
         </FilesToDelete>
+        <Tags>
+          <string>#crashfix</string>
+          <string>#widescreen</string>
+        </Tags>
         <RunAfterInstall>patch.bat</RunAfterInstall>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Startup and widescreen fix</Name>
@@ -242,6 +286,10 @@ https://github.com/Lyall/BipedFix
 This BepinEx plugin for the game Biped adds support for:
 
 A BepinEx plugin for the game Biped that adds support for ultrawide resolutions, FPS uncapping and custom resolutions.</Description>
+        <Tags>
+          <string>#fps_unlock</string>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
@@ -269,6 +317,12 @@ Allows to customize control bindings
 3D-audio
 Separate volume control of sound effects and music</Description>
         <InstallFolder>Blake Stone - Aliens of Gold</InstallFolder>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>bstone</Name>
         <Version>1</Version>
@@ -296,6 +350,12 @@ Allows to customize control bindings
 3D-audio
 Separate volume control of sound effects and music</Description>
         <InstallFolder>Blake Stone - Planet Strike</InstallFolder>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>bstone</Name>
         <Version>1</Version>
@@ -324,6 +384,12 @@ Implements hardware gamma adjustments via shaders, making the gamma settings fun
 Replaces DirectInput7 with DirectInput8 and XInput, allowing most controllers to be detectable and with all buttons functioning;
 Reworks the BINK player to run at the current resolution and centers the video accordingly;
 Adds adaptive widescreen support based on your current resolution.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Re-vamped</Name>
         <Version>1</Version>
@@ -336,6 +402,9 @@ Adds adaptive widescreen support based on your current resolution.</Description>
           <string>data\crystal.dat</string>
           <string>data\eidos.dat</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -374,6 +443,12 @@ This pack provides voxel replacements for sprites in Blood.</Description>
 https://github.com/clipmove/NotBlood
 
 NotBlood is a gameplay modification of Blood, based upon the reverse-engineer port NBlood</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>NotBlood</Name>
         <Version>1</Version>
@@ -385,6 +460,12 @@ NotBlood is a gameplay modification of Blood, based upon the reverse-engineer po
 https://github.com/ZDoom/Raze
 
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Raze</Name>
         <Version>1</Version>
@@ -406,6 +487,10 @@ A project designed to fix and tweak BloodRayne: Terminal Cut on Steam.
 Fix HUD - Fix the HUD, moving it further away from the center of the screen.
 
 Lock cursor to game window - Both the original version and the "Terminal Cut" have problems with multi-monitor systems. The game doesn't lock the cursor, causing it to be minimized seemingly at random when you try to attack or shoot using the mouse buttons. This happens because you're clicking outside the game's window, somewhere on your other monitor. This fix tries to properly resolve this issue by locking the cursor into the game's window.</Description>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Tweaks</Name>
         <Version>1</Version>
@@ -424,6 +509,9 @@ Lock cursor to game window - Both the original version and the "Terminal Cut" ha
           <string>WillowGame\Movies\Gearbox_logo_4K.bik</string>
           <string>WillowGame\Movies\NVidia_4K.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -439,6 +527,9 @@ Lock cursor to game window - Both the original version and the "Terminal Cut" ha
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/boundbyflame_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>boot\datapc\video</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -464,6 +555,10 @@ Unlocked all resolutions supported by the OS
 Fixed an issue when last selected resolution is reset upon startup
 Adjustable FOV via ini</Description>
         <ConfigFile>plugins\Bully.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -476,6 +571,9 @@ https://cookieplmonster.github.io/mods/bully/
 
 SilentPatch attempts to fix Bully memory management completely, so it behaves in the same way independent of Windows version. This is not the only fix included, however - most notably, it attempts to improve gameplay experience by improving frame pacing, as well as fixing a few other issues.</Description>
         <ConfigFile>plugins\SilentPatchBully.ini</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+        </Tags>
         <Dependencies>
           <guid>9c129caf-ec64-4b87-9d9f-373b41fe7fff</guid>
         </Dependencies>
@@ -487,6 +585,9 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
         <Guid>b78ca50c-b0e5-4520-8731-f6b22014b851</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bully_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -506,6 +607,9 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
           <string>bik\840AF5545E1B3717.bik</string>
           <string>bik\D26AAFE1AA7385A4.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -524,6 +628,9 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
           <string>bik\138243771.bik</string>
           <string>bik\226441803.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -543,6 +650,9 @@ https://web.archive.org/web/20201205135931/http://www.carpefulgur.com/chantelise
 This official patch makes the game DRM-Free. The game version number is unchanged. 
 
 After installing the patch, the game can be run directly from the chantelise.exe executable without having to run Steam.</Description>
+        <Tags>
+          <string>#drm_free</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Official DRM-Free Patch</Name>
         <Version>1</Version>
@@ -566,6 +676,10 @@ Fixed FMVs
 Added an option to disable cutscene borders
 Added an option to make FMVs fullscreen</Description>
         <ConfigFile>scripts\ColdFear.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -590,6 +704,9 @@ Added an option to fix low framerate
 Added an option to fix issue when controls aren't saved
 Added an option to make windowed mode borderless</Description>
         <ConfigFile>scripts\Condemned.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -601,6 +718,9 @@ Added an option to make windowed mode borderless</Description>
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/condemned
 
 The Steam version's CondemnedA.Arch00 is noticeably smaller when compared to the retail game. Because of this, and reversed audio files within the .Arch00 file, many sounds are simply missing from the Steam version. In particular, the train sounds at the end of Chapter 3 are missing.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Missing Steam Files</Name>
         <Version>1</Version>
@@ -618,6 +738,11 @@ The Steam version's CondemnedA.Arch00 is noticeably smaller when compared to the
 https://www.nexusmods.com/control/mods/90
 
 Adds native HDR, improves DLSS, add full UltraWide support, improves texture streaming, improves ray tracings, improves shadow, adds multiple futher fixes and tweaks (like FOV, intro videos skip, disable depth of field, ...)</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#nointro</string>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>HDR Ultrawide DLSS RT Patch</Name>
         <Version>1</Version>
@@ -630,6 +755,9 @@ https://www.nexusmods.com/control/mods/11
 
 *No Intro Screen by reg2k / registrator2000*
 https://www.nexusmods.com/control/mods/12</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -662,6 +790,10 @@ Cinematic Camera (Shift+Alt+F6)
 First Person Camera (Shift+Alt+F7)
 Show Speedometer (Shift+Alt+F8)
 </Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>SilentPatch</Name>
         <Version>1</Version>
@@ -687,6 +819,12 @@ Annoying startup video ads are automatically skipped.
 Max settings (Very High) are available in DX9 mode as well.
 Game running in DX9 mode can connect to DX10 servers. Everything works just like in DX10 mode.
 Advantages of pre-ordered version are available to everyone.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+          <string>#nointro</string>
+          <string>#sourceport</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>C1-Launcher</Name>
         <Version>1</Version>
@@ -712,6 +850,12 @@ Annoying startup video ads are automatically skipped.
 Max settings (Very High) are available in DX9 mode as well.
 Game running in DX9 mode can connect to DX10 servers. Everything works just like in DX10 mode.
 Advantages of pre-ordered version are available to everyone.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+          <string>#nointro</string>
+          <string>#sourceport</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>C1-Launcher</Name>
         <Version>1</Version>
@@ -741,6 +885,13 @@ HD texture support.
 Glowmap support.
 Supported added for mouse buttons.
 And many more.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#multiplayer</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Patch 1.3</Name>
         <Version>1</Version>
@@ -765,6 +916,9 @@ https://www.nexusmods.com/darksouls/mods/45
 Allows for easy, understandable editing of the DSfix configuration without having to mess around directly with the configuration file.</Description>
         <InstallFolder>DATA</InstallFolder>
         <ConfigFile>DATA\DSFixGUI.exe</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>DSFix</Name>
         <Version>1</Version>
@@ -780,6 +934,9 @@ Allows for easy, understandable editing of the DSfix configuration without havin
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/darkstar_one_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>video\Movies\Eng</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -807,6 +964,9 @@ https://www.nexusmods.com/deadisland/mods/29
 - Made movement more responsive, more like Dying Light (no more delayed movement which felt like input lag)
 - Show weapon during sprint, like Dying Light</Description>
         <InstallFolder>DI</InstallFolder>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Essential Fix</Name>
         <Version>1</Version>
@@ -834,6 +994,9 @@ https://www.nexusmods.com/deadisland/mods/29
 - Made movement more responsive, more like Dying Light (no more delayed movement which felt like input lag)
 - Show weapon during sprint, like Dying Light</Description>
         <InstallFolder>DIR</InstallFolder>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Essential Fix</Name>
         <Version>1</Version>
@@ -888,6 +1051,11 @@ It's an interception DINPUT8.dll that you place in the same folder as the game e
 
 Also includes no intro fix</Description>
         <ConfigFile>DPfix.ini</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>dpfix</Name>
         <Version>1</Version>
@@ -896,6 +1064,9 @@ Also includes no intro fix</Description>
         <Guid>402a5bd2-a4dd-41ba-b438-d2ee9a205a74</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/deadly_premonition_ultrawide.zip</Url>
         <Description>Fixes stretching in ultrawide and wider resolutions</Description>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
         <Dependencies>
           <guid>a9fa9377-54b7-4de0-bf4e-0001c988c885</guid>
         </Dependencies>
@@ -918,6 +1089,9 @@ Also includes no intro fix</Description>
           <string>data\video\logopark_de.bik</string>
           <string>data\video\logopark_en.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -937,6 +1111,10 @@ Select desired resolution from a drop down menu</Description>
           <string>1920x1080</string>
           <string>2560x1080</string>
         </Variants>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Resolution Fix</Name>
         <Version>1</Version>
@@ -955,6 +1133,11 @@ https://kentie.net/article/dxguide/#downloads
 
 Deus Exe is a replacement executable for Deus Ex. It's compatible with the GOTY edition of the game, which includes the Steam version. It fixes various issues running on modern computers, helps you configure the game, and includes a mod manager.</Description>
         <InstallFolder>System</InstallFolder>
+        <Tags>
+          <string>#crashfix</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Deus Exe</Name>
         <Version>1</Version>
@@ -971,7 +1154,10 @@ Deus Exe is a replacement executable for Deus Ex. It's compatible with the GOTY 
         <Description>https://www.gog.com/forum/deus_ex_human_revolution_directors_cut/crash_freeze_on_completion_of_first_takedown_or_successful_hack/post21
 
 Patch that fixes crashes/freezez causes by telemetry and a large number of cores</Description>
-        <SupportedOSes />
+        <Tags>
+          <string>#crashfix</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
         <Name>Crash Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -990,6 +1176,9 @@ Color grading - enabled, disabled
 Bloom - DC style, HR style
 Lighting - DC style, DC style with fixes, HR style
 The configuration menu (accessed by pressing F11) also allows to freely modify color grading attributes or select from 3 presets based on the data taken directly from DXHR.</Description>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Gold Filter Restoration</Name>
         <Version>1</Version>
@@ -1025,6 +1214,12 @@ The HUD and menus are shown correctly, regardless of resolution and aspect ratio
 Loading screens are shown correctly, at 4:3 aspect
 The intro and cutscenes, which are letterboxed, are allowed to crop to fit the monitor (up to 16:9, a bit less when subtitles are on)
 The fullscreen game can run on a display other than the primary. (Experimental)</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Visible Upgrade</Name>
         <Version>1</Version>
@@ -1053,6 +1248,11 @@ AI thinks much faster
 Added selection of any resolutions (4x3, 16x10, 16x9 ...) up to 4-8K
 Disciples II: Added option to select widescreen battle window
 Disciples II: Added new borders image for ingame windows/dialogs. Thanks to Мотлин.</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>GL Wrapper</Name>
         <Version>1</Version>
@@ -1074,6 +1274,9 @@ Disciples II: Added new borders image for ingame windows/dialogs. Thanks to Мо
           <string>DishonoredGame\Movies\ZenimaxLegal.bik</string>
           <string>DishonoredGame\Movies\ZenimaxLegalFR.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -1088,6 +1291,9 @@ Disciples II: Added new borders image for ingame windows/dialogs. Thanks to Мо
         <Guid>705bfb3a-d08e-4a15-9f25-7fe5485b6947</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dishonored_2_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -1109,6 +1315,9 @@ Disciples II: Added new borders image for ingame windows/dialogs. Thanks to Мо
           <string>DishonoredGame\Movies\ZenimaxLegal.bik</string>
           <string>DishonoredGame\Movies\ZenimaxLegalFR.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -1123,6 +1332,9 @@ Disciples II: Added new borders image for ingame windows/dialogs. Thanks to Мо
         <Guid>0dff6b1c-ae1a-43e0-b12b-7b9dbd05b826</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dishonored_2_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -1152,6 +1364,12 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
 *Ultrawide Statusbar*
 https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
         <InstallFolder>base</InstallFolder>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Crispy Doom</Name>
         <Version>1</Version>
@@ -1171,6 +1389,12 @@ https://github.com/dhewm/dhewm3
 dhewm3 is a source port of the original Doom3. 
 Compared to the original version of Doom3, dhewm3 has many bugfixes, supports EAX-like sound effects on all operating systems and hardware (via OpenAL Softs EFX support), has much better support for widescreen resolutions.</Description>
         <ConfigFile>base\autoexec.cfg</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>dhewm3</Name>
         <Version>1</Version>
@@ -1186,6 +1410,9 @@ Resurrection of Evil expansion pack is also required.
 
 Select from Mods menu in the base game or add LostMission.exe as a non-steam game.</Description>
         <ConfigFile>d3le\autoexec.cfg</ConfigFile>
+        <Tags>
+          <string>#additional_content</string>
+        </Tags>
         <Dependencies>
           <guid>bc919ea0-c25f-4c98-bda4-a8ed6444c934</guid>
         </Dependencies>
@@ -1207,6 +1434,10 @@ Change to your desired numbers
 Requires dhewm3</Description>
         <InstallFolder>d3xp</InstallFolder>
         <ConfigFile>d3xp\autoexec.cfg</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Resolution Autoexec</Name>
         <Version>1</Version>
@@ -1238,6 +1469,12 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
 
 *Ultrawide Statusbar*
 https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Crispy Doom</Name>
         <Version>1</Version>
@@ -1263,6 +1500,12 @@ smooth scrolling &amp; movement mode with increased frame rate
 quick saving
 improved game controller support
 extended modding features</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Rigel Engine</Name>
         <Version>1</Version>
@@ -1288,6 +1531,11 @@ https://www.zoom-platform.com/product/duke-nukem-manhattan-project
 - Support for loading mods from the launcher ("Custom Content Directory").
 - UI and FOV support for 16:9 Widescreen Resolutions and 21:9 Ultra Widescreen Resolutions are now included.
 - New boot sequence launch logos.</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Enhanced Edition</Name>
         <Version>1</Version>
@@ -1303,6 +1551,9 @@ https://www.zoom-platform.com/product/duke-nukem-manhattan-project
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/enclave_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>Sbz1\Videos</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -1318,6 +1569,9 @@ https://www.zoom-platform.com/product/duke-nukem-manhattan-project
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/fable_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>data\Video</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -1352,6 +1606,11 @@ The original endgame is too easy? Try the new tougher mutants setting!
 Continue playing after the main story has been completed.
 Lots of bugfixes, making the game run more stable than even the original with patches.</Description>
         <ConfigFile>config\fo1_settings.ini</ConfigFile>
+        <Tags>
+          <string>#additional_content</string>
+          <string>#enhancements</string>
+          <string>#non_vanilla</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Fallout Et Tu</Name>
         <Version>1</Version>
@@ -1365,6 +1624,9 @@ https://www.moddb.com/games/fallout/downloads/fallout-12-censorship-fix-gogsteam
 Restores children, censored dialogue and skilldex images
 
 *Already included in Fixt patch and Fallout Et Tu*</Description>
+        <Tags>
+          <string>#censorship_fix</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Censorship Fix</Name>
         <Version>1</Version>
@@ -1386,6 +1648,12 @@ Things included in this patch:
 - FreeSpace variable is set to 0 by default, so you won't have to worry about that crash either.
 
 *Not compatible with Fallout Et Tu*</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#censorship_fix</string>
+          <string>#crashfix</string>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Fixt Vanilla</Name>
         <Version>2</Version>
@@ -1411,6 +1679,10 @@ The Unofficial Fallout 2 Patch is the ultimate patch available for Fallout 2. It
           <string>f2_res.dat</string>
           <string>patch000.dat</string>
         </FilesToDelete>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Unofficial Patch</Name>
         <Version>3</Version>
@@ -1430,6 +1702,12 @@ This expansion attempts to stay true to what made Fallout great and thus the new
           <string>f2_res.dat</string>
           <string>patch000.dat</string>
         </FilesToDelete>
+        <Tags>
+          <string>#additional_content</string>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#non_vanilla</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Restoration Project </Name>
         <Version>2</Version>
@@ -1454,6 +1732,11 @@ eliminates bugs and crashes.
 Also includes 64-bit patches and a configuration file with the highest possible graphics settings.
 
 *64-bit only*</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Far Cry Fix</Name>
         <Version>1</Version>
@@ -1477,6 +1760,12 @@ Fix crash when exiting race with FPS unlocked
 Force borderless windowed mode
 Skip intro videos and remove the 5 second wait on the legal screen</Description>
         <ConfigFile>ZPatchFO1.ini</ConfigFile>
+        <Tags>
+          <string>#fps_unlock</string>
+          <string>#nointro</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>ZPatch</Name>
         <Version>1</Version>
@@ -1503,6 +1792,13 @@ Increase the 524KB menucar limit
 Fix backface culling on menu cars
 Skip intro videos and remove the 5 second wait on the legal screen</Description>
         <ConfigFile>ZPatchFO2.ini</ConfigFile>
+        <Tags>
+          <string>#fps_unlock</string>
+          <string>#multiplayer</string>
+          <string>#nointro</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>ZPatch</Name>
         <Version>1</Version>
@@ -1523,6 +1819,9 @@ This single ddraw.dll file increases performance in Fortune Summoners.
 
 The DDrawCompat project is a DirectDraw and Direct3D 1-7 compatibility, performance and visual enhancements for games in Windows Vista, 7, 8, 10 and 11.
 </Description>
+        <Tags>
+          <string>#performance_improvement</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Performance Fix</Name>
         <Version>1</Version>
@@ -1542,6 +1841,9 @@ EXE file taken from the GOG version.
 
 Also includes d3d8to9 for proper VSync support
 https://github.com/crosire/d3d8to9</Description>
+        <Tags>
+          <string>#bugfixes</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Cursor fix</Name>
         <Version>2</Version>
@@ -1557,6 +1859,10 @@ Made with SUWSF
 https://github.com/PhantomGamers/SUWSF
 and Ultimate ASI Loader
 https://github.com/ThirteenAG/Ultimate-ASI-Loader</Description>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Universal Widescreen Fix</Name>
         <Version>2</Version>
@@ -1578,6 +1884,10 @@ Made with SUWSF
 https://github.com/PhantomGamers/SUWSF
 and Ultimate ASI Loader
 https://github.com/ThirteenAG/Ultimate-ASI-Loader</Description>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Universal Widescreen Fix</Name>
         <Version>1</Version>
@@ -1600,6 +1910,10 @@ Fixed Field of View
 
 Many different options available in the config</Description>
         <ConfigFile>scripts\GTA3.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescren Fix</Name>
         <Version>1</Version>
@@ -1613,6 +1927,10 @@ https://gtaforums.com/topic/669045-silentpatch/
 
 Patch that fixes a lot of problems with the game. Check the link above for a full changelog.</Description>
         <ConfigFile>scripts\SilentPatchIII.ini</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+        </Tags>
         <Dependencies>
           <guid>d8f77b17-7fbb-48dc-9cd8-a56298df6dc6</guid>
         </Dependencies>
@@ -1628,6 +1946,9 @@ https://gtaforums.com/topic/562765-ginput/
 
 This modification completely rewrites GTA controls handling and ditches DirectInput in favour of XInput. This way, your PlayStation 3 and XBOX 360 pads will be handled by the game just perfectly, taking advantage of all their features, including analog triggers.</Description>
         <ConfigFile>scripts\GInputIII.ini</ConfigFile>
+        <Tags>
+          <string>#controller_support</string>
+        </Tags>
         <Dependencies>
           <guid>d8f77b17-7fbb-48dc-9cd8-a56298df6dc6</guid>
         </Dependencies>
@@ -1640,6 +1961,9 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta3vssa_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>movies</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -1659,6 +1983,10 @@ https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix
 This projects aims to fix some issues in Grand Theft Auto IV: Complete Edition.</Description>
         <InstallFolder>GTAIV</InstallFolder>
         <ConfigFile>GTAIV\plugins\GTAIV.EFLC.FusionFix.ini</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
@@ -1671,6 +1999,9 @@ https://github.com/ThirteenAG/IV.EFLC.ColAccel
 
 ColAccel is a .asi plugin for GTA IV and EFLC which creates a 'colCache.dat' file on the first load, containing all the data actually used by the game from the collision meshes and accelerating your game load time by 50% or more.</Description>
         <InstallFolder>GTAIV\plugins</InstallFolder>
+        <Tags>
+          <string>#performance_improvement</string>
+        </Tags>
         <Dependencies>
           <guid>f46efd2c-9bb5-430e-9e38-b5fce605860f</guid>
         </Dependencies>
@@ -1686,6 +2017,9 @@ https://github.com/doitsujin/dxvk
 
 A Vulkan-based translation layer for Direct3D 9/10/11 which increases performance in some cases.</Description>
         <InstallFolder>GTAIV</InstallFolder>
+        <Tags>
+          <string>#performance_improvement</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>dxvk</Name>
         <Version>1</Version>
@@ -1708,6 +2042,10 @@ Fixed Field of View
 
 Many different options available in the config</Description>
         <ConfigFile>scripts\GTASA.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescren Fix</Name>
         <Version>1</Version>
@@ -1721,6 +2059,10 @@ https://gtaforums.com/topic/669045-silentpatch/
 Patch that fixes a lot of problems with the game. Check the link above for a full changelog.</Description>
         <InstallFolder>scripts</InstallFolder>
         <ConfigFile>scripts\SilentPatchSA.ini</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+        </Tags>
         <Dependencies>
           <guid>0c283cd8-d599-41e7-8adf-6c20f3baad04</guid>
         </Dependencies>
@@ -1736,6 +2078,9 @@ https://gtaforums.com/topic/562765-ginput/
 
 This modification completely rewrites GTA controls handling and ditches DirectInput in favour of XInput. This way, your PlayStation 3 and XBOX 360 pads will be handled by the game just perfectly, taking advantage of all their features, including analog triggers.</Description>
         <ConfigFile>scripts\GInputSA.ini</ConfigFile>
+        <Tags>
+          <string>#controller_support</string>
+        </Tags>
         <Dependencies>
           <guid>0c283cd8-d599-41e7-8adf-6c20f3baad04</guid>
         </Dependencies>
@@ -1748,6 +2093,9 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta3vssa_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>movies</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -1770,6 +2118,10 @@ Fixed Field of View
 
 Many different options available in the config</Description>
         <ConfigFile>scripts\GTAVC.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescren Fix</Name>
         <Version>1</Version>
@@ -1783,6 +2135,10 @@ https://gtaforums.com/topic/669045-silentpatch/
 
 Patch that fixes a lot of problems with the game. Check the link above for a full changelog.</Description>
         <ConfigFile>scripts\SilentPatchVC.ini</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+        </Tags>
         <Dependencies>
           <guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</guid>
         </Dependencies>
@@ -1798,6 +2154,9 @@ https://gtaforums.com/topic/562765-ginput/
 
 This modification completely rewrites GTA controls handling and ditches DirectInput in favour of XInput. This way, your PlayStation 3 and XBOX 360 pads will be handled by the game just perfectly, taking advantage of all their features, including analog triggers.</Description>
         <ConfigFile>scripts\GInputVC.ini</ConfigFile>
+        <Tags>
+          <string>#controller_support</string>
+        </Tags>
         <Dependencies>
           <guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</guid>
         </Dependencies>
@@ -1810,6 +2169,9 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta3vssa_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>movies</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -1831,6 +2193,10 @@ Fixed Aspect Ratio
 Fixed HUD
 Fixed Field of View</Description>
         <ConfigFile>scripts\Gun.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -1843,6 +2209,9 @@ Fixed Field of View</Description>
           <string>data\movies\BEENOX.bik</string>
           <string>data\movies\NSINTRO.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -1864,6 +2233,12 @@ Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display 
 *Heretic Minor Sprite Fixing and Widescreen-Friendly Project 1.0*
 https://www.doomworld.com/forum/topic/64778-heretic-minor-sprite-fixing-and-widescreen-friendly-project-v10-release/</Description>
         <InstallFolder>base</InstallFolder>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Crispy Heretic + Widescreen Sprites</Name>
         <Version>1</Version>
@@ -1885,6 +2260,12 @@ Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display 
 *Widescreen Assets*
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
         <InstallFolder>base</InstallFolder>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Crispy Hexen + Widescreen Sprites</Name>
         <Version>1</Version>
@@ -1906,6 +2287,12 @@ Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display 
 *Widescreen Assets*
 https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/</Description>
         <InstallFolder>base</InstallFolder>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Crispy Hexen + Widescreen Sprites</Name>
         <Version>1</Version>
@@ -1929,6 +2316,10 @@ Ability to limit the frame rate through the video driver control panel (60 FPS l
 Built-in antialiasing (x8) and anisotropic filtering (x16) enabled.
 Fully stable solution with no crashes or graphics bugs.</Description>
         <ConfigFile>scripts\h2.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -1942,6 +2333,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1663221359
 It should not be a secret for fans of Hitman franchise that shortly after release Hitman 2 was censored under pressure of Sikh activist groups. Steam 1.02 version unlike 1.01 version that is sold on GOG is censored. It has altered and cut mission briefs and dialogs. Also some texures and models were altered.
 
 This fix downgrades game to version 1.01</Description>
+        <Tags>
+          <string>#censorship_fix</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Censorship Fix</Name>
         <Version>1</Version>
@@ -1950,6 +2344,9 @@ This fix downgrades game to version 1.01</Description>
         <Guid>db7af868-27cb-46f6-bcf3-4e98fe43c5d4</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman2_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <Dependencies>
           <guid>bce7d1ed-3bb7-4562-9cb7-0e802f74cd7d</guid>
         </Dependencies>
@@ -1969,6 +2366,10 @@ This fix downgrades game to version 1.01</Description>
         <Description>*Widescreen Fix for Hitman Blood Money*
 http://ps2wide.net/pc.html#h4</Description>
         <ConfigFile>h4.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -1977,6 +2378,9 @@ http://ps2wide.net/pc.html#h4</Description>
         <Guid>d48343a8-89a2-49f5-83b0-f155e2c9f678</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman4_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2002,6 +2406,10 @@ Fully stable solution with no crashes or graphics bugs.
 As a bonus, the bad default control scheme has been changed to a close one for later games in the series (you can check/remap/set to default the control keys in the corresponding section of the in-game menu).
 </Description>
         <ConfigFile>scripts\h47.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -2011,6 +2419,9 @@ As a bonus, the bad default control scheme has been changed to a close one for l
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman1_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>Cutscenes\Intro</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2034,6 +2445,10 @@ Ability to limit the frame rate through the video driver control panel (60 FPS l
 Ability to add anti-aliasing via SMAA, FXAA shaders in ReShade (DirectX 9 converter is already included in this fix).
 Fully stable solution with no crashes or graphics bugs.</Description>
         <ConfigFile>scripts\h3.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -2042,6 +2457,9 @@ Fully stable solution with no crashes or graphics bugs.</Description>
         <Guid>8a324a28-498a-4af9-bdec-fddf7cf33e9a</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman3_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <Dependencies>
           <guid>7c9cf11a-e529-4a4e-a8c8-a517f6ead308</guid>
         </Dependencies>
@@ -2076,6 +2494,12 @@ Outlines intensity control, as well as optional simple outlines shader
 VSync options: On, Off, Adaptive
 Nep: Nep</Description>
         <ConfigFile>nep.ini</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#fps_unlock</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Neptastic Mod</Name>
         <Version>1</Version>
@@ -2107,6 +2531,12 @@ Outlines intensity control, as well as optional simple outlines shader
 VSync options: On, Off, Adaptive
 Nep: Nep</Description>
         <ConfigFile>nep.ini</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#fps_unlock</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Neptastic Mod</Name>
         <Version>1</Version>
@@ -2130,7 +2560,6 @@ Fitting resolution to window size (Base game always renders at 1088p)
 Disabled FXAA that degraded visuals inside dungeons
 Tutorials don't break in Re;Birth3
 Anisotropic texture filtering
-FPS unlock for Re;Birth1 and Re;Birth2
 Improved Bloom shader
 Bloom intensity &amp; contrast settings
 Increased shadow quality - to 8192x8192 and beyond
@@ -2139,6 +2568,11 @@ VSync options: On, Off, Adaptive
 Nep: Nep</Description>
         <InstallFolder>Birth3</InstallFolder>
         <ConfigFile>Birth3\nep.ini</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Neptastic Mod</Name>
         <Version>1</Version>
@@ -2161,6 +2595,10 @@ Fixed HUD
 Fixed Field of View
 Fixed FMVs</Description>
         <ConfigFile>scripts\JustCause.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -2207,6 +2645,9 @@ The number 246 in the eASIer.txt file can be changed up or down to a max of 255 
 https://community.pcgamingwiki.com/files/file/2300-kane-and-lynch-219-fix/
 
 Fixes aspect ratio at 21:9 resolutions</Description>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
@@ -2226,6 +2667,9 @@ Fixes aspect ratio at 21:9 resolutions</Description>
           <string>KidGame\Movies\CL_Kadokawa.bik</string>
           <string>KidGame\Movies\CL_UTech.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2261,6 +2705,12 @@ Weapon key binding
 Raw mouse input
 More precise mouse movement
 Support for 5 mouse buttons</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Unofficial Patch</Name>
         <Version>1</Version>
@@ -2277,6 +2727,10 @@ Support for 5 mouse buttons</Description>
         <Description>*Widescreen fix for Legacy of Kain: Defiance ver. 1.1.0.0*
 http://ps2wide.net/pc.html</Description>
         <ConfigFile>sr3.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -2287,6 +2741,9 @@ http://ps2wide.net/pc.html</Description>
         <FilesToDelete>
           <string>movies\eidos.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2304,6 +2761,12 @@ http://ps2wide.net/pc.html</Description>
 https://steamcommunity.com/sharedfiles/filedetails/?id=1733917759
 
 Returns a dynamic soundtrack, or rather its similarity (Yes, it is far from the console versions, but nevertheless!), fixes most of the various problems, includes support of subtitles and achievements; also adds a debug menu to the game for particularly curious inquisitive enthusiasts - the menu is called by the "~" [tilde] key on the keyboard, and now also native support of WideScreen, native support of all gamepads and support of vibration for XInput gamepads, support of mouse and additional hotkeys (section [Hotkeys] in kain2.txt in help), and additional menu item 'New Game+' to start it with already solved block puzzles.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#controller_support</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>sr1patch</Name>
         <Version>1</Version>
@@ -2315,6 +2778,9 @@ Returns a dynamic soundtrack, or rather its similarity (Yes, it is far from the 
           <string>crylogo.bik</string>
           <string>publogo.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2345,6 +2811,12 @@ Replaces DirectInput7 with DirectInput8 and XInput, allowing most controllers to
 Reworks the BINK player to run at the current resolution and zooms/aligns the video accordingly;
 Integrates and reworks nemesis2000’s widescreen fix to function according to your currently selected resolution (i.e. no need to specify the aspect ratio in a configuration file, it auto adjusts the aspect ratio) and adds a couple other fixes for some 2D elements displaying with square pixels instead of stretched (logos, Dark Chronicles);
 Allows the English executable to run with any officially localized version of the game’s data – just switch bigfile.dat and you’re good.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#controller_support</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Soul Fixer</Name>
         <Version>1</Version>
@@ -2389,6 +2861,10 @@ Added an option to make windowed mode borderless
 Added an option to set deadzone for left stick and right stick on gamepad (otherwise camera just spins on its own)</Description>
         <InstallFolder>Mafia</InstallFolder>
         <ConfigFile>Mafia\scripts\Mafia.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -2426,6 +2902,12 @@ https://github.com/ermaccer/Manhunt.AudioFix
 
 This plugin will stop any audio or music from looping.</Description>
         <ConfigFile>d3d8.ini</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Manhunt Fixer</Name>
         <Version>1</Version>
@@ -2439,6 +2921,9 @@ https://github.com/Fire-Head/MHP
 MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt to the PC.</Description>
         <InstallFolder>scripts</InstallFolder>
         <ConfigFile>scripts\MHP.ini</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
         <Dependencies>
           <guid>5af13294-80ba-4681-b65e-0ade9812c101</guid>
         </Dependencies>
@@ -2457,6 +2942,9 @@ MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt t
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/mars_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>boot\datapc\video</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2467,17 +2955,6 @@ MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt t
     <GameId>12140</GameId>
     <GameName>Max Payne</GameName>
     <Fixes>
-      <FixEntity>
-        <Guid>429410a0-e119-49fa-bee0-4746462afd8d</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/max_payne_indirectsound_v1.zip</Url>
-        <Description>*IndirectSound v0.20*
-https://www.indirectsound.com/downloads.html
-
-IndirectSound emulates audio hardware acceleration on modern Windows operating systems. This enables older games to have 3D positional audio (i.e. surround sound played out of rear and side speakers) like they were intended to when they were originally released.</Description>
-        <SupportedOSes>Windows</SupportedOSes>
-        <Name>IndirectSound</Name>
-        <Version>1</Version>
-      </FixEntity>
       <FixEntity>
         <Guid>b5106584-27a2-4bc9-b79c-80b244352a71</Guid>
         <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mp1/MaxPayne.WidescreenFix.zip</Url>
@@ -2495,14 +2972,32 @@ Added an option to load save game automatically on startup
 Added an option to change save game directory
 Added an option to keep the game running on minimize</Description>
         <ConfigFile>scripts\MaxPayne.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>429410a0-e119-49fa-bee0-4746462afd8d</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/max_payne_indirectsound_v1.zip</Url>
+        <Description>*IndirectSound v0.20*
+https://www.indirectsound.com/downloads.html
+
+IndirectSound emulates audio hardware acceleration on modern Windows operating systems. This enables older games to have 3D positional audio (i.e. surround sound played out of rear and side speakers) like they were intended to when they were originally released.</Description>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>IndirectSound</Name>
         <Version>1</Version>
       </FixEntity>
       <FixEntity>
         <Guid>0a78381e-87eb-4196-b657-2a56b18e7bda</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/max_payne_jpeg_v1.zip</Url>
         <Description>Modified DLL that fixes "Corrupt JPEG data" on Ryzen CPUs</Description>
+        <Tags>
+          <string>#amd</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Corrupt JPEG data Fix</Name>
         <Version>1</Version>
@@ -2530,6 +3025,10 @@ Added an option to load save game automatically on startup
 Added an option to change save game directory
 Added an option to keep the game running on minimize</Description>
         <ConfigFile>scripts\MaxPayne2.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -2561,6 +3060,9 @@ https://github.com/ThirteenAG/MaxPayne3.FusionFix
 This is a small project intended to add ability to hide skip button in Max Payne 3. Additionally, added an option to increase the size of subtitle text outlines and prevent Hoboken Alleys coop map from crashing the game.</Description>
         <InstallFolder>Max Payne 3</InstallFolder>
         <ConfigFile>Max Payne 3\plugins\MaxPayne3.FusionFix.ini</ConfigFile>
+        <Tags>
+          <string>#crashfix</string>
+        </Tags>
         <Dependencies>
           <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
         </Dependencies>
@@ -2583,6 +3085,9 @@ Correctly scaled loading screens.
 Spanned or centred 16:9 HUD adjustment.
 Gameplay FOV adjustment without affecting cutscenes/other camera types.</Description>
         <ConfigFile>Max Payne 3\plugins\MaxPayne3Fix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
         <Dependencies>
           <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
         </Dependencies>
@@ -2603,6 +3108,12 @@ Gameplay FOV adjustment without affecting cutscenes/other camera types.</Descrip
 https://github.com/ZDoom/Raze
 
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Raze</Name>
         <Version>1</Version>
@@ -2632,6 +3143,9 @@ New (optional) mouse cursors for menu and hacking (made by DevianArt user JulioD
 Completely rebindable standard actions to any key or button combination including additional mouse buttons
 Non-standard keybindings, such as a dedicated dash/evade and pod fire toggle</Description>
         <ConfigFile>NAIOM-GUI.exe</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>NAOMI</Name>
         <Version>1</Version>
@@ -2647,6 +3161,10 @@ Non-standard keybindings, such as a dedicated dash/evade and pod fire toggle</De
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/obscure_widescreen_v1.zip</Url>
         <Description>*Obscure widescreen &amp; multimonitor FOV fix 1.0.0*
 https://community.pcgamingwiki.com/files/file/1400-obscure-widescreen-multimonitor-fov-fix/</Description>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -2662,6 +3180,9 @@ https://community.pcgamingwiki.com/files/file/1400-obscure-widescreen-multimonit
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/of_orcs_and_men_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>boot\datapc\video</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2679,6 +3200,12 @@ https://community.pcgamingwiki.com/files/file/1400-obscure-widescreen-multimonit
 https://github.com/ZDoom/Raze
 
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Raze</Name>
         <Version>1</Version>
@@ -2709,6 +3236,9 @@ Fix for stretched image at 21:9 resolutions
 Includes Ultra Graphics Fix</Description>
         <InstallFolder>base</InstallFolder>
         <ConfigFile>base\autoexec.cfg</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
@@ -2725,6 +3255,10 @@ Includes Ultra Graphics Fix</Description>
         <Description>*Prince of Persia: The Sands of Time v1.0.0.1*
 http://ps2wide.net/pc.html#popst</Description>
         <ConfigFile>pop.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -2734,6 +3268,9 @@ http://ps2wide.net/pc.html#popst</Description>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_sot_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>Video</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2755,6 +3292,12 @@ This patch will fix most of the problems left for 18 years by UBISOFT.</Descript
         <FilesToDelete>
           <string>pop3.bf</string>
         </FilesToDelete>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <RunAfterInstall>patch.bat</RunAfterInstall>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Unofficial Patch</Name>
@@ -2765,6 +3308,9 @@ This patch will fix most of the problems left for 18 years by UBISOFT.</Descript
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_wwtt_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>Video</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2789,6 +3335,12 @@ Fixed Camera Speed on Y Axis.
 100 FPS cap to fix audio desync ( For some reason 60fps is broken but on 100fps the game works fine.)
 Proper 16:9 and FOV options (YOU HAVE TO EDIT pop2.ini FILE TO ADD YOUR RESOLUTION)</Description>
         <ConfigFile>pop2.ini</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Unofficial Patch</Name>
         <Version>1</Version>
@@ -2798,6 +3350,9 @@ Proper 16:9 and FOV options (YOU HAVE TO EDIT pop2.ini FILE TO ADD YOUR RESOLUTI
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_wwtt_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>Video</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2816,6 +3371,10 @@ https://community.pcgamingwiki.com/files/file/575-project-snowblind-widescreen-p
 
 This patch adds widescreen support to Project: Snowblind. In particular, it makes it possible to run the game at widescreen resolutions and fixes the aspect ratio at widescreen resolutions by increasing the horizontal field of view.</Description>
         <ConfigFile>snowblind-widescreen.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -2835,6 +3394,10 @@ https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/psychonauts
 Fixed HUD
 Fixed FMVs</Description>
         <ConfigFile>scripts\Psychonauts.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -2846,6 +3409,9 @@ Fixed FMVs</Description>
           <string>WorkResource\cutscenes\prerendered\DFLogo.bik</string>
           <string>WorkResource\cutscenes\prerendered\MajescoLogo.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2876,6 +3442,9 @@ Fix for stretched image at 21:9 resolutions
 Includes Ultra Graphics Fix</Description>
         <InstallFolder>q4base</InstallFolder>
         <ConfigFile>q4base\autoexec.cfg</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
@@ -2895,6 +3464,9 @@ https://web.archive.org/web/20211106063628/http://www.carpefulgur.com/recettear/
 This official patch makes the game DRM-Free. The game version number is unchanged. 
 
 After installing the patch, the game can be run directly from the recettear.exe executable without having to run Steam.</Description>
+        <Tags>
+          <string>#drm_free</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Official DRM-Free Patch</Name>
         <Version>1</Version>
@@ -2915,6 +3487,9 @@ https://www.nexusmods.com/reddeadredemption2/mods/349
 http://dev-c.com/rdr2/scripthookrdr2/
 
 Removes the black bars appearing top, bottom, left, &amp; right especially during cutscenes for ultrawide owners (21:9).</Description>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>No Black Bars</Name>
         <Version>1</Version>
@@ -2932,6 +3507,12 @@ Removes the black bars appearing top, bottom, left, &amp; right especially durin
 https://github.com/ZDoom/Raze
 
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Raze</Name>
         <Version>1</Version>
@@ -2949,6 +3530,12 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
 https://github.com/ZDoom/Raze
 
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Raze</Name>
         <Version>1</Version>
@@ -2968,6 +3555,9 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
           <string>ExampleGame\Movies\BIK_Boot_Legal_DD_SCEA.bik</string>
           <string>ExampleGame\Movies\BIK_Boot_NVIDIA.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -2987,6 +3577,11 @@ https://github.com/nipkownix/re4_tweaks
 A project designed to fix and tweak the "UHD" port of Resident Evil 4 on Steam.</Description>
         <InstallFolder>Bin32</InstallFolder>
         <ConfigFile>Bin32\dinput8.ini</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>re4_tweaks</Name>
         <Version>1</Version>
@@ -3016,6 +3611,12 @@ Fixed stretched movie playback.
 
 *Disabled by default. Check config in order to change these settings.</Description>
         <ConfigFile>RE5Fix.ini</ConfigFile>
+        <Tags>
+          <string>#crashfix</string>
+          <string>#enhancements</string>
+          <string>#fps_unlock</string>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>RE5Fix</Name>
         <Version>1</Version>
@@ -3039,6 +3640,11 @@ Unlocks FPS when FRAME RATE option is set to VARIABLE
 Added an option to skip intro
 Added an option to enable borderless windowed mode</Description>
         <ConfigFile>scripts\ResidentEvil6.FusionFix.ini</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#fps_unlock</string>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
@@ -3055,6 +3661,9 @@ Added an option to enable borderless windowed mode</Description>
         <Description>*REFramework v1.5.1*
 
 Removes pillarboxing and extends FOV in ultrawide resolutions</Description>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
@@ -3083,6 +3692,11 @@ Added an option to increase FOV
 This game uses Valve Anti Cheat for raid mode in multiplayer.
 It is recommended NOT to play this mode with this fix installed.</Description>
         <ConfigFile>scripts\ResidentEvilRevelations.FusionFix.ini</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#fps_unlock</string>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
@@ -3104,6 +3718,11 @@ Adjust shadow quality.
 This game uses Valve Anti Cheat for raid mode in multiplayer.
 It is recommended NOT to play this mode with this fix installed.</Description>
         <ConfigFile>RERevFix.ini</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#fps_unlock</string>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>RERevFix</Name>
         <Version>1</Version>
@@ -3133,6 +3752,12 @@ Added an option to disable film grain
 Added an option to enable borderless windowed mode
 Added an option to increase FOV</Description>
         <ConfigFile>scripts\ResidentEvilRevelations2.FusionFix.ini</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#fps_unlock</string>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
@@ -3151,8 +3776,14 @@ by Knightmare*
 http://www.markshan.com/knightmare/downloads.htm
 
 Fixes various crashes and adds native widescreen support. It's only applied to the single-player version of RtCW.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
-        <Name>Unofficial  Patch</Name>
+        <Name>Unofficial Patch</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -3171,6 +3802,9 @@ Fixes various crashes and adds native widescreen support. It's only applied to t
           <string>LiquidGame\Movies\Logos.bik</string>
           <string>LiquidGame\Movies\UnrealLogo.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3192,6 +3826,10 @@ Fixed Aspect Ratio
 Fixed HUD
 Fixed Field of View</Description>
         <ConfigFile>scripts\SecondSight.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -3210,6 +3848,12 @@ https://github.com/M-HT/SR
 
 Recompiled 32-bit executable that allows the game to run flawlessly on modern Windows and Linux systems with minimal setup.</Description>
         <ConfigFile>Septerra.cfg</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>SR</Name>
         <Version>1</Version>
@@ -3231,6 +3875,10 @@ Fixed Aspect Ratio
 Fixed HUD
 Fixed Field of View</Description>
         <ConfigFile>scripts\SniperElite.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -3246,6 +3894,9 @@ Fixed Field of View</Description>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sw_jedi_outcast_academy_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>GameData\base</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3261,6 +3912,9 @@ Fixed Field of View</Description>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sw_jedi_outcast_academy_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>GameData\base</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3278,6 +3932,12 @@ Fixed Field of View</Description>
 https://theforceengine.github.io/
 
 The Force Engine is a project with the goal to reverse engineer and rebuild the Jedi Engine for modern systems and the games that used that engine - Dark Forces and Outlaws. The project will include modern, built-in tools, such as a level editor and will make it easy to play Dark Forces and Outlaws on modern systems as well as the many community mods designed to work with the original games.</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>The Force Engine</Name>
         <Version>2</Version>
@@ -3301,6 +3961,9 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
           <string>TheCallistoProtocol\Content\Movies\Wwise_InstaLOD_Logos_4K.bk2</string>
           <string>TheCallistoProtocol\Content\Movies\Bink_Krafton_SDS_Logos.uasset</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3316,6 +3979,9 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/technomancer_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
         <InstallFolder>boot\data\video</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3333,6 +3999,9 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1869921614
 
 This patch fixes the crash at startup issue when the game is launched from a computer with a CPU that is using more than 8 threads.</Description>
+        <Tags>
+          <string>#crashfix</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Crash Fix</Name>
         <Version>1</Version>
@@ -3341,6 +4010,9 @@ This patch fixes the crash at startup issue when the game is launched from a com
         <Guid>1199d8f3-c20e-40cd-b27a-a20723cdbc94</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/timeshift_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3363,6 +4035,10 @@ Fixed HUD
 Fixed Field of View
 Fixed FMVs</Description>
         <ConfigFile>system\scripts\SplinterCell.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -3383,6 +4059,9 @@ Restores the correct loading screens displayed between Kalinatek and Chinese Emb
         <Description>Disables problematic texture shaders that render incorrectly on PC at certain angles, improving visual quality.
 
 Affected levels include Defense Ministry and CIA HQ.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Texture Shader Fixes</Name>
         <Version>1</Version>
@@ -3391,6 +4070,9 @@ Affected levels include Defense Ministry and CIA HQ.</Description>
         <Guid>ffc5c3d3-adc1-48c8-85e6-29687e6e9356</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sc_no_intro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3414,6 +4096,10 @@ Fixed Field of View
 Fixed FMVs
 Added an option to change goggles' light color</Description>
         <ConfigFile>System\scripts\SplinterCellChaosTheory.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -3422,6 +4108,9 @@ Added an option to change goggles' light color</Description>
         <Guid>5957032c-24ff-4035-a994-c06076431899</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/scct_no_intro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3444,6 +4133,10 @@ Option to disable depth of field effect
 Option to disable black and white filter
 Option to enable enhanced sonar vision</Description>
         <ConfigFile>src\system\d3d9.ini</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Fusion Mod</Name>
         <Version>1</Version>
@@ -3467,6 +4160,10 @@ Fixed Field of View
 Fixed FMVs
 Added an option to change goggles' light color</Description>
         <ConfigFile>SCDA-Offline\System\scripts\SplinterCellDoubleAgent.WidescreenFix.ini</ConfigFile>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
@@ -3485,6 +4182,9 @@ made using SUWSF
 https://github.com/PhantomGamers/SUWSF
 
 Fixes stretching in ultrawide and wider resolutions</Description>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Ultrawide Fix</Name>
         <Version>2</Version>
@@ -3493,6 +4193,9 @@ Fixes stretching in ultrawide and wider resolutions</Description>
         <Guid>8609bbaf-d69f-4b24-b187-21280581e9c7</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tra_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3510,6 +4213,9 @@ Fixes stretching in ultrawide and wider resolutions</Description>
 https://www.tombraiderforums.com/showthread.php?t=207392
 
 Fix for crash on Kazahkstan and other levels with next-gen graphics enabled</Description>
+        <Tags>
+          <string>#crashfix</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Crash Fix</Name>
         <Version>1</Version>
@@ -3522,6 +4228,9 @@ made using SUWSF
 https://github.com/PhantomGamers/SUWSF
 
 Fixes stretching in ultrawide and wider resolutions</Description>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Ultrawide Fix</Name>
         <Version>3</Version>
@@ -3530,6 +4239,9 @@ Fixes stretching in ultrawide and wider resolutions</Description>
         <Guid>c8b206c4-59a7-4eaf-8aa5-86ffcfe984e9</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/trl_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro FIx</Name>
         <Version>1</Version>
@@ -3544,6 +4256,9 @@ Fixes stretching in ultrawide and wider resolutions</Description>
         <Guid>5c68e172-e3e5-422f-a28b-7da315dbdb2c</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tffoc_black_screen_v1.zip</Url>
         <Description>Fixes black screen when English language is selected on a Russian retail version</Description>
+        <Tags>
+          <string>#crashfix</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Black Screen Fix</Name>
         <Version>1</Version>
@@ -3552,6 +4267,9 @@ Fixes stretching in ultrawide and wider resolutions</Description>
         <Guid>1a02b1c2-8422-4588-b88f-e6fd37ad3e03</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tffoc_no_intro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3573,6 +4291,9 @@ Installing this patch makes the game DRM-Free. The game version number is unchan
 Notes: This released patch v1.17 contains a DRM-Free .exe that is the exact same version as the steam version .exe. Only the DRM-Free .exe is required from the download and included in this patch here.
 
 After installing the patch, the game can be run directly from the tropico3.exe executable without having to run Steam.</Description>
+        <Tags>
+          <string>#drm_free</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Official DRM-Free Patch</Name>
         <Version>1</Version>
@@ -3590,6 +4311,10 @@ After installing the patch, the game can be run directly from the tropico3.exe e
 https://www.oldunreal.com/downloads/unreal/oldunreal-patches/
 
 This patch was made to offer all Unreal players a new, completely overworked and fixed version for our old "love". Although the main target was bugfixing, many improvements have been made and a lot of additions found their way into this new version. The general gameplay and the game itself was not touched and it should remain 100% compatible to old mods and maps.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>227i Patch</Name>
         <Version>1</Version>
@@ -3604,6 +4329,11 @@ This patch was made to offer all Unreal players a new, completely overworked and
         <Guid>5b94fa25-0954-4dbc-94de-f9232cba1ea8</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/vtmb_common.zip</Url>
         <Description>Modified files taken from the Unofficial Patch 11.5 that fix common crashes and add support for more resolution.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+          <string>#ultrawide</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Mandatory Fixes</Name>
         <Version>1</Version>
@@ -3624,6 +4354,9 @@ as the Troika Games official patch 1.2 is included.
 
 The default Basic Patch fixes bugs mostly and restores only a bit of
 content to be close to the original.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+        </Tags>
         <Dependencies>
           <guid>5b94fa25-0954-4dbc-94de-f9232cba1ea8</guid>
         </Dependencies>
@@ -3638,6 +4371,12 @@ content to be close to the original.</Description>
 https://www.moddb.com/mods/vtmb-unofficial-patch
 
 The Plus Patch adds various tweaks and lots of content.</Description>
+        <Tags>
+          <string>#additional_content</string>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#non_vanilla</string>
+        </Tags>
         <Dependencies>
           <guid>5b94fa25-0954-4dbc-94de-f9232cba1ea8</guid>
           <guid>9cb964f2-66e5-4c1e-9a21-b53171092684</guid>
@@ -3660,6 +4399,9 @@ The Plus Patch adds various tweaks and lots of content.</Description>
           <string>Videos\logos\replay_logo.bik</string>
           <string>Videos\logos\southpeak.bik</string>
         </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
@@ -3677,6 +4419,9 @@ The Plus Patch adds various tweaks and lots of content.</Description>
 https://community.pcgamingwiki.com/files/file/33-warhammer-40k-camera-zoom-mod/
 
 It allows you to zoom out farther than normal to get a somewhat better view of the battle field. </Description>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Camera Zoom Mod</Name>
         <Version>1</Version>
@@ -3703,6 +4448,10 @@ Select your aspect ratio from a drop down menu.</Description>
           <string>16x10</string>
           <string>21x9</string>
         </Variants>
+        <Tags>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>(Ultra)Widescreen Resolution Fix</Name>
         <Version>1</Version>
@@ -3711,6 +4460,9 @@ Select your aspect ratio from a drop down menu.</Description>
         <Guid>3a2d0917-ba1a-4a16-a307-8021c60cfa4f</Guid>
         <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dawn_of_war_config.zip</Url>
         <Description>Configuration utility taken from Dark Crusade that supports more resolutions compared to the original one</Description>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Config Utility</Name>
         <Version>1</Version>
@@ -3728,6 +4480,9 @@ Select your aspect ratio from a drop down menu.</Description>
 https://community.pcgamingwiki.com/files/file/33-warhammer-40k-camera-zoom-mod/
 
 It allows you to zoom out farther than normal to get a somewhat better view of the battle field. </Description>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Camera Zoom Mod</Name>
         <Version>1</Version>
@@ -3747,6 +4502,12 @@ https://maniacsvault.net/ecwolf/
 ECWolf is an advanced source port for Wolfenstein 3D, Spear of Destiny, and Super 3D Noah's Ark based off of the Wolf4SDL code base. ECWolf pulls a substantial amount of code from ZDoom and aims to provide a wide array of mod editing capabilities without the need to modify the source code. Most importantly you will no longer need to replace entire data sets. With ECWolf you could for example add a weapon without needing to distribute every sprite in the game along with it. Mods will be neatly packaged into a single file just like they are for Doom.
 
 For players, ECWolf provides many useful features such as better control binding, support for wide screen resolutions, and unlimited save slots. ECWolf allows you to keep all of your game data in one directory as one binary plays all supported games. Support for even more Wolfenstein engine games is planned for the future! (I know you're all waiting for Blake Stone support.) In terms of accuracy to vanilla Wolf, it is about the same as the accuracy of ZDoom to vanilla Doom.</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>ECWolf</Name>
         <Version>1</Version>
@@ -3764,6 +4525,12 @@ For players, ECWolf provides many useful features such as better control binding
 https://github.com/ZDoom/Raze
 
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#sourceport</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>Raze</Name>
         <Version>1</Version>
@@ -3785,6 +4552,11 @@ It is recommended to create a new in-game profile after installing this patch.</
           <string>system\User.ini</string>
           <string>system\XIII.ini</string>
         </FilesToDelete>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#multiplayer</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Unofficial Patch 1.4</Name>
         <Version>1</Version>
@@ -3797,6 +4569,9 @@ It is recommended to create a new in-game profile after installing this patch.</
           <string>system\User.ini</string>
           <string>system\XIII.ini</string>
         </FilesToDelete>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
         <Dependencies>
           <guid>af07b5e1-e803-4740-984d-ff3c407caaf2</guid>
         </Dependencies>

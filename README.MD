@@ -300,8 +300,8 @@ Mars: War Logs
 - No Intro Fix
 
 Max Payne
-- IndirectSound
 - Widescreen Fix
+- IndirectSound
 - Corrupt JPEG data Fix
 
 Max Payne 2: The Fall of Max Payne
@@ -389,7 +389,7 @@ Resident Evil Revelations 2
 - Fusion Fix
 
 Return to Castle Wolfenstein
-- Unofficial  Patch
+- Unofficial Patch
 
 Rise of the Argonauts
 - No Intro Fix
