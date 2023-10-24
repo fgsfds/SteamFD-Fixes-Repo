@@ -58,6 +58,9 @@ Borderlands 2
 Bound By Flame
 - No Intro Fix
 
+Broken Sword 1 - Shadow of the Templars: Director's Cut
+- No Intro Fix
+
 Bully: Scholarship Edition
 - Widescreen Fix
 - Silent Patch
@@ -97,6 +100,12 @@ Daikatana
 
 DARK SOULS™: Prepare To Die Edition
 - DSFix
+
+Darksiders II Deathinitive Edition
+- No Intro Fix
+
+Darksiders Warmastered Edition
+- No Intro Fix
 
 DarkStar One
 - No Intro Fix
@@ -324,6 +333,9 @@ Obscure
 Of Orcs And Men
 - No Intro Fix
 
+Parkan 2
+- No Intro Fix
+
 PowerSlave (DOS Classic Edition)
 - Raze
 
@@ -394,6 +406,15 @@ Return to Castle Wolfenstein
 Rise of the Argonauts
 - No Intro Fix
 
+Risen
+- No Intro Fix
+
+Risen 2 - Dark Waters
+- No Intro Fix
+
+Risen 3 - Titan Lords
+- No Intro Fix
+
 Second Sight
 - Widescreen Fix
 
@@ -453,6 +474,12 @@ Transformers: Fall of Cybertron
 
 Tropico 3 - Steam Special Edition
 - Official DRM-Free Patch
+
+Two Worlds II HD
+- No Intro Fix
+
+Two Worlds: Epic Edition
+- No Intro Fix
 
 Unreal Gold
 - 227i Patch

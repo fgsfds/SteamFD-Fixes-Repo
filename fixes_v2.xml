@@ -6,14 +6,17 @@
     <Fixes>
       <FixEntity>
         <Guid>e2cfbadc-fe21-4898-bf47-e6a9c7f784d4</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/alan_wake_nointro_v1.zip</Url>
-        <Description>Blank replacements for intro videos</Description>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>data\videos\startup_mgs.bik</string>
+          <string>data\videos\startup_remedy.bik</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -23,14 +26,16 @@
     <Fixes>
       <FixEntity>
         <Guid>26ee6157-8a47-4d70-8bc0-2cc2dd6a5cb5</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/alan_wake_nointro_v1.zip</Url>
-        <Description>Blank replacements for intro videos</Description>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>data\videos\startup_remedy.bik</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -537,6 +542,25 @@ Lock cursor to game window - Both the original version and the "Terminal Cut" ha
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>57640</GameId>
+    <GameName>Broken Sword 1 - Shadow of the Templars: Director's Cut</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>365dd4d4-ca68-4fb9-beb4-e80623cce3a4</Guid>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>movies\revlogo.ogv</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>12200</GameId>
     <GameName>Bully: Scholarship Edition</GameName>
     <Fixes>
@@ -583,14 +607,16 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
       </FixEntity>
       <FixEntity>
         <Guid>b78ca50c-b0e5-4520-8731-f6b22014b851</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bully_nointro_v1.zip</Url>
-        <Description>Blank replacements for intro videos</Description>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>Movies\RockStar.wmv</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -921,6 +947,46 @@ Allows for easy, understandable editing of the DSfix configuration without havin
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>DSFix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>388410</GameId>
+    <GameName>Darksiders II Deathinitive Edition</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>469f2790-7cde-4a29-9b16-ecb2b226a755</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/darksiders_2_nointro.zip</Url>
+        <Description>Blank replacements for intro videos</Description>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>462780</GameId>
+    <GameName>Darksiders Warmastered Edition</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>ba6f8f32-50d2-4107-a3f4-a7475fd24e96</Guid>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>media\videos\kaiko_logo.wmv</string>
+          <string>media\videos\main_menu_intro.wmv</string>
+          <string>media\videos\start_screen_intro.wmv</string>
+          <string>media\videos\THQNORDIC_LOGO_Color_white.wmv</string>
+          <string>media\videos\Vigil_Logo1280x720.wmv</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -1289,14 +1355,19 @@ Disciples II: Added new borders image for ingame windows/dialogs. Thanks to Мо
     <Fixes>
       <FixEntity>
         <Guid>705bfb3a-d08e-4a15-9f25-7fe5485b6947</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dishonored_2_nointro.zip</Url>
-        <Description>Blank replacements for intro videos</Description>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>base\video\arkbeth.bk2</string>
+          <string>base\video\legal.bk2</string>
+          <string>base\video\void.bk2</string>
+          <string>base\video\warning.bk2</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -1330,14 +1401,19 @@ Disciples II: Added new borders image for ingame windows/dialogs. Thanks to Мо
     <Fixes>
       <FixEntity>
         <Guid>0dff6b1c-ae1a-43e0-b12b-7b9dbd05b826</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dishonored_2_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <FilesToDelete>
+          <string>base\video\arkbeth.bk2</string>
+          <string>base\video\legal.bk2</string>
+          <string>base\video\void.bk2</string>
+          <string>base\video\warning.bk2</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -3190,6 +3266,27 @@ https://community.pcgamingwiki.com/files/file/1400-obscure-widescreen-multimonit
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>289400</GameId>
+    <GameName>Parkan 2</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>d0f3e1fe-f2b9-436b-b338-9ea3b02f6bbb</Guid>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>movies\1.bik</string>
+          <string>movies\nikita.bik</string>
+          <string>movies\p2_Title.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>1260020</GameId>
     <GameName>PowerSlave (DOS Classic Edition)</GameName>
     <Fixes>
@@ -3265,15 +3362,21 @@ http://ps2wide.net/pc.html#popst</Description>
       </FixEntity>
       <FixEntity>
         <Guid>20696bb2-168c-46af-a4c5-37fbf6875621</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_sot_nointro_v1.zip</Url>
-        <Description>Blank replacements for intro videos</Description>
+        <Description>Removal of intro videos</Description>
         <InstallFolder>Video</InstallFolder>
+        <FilesToDelete>
+          <string>Video\Bink.int</string>
+          <string>Video\Intro.int</string>
+          <string>Video\nvidia.int</string>
+          <string>Video\poplogo.int</string>
+          <string>Video\ubisoft.int</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -3305,15 +3408,19 @@ This patch will fix most of the problems left for 18 years by UBISOFT.</Descript
       </FixEntity>
       <FixEntity>
         <Guid>4ceee222-be15-434b-a797-68a50b26f1e3</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_wwtt_nointro_v1.zip</Url>
-        <Description>Blank replacements for intro videos</Description>
+        <Description>Removal of intro videos</Description>
         <InstallFolder>Video</InstallFolder>
+        <FilesToDelete>
+          <string>Video\LOGORP.bik</string>
+          <string>Video\UBIMC.bik</string>
+          <string>Video\UBISOFT.bik</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -3347,15 +3454,20 @@ Proper 16:9 and FOV options (YOU HAVE TO EDIT pop2.ini FILE TO ADD YOUR RESOLUTI
       </FixEntity>
       <FixEntity>
         <Guid>b1fd31f1-7e15-498e-849e-3f715ca91010</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_wwtt_nointro_v1.zip</Url>
-        <Description>Blank replacements for intro videos</Description>
+        <Description>Removal of intro videos</Description>
         <InstallFolder>Video</InstallFolder>
+        <FilesToDelete>
+          <string>Video\LOGORP.bik</string>
+          <string>Video\UBIMC.bik</string>
+          <string>Video\UBIMTL.bik</string>
+          <string>Video\UBISOFT.bik</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -3812,6 +3924,68 @@ Fixes various crashes and adds native widescreen support. It's only applied to t
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>40300</GameId>
+    <GameName>Risen</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>a93d3ff0-b5c0-4c87-bf27-0acc6e856bb1</Guid>
+        <Description>Blank replacements for intro videos</Description>
+        <FilesToDelete>
+          <string>data\extern\videos\esrb.bik</string>
+          <string>data\extern\videos\logo_01.bik</string>
+          <string>data\extern\videos\logo_02.bik</string>
+          <string>data\extern\videos\THQNORDIC_LOGO_Color_white.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>40390</GameId>
+    <GameName>Risen 2 - Dark Waters</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>cb3ebc75-669d-4640-b6fe-af382a6baccc</Guid>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>data\extern\videos\logo_ds.vid</string>
+          <string>data\extern\videos\logo_pb.vid</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>249230</GameId>
+    <GameName>Risen 3 - Titan Lords</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>9acec3cc-880e-4f0d-9e1a-c50334cd323b</Guid>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>data\extern\videos\logo_ds.wmv</string>
+          <string>data\extern\videos\logo_pb.wmv</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>11550</GameId>
     <GameName>Second Sight</GameName>
     <Fixes>
@@ -4008,14 +4182,18 @@ This patch fixes the crash at startup issue when the game is launched from a com
       </FixEntity>
       <FixEntity>
         <Guid>1199d8f3-c20e-40cd-b27a-a20723cdbc94</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/timeshift_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <FilesToDelete>
+          <string>video\saber_logo.bik</string>
+          <string>video\sierra_logo.bik</string>
+          <string>video\twimtbp.bik</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -4191,14 +4369,18 @@ Fixes stretching in ultrawide and wider resolutions</Description>
       </FixEntity>
       <FixEntity>
         <Guid>8609bbaf-d69f-4b24-b187-21280581e9c7</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tra_nointro.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <FilesToDelete>
+          <string>intro.bik</string>
+          <string>intro_w.bik</string>
+          <string>nvidia.bik</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>No Intro Fix</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -4237,14 +4419,17 @@ Fixes stretching in ultrawide and wider resolutions</Description>
       </FixEntity>
       <FixEntity>
         <Guid>c8b206c4-59a7-4eaf-8aa5-86ffcfe984e9</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/trl_nointro_v1.zip</Url>
         <Description>Blank replacements for intro videos</Description>
+        <FilesToDelete>
+          <string>nvidia.bik</string>
+          <string>title.bik</string>
+        </FilesToDelete>
         <Tags>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro FIx</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -4296,6 +4481,51 @@ After installing the patch, the game can be run directly from the tropico3.exe e
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>Official DRM-Free Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>7520</GameId>
+    <GameName>Two Worlds II HD</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>0278cab0-f99a-4138-8d4a-23ac3298efc1</Guid>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>Video\intro1.wmv</string>
+          <string>Video\intro1.ogg</string>
+          <string>Video\intro3.wmv</string>
+          <string>Video\intro3.ogg</string>
+          <string>Video\intro5.wmv</string>
+          <string>Video\intro5.ogg</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>1930</GameId>
+    <GameName>Two Worlds: Epic Edition</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>c53ff009-883a-458d-8e98-f2339a7ccff1</Guid>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>Video\Intro2.wmv</string>
+          <string>Video\Intro3.wmv</string>
+          <string>Video\Intro5.wmv</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
