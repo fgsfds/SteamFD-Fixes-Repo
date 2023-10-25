@@ -158,4 +158,9 @@ Septerra Core: SR</Content>
 		
 Update to 0.7.0</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>18</Version>
+		<Date>2023-10-25T00:00:00</Date>
+		<Content>No Intro Fixes for: Broken Sword 1, Darksiders Warmastered Edition, Darksider 2 Deathinitive Edition, Parkan 2, Risen 1/2/3, Two Worlds Epic Edition, Two Worlds 2 HD</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>
