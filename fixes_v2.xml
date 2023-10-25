@@ -92,6 +92,7 @@ Arx Libertatis 1.2.1 updates and improves Arx Fatalis by supporting modern syste
           <string>#sourceport</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>F256AD08D83B9CA1878FACEB84B5E73F</MD5>
         <Name>Arx Libertatis</Name>
         <Version>1</Version>
       </FixEntity>
@@ -125,6 +126,7 @@ Features:
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>664C557522C6E396E089636FED6B4FFE</MD5>
         <Name>Eagle Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -176,6 +178,7 @@ Features:
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>4D1C58445479AE50BDDEC4BC453DF179</MD5>
         <Name>Eagle Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -193,6 +196,7 @@ Features:
           <string>redist\gfwlivesetup.exe</string>
         </FilesToDelete>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>AE4C9CCA675EBC957A00DAAFBDE261AE</MD5>
         <Name>Xliveless</Name>
         <Version>1</Version>
       </FixEntity>
@@ -204,6 +208,7 @@ Features:
           <string>#crashfix</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>942B5AC858AA88A1644B589A2A3DBED9</MD5>
         <Name>Steamless Exe</Name>
         <Version>1</Version>
       </FixEntity>
@@ -233,6 +238,7 @@ Choke Point Map</Description>
           <string>#additional_content</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>D4C9E5F58A3A997DD14913E0B28E7A74</MD5>
         <Name>DLC Pack</Name>
         <Version>1</Version>
       </FixEntity>
@@ -245,6 +251,7 @@ Choke Point Map</Description>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>7BDB52D64B83C72FA9D298A87960ECBA</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -273,6 +280,7 @@ Going wider than 16:9 will break UI</Description>
         </Tags>
         <RunAfterInstall>patch.bat</RunAfterInstall>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>48543ABBC2208BD2CFF89CAD10518136</MD5>
         <Name>Startup and widescreen fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -296,6 +304,7 @@ A BepinEx plugin for the game Biped that adds support for ultrawide resolutions,
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>583A87FC9F5F0EFA13D3542994AE4675</MD5>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -329,6 +338,7 @@ Separate volume control of sound effects and music</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>C53DA3F74BCF5EC8AD60D37C3E7EFFCB</MD5>
         <Name>bstone</Name>
         <Version>1</Version>
       </FixEntity>
@@ -362,6 +372,7 @@ Separate volume control of sound effects and music</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>C53DA3F74BCF5EC8AD60D37C3E7EFFCB</MD5>
         <Name>bstone</Name>
         <Version>1</Version>
       </FixEntity>
@@ -396,6 +407,7 @@ Adds adaptive widescreen support based on your current resolution.</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>8E3244D2E28B253A2FEF10C628A65D0E</MD5>
         <Name>Re-vamped</Name>
         <Version>1</Version>
       </FixEntity>
@@ -432,6 +444,7 @@ This pack provides voxel replacements for sprites in Blood.</Description>
         </FilesToBackup>
         <RunAfterInstall>fs_install.bat</RunAfterInstall>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>CDAF040F066D9A064947A8D69E7F8BF4</MD5>
         <Name>Voxel Pack</Name>
         <Version>1</Version>
       </FixEntity>
@@ -455,6 +468,7 @@ NotBlood is a gameplay modification of Blood, based upon the reverse-engineer po
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>7B69B926EE3F095C5F4412AF9203E05D</MD5>
         <Name>NotBlood</Name>
         <Version>1</Version>
       </FixEntity>
@@ -472,6 +486,7 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>369CE74A864FAF47802DA86F32FA0C9B</MD5>
         <Name>Raze</Name>
         <Version>1</Version>
       </FixEntity>
@@ -497,6 +512,7 @@ Lock cursor to game window - Both the original version and the "Terminal Cut" ha
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>57B513D045FEB5C0E107908B41995EE0</MD5>
         <Name>Tweaks</Name>
         <Version>1</Version>
       </FixEntity>
@@ -536,6 +552,7 @@ Lock cursor to game window - Both the original version and the "Terminal Cut" ha
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>E24F7AE825C8C5790967AD1979F71C97</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -584,6 +601,7 @@ Adjustable FOV via ini</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>BEBB512D6C9997FD538C6CC0C756BC48</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -602,6 +620,7 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
           <guid>9c129caf-ec64-4b87-9d9f-373b41fe7fff</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>C4AE89B39BC89C750500503C2E265582</MD5>
         <Name>Silent Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -680,6 +699,7 @@ After installing the patch, the game can be run directly from the chantelise.exe
           <string>#drm_free</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>3AE0A392E9E65B56A110E87BAB9B6ACD</MD5>
         <Name>Official DRM-Free Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -707,6 +727,7 @@ Added an option to make FMVs fullscreen</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>99010354298B64BA640FA7EE81B521F8</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -734,6 +755,7 @@ Added an option to make windowed mode borderless</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>EBAD54382A328E8C004CE28CAF643BBD</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -748,6 +770,7 @@ The Steam version's CondemnedA.Arch00 is noticeably smaller when compared to the
           <string>#bugfixes</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>6908CBC18B674621121C018DE06468C7</MD5>
         <Name>Missing Steam Files</Name>
         <Version>1</Version>
       </FixEntity>
@@ -770,6 +793,7 @@ Adds native HDR, improves DLSS, add full UltraWide support, improves texture str
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>58431D5C2C67389B9FD920B8C671AA16</MD5>
         <Name>HDR Ultrawide DLSS RT Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -785,6 +809,7 @@ https://www.nexusmods.com/control/mods/12</Description>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>7B5BB2E61DE719E24015487EB914FB2A</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -821,6 +846,7 @@ Show Speedometer (Shift+Alt+F8)
           <string>#crashfix</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>3A2790B53ED7217A1EC07233B3484A48</MD5>
         <Name>SilentPatch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -852,6 +878,7 @@ Advantages of pre-ordered version are available to everyone.</Description>
           <string>#sourceport</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>647764629C28ADAB9ACC93EBF0DF3F4C</MD5>
         <Name>C1-Launcher</Name>
         <Version>1</Version>
       </FixEntity>
@@ -883,6 +910,7 @@ Advantages of pre-ordered version are available to everyone.</Description>
           <string>#sourceport</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>647764629C28ADAB9ACC93EBF0DF3F4C</MD5>
         <Name>C1-Launcher</Name>
         <Version>1</Version>
       </FixEntity>
@@ -919,6 +947,7 @@ And many more.</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>DAC606450866FEE1B095E5518B2141F1</MD5>
         <Name>Patch 1.3</Name>
         <Version>1</Version>
       </FixEntity>
@@ -946,6 +975,7 @@ Allows for easy, understandable editing of the DSfix configuration without havin
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>194D6BF28BE4CA912455293FA95B9ABE</MD5>
         <Name>DSFix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -963,6 +993,7 @@ Allows for easy, understandable editing of the DSfix configuration without havin
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>AB64A2D457F23352241EA2384297E133</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1004,6 +1035,7 @@ Allows for easy, understandable editing of the DSfix configuration without havin
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>70AF41D187306E33B3154F6FD20562B0</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1034,6 +1066,7 @@ https://www.nexusmods.com/deadisland/mods/29
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>65AA1F21EA3BE43C789CB9F74470FDA9</MD5>
         <Name>Essential Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1064,6 +1097,7 @@ https://www.nexusmods.com/deadisland/mods/29
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>65AA1F21EA3BE43C789CB9F74470FDA9</MD5>
         <Name>Essential Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1081,6 +1115,7 @@ https://community.pcgamingwiki.com/files/file/840-dead-space-mouse-fix/
 
 This fix makes Dead Space use raw mouse input without any additional smoothing or acceleration. It works with VSync and high frame rates and is easy to install without having to fiddle around with FPS limiters or config files.</Description>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>A36C677E1998C58E1FC2ABF5070C5B35</MD5>
         <Name>Mouse Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1098,6 +1133,7 @@ https://community.pcgamingwiki.com/files/file/976-dead-space-2-mouse-fix/
 
 This fix makes Dead Space 2 use raw mouse input without any additional smoothing or acceleration. It works with VSync and high frame rates and is easy to install without having to fiddle around with FPS limiters or config files.</Description>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>386319AD71703FDEEF070E80F1EAD8E1</MD5>
         <Name>Mouse Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1123,6 +1159,7 @@ Also includes no intro fix</Description>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>FE2D788A4444C524DEF546E178C9F202</MD5>
         <Name>dpfix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1137,6 +1174,7 @@ Also includes no intro fix</Description>
           <guid>a9fa9377-54b7-4de0-bf4e-0001c988c885</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>C27D0C4EA503ED3BF678BAA6351FAC81</MD5>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1182,6 +1220,7 @@ Select desired resolution from a drop down menu</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>7250689465FA0733DBD94EC4079F9EBC</MD5>
         <Name>Resolution Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1205,6 +1244,7 @@ Deus Exe is a replacement executable for Deus Ex. It's compatible with the GOTY 
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>AF3A1FB0C0FDB5DCFE86182ED6F1CC5C</MD5>
         <Name>Deus Exe</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1224,6 +1264,7 @@ Patch that fixes crashes/freezez causes by telemetry and a large number of cores
           <string>#crashfix</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>E63DBE08C0B426DA985234AD842A8257</MD5>
         <Name>Crash Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1246,6 +1287,7 @@ The configuration menu (accessed by pressing F11) also allows to freely modify c
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>2D561C55E77270F2767F30B9BB137EFE</MD5>
         <Name>Gold Filter Restoration</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1287,6 +1329,7 @@ The fullscreen game can run on a display other than the primary. (Experimental)<
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>122ED67EC74CB9DC4F98C4F7947785F3</MD5>
         <Name>Visible Upgrade</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1320,6 +1363,7 @@ Disciples II: Added new borders image for ingame windows/dialogs. Thanks to Мо
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>98D9CFC19967E78540C677A6C8808A7A</MD5>
         <Name>GL Wrapper</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1447,6 +1491,7 @@ https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>75D001F5BA186AD3391791D40FA44A47</MD5>
         <Name>Crispy Doom</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1472,6 +1517,7 @@ Compared to the original version of Doom3, dhewm3 has many bugfixes, supports EA
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>4CF690489183A6B78F498DED175DF542</MD5>
         <Name>dhewm3</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1493,6 +1539,7 @@ Select from Mods menu in the base game or add LostMission.exe as a non-steam gam
           <guid>bc919ea0-c25f-4c98-bda4-a8ed6444c934</guid>
         </Dependencies>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>DB3461F483857554D730988DE6BF2A57</MD5>
         <Name>The Lost Mission</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1515,6 +1562,7 @@ Requires dhewm3</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>C23F0C4236E08138EA1DE12F005141C6</MD5>
         <Name>Resolution Autoexec</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1552,6 +1600,7 @@ https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>E299A23DBA519B6AD2DB737E8403A1EF</MD5>
         <Name>Crispy Doom</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1583,6 +1632,7 @@ extended modding features</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>303344CFCDE824F22A4E1BAD716BBF91</MD5>
         <Name>Rigel Engine</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1613,6 +1663,7 @@ https://www.zoom-platform.com/product/duke-nukem-manhattan-project
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>F6F0861871265B21CDE0416F64599FD6</MD5>
         <Name>Enhanced Edition</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1631,6 +1682,7 @@ https://www.zoom-platform.com/product/duke-nukem-manhattan-project
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>CF9ECF1F748B4E110303620EFD602AE0</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1649,6 +1701,7 @@ https://www.zoom-platform.com/product/duke-nukem-manhattan-project
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>BD16680513C44E02D1264F810127FC6E</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1688,6 +1741,7 @@ Lots of bugfixes, making the game run more stable than even the original with pa
           <string>#non_vanilla</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>6383B35184736F4DBF59EB1FC11728CF</MD5>
         <Name>Fallout Et Tu</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1704,6 +1758,7 @@ Restores children, censored dialogue and skilldex images
           <string>#censorship_fix</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>1D58B4C7687C6BC1C4D9E0732ADD2053</MD5>
         <Name>Censorship Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1731,6 +1786,7 @@ Things included in this patch:
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>9DC98C291FA12F39CA8FA850C696A370</MD5>
         <Name>Fixt Vanilla</Name>
         <Version>2</Version>
       </FixEntity>
@@ -1760,6 +1816,7 @@ The Unofficial Fallout 2 Patch is the ultimate patch available for Fallout 2. It
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>9B41FC03E1F7D6EB88991DFC8C79183B</MD5>
         <Name>Unofficial Patch</Name>
         <Version>3</Version>
       </FixEntity>
@@ -1785,6 +1842,7 @@ This expansion attempts to stay true to what made Fallout great and thus the new
           <string>#non_vanilla</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>DC377C3B6062A337F83ACA635A0A65AA</MD5>
         <Name>Restoration Project </Name>
         <Version>2</Version>
       </FixEntity>
@@ -1814,6 +1872,7 @@ Also includes 64-bit patches and a configuration file with the highest possible 
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>4BF8E2BCF7ADCB424F0095CE43F48AA6</MD5>
         <Name>Far Cry Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1843,6 +1902,7 @@ Skip intro videos and remove the 5 second wait on the legal screen</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>CE729C46BF7BDBD41473BD41BFCC15C5</MD5>
         <Name>ZPatch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1876,6 +1936,7 @@ Skip intro videos and remove the 5 second wait on the legal screen</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>0A6A1FC1F1716CF77A8342B56338AA22</MD5>
         <Name>ZPatch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1899,6 +1960,7 @@ The DDrawCompat project is a DirectDraw and Direct3D 1-7 compatibility, performa
           <string>#performance_improvement</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>9E9CC4DBA3DB793517C728EE0507D8B9</MD5>
         <Name>Performance Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1921,6 +1983,7 @@ https://github.com/crosire/d3d8to9</Description>
           <string>#bugfixes</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>4E2B53B9E87E847FA5B5AE6850FDC961</MD5>
         <Name>Cursor fix</Name>
         <Version>2</Version>
       </FixEntity>
@@ -1940,6 +2003,7 @@ https://github.com/ThirteenAG/Ultimate-ASI-Loader</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>9BA59F8863E6DD32EAF2EE9013FB28A1</MD5>
         <Name>Universal Widescreen Fix</Name>
         <Version>2</Version>
       </FixEntity>
@@ -1965,6 +2029,7 @@ https://github.com/ThirteenAG/Ultimate-ASI-Loader</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>71ECD95FAFFE412075E596E27DF4A0A4</MD5>
         <Name>Universal Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1991,6 +2056,7 @@ Many different options available in the config</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>1F81347A4459619F05197A5E37652529</MD5>
         <Name>Widescren Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2011,6 +2077,7 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
           <guid>d8f77b17-7fbb-48dc-9cd8-a56298df6dc6</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>F510FC031913BF2806E3FEA691B00C0D</MD5>
         <Name>Silent Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2029,6 +2096,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
           <guid>d8f77b17-7fbb-48dc-9cd8-a56298df6dc6</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>EBFB086988D95AA52C26F7B2ECCC5F02</MD5>
         <Name>GInput</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2041,6 +2109,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>29B7A2F603BA99E85A8BF39AE7E5EAB2</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2064,6 +2133,7 @@ This projects aims to fix some issues in Grand Theft Auto IV: Complete Edition.<
           <string>#crashfix</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>6FBA373A391BD1033C58C19DD6CDC5E7</MD5>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2082,6 +2152,7 @@ ColAccel is a .asi plugin for GTA IV and EFLC which creates a 'colCache.dat' fil
           <guid>f46efd2c-9bb5-430e-9e38-b5fce605860f</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>E1B074D567919A8E002B7E6F6AF749E0</MD5>
         <Name>ColAccel</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2097,6 +2168,7 @@ A Vulkan-based translation layer for Direct3D 9/10/11 which increases performanc
           <string>#performance_improvement</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>D98254EF3D3910C818449F5C6A483998</MD5>
         <Name>dxvk</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2123,6 +2195,7 @@ Many different options available in the config</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>03555B75EEDB1093125C97F71BE69B26</MD5>
         <Name>Widescren Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2143,6 +2216,7 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
           <guid>0c283cd8-d599-41e7-8adf-6c20f3baad04</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>239614B1E02EED405C4222819E9A365C</MD5>
         <Name>Silent Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2161,6 +2235,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
           <guid>0c283cd8-d599-41e7-8adf-6c20f3baad04</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>416176AB85C77D1C84A2B57C200ACCAB</MD5>
         <Name>GInput</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2173,6 +2248,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>29B7A2F603BA99E85A8BF39AE7E5EAB2</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2199,6 +2275,7 @@ Many different options available in the config</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>8DEC9B85415C8865F15DD1E23FAB66EE</MD5>
         <Name>Widescren Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2219,6 +2296,7 @@ Patch that fixes a lot of problems with the game. Check the link above for a ful
           <guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>0EDD9D80D8874E60E30B8A7CACAAE56C</MD5>
         <Name>Silent Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2237,6 +2315,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
           <guid>8c16cb5f-e2cd-4535-ae49-92394a26a44d</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>C87CCF56D520F3F6A4FDE20EC6173E47</MD5>
         <Name>GInput</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2249,6 +2328,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>29B7A2F603BA99E85A8BF39AE7E5EAB2</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2274,6 +2354,7 @@ Fixed Field of View</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>2AEA0D3DE4DE52B4384C4EA5EB3E5A6F</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2316,6 +2397,7 @@ https://www.doomworld.com/forum/topic/64778-heretic-minor-sprite-fixing-and-wide
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>4BE5E4A4B8D0767A3776C4C8BAD5C495</MD5>
         <Name>Crispy Heretic + Widescreen Sprites</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2343,6 +2425,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>7DDAF0AEE94534FB2141A8C20F9CD9EE</MD5>
         <Name>Crispy Hexen + Widescreen Sprites</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2370,6 +2453,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>8548801738D47C8CD01AAC1C4E59A3EE</MD5>
         <Name>Crispy Hexen + Widescreen Sprites</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2397,6 +2481,7 @@ Fully stable solution with no crashes or graphics bugs.</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>AC673E478BBDB13A2A4F16E112C6EF23</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2413,6 +2498,7 @@ This fix downgrades game to version 1.01</Description>
           <string>#censorship_fix</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>D1573CBFD186D2C7101C49EAA2D90B23</MD5>
         <Name>Censorship Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2427,6 +2513,7 @@ This fix downgrades game to version 1.01</Description>
           <guid>bce7d1ed-3bb7-4562-9cb7-0e802f74cd7d</guid>
         </Dependencies>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>60758D75B77B9393F6F6F34CC20710EB</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2447,6 +2534,7 @@ http://ps2wide.net/pc.html#h4</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>E5CFF3BB2616BD410F2738DEF9DAD74D</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2458,6 +2546,7 @@ http://ps2wide.net/pc.html#h4</Description>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>A043DC91CD302E877D90F7306BE1D204</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2487,6 +2576,7 @@ As a bonus, the bad default control scheme has been changed to a close one for l
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>25583D860EDA97D75F3FAE4F69A4386E</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2499,6 +2589,7 @@ As a bonus, the bad default control scheme has been changed to a close one for l
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>9D542E56522716B32D7CD515FC9BA3A6</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2526,6 +2617,7 @@ Fully stable solution with no crashes or graphics bugs.</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>B76071F61B85EA43990CE0867DC0B40E</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2540,6 +2632,7 @@ Fully stable solution with no crashes or graphics bugs.</Description>
           <guid>7c9cf11a-e529-4a4e-a8c8-a517f6ead308</guid>
         </Dependencies>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>B5C942B36A3A8FD09224138A847DA480</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2577,6 +2670,7 @@ Nep: Nep</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>7328A9B6DAC468B69E61246956350C69</MD5>
         <Name>Neptastic Mod</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2614,6 +2708,7 @@ Nep: Nep</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>7328A9B6DAC468B69E61246956350C69</MD5>
         <Name>Neptastic Mod</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2650,6 +2745,7 @@ Nep: Nep</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>7328A9B6DAC468B69E61246956350C69</MD5>
         <Name>Neptastic Mod</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2676,6 +2772,7 @@ Fixed FMVs</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>5DFA343F78C0F38DBD569247868A4C50</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2693,6 +2790,7 @@ Fixed FMVs</Description>
           <string>XLiveRedist\XLiveRedist01.02.0241.00.msi</string>
         </FilesToDelete>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>AE4C9CCA675EBC957A00DAAFBDE261AE</MD5>
         <Name>Xliveless</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2711,6 +2809,7 @@ The number 246 in the eASIer.txt file can be changed up or down to a max of 255 
           <guid>8c931665-155c-49fe-b554-3f869e5c6166</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>BCC424CB8A31DF31314AECA0E0190FC0</MD5>
         <Name>FOV Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2725,6 +2824,7 @@ Fixes aspect ratio at 21:9 resolutions</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>D80FB17DBD91E1962CB2555779289654</MD5>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2788,6 +2888,7 @@ Support for 5 mouse buttons</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>EC04389E69C246DFBD5075E2C95D28F3</MD5>
         <Name>Unofficial Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2808,6 +2909,7 @@ http://ps2wide.net/pc.html</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>B0152C0C21408CF355B90E480BAA929A</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2844,6 +2946,7 @@ Returns a dynamic soundtrack, or rather its similarity (Yes, it is far from the 
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>EC5A0E16D32458A299F352CAC19F8430</MD5>
         <Name>sr1patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2894,6 +2997,7 @@ Allows the English executable to run with any officially localized version of th
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>27CFF8D039AEA1E97C088FC028530123</MD5>
         <Name>Soul Fixer</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2911,6 +3015,7 @@ Activates the official game's feature Autoface Toggle Mode (Defiance default fea
 
 Fixes the old bug with the movement forward in the autoface (can't move) and swim (move forward instead of turn) modes if one uses the “keyboard + mouse” control scheme.</Description>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>2415FA08A67735D9A2A9C5DA7C8D75B4</MD5>
         <Name>Enhancer</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2942,6 +3047,7 @@ Added an option to set deadzone for left stick and right stick on gamepad (other
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>2CBE8F68B839E40E26484724E662A535</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -2985,6 +3091,7 @@ This plugin will stop any audio or music from looping.</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>D032109F7A38640D2B39760303FDDC48</MD5>
         <Name>Manhunt Fixer</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3004,6 +3111,7 @@ MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt t
           <guid>5af13294-80ba-4681-b65e-0ade9812c101</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>91A3F637BEE6E5DF261D3B07D9DF3759</MD5>
         <Name>MHP</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3022,6 +3130,7 @@ MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt t
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>D1A57D76B044B68036D19513E6A018F7</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3053,6 +3162,7 @@ Added an option to keep the game running on minimize</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>AE2A3BCA2820B44DAD1059D9F2042B33</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3064,6 +3174,7 @@ https://www.indirectsound.com/downloads.html
 
 IndirectSound emulates audio hardware acceleration on modern Windows operating systems. This enables older games to have 3D positional audio (i.e. surround sound played out of rear and side speakers) like they were intended to when they were originally released.</Description>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>EB9A02CB0AECBC9B524E2354C423553A</MD5>
         <Name>IndirectSound</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3075,6 +3186,7 @@ IndirectSound emulates audio hardware acceleration on modern Windows operating s
           <string>#amd</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>D7E7F47902CD3302E32FDEE8BB5C6F5C</MD5>
         <Name>Corrupt JPEG data Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3106,6 +3218,7 @@ Added an option to keep the game running on minimize</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>4FDC08E228E7AF789E7C178FCC75588B</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3124,6 +3237,7 @@ https://github.com/ThirteenAG/Ultimate-ASI-Loader
 This is a DLL file which adds ASI plugin loading functionality to any game.</Description>
         <InstallFolder>Max Payne 3</InstallFolder>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>797974179F8267F5113287E045267AE5</MD5>
         <Name>ASI Loader</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3143,6 +3257,7 @@ This is a small project intended to add ability to hide skip button in Max Payne
           <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>EA215D51FABEE05A50334FC448E460E5</MD5>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3168,6 +3283,7 @@ Gameplay FOV adjustment without affecting cutscenes/other camera types.</Descrip
           <guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>494A500A329CF3D27406C7F9282D184A</MD5>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3191,6 +3307,7 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>B77C9E50AA86BDBBFF6C153659452718</MD5>
         <Name>Raze</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3223,6 +3340,7 @@ Non-standard keybindings, such as a dedicated dash/evade and pod fire toggle</De
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>1434115BD225E5FB337D50A7D1F0DC85</MD5>
         <Name>NAOMI</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3242,6 +3360,7 @@ https://community.pcgamingwiki.com/files/file/1400-obscure-widescreen-multimonit
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>DE6AC315F1B5D30289D76005DDF661F2</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3260,6 +3379,7 @@ https://community.pcgamingwiki.com/files/file/1400-obscure-widescreen-multimonit
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>74D80904E25510F0990FE00D0BBFF0AA</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3304,6 +3424,7 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>B6CA9F7FD27E29EE29E88896314D42AD</MD5>
         <Name>Raze</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3321,6 +3442,7 @@ Fixes low graphics settings bug on modern PCs</Description>
         <InstallFolder>base</InstallFolder>
         <ConfigFile>base\autoexec.cfg</ConfigFile>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>A881991DB82CBB7D8BB4D40E57CE83E6</MD5>
         <Name>Ultra Graphics Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3337,6 +3459,7 @@ Includes Ultra Graphics Fix</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>FA0B6547919A369C409453398B380D49</MD5>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3357,6 +3480,7 @@ http://ps2wide.net/pc.html#popst</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>3FD332D672612283797F3B5D4A205D23</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3403,6 +3527,7 @@ This patch will fix most of the problems left for 18 years by UBISOFT.</Descript
         </Tags>
         <RunAfterInstall>patch.bat</RunAfterInstall>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>E8E1D29F44F141486EF4FA6EE1C77340</MD5>
         <Name>Unofficial Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3449,6 +3574,7 @@ Proper 16:9 and FOV options (YOU HAVE TO EDIT pop2.ini FILE TO ADD YOUR RESOLUTI
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>D209781030480942D89F4DBA20DCA354</MD5>
         <Name>Unofficial Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3488,6 +3614,7 @@ This patch adds widescreen support to Project: Snowblind. In particular, it make
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>BDE59B415C1B526F06F3F71BBB01EDEB</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3511,6 +3638,7 @@ Fixed FMVs</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>0195ECDF52EB87D1390998AC2CC1575E</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3542,6 +3670,7 @@ Fixes low graphics settings bug on modern PCs</Description>
         <InstallFolder>q4base</InstallFolder>
         <ConfigFile>q4base\autoexec.cfg</ConfigFile>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>E5739F658F91F78618E772C1747560A8</MD5>
         <Name>Ultra Graphics Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3558,6 +3687,7 @@ Includes Ultra Graphics Fix</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>35A17E5A8DB8E90560F2F691423AA91E</MD5>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3580,6 +3710,7 @@ After installing the patch, the game can be run directly from the recettear.exe 
           <string>#drm_free</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>7AE83426EDE6AF22269193E9C68C9200</MD5>
         <Name>Official DRM-Free Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3603,6 +3734,7 @@ Removes the black bars appearing top, bottom, left, &amp; right especially durin
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>84CD8AD2AA63E7EF5301C634F35954B1</MD5>
         <Name>No Black Bars</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3626,6 +3758,7 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>73D5FF2A4291ECA14073112C3F3B378D</MD5>
         <Name>Raze</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3649,6 +3782,7 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>DDFFDF3D5FF74926C83798C97DFCB13B</MD5>
         <Name>Raze</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3695,6 +3829,7 @@ A project designed to fix and tweak the "UHD" port of Resident Evil 4 on Steam.<
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>B5644F93ECE7D1B442D05C193E76BAEF</MD5>
         <Name>re4_tweaks</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3730,6 +3865,7 @@ Fixed stretched movie playback.
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>AA3EEF19CB9DC0AE169AD0C88FA302F0</MD5>
         <Name>RE5Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3758,6 +3894,7 @@ Added an option to enable borderless windowed mode</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>706F4FF84F2DBE23FB5FA999AFC2F6AE</MD5>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3777,6 +3914,7 @@ Removes pillarboxing and extends FOV in ultrawide resolutions</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>E8EE91D9F83CA58A0B06D6D5B8F90CF2</MD5>
         <Name>Ultrawide Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3810,6 +3948,7 @@ It is recommended NOT to play this mode with this fix installed.</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>5A76B3958E05687E79A4C01B9F60DEA1</MD5>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3836,6 +3975,7 @@ It is recommended NOT to play this mode with this fix installed.</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>411C16D2FE725CA34E335DC078232074</MD5>
         <Name>RERevFix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3871,6 +4011,7 @@ Added an option to increase FOV</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>D44730410D2AB53C00CBE39CB582655D</MD5>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3895,6 +4036,7 @@ Fixes various crashes and adds native widescreen support. It's only applied to t
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>482BE194A3EBF4D0C1EB9CA664834838</MD5>
         <Name>Unofficial Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4005,6 +4147,7 @@ Fixed Field of View</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>2AC049BA5EF4EB57CA145598D089294C</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4029,6 +4172,7 @@ Recompiled 32-bit executable that allows the game to run flawlessly on modern Wi
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>839BD152BE70BC9B7486498FE8212947</MD5>
         <Name>SR</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4054,6 +4198,7 @@ Fixed Field of View</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>1D0BC9635F1D6B8F42A647AC7457081E</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4072,6 +4217,7 @@ Fixed Field of View</Description>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>312C455392AE87079CA7A298ED17BD8F</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4090,6 +4236,7 @@ Fixed Field of View</Description>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>312C455392AE87079CA7A298ED17BD8F</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4113,6 +4260,7 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>95462BA764E667F9831D3FA6D0CD68F7</MD5>
         <Name>The Force Engine</Name>
         <Version>2</Version>
       </FixEntity>
@@ -4157,6 +4305,7 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>4A0846F9B541B78884FBE18ECCEBE544</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4177,6 +4326,7 @@ This patch fixes the crash at startup issue when the game is launched from a com
           <string>#crashfix</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>AD7C62A1DBE8CDFEFB61D1CC8092C7A7</MD5>
         <Name>Crash Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4218,6 +4368,7 @@ Fixed FMVs</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>99D5BC0ED53B7BCE5A715878E0E878EA</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4228,6 +4379,7 @@ Fixed FMVs</Description>
 
 Restores the correct loading screens displayed between Kalinatek and Chinese Embassy from the leaked Xbox prototype.</Description>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>CD29724E420BEABC04D52A202008D7FD</MD5>
         <Name>Improved Loading Screens</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4241,6 +4393,7 @@ Affected levels include Defense Ministry and CIA HQ.</Description>
           <string>#bugfixes</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>544E12E2E250DD2ED77F5A824B8FEF25</MD5>
         <Name>Texture Shader Fixes</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4252,6 +4405,7 @@ Affected levels include Defense Ministry and CIA HQ.</Description>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>CF82E60031D5E0610D00B579EED0C16E</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4279,6 +4433,7 @@ Added an option to change goggles' light color</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>473386C2EBF671363D894CFAE6B5315A</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4290,6 +4445,7 @@ Added an option to change goggles' light color</Description>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>B0383754971502D7E4902B6C82A7CA6F</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4316,6 +4472,7 @@ Option to enable enhanced sonar vision</Description>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>B574AF0DC7345245060E8020AFC3581D</MD5>
         <Name>Fusion Mod</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4343,6 +4500,7 @@ Added an option to change goggles' light color</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>D9238A89E7A5B28F4C5DAA6153CC9AF2</MD5>
         <Name>Widescreen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4364,6 +4522,7 @@ Fixes stretching in ultrawide and wider resolutions</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>B695BC8E77D6478608CEE31BA9393E39</MD5>
         <Name>Ultrawide Fix</Name>
         <Version>2</Version>
       </FixEntity>
@@ -4399,6 +4558,7 @@ Fix for crash on Kazahkstan and other levels with next-gen graphics enabled</Des
           <string>#crashfix</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>E076306E6237950945427BD3AEEB1881</MD5>
         <Name>Crash Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4414,6 +4574,7 @@ Fixes stretching in ultrawide and wider resolutions</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>5F6913CA21F897BFC2C7A152666825B2</MD5>
         <Name>Ultrawide Fix</Name>
         <Version>3</Version>
       </FixEntity>
@@ -4445,6 +4606,7 @@ Fixes stretching in ultrawide and wider resolutions</Description>
           <string>#crashfix</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>17A63B857A9F6F934840210C8C7D4C7A</MD5>
         <Name>Black Screen Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4456,6 +4618,7 @@ Fixes stretching in ultrawide and wider resolutions</Description>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>3AB19E74C46D8D63F71AA5CAB2ECE02D</MD5>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4480,6 +4643,7 @@ After installing the patch, the game can be run directly from the tropico3.exe e
           <string>#drm_free</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>49EC9D4D3751C103115A890D625F07ED</MD5>
         <Name>Official DRM-Free Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4546,6 +4710,7 @@ This patch was made to offer all Unreal players a new, completely overworked and
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>FD7CFC50CBA366B0A09F5DDB17640A2F</MD5>
         <Name>227i Patch</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4565,6 +4730,7 @@ This patch was made to offer all Unreal players a new, completely overworked and
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>C15CB4A49DDF22B13A93C69E1F0FC8A0</MD5>
         <Name>Mandatory Fixes</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4591,6 +4757,7 @@ content to be close to the original.</Description>
           <guid>5b94fa25-0954-4dbc-94de-f9232cba1ea8</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>A7ABAD01FEAA88EC49D93F1DD60A4D88</MD5>
         <Name>Unofficial Patch Basic</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4612,6 +4779,7 @@ The Plus Patch adds various tweaks and lots of content.</Description>
           <guid>9cb964f2-66e5-4c1e-9a21-b53171092684</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>CAEE603640276F46F4EAF4D3969AC5F2</MD5>
         <Name>Unofficial Patch Plus</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4653,6 +4821,7 @@ It allows you to zoom out farther than normal to get a somewhat better view of t
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>9A28BD5A612C32D13F51662D9A96599D</MD5>
         <Name>Camera Zoom Mod</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4683,6 +4852,7 @@ Select your aspect ratio from a drop down menu.</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>6F207D0D0138F7142E5E64B6D8ED917B</MD5>
         <Name>(Ultra)Widescreen Resolution Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4694,6 +4864,7 @@ Select your aspect ratio from a drop down menu.</Description>
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>1731C477AEA1DE8A42C286669387EFCF</MD5>
         <Name>Config Utility</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4714,6 +4885,7 @@ It allows you to zoom out farther than normal to get a somewhat better view of t
           <string>#enhancements</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>9A28BD5A612C32D13F51662D9A96599D</MD5>
         <Name>Camera Zoom Mod</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4739,6 +4911,7 @@ For players, ECWolf provides many useful features such as better control binding
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>49FA8C627A16DA7B48D404A01ED1EEA4</MD5>
         <Name>ECWolf</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4762,6 +4935,7 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <MD5>692E772BE2D1632E7F32504D8157DC40</MD5>
         <Name>Raze</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4788,6 +4962,7 @@ It is recommended to create a new in-game profile after installing this patch.</
           <string>#multiplayer</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>683C30E518AA54D3AAE8D33FE6FAE434</MD5>
         <Name>Unofficial Patch 1.4</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4806,6 +4981,7 @@ It is recommended to create a new in-game profile after installing this patch.</
           <guid>af07b5e1-e803-4740-984d-ff3c407caaf2</guid>
         </Dependencies>
         <SupportedOSes>Windows</SupportedOSes>
+        <MD5>F0F97747409270E4A5780B8D6B67B1B2</MD5>
         <Name>2560x1080 Resolution</Name>
         <Version>1</Version>
       </FixEntity>

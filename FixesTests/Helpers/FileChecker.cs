@@ -1,32 +1,66 @@
-﻿using System.Net;
+﻿using System.Security.Cryptography;
 
 namespace FixesTests.Helpers
 {
     internal class FileChecker
     {
-        public static string? CheckOnlineFile(Uri url)
+        public static async Task<string?> CheckOnlineFileAsync(HttpClient client, Uri url, string? zipMD5)
         {
-            var request = (HttpWebRequest)WebRequest.Create(url);
-            request.Method = "HEAD";
-
             try
             {
-                using var response = (HttpWebResponse)request.GetResponse();
+                using var response = await client.GetAsync(url, HttpCompletionOption.ResponseHeadersRead);
 
-                if (response is null ||
-                    response.StatusCode is not HttpStatusCode.OK)
+                if (!response.IsSuccessStatusCode)
                 {
-                    return $"Error: {url}";
+                    return $"Error while checking URL: {url}";
+                }
+
+                if (zipMD5 is null)
+                {
+                    return null;
+                }
+
+                string hash;
+
+                if (response.Content.Headers.ContentMD5 is not null)
+                {
+                    hash = BitConverter.ToString(response.Content.Headers.ContentMD5).Replace("-", string.Empty);
                 }
                 else
                 {
-                    return null;
+                    //if can't get md5 from the response, download zip
+                    var currentDir = Directory.GetCurrentDirectory();
+                    var fileName = Path.GetFileName(url.ToString());
+                    var pathToFile = Path.Combine(currentDir, fileName);
+
+                    using (var file = new FileStream(pathToFile, FileMode.Create, FileAccess.Write, FileShare.None))
+                    {
+                        using var source = await response.Content.ReadAsStreamAsync();
+
+                        await source.CopyToAsync(file);
+                    }
+
+                    response.Dispose();
+
+                    using (var md5 = MD5.Create())
+                    {
+                        using var stream = File.OpenRead(pathToFile);
+
+                        hash = Convert.ToHexString(md5.ComputeHash(stream));
+                    }
+                }
+
+                if (!zipMD5.Equals(hash))
+                {
+                    return $"MD5 of the ZIP archive doesn't match: {url}";
                 }
             }
             catch (Exception ex)
             {
                 return ex.Message + ": " + url;
             }
+
+            return null;
         }
     }
 }

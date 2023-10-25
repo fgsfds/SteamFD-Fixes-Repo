@@ -7,7 +7,7 @@ namespace FixesTests
     public class FixesTests
     {
         [TestMethod]
-        public void DeserializeXmlAndCheckIfFilesExist()
+        public async Task DeserializeXmlAndCheckIfFilesExistAsync()
         {
             Process process = new()
             {
@@ -23,6 +23,11 @@ namespace FixesTests
 
             var branchName = process.StandardOutput.ReadLine();
 
+            if (branchName is null)
+            {
+                Assert.Fail("Can't get branch name");
+            }
+
             var result = FixesProvider.DeserializeFixesXml();
 
             Assert.IsNotNull(result);
@@ -32,6 +37,8 @@ namespace FixesTests
             Assert.IsTrue(doesFixExist);
 
             var isFailed = false;
+
+            using var client = new HttpClient();
 
             foreach (var fixes in result)
             {
@@ -60,8 +67,7 @@ namespace FixesTests
 
                     Uri url;
 
-                    if (branchName is not null &&
-                        !branchName.Equals("master"))
+                    if (!branchName.Equals("master"))
                     {
                         url = new Uri(fix.Url.Replace("/master/", $"/{branchName}/"));
                     }
@@ -70,7 +76,7 @@ namespace FixesTests
                         url = new Uri(fix.Url);
                     }
 
-                    var fileCheckResult = FileChecker.CheckOnlineFile(url);
+                    var fileCheckResult = await FileChecker.CheckOnlineFileAsync(client, url, fix.MD5);
 
                     if (fileCheckResult is not null)
                     {

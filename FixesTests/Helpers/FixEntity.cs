@@ -12,8 +12,8 @@
 
     public sealed partial class FixEntity
     {
-        public string Name;
-        public int Version;
+        public string Name { get; set; }
+        public int Version { get; set; }
         public Guid Guid { get; set; }
         public string? Url { get; set; }
         public string? Description { get; set; }
@@ -25,5 +25,6 @@
         public string? RunAfterInstall { get; set; }
         public List<Guid>? Dependencies { get; set; }
         public List<string>? Tags { get; set; }
+        public string? MD5 { get; set; }
     }
 }
