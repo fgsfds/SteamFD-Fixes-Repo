@@ -86,7 +86,7 @@ namespace FixesTests
                         continue;
                     }
 
-                    Trace.WriteLine(url + " is OK");
+                    //Trace.WriteLine(url + " is OK");
                 }
             }
 

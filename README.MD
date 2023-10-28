@@ -7,8 +7,13 @@ Alan Wake's American Nightmare
 - No Intro Fix
 
 Alien: Isolation
+- Save confirmation dialog skipper
+- MotherVR
 - No Intro Fix
 - No Intro Fix
+
+Aliens: Colonial Marines
+- Improved Xenomorph AI
 
 Arx Fatalis
 - Arx Libertatis
@@ -20,6 +25,14 @@ Assassin's Creed
 Assassin's Creed II
 - Eagle Patch
 
+Batman: Arkham Asylum GOTY Edition
+- Advanced Launcher
+- No Intro Fix
+
+Batman: Arkham City GOTY
+- Advanced Launcher
+- No Intro Fix
+
 Battlestations: Pacific
 - Xliveless
 - Steamless Exe
@@ -28,6 +41,9 @@ Battlestations: Pacific
 
 Beyond Good & Evil
 - Startup and widescreen fix
+
+Binary Domain
+- Mouse Improvement Mod
 
 Biped
 - Ultrawide Fix

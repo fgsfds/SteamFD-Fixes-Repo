@@ -44,6 +44,34 @@
     <GameName>Alien: Isolation</GameName>
     <Fixes>
       <FixEntity>
+        <Guid>49ec2b86-08b9-4634-bfd9-54bde951347a</Guid>
+        <Url>https://github.com/ThirteenAG/AlienIsolation.SkipSaveConfirmationDialog/releases/download/AlienIsolation.SkipSaveConfirmationDialog-v1.1/AlienIsolation.SkipSaveConfirmationDialog.zip</Url>
+        <Description>*Save confirmation dialog skipper v1.1*
+https://github.com/ThirteenAG/AlienIsolation.SkipSaveConfirmationDialog</Description>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>6E53A3C35D8B5A1DD730363D175C678E</MD5>
+        <Name>Save confirmation dialog skipper</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>be584cd5-fc22-4d43-a72e-90b2e74b68dd</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/alien_isolation_mothervr_081.zip</Url>
+        <Description>*MotherVR v0.8.1*
+https://github.com/Nibre/MotherVR
+
+This Mod brings current generation VR support to the game Alien: Isolation</Description>
+        <Tags>
+          <string>#vr</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>BF63E254EBD08FF3DB44AC6C516C29CE</MD5>
+        <Name>MotherVR</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
         <Guid>db117586-16db-48c8-bac7-6b86023dfa02</Guid>
         <Description>Removal of intro videos</Description>
         <FilesToDelete>
@@ -71,6 +99,28 @@
         </Tags>
         <SupportedOSes>Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>49540</GameId>
+    <GameName>Aliens: Colonial Marines</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>a6527396-6489-4580-a052-2f5086add450</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/aliens_colonial_marines_teather.zip</Url>
+        <Description>Replaced AttachPawnToTeather with AttachPawnToTether in the config
+
+This results in improved wall and ceiling climbing for the xenomorphs</Description>
+        <InstallFolder>PecanGame\Config</InstallFolder>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>DD0695160A7C4F5A6A794C32D7CAD2B4</MD5>
+        <Name>Improved Xenomorph AI</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -123,6 +173,7 @@ Features:
         <Tags>
           <string>#controller_support</string>
           <string>#enhancements</string>
+          <string>#graphics_improvement</string>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
@@ -175,11 +226,120 @@ Features:
           <string>#additional_content</string>
           <string>#controller_support</string>
           <string>#enhancements</string>
+          <string>#graphics_improvement</string>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>4D1C58445479AE50BDDEC4BC453DF179</MD5>
         <Name>Eagle Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>35140</GameId>
+    <GameName>Batman: Arkham Asylum GOTY Edition</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>3b4f1a10-f709-46e5-8243-7e935413072c</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/batman_1_bmlauncher.zip</Url>
+        <Description>*Batman: Arkham Asylum - Advanced Launcher*
+https://github.com/neatodev/BmLauncherAsylumNET6
+
+This is a replacement application for the original BmLauncher of the game. Alongside vastly superior configuration options, this Launcher also offers:
+
+Tooltips for every configuration option
+Option to disable Startup Movies
+Texmod Autoload Support
+Experimental Wine (Linux) Support (More Information at the bottom)
+Compatibility Fixes for HD Texture Packs
+NVIDIA API Implementation (Enable HBAO+ using the Launcher!) (Powered by NvAPIWrapper)
+Extensive Logging Functionality (Powered by NLog)
+
+This Application is built with .NET 6. If you are using Windows 10 and above you shouldn't have any issues simply running the program. Some users might need to install .NET 6 Desktop Runtime manually.
+https://dotnet.microsoft.com/en-us/download/dotnet/6.0</Description>
+        <InstallFolder>Binaries</InstallFolder>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#fps_unlock</string>
+          <string>#graphics_improvement</string>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>811CA7364E3517153A32CE98753FEDEB</MD5>
+        <Name>Advanced Launcher</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>2fd18a0b-0964-4622-b4ec-ad6a0d5f087b</Guid>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>BmGame\Movies\baa_logo_run_v5_h264.bik</string>
+          <string>BmGame\Movies\Legal.bik</string>
+          <string>BmGame\Movies\Legalus.bik</string>
+          <string>BmGame\Movies\nvidia.bik</string>
+          <string>BmGame\Movies\utlogo.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>200260</GameId>
+    <GameName>Batman: Arkham City GOTY</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>058616f2-afb7-4fb2-95d3-bcf60009cf5b</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/batman_2_bmlauncher.zip</Url>
+        <Description>*Batman: Arkham Asylum - Advanced Launcher*
+https://neatodev.github.io/CityLauncher/
+
+This is a replacement application for the original BmLauncher.exe of the game. Alongside vastly superior configuration options, this Launcher also offers:
+
+Tooltips for every configuration option
+Option to toggle Startup Movies
+Very high customizability
+Color settings (Including color palette presets)
+Two pre-made color profiles for HDR injection
+Keybind option for Catwoman’s “Quickfire Disarm”
+Automatic DirectX11 Lighting Bug Fix (No actions needed. It happens in the background!)
+Customizable Field of View Hotkeys
+Compatibility Fixes for HD Texture Packs
+Extensive Logging Functionality (Powered by NLog)
+… and more!
+
+This Application is built with .NET 6. If you are using Windows 10 and above you shouldn't have any issues simply running the program. Some users might need to install .NET 6 Desktop Runtime manually.
+https://dotnet.microsoft.com/en-us/download/dotnet/6.0</Description>
+        <InstallFolder>Binaries\Win32</InstallFolder>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#fps_unlock</string>
+          <string>#graphics_improvement</string>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>1A0F35532DFDADCE045BCCCB9AED059D</MD5>
+        <Name>Advanced Launcher</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>20b58415-d31d-4c41-a624-9f4655a909a0</Guid>
+        <Description>Removal of intro videos</Description>
+        <FilesToDelete>
+          <string>BmGame\Movies\Startup.swf</string>
+          <string>BmGame\Movies\StartupNV.swf</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -282,6 +442,28 @@ Going wider than 16:9 will break UI</Description>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>48543ABBC2208BD2CFF89CAD10518136</MD5>
         <Name>Startup and widescreen fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>203750</GameId>
+    <GameName>Binary Domain</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>0423d60b-1c54-43be-ac31-dc1af994c3b3</Guid>
+        <Url>https://github.com/RollinBarrel/binary-domaim/releases/download/v0.92/domaim.zip</Url>
+        <Description>*v0.92*
+https://github.com/RollinBarrel/binary-domaim
+
+Mod for Binary Domain aimed at improving mouse aiming</Description>
+        <ConfigFile>domaim.exe</ConfigFile>
+        <Tags>
+          <string>#enhancements</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>E55D1855409857BFDE1A5C90ABB3EE04</MD5>
+        <Name>Mouse Improvement Mod</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -442,6 +624,9 @@ This pack provides voxel replacements for sprites in Blood.</Description>
         <FilesToBackup>
           <string>BloodEX.kpf</string>
         </FilesToBackup>
+        <Tags>
+          <string>#graphics_improvement</string>
+        </Tags>
         <RunAfterInstall>fs_install.bat</RunAfterInstall>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>CDAF040F066D9A064947A8D69E7F8BF4</MD5>
@@ -789,6 +974,7 @@ https://www.nexusmods.com/control/mods/90
 Adds native HDR, improves DLSS, add full UltraWide support, improves texture streaming, improves ray tracings, improves shadow, adds multiple futher fixes and tweaks (like FOV, intro videos skip, disable depth of field, ...)</Description>
         <Tags>
           <string>#enhancements</string>
+          <string>#graphics_improvement</string>
           <string>#nointro</string>
           <string>#ultrawide</string>
         </Tags>
@@ -973,6 +1159,7 @@ Allows for easy, understandable editing of the DSfix configuration without havin
         <ConfigFile>DATA\DSFixGUI.exe</ConfigFile>
         <Tags>
           <string>#enhancements</string>
+          <string>#graphics_improvement</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>194D6BF28BE4CA912455293FA95B9ABE</MD5>
@@ -1064,6 +1251,7 @@ https://www.nexusmods.com/deadisland/mods/29
         <InstallFolder>DI</InstallFolder>
         <Tags>
           <string>#enhancements</string>
+          <string>#graphics_improvement</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>65AA1F21EA3BE43C789CB9F74470FDA9</MD5>
@@ -1095,6 +1283,7 @@ https://www.nexusmods.com/deadisland/mods/29
         <InstallFolder>DIR</InstallFolder>
         <Tags>
           <string>#enhancements</string>
+          <string>#graphics_improvement</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>65AA1F21EA3BE43C789CB9F74470FDA9</MD5>
@@ -1156,6 +1345,7 @@ Also includes no intro fix</Description>
         <Tags>
           <string>#bugfixes</string>
           <string>#enhancements</string>
+          <string>#graphics_improvement</string>
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
@@ -1285,6 +1475,7 @@ Lighting - DC style, DC style with fixes, HR style
 The configuration menu (accessed by pressing F11) also allows to freely modify color grading attributes or select from 3 presets based on the data taken directly from DXHR.</Description>
         <Tags>
           <string>#enhancements</string>
+          <string>#graphics_improvement</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>2D561C55E77270F2767F30B9BB137EFE</MD5>
@@ -2805,6 +2996,9 @@ https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases
 
 The number 246 in the eASIer.txt file can be changed up or down to a max of 255 to increase or decrease FOV accordingly.</Description>
         <ConfigFile>eASIer.txt</ConfigFile>
+        <Tags>
+          <string>#graphics_improvement</string>
+        </Tags>
         <Dependencies>
           <guid>8c931665-155c-49fe-b554-3f869e5c6166</guid>
         </Dependencies>
@@ -3106,6 +3300,7 @@ MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt t
         <ConfigFile>scripts\MHP.ini</ConfigFile>
         <Tags>
           <string>#enhancements</string>
+          <string>#graphics_improvement</string>
         </Tags>
         <Dependencies>
           <guid>5af13294-80ba-4681-b65e-0ade9812c101</guid>
@@ -3230,14 +3425,14 @@ Added an option to keep the game running on minimize</Description>
     <Fixes>
       <FixEntity>
         <Guid>d6a9eb21-4b37-40aa-9598-e91488e3c38e</Guid>
-        <Url>https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v5.2/Ultimate-ASI-Loader.zip</Url>
-        <Description>*Ultimate ASI Loader v5.2*
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/asi_loader_640.zip</Url>
+        <Description>*Ultimate ASI Loader v6.4.0*
 https://github.com/ThirteenAG/Ultimate-ASI-Loader
 
 This is a DLL file which adds ASI plugin loading functionality to any game.</Description>
         <InstallFolder>Max Payne 3</InstallFolder>
         <SupportedOSes>Windows</SupportedOSes>
-        <MD5>797974179F8267F5113287E045267AE5</MD5>
+        <MD5>70DC92A460350E4D5E74138E3D39736F</MD5>
         <Name>ASI Loader</Name>
         <Version>1</Version>
       </FixEntity>
@@ -3441,6 +3636,9 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
 Fixes low graphics settings bug on modern PCs</Description>
         <InstallFolder>base</InstallFolder>
         <ConfigFile>base\autoexec.cfg</ConfigFile>
+        <Tags>
+          <string>#graphics_improvement</string>
+        </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>A881991DB82CBB7D8BB4D40E57CE83E6</MD5>
         <Name>Ultra Graphics Fix</Name>
