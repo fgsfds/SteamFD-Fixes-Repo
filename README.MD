@@ -27,6 +27,7 @@ Assassin's Creed II
 
 Batman: Arkham Asylum GOTY Edition
 - Advanced Launcher
+- Official PS3 DLCs
 - No Intro Fix
 
 Batman: Arkham City GOTY
@@ -113,6 +114,9 @@ Crysis Wars
 
 Daikatana
 - Patch 1.3
+
+DARK SOULS™ III
+- Proper PC Experience Mod
 
 DARK SOULS™: Prepare To Die Edition
 - DSFix

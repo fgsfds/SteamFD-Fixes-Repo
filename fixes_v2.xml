@@ -271,6 +271,25 @@ https://dotnet.microsoft.com/en-us/download/dotnet/6.0</Description>
         <Version>1</Version>
       </FixEntity>
       <FixEntity>
+        <Guid>d09ea14a-4918-4685-8642-e8fb8c98e67b</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/batman_1_dlc.zip</Url>
+        <Description>*Insane Night Challenge Map Pack*
+
+- Totally Insane Challenge Map
+- Nocturnal Hunter Challenge Map
+
+*Play As The Joker*
+
+- Play challenge maps as Joker</Description>
+        <Tags>
+          <string>#additional_content</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>230C26C2E79F9421744DF1C1AF523943</MD5>
+        <Name>Official PS3 DLCs</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
         <Guid>2fd18a0b-0964-4622-b4ec-ad6a0d5f087b</Guid>
         <Description>Removal of intro videos</Description>
         <FilesToDelete>
@@ -1135,6 +1154,47 @@ And many more.</Description>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <MD5>DAC606450866FEE1B095E5518B2141F1</MD5>
         <Name>Patch 1.3</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>374320</GameId>
+    <GameName>DARK SOULS™ III</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>5e18ebc4-f428-4581-bf0d-3d64cbac1226</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dark_souls_3_pc_experience_17.zip</Url>
+        <Description>*Proper PC Experience Mod v1.7*
+https://www.nexusmods.com/darksouls3/mods/1545
+
+- High Refresh Rate
+Forces the game to use your monitor's highest refresh rate instead of 60 Hz. If you want a custom refresh rate and not the highest one, you can create a d3d11_refreshrate.ini file in the installation directory with your preferred refresh rate number in it (e.g. "120" for 120 Hz).
+
+- High FPS
+Defaults to 120 FPS to avoid physics glitches. You can still customize the FPS limit by using a d3d11_fps.ini file with the desired number in it. You should prefer to use Nvidia's Control Panel or RTSS to cap the game's frame rate though.
+
+- G-Sync
+Game is smooth as butter now with high refresh rate and high FPS.
+
+- Ultrawide
+Some enemies might render at a low frame rate at the very edge of your screen. Not too distracting though when it happens.
+
+- Increased FOV
+Adds 25° on 16:9 monitors, 15° on 21:9 monitors, and 10° on 32:9 monitors. You can customize how much FOV should be added by using a d3d11_fov.ini file (e.g. "0" would add nothing to the default FOV).
+
+- Skip Intro
+No more getting flashbanged or losing valuable life time waiting that could be spent playing instead.</Description>
+        <InstallFolder>Game</InstallFolder>
+        <Tags>
+          <string>#enhancements</string>
+          <string>#fps_unlock</string>
+          <string>#nointro</string>
+          <string>#ultrawide</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>8CF024052A2F34B660E314273358A884</MD5>
+        <Name>Proper PC Experience Mod</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
