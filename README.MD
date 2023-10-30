@@ -303,6 +303,9 @@ Kane & Lynch: Dead Men
 Killer is Dead
 - No Intro Fix
 
+Killing Time
+- Community Patch
+
 Kingpin
 - Unofficial Patch
 
@@ -458,6 +461,15 @@ The Callisto Protocol
 
 The Technomancer
 - No Intro Fix
+
+Thief Gold
+- TFix
+
+Thief: Deadly Shadows
+- Sneaky Upgrade
+
+Thief™ II: The Metal Age
+- T2Fix
 
 TimeShift
 - Crash Fix

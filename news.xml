@@ -181,4 +181,13 @@ Fixed Max Payne 3 ASI Loader</Content>
 Batman: Arkham Asylum GOTY Edition: Official PS3 DLCs
 Dark Souls 3: Proper PC Experience Mod</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>21</Version>
+		<Date>2023-10-30T00:00:00</Date>
+		<Content>Added:
+Thief Gold: TFix
+Thief II: T2Fix
+Thief: Deadly Shadows: Sneaky Upgrade
+Killing Time: Community Patch</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>

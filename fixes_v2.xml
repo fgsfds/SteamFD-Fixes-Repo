@@ -3107,6 +3107,42 @@ Fixes aspect ratio at 21:9 resolutions</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>493320</GameId>
+    <GameName>Killing Time</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>df1a0632-b66b-42e7-8e12-4c4790c0715e</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/killing_time_community_31.zip</Url>
+        <Description>*Community Patch 3.1*
+http://cubanraul.altervista.org/kt/index.htm
+
+*Fixes video playback
+*Fixes code that causes crashes
+*No more need to kill explorer to play the game
+*Adds full mouselook
+*Restores weapon sway while walking
+*Fixes gravity while jumping
+*Fixes player getting stuck to walls
+*Fixes animations getting cut short
+*Fixes enemy behavior
+*Fixes flamethrower attack range
+*Makes automap much more useful (Thanks Tristan885!)
+*Higher bitrate audio playback (Thanks Tristan885!)
+*Optional Japanese 3DO audio (Thanks Tristan885!)
+*Option to use shotgun idle sprite from Mac version (Thanks Tristan885!)</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+          <string>#enhancements</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>70C4BC4AA391657FDB7503DA8899186B</MD5>
+        <Name>Community Patch</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>38430</GameId>
     <GameName>Kingpin</GameName>
     <Fixes>
@@ -4565,6 +4601,92 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
         <SupportedOSes>Windows Linux</SupportedOSes>
         <MD5>4A0846F9B541B78884FBE18ECCEBE544</MD5>
         <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>211600</GameId>
+    <GameName>Thief Gold</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>6e177dbc-854c-45ac-b384-73c8fc4e27a2</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/thief_1_tfix_127.zip</Url>
+        <Description>*TFix 1.27*
+https://www.ttlg.com/forums/showthread.php?t=134733
+
+TFix is an all-in-one fix pack for Thief Gold. It uses NewDark, the latest update of the Dark Engine - this improves compatibility with new pcs significantly, fixes graphic issues, adds support for widescreen resolutions and much more.
+
+Based on Thief 2 source code, so it is not accurate to Thief Gold.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+          <string>#enhancements</string>
+          <string>#nointro</string>
+          <string>#non_vanilla</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>CE4F12E5815C1325EF93D5F42F0CB5F1</MD5>
+        <Name>TFix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>6980</GameId>
+    <GameName>Thief: Deadly Shadows</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>08aafbb8-e8e8-400d-88c7-41ad16b17d31</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/thief_3_sneaky.zip</Url>
+        <Description>*Sneaky Upgrade 1.1.11*
+https://www.moddb.com/mods/thief-3-sneaky-upgrade
+
+The patch contains various bugfixes and game improvements such as widescreen support, and provides some GUI tweaks. It also enables the use of the FMSel FM loader frontend with Thief 3 and bundles the most important T3 mods.
+
+Includes Gold mod that removes most of the loading zones in the levels, expands maps and fixes bugs.</Description>
+        <ConfigFile>System\SneakyTweaker.exe</ConfigFile>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+          <string>#enhancements</string>
+          <string>#nointro</string>
+          <string>#non_vanilla</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>480603B97E799A1B7B2BB90B0287E6E1</MD5>
+        <Name>Sneaky Upgrade</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>211740</GameId>
+    <GameName>Thief™ II: The Metal Age</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>b63dfbc3-f678-4348-9f14-a4cbbd2946ac</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/thief_2_tfix_127.zip</Url>
+        <Description>*T2Fix 1.27e*
+https://www.ttlg.com/forums/showthread.php?t=149669
+
+T2Fix is a complete and self-contained patcher and installation utility for Thief II: The Metal Age. Currently, all official patches and several fan-made patches and mods are incorporated, making installing and managing the game as simple as possible. It includes NewDark, the latest fan-developed update to the Dark Engine, providing substantially better support for modern operating systems and video hardware, along with fixed original missions, providing the most pleasant and smooth experience that Thief 2 has to offer.</Description>
+        <Tags>
+          <string>#bugfixes</string>
+          <string>#crashfix</string>
+          <string>#enhancements</string>
+          <string>#nointro</string>
+          <string>#non_vanilla</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>31392B722E8DCD4AFCD033EDFC3A863A</MD5>
+        <Name>T2Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
