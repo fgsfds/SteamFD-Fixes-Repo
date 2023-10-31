@@ -190,4 +190,13 @@ Thief II: T2Fix
 Thief: Deadly Shadows: Sneaky Upgrade
 Killing Time: Community Patch</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>22</Version>
+		<Date>2023-10-31T00:00:00</Date>
+		<Content>Added:
+Crash Bandicoot™ N. Sane Trilogy: Ultrawide Fix, No Intro Fix
+Spyro™ Reignited Trilogy: Ultrawide Fix, No Intro Fix
+The Bureau: XCOM Declassified: No Intro Fix
+</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>

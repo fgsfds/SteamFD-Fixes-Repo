@@ -103,6 +103,10 @@ Control Ultimate Edition
 - HDR Ultrawide DLSS RT Patch
 - No Intro Fix
 
+Crash Bandicoot™ N. Sane Trilogy
+- Ultrawide Fix
+- No Intro Fix
+
 Crazy Taxi
 - SilentPatch
 
@@ -447,6 +451,10 @@ Septerra Core
 Sniper Elite
 - Widescreen Fix
 
+Spyro™ Reignited Trilogy
+- Ultrawide Fix
+- No Intro Fix
+
 STAR WARS™ Jedi Knight II: Jedi Outcast™
 - No Intro Fix
 
@@ -455,6 +463,9 @@ STAR WARS™ Jedi Knight: Jedi Academy™
 
 STAR WARS™: Dark Forces
 - The Force Engine
+
+The Bureau: XCOM Declassified
+- No Intro Fix
 
 The Callisto Protocol
 - No Intro Fix

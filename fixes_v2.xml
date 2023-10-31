@@ -1021,6 +1021,41 @@ https://www.nexusmods.com/control/mods/12</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>731490</GameId>
+    <GameName>Crash Bandicoot™ N. Sane Trilogy</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>fad07899-3e37-4fb8-88a5-31823a04988c</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/crash_ultrawide.zip</Url>
+        <Description>*Crash Bandicoot N. Sane Trilogy Widescreen Fix*
+by jackfuste
+https://community.pcgamingwiki.com/files/file/1404-crash-bandicoot-n-sane-trilogy-widescreen-fix/
+
+Removes black bars for all resolutions in Crash Bandicoot N. Sane Trilogy.</Description>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>AE4BB59B7B50F6CA8C63888712803FA0</MD5>
+        <Name>Ultrawide Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>714faa45-84bc-4744-8619-4d9ce92ba1dc</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>archives\bumper_atvi.bk2</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>71230</GameId>
     <GameName>Crazy Taxi</GameName>
     <Fixes>
@@ -4499,6 +4534,47 @@ Fixed Field of View</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>996580</GameId>
+    <GameName>Spyro™ Reignited Trilogy</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>07a79c35-d5e4-4cd0-8780-33915f2fc43c</Guid>
+        <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/spyro/SpyroReignitedTrilogy.WidescreenFix.zip</Url>
+        <Description>*Spyro Reignited Trilogy Widescreen Fix*
+by xan1242 
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/spyro
+
+- Fixed Aspect Ratio
+- Removes black bars on the sides</Description>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>27A3FC8C97C6A8B504A28CE3533E2C14</MD5>
+        <Name>Ultrawide Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>b2901578-3fe5-4251-b844-47a8f73c2f79</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>Falcon\Content\Movies\BumperATVI.mp4</string>
+          <string>Falcon\Content\Movies\BumperATVI_Gamma.mp4</string>
+          <string>Falcon\Content\Movies\BumperTFB.mp4</string>
+          <string>Falcon\Content\Movies\BumperTFB_Gamma.mp4</string>
+          <string>Falcon\Content\Movies\BumperUnreal.mp4</string>
+          <string>Falcon\Content\Movies\BumperUnreal_Gamma.mp4</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>6030</GameId>
     <GameName>STAR WARS™ Jedi Knight II: Jedi Outcast™</GameName>
     <Fixes>
@@ -4557,6 +4633,35 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
         <MD5>95462BA764E667F9831D3FA6D0CD68F7</MD5>
         <Name>The Force Engine</Name>
         <Version>2</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>65930</GameId>
+    <GameName>The Bureau: XCOM Declassified</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>42578e4d-23fd-45fb-8514-263e449b7d6d</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>XGame\Movies\XCOM-2KLogo.bik</string>
+          <string>XGame\Movies\XCOM-Legal_PCConsole.bik</string>
+          <string>XGame\Movies\XCOM-Legal_PCConsole_DEU.bik</string>
+          <string>XGame\Movies\XCOM-Legal_PCConsole_ESN.bik</string>
+          <string>XGame\Movies\XCOM-Legal_PCConsole_FRA.bik</string>
+          <string>XGame\Movies\XCOM-Legal_PCConsole_ITA.bik</string>
+          <string>XGame\Movies\XCOM-Legal_PCConsole_JPN.bik</string>
+          <string>XGame\Movies\XCOM-Legal_PCConsole_KOR.bik</string>
+          <string>XGame\Movies\XCOM-Legal_PCConsole_RUS.bik</string>
+          <string>XGame\Movies\XCOM-NVIDIA_PCConsole.bik</string>
+          <string>XGame\Movies\XCOM-Unreal.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
