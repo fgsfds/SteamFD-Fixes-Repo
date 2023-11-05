@@ -196,7 +196,15 @@ Killing Time: Community Patch</Content>
 		<Content>Added:
 Crash Bandicoot™ N. Sane Trilogy: Ultrawide Fix, No Intro Fix
 Spyro™ Reignited Trilogy: Ultrawide Fix, No Intro Fix
-The Bureau: XCOM Declassified: No Intro Fix
-</Content>
+The Bureau: XCOM Declassified: No Intro Fix</Content>
+	</NewsEntity>
+	<NewsEntity>
+		<Version>23</Version>
+		<Date>2023-11-04T00:00:00</Date>
+		<Content>Added:
+Tomb Raider 1: TR1X + Unfinished Business
+Tomb Raider 2: TR2Main + Golden Mask
+
+No Intro Fixes for: Red Faction 2, RoboCop: Rogue City, Sleeping Dogs DE, Sudeki, The Talos Principle 2, Tomb Raider 1,2,3,4,5</Content>
 	</NewsEntity>
 </ArrayOfNewsEntity>

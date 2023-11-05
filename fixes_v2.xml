@@ -139,7 +139,7 @@ Arx Libertatis 1.2.1 updates and improves Arx Fatalis by supporting modern syste
         <Tags>
           <string>#bugfixes</string>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <MD5>F256AD08D83B9CA1878FACEB84B5E73F</MD5>
@@ -534,7 +534,7 @@ Separate volume control of sound effects and music</Description>
         <InstallFolder>Blake Stone - Aliens of Gold</InstallFolder>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -568,7 +568,7 @@ Separate volume control of sound effects and music</Description>
         <InstallFolder>Blake Stone - Planet Strike</InstallFolder>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -667,7 +667,7 @@ https://github.com/clipmove/NotBlood
 NotBlood is a gameplay modification of Blood, based upon the reverse-engineer port NBlood</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -685,7 +685,7 @@ https://github.com/ZDoom/Raze
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -1115,7 +1115,7 @@ Advantages of pre-ordered version are available to everyone.</Description>
           <string>#bugfixes</string>
           <string>#crashfix</string>
           <string>#nointro</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>647764629C28ADAB9ACC93EBF0DF3F4C</MD5>
@@ -1147,7 +1147,7 @@ Advantages of pre-ordered version are available to everyone.</Description>
           <string>#bugfixes</string>
           <string>#crashfix</string>
           <string>#nointro</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>647764629C28ADAB9ACC93EBF0DF3F4C</MD5>
@@ -1772,7 +1772,7 @@ https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
         <InstallFolder>base</InstallFolder>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -1798,7 +1798,7 @@ Compared to the original version of Doom3, dhewm3 has many bugfixes, supports EA
         <ConfigFile>base\autoexec.cfg</ConfigFile>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -1881,7 +1881,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
 https://www.doomworld.com/forum/topic/124018-ultrawide-statusbars/</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -1913,7 +1913,7 @@ improved game controller support
 extended modding features</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -2678,7 +2678,7 @@ https://www.doomworld.com/forum/topic/64778-heretic-minor-sprite-fixing-and-wide
         <InstallFolder>base</InstallFolder>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -2706,7 +2706,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
         <InstallFolder>base</InstallFolder>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -2734,7 +2734,7 @@ https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-apprecia
         <InstallFolder>base</InstallFolder>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -3628,7 +3628,7 @@ https://github.com/ZDoom/Raze
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -3745,7 +3745,7 @@ https://github.com/ZDoom/Raze
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -4070,6 +4070,27 @@ Removes the black bars appearing top, bottom, left, &amp; right especially durin
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>20550</GameId>
+    <GameName>Red Faction II</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>402f6445-37aa-4ae6-b04b-ca011d17061f</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>pc_media\Movies\outrage-logo.bik</string>
+          <string>pc_media\Movies\thq-v.bik</string>
+          <string>pc_media\Movies\volition-logo.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>565550</GameId>
     <GameName>Redneck Rampage</GameName>
     <Fixes>
@@ -4082,7 +4103,7 @@ https://github.com/ZDoom/Raze
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -4106,7 +4127,7 @@ https://github.com/ZDoom/Raze
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -4215,7 +4236,8 @@ Added UltraWide support
 Some on-screen effects will be disabled in coop and UltraWide (damage, blood etc)
 Unlocks FPS when FRAME RATE option is set to VARIABLE
 Added an option to skip intro
-Added an option to enable borderless windowed mode</Description>
+Added an option to enable borderless windowed mode
+Added an option to enable Logitech G LIGHTSYNC RGB Lighting</Description>
         <ConfigFile>scripts\ResidentEvil6.FusionFix.ini</ConfigFile>
         <Tags>
           <string>#enhancements</string>
@@ -4223,7 +4245,7 @@ Added an option to enable borderless windowed mode</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
-        <MD5>706F4FF84F2DBE23FB5FA999AFC2F6AE</MD5>
+        <MD5>97945BE1463C6B1515F30FE5D698637F</MD5>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4262,10 +4284,11 @@ https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/rerev
 Unlocks all available display resolutions
 Unlocks FPS when FRAME RATE option is set to VARIABLE
 Added UltraWide support
-FMVs are stretched in UltraWide
+(X) FMVs are stretched in UltraWide
 Added an option to disable damage overlay
 Added an option to enable borderless windowed mode
 Added an option to increase FOV
+Added an option to enable Logitech G LIGHTSYNC RGB Lighting
 
 *Warning*
 This game uses Valve Anti Cheat for raid mode in multiplayer.
@@ -4294,7 +4317,7 @@ FOV adjustment.
 Uncap 120 FPS limit.
 Adjust shadow quality.
 
-*Warning
+*Warning*
 This game uses Valve Anti Cheat for raid mode in multiplayer.
 It is recommended NOT to play this mode with this fix installed.</Description>
         <ConfigFile>RERevFix.ini</ConfigFile>
@@ -4325,13 +4348,14 @@ Unlocks all available display resolutions
 Unlocks FPS when FRAME RATE option is set to VARIABLE
 Added UltraWide support
 Some on-screen effects will be disabled in coop and UltraWide (damage, blood etc)
-FMVs are stretched in UltraWide
+(X) FMVs are stretched in UltraWide
 Fixes a game breaking bug in episode 4, where player's controls get stuck before the final boss battle
 Added an option to skip intro
 Added an option to disable damage overlay
 Added an option to disable film grain
 Added an option to enable borderless windowed mode
-Added an option to increase FOV</Description>
+Added an option to increase FOV
+Added an option to enable Logitech G LIGHTSYNC RGB Lighting</Description>
         <ConfigFile>scripts\ResidentEvilRevelations2.FusionFix.ini</ConfigFile>
         <Tags>
           <string>#bugfixes</string>
@@ -4340,7 +4364,7 @@ Added an option to increase FOV</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
-        <MD5>D44730410D2AB53C00CBE39CB582655D</MD5>
+        <MD5>6EA9857072BB138369DB849F70491FDF</MD5>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4457,6 +4481,27 @@ Fixes various crashes and adds native widescreen support. It's only applied to t
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>1681430</GameId>
+    <GameName>RoboCop: Rogue City</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>d3c7573e-16e2-49ad-9815-a9023a5d17af</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>Game\Content\Movies\LogoGlitchHD.mp4</string>
+          <string>Game\Content\Movies\UE_moving_logo_v01_1080.mp4</string>
+          <string>Game\Content\Movies\arc-sigid-2-second-4k-2160-60fps.mp4</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>11550</GameId>
     <GameName>Second Sight</GameName>
     <Fixes>
@@ -4496,13 +4541,32 @@ Recompiled 32-bit executable that allows the game to run flawlessly on modern Wi
         <ConfigFile>Septerra.cfg</ConfigFile>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>839BD152BE70BC9B7486498FE8212947</MD5>
         <Name>SR</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>307690</GameId>
+    <GameName>Sleeping Dogs: Definitive Edition</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>c27a957f-360a-4275-8569-d83681f088b2</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>data\Movies\HK_Intro_Video_Console.bk2</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -4625,7 +4689,7 @@ https://theforceengine.github.io/
 The Force Engine is a project with the goal to reverse engineer and rebuild the Jedi Engine for modern systems and the games that used that engine - Dark Forces and Outlaws. The project will include modern, built-in tools, such as a level editor and will make it easy to play Dark Forces and Outlaws on modern systems as well as the many community mods designed to work with the original games.</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -4633,6 +4697,26 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
         <MD5>95462BA764E667F9831D3FA6D0CD68F7</MD5>
         <Name>The Force Engine</Name>
         <Version>2</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>233350</GameId>
+    <GameName>Sudeki</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>787d696d-d11c-4a2c-a381-c8bdc471eb93</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>Movies\ClimaxLogo.bik</string>
+          <string>Movies\FMA01_poem.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -4686,6 +4770,25 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
           <string>#nointro</string>
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>835960</GameId>
+    <GameName>The Talos Principle 2</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>a70a88b2-2b2e-4cda-bd5a-953e9a4dbd16</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>Talos2\Content\PrerenderedMovies\Bink\Logo_All.bk2</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4992,6 +5095,127 @@ Added an option to change goggles' light color</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>224960</GameId>
+    <GameName>Tomb Raider I</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>174629fa-0e1c-4d6a-9184-5c16923a202c</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/tomb_raider_1_tr1x_v216.zip</Url>
+        <Description>*TR1X v2.16*
+https://github.com/LostArtefacts/TR1X
+
+This is an open source implementation of the classic Tomb Raider I game (1996), made by reverse engineering the TombATI / GLRage variant of the original game and replacing proprietary audio/video libraries with open source variants.
+
+It addes support for modern OSes, high resolution, bugfixes and gameplay improvements.
+
+It also includes Unfinished Business addon.
+
+*Disable Steam Input for a proper controller support*</Description>
+        <ConfigFile>Tomb1Main_ConfigTool.exe</ConfigFile>
+        <Tags>
+          <string>#additional_content</string>
+          <string>#bugfixes</string>
+          <string>#controller_support</string>
+          <string>#enhancements</string>
+          <string>#source_port</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>74E1B03D5491EB80437905AF8BADF7B3</MD5>
+        <Name>TR1X + Unfinished Business</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>69a2a9ce-d876-47f2-accd-c186ebbc3cbd</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>FMV\CORE.RPL</string>
+          <string>FMV\CAFE.RPL</string>
+          <string>FMV\ESCAPE.RPL</string>
+          <string>DATA\EIDOSPC.PCX</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <Dependencies>
+          <guid>174629fa-0e1c-4d6a-9184-5c16923a202c</guid>
+        </Dependencies>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>225300</GameId>
+    <GameName>Tomb Raider II</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>b157b957-9e42-4442-b780-8a73479b9766</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/tomb_raider_2_tr2main_v090.zip</Url>
+        <Description>*TR2Main v0.9.0*
+https://github.com/Arsunt/TR2Main
+
+This is an open source implementation of the classic Tomb Raider II game (1997), made by reverse engineering of the original game for PC and PS1.
+
+It addes support for modern OSes, high resolution, bugfixes and gameplay improvements.
+
+It also includes Golden Mask addon, Controller Fix in Floating Islands and bugfixes for Nightmare in Vegas.
+
+*Disable Steam Input for a proper controller support*</Description>
+        <ConfigFile>config.exe</ConfigFile>
+        <Tags>
+          <string>#additional_content</string>
+          <string>#bugfixes</string>
+          <string>#controller_support</string>
+          <string>#enhancements</string>
+          <string>#source_port</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>7A72F1C7C2979309EBB5C1325089CB59</MD5>
+        <Name>TR2Main + Golden Mask</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
+        <Guid>e5f02b14-9416-4d37-b9fa-f37f159cddaa</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>fmv\ANCIENT.RPL</string>
+          <string>fmv\LOGO.RPL</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>225320</GameId>
+    <GameName>Tomb Raider III: Adventures of Lara Croft</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>fd7e9abd-143f-430e-bcd9-149c2458a192</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>fmv\Intr_Eng.rpl</string>
+          <string>fmv\logo.rpl</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>8000</GameId>
     <GameName>Tomb Raider: Anniversary</GameName>
     <Fixes>
@@ -5013,7 +5237,7 @@ Fixes stretching in ultrawide and wider resolutions</Description>
       </FixEntity>
       <FixEntity>
         <Guid>8609bbaf-d69f-4b24-b187-21280581e9c7</Guid>
-        <Description>Blank replacements for intro videos</Description>
+        <Description>Removal of the intro videos</Description>
         <FilesToDelete>
           <string>intro.bik</string>
           <string>intro_w.bik</string>
@@ -5025,6 +5249,26 @@ Fixes stretching in ultrawide and wider resolutions</Description>
         <SupportedOSes>Windows</SupportedOSes>
         <Name>No Intro Fix</Name>
         <Version>2</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>225000</GameId>
+    <GameName>Tomb Raider: Chronicles</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>d3c80aa8-1138-4f0f-b5c2-553aba2e2dad</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>movie\Fmv0.bik</string>
+          <string>movie\FMV1.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -5065,7 +5309,7 @@ Fixes stretching in ultrawide and wider resolutions</Description>
       </FixEntity>
       <FixEntity>
         <Guid>c8b206c4-59a7-4eaf-8aa5-86ffcfe984e9</Guid>
-        <Description>Blank replacements for intro videos</Description>
+        <Description>Removal of the intro videos</Description>
         <FilesToDelete>
           <string>nvidia.bik</string>
           <string>title.bik</string>
@@ -5076,6 +5320,25 @@ Fixes stretching in ultrawide and wider resolutions</Description>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro FIx</Name>
         <Version>2</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>224980</GameId>
+    <GameName>Tomb Raider: The Last Revelation</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>4b0314b6-bb88-4307-b237-de3ae25e6e13</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>fmv\Fmv00.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -5391,7 +5654,7 @@ ECWolf is an advanced source port for Wolfenstein 3D, Spear of Destiny, and Supe
 For players, ECWolf provides many useful features such as better control binding, support for wide screen resolutions, and unlimited save slots. ECWolf allows you to keep all of your game data in one directory as one binary plays all supported games. Support for even more Wolfenstein engine games is planned for the future! (I know you're all waiting for Blake Stone support.) In terms of accuracy to vanilla Wolf, it is about the same as the accuracy of ZDoom to vanilla Doom.</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
@@ -5415,7 +5678,7 @@ https://github.com/ZDoom/Raze
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
         <Tags>
           <string>#enhancements</string>
-          <string>#sourceport</string>
+          <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>

@@ -399,6 +399,9 @@ Recettear: An Item Shop's Tale
 Red Dead Redemption 2
 - No Black Bars
 
+Red Faction II
+- No Intro Fix
+
 Redneck Rampage
 - Raze
 
@@ -442,11 +445,17 @@ Risen 2 - Dark Waters
 Risen 3 - Titan Lords
 - No Intro Fix
 
+RoboCop: Rogue City
+- No Intro Fix
+
 Second Sight
 - Widescreen Fix
 
 Septerra Core
 - SR
+
+Sleeping Dogs: Definitive Edition
+- No Intro Fix
 
 Sniper Elite
 - Widescreen Fix
@@ -464,10 +473,16 @@ STAR WARS™ Jedi Knight: Jedi Academy™
 STAR WARS™: Dark Forces
 - The Force Engine
 
+Sudeki
+- No Intro Fix
+
 The Bureau: XCOM Declassified
 - No Intro Fix
 
 The Callisto Protocol
+- No Intro Fix
+
+The Talos Principle 2
 - No Intro Fix
 
 The Technomancer
@@ -502,14 +517,31 @@ Tom Clancy's Splinter Cell: Conviction
 Tom Clancy's Splinter Cell: Double Agent
 - Widescreen Fix
 
+Tomb Raider I
+- TR1X + Unfinished Business
+- No Intro Fix
+
+Tomb Raider II
+- TR2Main + Golden Mask
+- No Intro Fix
+
+Tomb Raider III: Adventures of Lara Croft
+- No Intro Fix
+
 Tomb Raider: Anniversary
 - Ultrawide Fix
+- No Intro Fix
+
+Tomb Raider: Chronicles
 - No Intro Fix
 
 Tomb Raider: Legend
 - Crash Fix
 - Ultrawide Fix
 - No Intro FIx
+
+Tomb Raider: The Last Revelation
+- No Intro Fix
 
 Transformers: Fall of Cybertron
 - Black Screen Fix
