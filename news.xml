@@ -208,4 +208,12 @@ Tomb Raider III: tomb3 + The Lost Artefact
 
 No Intro Fixes for: Red Faction 2, RoboCop: Rogue City, Sleeping Dogs DE, Sudeki, The Talos Principle 2, Tomb Raider 1,2,3,4,5</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>24</Version>
+		<Date>2023-11-06T00:00:00</Date>
+		<Content>Added:
+Tomb Raider IV: tomb4 + The Times Exclusive Level
+Tomb Raider V: tomb5
+Tomb Raider VI: No Intro Fix</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>

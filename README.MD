@@ -517,6 +517,9 @@ Tom Clancy's Splinter Cell: Conviction
 Tom Clancy's Splinter Cell: Double Agent
 - Widescreen Fix
 
+Tomb Raider (VI): The Angel of Darkness
+- No Intro Fix
+
 Tomb Raider I
 - TR1X + Unfinished Business
 - No Intro Fix
@@ -534,6 +537,7 @@ Tomb Raider: Anniversary
 - No Intro Fix
 
 Tomb Raider: Chronicles
+- tomb5
 - No Intro Fix
 
 Tomb Raider: Legend
@@ -542,6 +546,7 @@ Tomb Raider: Legend
 - No Intro FIx
 
 Tomb Raider: The Last Revelation
+- tomb4 + The Times Exclusive Level
 - No Intro Fix
 
 Transformers: Fall of Cybertron

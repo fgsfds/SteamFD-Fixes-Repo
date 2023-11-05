@@ -5095,6 +5095,25 @@ Added an option to change goggles' light color</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>225020</GameId>
+    <GameName>Tomb Raider (VI): The Angel of Darkness</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>3be06cfe-f21f-4e5f-9621-6b0e6fb5df62</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_6_nointro.zip</Url>
+        <Description>Black replacements of the intro videos</Description>
+        <InstallFolder>data\FMV</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>822DD88DA8C737A5C23250052F40E64E</MD5>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>224960</GameId>
     <GameName>Tomb Raider I</GameName>
     <Fixes>
@@ -5122,7 +5141,7 @@ Also includes Unfinished Business addon.
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
-        <MD5>74E1B03D5491EB80437905AF8BADF7B3</MD5>
+        <MD5>393950FBAA1E6C259D311D552A23B6A4</MD5>
         <Name>TR1X + Unfinished Business</Name>
         <Version>1</Version>
       </FixEntity>
@@ -5153,7 +5172,7 @@ Also includes Unfinished Business addon.
     <Fixes>
       <FixEntity>
         <Guid>b157b957-9e42-4442-b780-8a73479b9766</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/tomb_raider_2_tr2main_v090.zip</Url>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_2_tr2main_v090.zip</Url>
         <Description>*TR2Main v0.9.0*
 https://github.com/Arsunt/TR2Main
 
@@ -5176,7 +5195,7 @@ https://core-design.com/community_tr2pscontrollerfixfloatingislands.html
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
-        <MD5>7A72F1C7C2979309EBB5C1325089CB59</MD5>
+        <MD5>9FA9D3CBABE2A2D4A822FB13B30329A4</MD5>
         <Name>TR2Main + Golden Mask</Name>
         <Version>1</Version>
       </FixEntity>
@@ -5202,11 +5221,11 @@ https://core-design.com/community_tr2pscontrollerfixfloatingislands.html
     <Fixes>
       <FixEntity>
         <Guid>912df2c1-6ab9-4cd6-ad76-8ba2f81094c5</Guid>
-        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_3_tr3main_v202.zip</Url>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_3_tomb3_v202.zip</Url>
         <Description>*tomb3 v2.0.2*
 https://github.com/Trxyebeep/tomb3
 
-This is an open source implementation of the classic Tomb Raider III game (1996), made by reverse engineering.
+This is an open source implementation of the classic Tomb Raider III game, made by reverse engineering.
 
 It adds support for modern OSes, high resolution, bugfixes and gameplay improvements.
 
@@ -5222,7 +5241,7 @@ https://www.tombraiderforums.com/showthread.php?t=207886</Description>
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
-        <MD5>083775F5EB5F258E9CCF11E3E41F1F87</MD5>
+        <MD5>66F7DC196BF416916E17C04C19F1BF05</MD5>
         <Name>tomb3 + The Lost Artefact</Name>
         <Version>1</Version>
       </FixEntity>
@@ -5283,6 +5302,28 @@ Fixes stretching in ultrawide and wider resolutions</Description>
     <GameId>225000</GameId>
     <GameName>Tomb Raider: Chronicles</GameName>
     <Fixes>
+      <FixEntity>
+        <Guid>961faa6b-e4da-44d9-b001-fb0b5aadf942</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_5_tomb5_v320.zip</Url>
+        <Description>*tomb5 v3.2.0*
+https://github.com/Trxyebeep/TOMB5
+
+This is an open source implementation of the classic Tomb Raider IV game, made by reverse engineering.
+
+It adds support for modern OSes, high resolution, bugfixes and gameplay improvements.</Description>
+        <Tags>
+          <string>#additional_content</string>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#source_port</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>449863BE0ADE52F4E5222F134088AE31</MD5>
+        <Name>tomb5</Name>
+        <Version>1</Version>
+      </FixEntity>
       <FixEntity>
         <Guid>d3c80aa8-1138-4f0f-b5c2-553aba2e2dad</Guid>
         <Description>Removal of the intro videos</Description>
@@ -5354,6 +5395,31 @@ Fixes stretching in ultrawide and wider resolutions</Description>
     <GameId>224980</GameId>
     <GameName>Tomb Raider: The Last Revelation</GameName>
     <Fixes>
+      <FixEntity>
+        <Guid>76150313-3255-401a-b316-17556e8e80c3</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_4_tomb4_v221.zip</Url>
+        <Description>*tomb4 v2.2.1*
+https://github.com/Trxyebeep/TOMB4
+
+This is an open source implementation of the classic Tomb Raider IV game, made by reverse engineering.
+
+It adds support for modern OSes, high resolution, bugfixes and gameplay improvements.
+
+Also includes The Times Exclusive Level and unofficial patch
+https://www.moddb.com/games/tomb-raider-the-last-revelation/downloads/tomb-raider-the-last-revelation-unofficial-patch</Description>
+        <Tags>
+          <string>#additional_content</string>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#source_port</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>2432B67FD2B5CD7690F5B14AD54643D1</MD5>
+        <Name>tomb4 + The Times Exclusive Level</Name>
+        <Version>1</Version>
+      </FixEntity>
       <FixEntity>
         <Guid>4b0314b6-bb88-4307-b237-de3ae25e6e13</Guid>
         <Description>Removal of the intro videos</Description>
