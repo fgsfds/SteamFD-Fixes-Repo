@@ -5106,9 +5106,9 @@ https://github.com/LostArtefacts/TR1X
 
 This is an open source implementation of the classic Tomb Raider I game (1996), made by reverse engineering the TombATI / GLRage variant of the original game and replacing proprietary audio/video libraries with open source variants.
 
-It addes support for modern OSes, high resolution, bugfixes and gameplay improvements.
+It adds support for modern OSes, high resolution, bugfixes and gameplay improvements.
 
-It also includes Unfinished Business addon.
+Also includes Unfinished Business addon.
 
 *Disable Steam Input for a proper controller support*</Description>
         <ConfigFile>Tomb1Main_ConfigTool.exe</ConfigFile>
@@ -5159,9 +5159,10 @@ https://github.com/Arsunt/TR2Main
 
 This is an open source implementation of the classic Tomb Raider II game (1997), made by reverse engineering of the original game for PC and PS1.
 
-It addes support for modern OSes, high resolution, bugfixes and gameplay improvements.
+It adds support for modern OSes, high resolution, bugfixes and gameplay improvements.
 
-It also includes Golden Mask addon, Controller Fix in Floating Islands and bugfixes for Nightmare in Vegas.
+It also includes Golden Mask addon, Controller Fix for Floating Islands and bugfixes for Nightmare in Vegas.
+https://core-design.com/community_tr2pscontrollerfixfloatingislands.html
 
 *Disable Steam Input for a proper controller support*</Description>
         <ConfigFile>config.exe</ConfigFile>
@@ -5199,6 +5200,32 @@ It also includes Golden Mask addon, Controller Fix in Floating Islands and bugfi
     <GameId>225320</GameId>
     <GameName>Tomb Raider III: Adventures of Lara Croft</GameName>
     <Fixes>
+      <FixEntity>
+        <Guid>912df2c1-6ab9-4cd6-ad76-8ba2f81094c5</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_3_tr3main_v202.zip</Url>
+        <Description>*tomb3 v2.0.2*
+https://github.com/Trxyebeep/tomb3
+
+This is an open source implementation of the classic Tomb Raider III game (1996), made by reverse engineering.
+
+It adds support for modern OSes, high resolution, bugfixes and gameplay improvements.
+
+Also includes The Lost Artefact addon and unofficial patches
+https://www.tombraiderforums.com/showthread.php?t=207886</Description>
+        <ConfigFile>tomb3_ConfigTool.exe</ConfigFile>
+        <Tags>
+          <string>#additional_content</string>
+          <string>#bugfixes</string>
+          <string>#enhancements</string>
+          <string>#source_port</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>083775F5EB5F258E9CCF11E3E41F1F87</MD5>
+        <Name>tomb3 + The Lost Artefact</Name>
+        <Version>1</Version>
+      </FixEntity>
       <FixEntity>
         <Guid>fd7e9abd-143f-430e-bcd9-149c2458a192</Guid>
         <Description>Removal of the intro videos</Description>

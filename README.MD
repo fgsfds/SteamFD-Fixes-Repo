@@ -526,6 +526,7 @@ Tomb Raider II
 - No Intro Fix
 
 Tomb Raider III: Adventures of Lara Croft
+- tomb3 + The Lost Artefact
 - No Intro Fix
 
 Tomb Raider: Anniversary
