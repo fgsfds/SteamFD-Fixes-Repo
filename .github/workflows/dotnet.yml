@@ -11,6 +11,8 @@ on:
     pull_request:
       - master
       - test
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   Build_and_Test:
