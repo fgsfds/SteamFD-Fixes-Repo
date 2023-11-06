@@ -55,6 +55,9 @@ Blake Stone: Aliens of Gold
 Blake Stone: Planet Strike
 - bstone
 
+Blood II: The Chosen + Expansion
+- Ultimate Fix
+
 Blood Omen 2: Legacy of Kain
 - Re-vamped
 - No Intro Fix
@@ -196,6 +199,9 @@ DOOM II
 
 Duke Nukem 2
 - Rigel Engine
+
+Duke Nukem 3D
+- Raze
 
 Duke Nukem: Manhattan Project
 - Enhanced Edition
@@ -453,6 +459,9 @@ Second Sight
 
 Septerra Core
 - SR
+
+Shadow Warrior (Classic)
+- Raze + Addons
 
 Sleeping Dogs: Definitive Edition
 - No Intro Fix

@@ -216,4 +216,12 @@ Tomb Raider IV: tomb4 + The Times Exclusive Level
 Tomb Raider V: tomb5
 Tomb Raider VI: No Intro Fix</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>25</Version>
+		<Date>2023-11-06T14:00:00</Date>
+		<Content>Added:
+Blood II: The Chosen: Ultimate Fix
+Duke Nukem 3D: Raze
+Shadow Warrior (Classic): Raze + Addons</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>

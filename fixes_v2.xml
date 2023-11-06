@@ -580,6 +580,35 @@ Separate volume control of sound effects and music</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>299050</GameId>
+    <GameName>Blood II: The Chosen + Expansion</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>404ef14f-d6ca-4e5e-a0da-924e5810acbe</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blood_2_fix.zip</Url>
+        <Description>Startup and (ultra)widescreen fix
+
+Includes dgVoodoo2
+https://github.com/dege-diosg/dgVoodoo2
+
+Widescreen patch
+https://www.wsgf.org/phpBB3/viewtopic.php?f=64&amp;t=27171
+
+High resolution fix
+http://dege.freeweb.hu/Patches/patches/</Description>
+        <Tags>
+          <string>#crashfix</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>17DC3D02204E7621EB838CD91DC04F06</MD5>
+        <Name>Ultimate Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>242960</GameId>
     <GameName>Blood Omen 2: Legacy of Kain</GameName>
     <Fixes>
@@ -666,12 +695,13 @@ https://github.com/clipmove/NotBlood
 
 NotBlood is a gameplay modification of Blood, based upon the reverse-engineer port NBlood</Description>
         <Tags>
+          <string>#controller_support</string>
           <string>#enhancements</string>
           <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
-        <SupportedOSes>Windows Linux</SupportedOSes>
+        <SupportedOSes>Windows</SupportedOSes>
         <MD5>7B69B926EE3F095C5F4412AF9203E05D</MD5>
         <Name>NotBlood</Name>
         <Version>1</Version>
@@ -684,13 +714,14 @@ https://github.com/ZDoom/Raze
 
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
         <Tags>
+          <string>#controller_support</string>
           <string>#enhancements</string>
           <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
-        <SupportedOSes>Windows Linux</SupportedOSes>
-        <MD5>369CE74A864FAF47802DA86F32FA0C9B</MD5>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>463A8962AF310BE835ACB1DF7FCACC8E</MD5>
         <Name>Raze</Name>
         <Version>1</Version>
       </FixEntity>
@@ -1920,6 +1951,32 @@ extended modding features</Description>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <MD5>303344CFCDE824F22A4E1BAD716BBF91</MD5>
         <Name>Rigel Engine</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>359850</GameId>
+    <GameName>Duke Nukem 3D</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>0eda6b8e-36d2-442a-996f-2e1488d5be5e</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/duke3d_raze_v171.zip</Url>
+        <Description>*Raze 1.7.1*
+https://github.com/ZDoom/Raze
+
+Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
+        <InstallFolder>Duke Nukem 3D</InstallFolder>
+        <Tags>
+          <string>#controller_support</string>
+          <string>#enhancements</string>
+          <string>#source_port</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>56E945DFC92B00A1035C77279463233F</MD5>
+        <Name>Raze</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -3632,10 +3689,10 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
-        <SupportedOSes>Windows Linux</SupportedOSes>
-        <MD5>B77C9E50AA86BDBBFF6C153659452718</MD5>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>2C0AFE89702056BAE12FA2E502160ABD</MD5>
         <Name>Raze</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -3749,10 +3806,10 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
-        <SupportedOSes>Windows Linux</SupportedOSes>
-        <MD5>B6CA9F7FD27E29EE29E88896314D42AD</MD5>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>B3CC22B66273C6C1773936B405DF54E5</MD5>
         <Name>Raze</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -4102,15 +4159,16 @@ https://github.com/ZDoom/Raze
 
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
         <Tags>
+          <string>#controller_support</string>
           <string>#enhancements</string>
           <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
-        <SupportedOSes>Windows Linux</SupportedOSes>
-        <MD5>73D5FF2A4291ECA14073112C3F3B378D</MD5>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>A7731C1B30C9065ED249351B72C2DC42</MD5>
         <Name>Raze</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -4126,15 +4184,16 @@ https://github.com/ZDoom/Raze
 
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.</Description>
         <Tags>
+          <string>#controller_support</string>
           <string>#enhancements</string>
           <string>#source_port</string>
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
-        <SupportedOSes>Windows Linux</SupportedOSes>
-        <MD5>DDFFDF3D5FF74926C83798C97DFCB13B</MD5>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>C9507AC74EED3263BFDF97CDFFF86696</MD5>
         <Name>Raze</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
@@ -4548,6 +4607,35 @@ Recompiled 32-bit executable that allows the game to run flawlessly on modern Wi
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>839BD152BE70BC9B7486498FE8212947</MD5>
         <Name>SR</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>358400</GameId>
+    <GameName>Shadow Warrior (Classic)</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>7601db85-75eb-4f52-80c2-8e230b4c548d</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sw_raze_v171.zip</Url>
+        <Description>*Raze 1.7.1*
+https://github.com/ZDoom/Raze
+
+Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.
+
+Includes Wanton Destruction and Twin Dragon addons.
+
+*Select Launch Shadow Warrior source port when starting the game*</Description>
+        <Tags>
+          <string>#controller_support</string>
+          <string>#enhancements</string>
+          <string>#source_port</string>
+          <string>#ultrawide</string>
+          <string>#widescreen</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>B76783F2A6F41EBD07A3AF0C2482E2D6</MD5>
+        <Name>Raze + Addons</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -5416,9 +5504,9 @@ https://www.moddb.com/games/tomb-raider-the-last-revelation/downloads/tomb-raide
           <string>#widescreen</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
-        <MD5>2432B67FD2B5CD7690F5B14AD54643D1</MD5>
+        <MD5>17DE369F768900C4B1BA74ACA1540A4C</MD5>
         <Name>tomb4 + The Times Exclusive Level</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
       <FixEntity>
         <Guid>4b0314b6-bb88-4307-b237-de3ae25e6e13</Guid>
@@ -5775,10 +5863,10 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
           <string>#ultrawide</string>
           <string>#widescreen</string>
         </Tags>
-        <SupportedOSes>Windows Linux</SupportedOSes>
-        <MD5>692E772BE2D1632E7F32504D8157DC40</MD5>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>196FEEE84D0C5B1E367F08ED1A523000</MD5>
         <Name>Raze</Name>
-        <Version>1</Version>
+        <Version>2</Version>
       </FixEntity>
     </Fixes>
   </FixesList>
