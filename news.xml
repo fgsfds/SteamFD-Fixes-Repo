@@ -224,4 +224,13 @@ Blood II: The Chosen: Ultimate Fix
 Duke Nukem 3D: Raze
 Shadow Warrior (Classic): Raze + Addons</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>26</Version>
+		<Date>2023-11-07T14:00:00</Date>
+		<Content>Added:
+FINAL FANTASY XIII/XIII-2 : FF13Fix
+The Longest Journey: ScummVM
+
+No Intro Fixes for: Bayonetta, Etherlords 1/2, Gorky 17, Red Faction Guerrilla Re-Mars-tered, The Dark Eye: Chains of Satinav, Cyberdimension Neptunia: 4 Goddesses Online</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>

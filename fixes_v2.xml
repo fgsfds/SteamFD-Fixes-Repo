@@ -437,6 +437,27 @@ Choke Point Map</Description>
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>460790</GameId>
+    <GameName>Bayonetta</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>744e2510-ec3c-4f54-9f25-5c1c8e962b65</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>data\movie\B_US_0000.sfd</string>
+          <string>data\movie\PlatinumGames.sfd</string>
+          <string>data\movie\syukyaku_A.sfd</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>15130</GameId>
     <GameName>Beyond Good &amp; Evil</GameName>
     <Fixes>
@@ -1183,6 +1204,26 @@ Advantages of pre-ordered version are available to everyone.</Description>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>647764629C28ADAB9ACC93EBF0DF3F4C</MD5>
         <Name>C1-Launcher</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>632350</GameId>
+    <GameName>Cyberdimension Neptunia: 4 Goddesses Online</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>a8109e97-70bd-433f-b649-fbd01dc3a89b</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/cyberdimension_neptunia_nointro.zip</Url>
+        <Description>Cyberdimension Neptunia: 4 Goddesses Online - Skip intro videos
+https://www.pcgamingwiki.com/wiki/Cyberdimension_Neptunia:_4_Goddesses_Online#Skip_intro_videos</Description>
+        <InstallFolder>CyberdimensionNeptunia4GoddessesOnline\Content\Sound</InstallFolder>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>24A07171280BCE9724E4EB8B3D2A0C42</MD5>
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -2032,6 +2073,48 @@ https://www.zoom-platform.com/product/duke-nukem-manhattan-project
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>270770</GameId>
+    <GameName>Etherlords</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>ddd4a744-9e31-4bc4-8f4a-3f6fcbc72214</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>Resources\Movies\firstlogo.bik</string>
+          <string>Resources\Movies\fishtank.bik</string>
+          <string>Resources\Movies\intro.bik</string>
+          <string>Resources\Movies\nival.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>270790</GameId>
+    <GameName>Etherlords II</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>94b3f328-d913-4c08-bcd4-ac111bb456ea</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>Resources\Movies\intro.bik</string>
+          <string>Resources\Movies\nival.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>204030</GameId>
     <GameName>Fable - The Lost Chapters</GameName>
     <Fixes>
@@ -2222,6 +2305,72 @@ Also includes 64-bit patches and a configuration file with the highest possible 
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>292120</GameId>
+    <GameName>FINAL FANTASY XIII</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>81c98dd3-4ea9-4851-b0de-ea58a2894ffd</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ff13_fix_164.zip</Url>
+        <Description>*FINAL FANTASY XIII - FF13Fix v1.6.4*
+https://github.com/rebtd7/FF13Fix
+
+Performance and bug fixes for the PC versions of FF13 and FF13-2.
+
+* Removes the frame pacer
+* Removes stuttering caused by new controllers being scanned every second
+* Enables controller vibration
+* Uncaps the frame rate (optional)
+* Enables Triple Buffering
+* Uses your desktop monitor refresh rate in full screen mode
+* Changes to where the memory is allocated on certain vertex buffers
+* Fixes misaligned screen space effects (fixes 1440p resolution)
+* Fix the enemy scan text on resolutions over 720p (FFXIII only)</Description>
+        <InstallFolder>white_data\prog\win\bin</InstallFolder>
+        <ConfigFile>white_data\prog\win\bin\FF13Fix.ini</ConfigFile>
+        <Tags>
+          <string>#enhancements,#bugfixes,#fps_unlock</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>4670BF0B83675E75AD2770D5E48DC005</MD5>
+        <Name>FF13Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>292140</GameId>
+    <GameName>FINAL FANTASY XIII-2</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>81c98dd3-4ea9-4851-b0de-ea58a2894ff1</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ff13_fix_164.zip</Url>
+        <Description>*FINAL FANTASY XIII - FF13Fix v1.6.4*
+https://github.com/rebtd7/FF13Fix
+
+Performance and bug fixes for the PC versions of FF13 and FF13-2.
+
+* Removes the frame pacer
+* Removes stuttering caused by new controllers being scanned every second
+* Enables controller vibration
+* Uncaps the frame rate (optional)
+* Enables Triple Buffering
+* Uses your desktop monitor refresh rate in full screen mode
+* Changes to where the memory is allocated on certain vertex buffers
+* Fixes misaligned screen space effects (fixes 1440p resolution)
+* Fix the enemy scan text on resolutions over 720p (FFXIII only)</Description>
+        <InstallFolder>alba_data\prog\win\bin</InstallFolder>
+        <ConfigFile>alba_data\prog\win\bin\FF13Fix.ini</ConfigFile>
+        <Tags>
+          <string>#enhancements,#bugfixes,#fps_unlock</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>4670BF0B83675E75AD2770D5E48DC005</MD5>
+        <Name>FF13Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>6220</GameId>
     <GameName>FlatOut</GameName>
     <Fixes>
@@ -2374,6 +2523,27 @@ https://github.com/ThirteenAG/Ultimate-ASI-Loader</Description>
         <SupportedOSes>Windows</SupportedOSes>
         <MD5>71ECD95FAFFE412075E596E27DF4A0A4</MD5>
         <Name>Universal Widescreen Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>253920</GameId>
+    <GameName>Gorky 17</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>820d5e0a-bdce-4d29-9cfa-af1f9e3177af</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>avi\intro.asf</string>
+          <string>avi\logo.asf</string>
+          <string>avi\topware.asf</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>
@@ -4127,6 +4297,28 @@ Removes the black bars appearing top, bottom, left, &amp; right especially durin
     </Fixes>
   </FixesList>
   <FixesList>
+    <GameId>667720</GameId>
+    <GameName>Red Faction Guerrilla Re-Mars-tered</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>8740c3bd-85bd-46fe-87e7-4249b1c05644</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>data\legal_hd.bik</string>
+          <string>data\logo_kaiko.bik</string>
+          <string>data\logo_nordic_hd.bik</string>
+          <string>data\logo_volition_hd.bik</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
     <GameId>20550</GameId>
     <GameName>Red Faction II</GameName>
     <Fixes>
@@ -4304,7 +4496,7 @@ Added an option to enable Logitech G LIGHTSYNC RGB Lighting</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
-        <MD5>97945BE1463C6B1515F30FE5D698637F</MD5>
+        <MD5>BFC1B2445C2B82ED2F4DF3B4A0CC372D</MD5>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4423,7 +4615,7 @@ Added an option to enable Logitech G LIGHTSYNC RGB Lighting</Description>
           <string>#ultrawide</string>
         </Tags>
         <SupportedOSes>Windows</SupportedOSes>
-        <MD5>6EA9857072BB138369DB849F70491FDF</MD5>
+        <MD5>25BF927492819388A14CF10BBB050FDB</MD5>
         <Name>Fusion Fix</Name>
         <Version>1</Version>
       </FixEntity>
@@ -4859,6 +5051,50 @@ The Force Engine is a project with the goal to reverse engineer and rebuild the 
         </Tags>
         <SupportedOSes>Windows Linux</SupportedOSes>
         <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>203830</GameId>
+    <GameName>The Dark Eye: Chains of Satinav</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>91f4f7f2-11e2-42a5-8671-dc9f7f942fd9</Guid>
+        <Description>Removal of the intro videos</Description>
+        <FilesToDelete>
+          <string>videos\video.vv000</string>
+          <string>videos\video.vv003</string>
+        </FilesToDelete>
+        <Tags>
+          <string>#nointro</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <Name>No Intro Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+    </Fixes>
+  </FixesList>
+  <FixesList>
+    <GameId>6310</GameId>
+    <GameName>The Longest Journey</GameName>
+    <Fixes>
+      <FixEntity>
+        <Guid>0d8dc7ba-0216-4189-af2d-804cf128d9b1</Guid>
+        <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tlj_scummvm_v271.zip</Url>
+        <Description>*ScummVM v2.7.1*
+https://www.scummvm.org/
+
+ScummVM is a program which allows you to run certain classic graphical adventure and role-playing games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed! ScummVM is a complete rewrite of these games' executables and is not an emulator.</Description>
+        <Tags>
+          <string>#crashfix</string>
+          <string>#enhancements</string>
+          <string>#source_port</string>
+        </Tags>
+        <RunAfterInstall />
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>5F3ECA4F67CD5BDC0E87D286C761EC3E</MD5>
+        <Name>ScummVM</Name>
         <Version>1</Version>
       </FixEntity>
     </Fixes>

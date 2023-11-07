@@ -40,6 +40,9 @@ Battlestations: Pacific
 - DLC Pack
 - No Intro Fix
 
+Bayonetta
+- No Intro Fix
+
 Beyond Good & Evil
 - Startup and widescreen fix
 
@@ -118,6 +121,9 @@ Crysis
 
 Crysis Wars
 - C1-Launcher
+
+Cyberdimension Neptunia: 4 Goddesses Online
+- No Intro Fix
 
 Daikatana
 - Patch 1.3
@@ -209,6 +215,12 @@ Duke Nukem: Manhattan Project
 Enclave
 - No Intro Fix
 
+Etherlords
+- No Intro Fix
+
+Etherlords II
+- No Intro Fix
+
 Fable - The Lost Chapters
 - No Intro Fix
 
@@ -223,6 +235,12 @@ Fallout 2
 
 Far Cry
 - Far Cry Fix
+
+FINAL FANTASY XIII
+- FF13Fix
+
+FINAL FANTASY XIII-2
+- FF13Fix
 
 FlatOut
 - ZPatch
@@ -239,6 +257,9 @@ Freedom Force
 
 Freedom Force vs. the 3rd Reich
 - Universal Widescreen Fix
+
+Gorky 17
+- No Intro Fix
 
 Grand Theft Auto III
 - Widescren Fix
@@ -405,6 +426,9 @@ Recettear: An Item Shop's Tale
 Red Dead Redemption 2
 - No Black Bars
 
+Red Faction Guerrilla Re-Mars-tered
+- No Intro Fix
+
 Red Faction II
 - No Intro Fix
 
@@ -490,6 +514,12 @@ The Bureau: XCOM Declassified
 
 The Callisto Protocol
 - No Intro Fix
+
+The Dark Eye: Chains of Satinav
+- No Intro Fix
+
+The Longest Journey
+- ScummVM
 
 The Talos Principle 2
 - No Intro Fix
