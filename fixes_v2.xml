@@ -4736,6 +4736,22 @@ Fixes various crashes and adds native widescreen support. It's only applied to t
     <GameName>RoboCop: Rogue City</GameName>
     <Fixes>
       <FixEntity>
+        <Guid>09e2a990-7c80-429b-a6e4-066ccb2e53e8</Guid>
+        <Url>https://github.com/RoseTheFlower/UltrawideIndex/releases/download/robocoprc/Robocop.ultrawide.v1.0.zip</Url>
+        <Description>*RoboCop: Rogue City ultrawide and wider*
+https://github.com/RoseTheFlower/UltrawideIndex/releases/tag/robocoprc
+
+The solution aims to correct all field of view reduction issues and removes black bars from dialogue.</Description>
+        <InstallFolder>Game\Binaries\Win64</InstallFolder>
+        <Tags>
+          <string>#ultrawide</string>
+        </Tags>
+        <SupportedOSes>Windows</SupportedOSes>
+        <MD5>46B7CDC03A3099C0C5A4DF2D5BCE3F52</MD5>
+        <Name>Ultrawide Fix</Name>
+        <Version>1</Version>
+      </FixEntity>
+      <FixEntity>
         <Guid>d3c7573e-16e2-49ad-9815-a9023a5d17af</Guid>
         <Description>Removal of the intro videos</Description>
         <FilesToDelete>

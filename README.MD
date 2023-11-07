@@ -476,6 +476,7 @@ Risen 3 - Titan Lords
 - No Intro Fix
 
 RoboCop: Rogue City
+- Ultrawide Fix
 - No Intro Fix
 
 Second Sight
