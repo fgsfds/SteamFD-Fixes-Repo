@@ -236,6 +236,9 @@ Fallout 2
 Far Cry
 - Far Cry Fix
 
+FINAL FANTASY X/X-2 HD Remaster
+- Final Fantasy X/X-2 Launcher+
+
 FINAL FANTASY XIII
 - FF13Fix
 

@@ -234,4 +234,11 @@ RoboCop Rogue City: Ultrawide Fix
 
 No Intro Fixes for: Bayonetta, Etherlords 1/2, Gorky 17, Red Faction Guerrilla Re-Mars-tered, The Dark Eye: Chains of Satinav, Cyberdimension Neptunia: 4 Goddesses Online</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>27</Version>
+		<Date>2023-11-15T00:00:00</Date>
+		<Content>Added:
+FINAL FANTASY X/X-2 HD Remaster: Launcher+
+Updated Raze to 1.8.1 for Duke 3D, Shadow Warrior, Redneck Rampage, Blood, NAM, WWII GI</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>
