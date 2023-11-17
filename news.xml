@@ -241,4 +241,15 @@ No Intro Fixes for: Bayonetta, Etherlords 1/2, Gorky 17, Red Faction Guerrilla R
 FINAL FANTASY X/X-2 HD Remaster: Launcher+
 Updated Raze to 1.8.1 for Duke 3D, Shadow Warrior, Redneck Rampage, Blood, NAM, WWII GI</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>28</Version>
+		<Date>2023-11-20T00:00:00</Date>
+		<Content>Superheater version before 0.10.0 are deprecated and won't get any new fixes.
+Update to 0.10.0
+
+Added:
+Prince of Persia: The Two Thrones: Launcher Fix
+Prince of Persia: Warrior Within: Launcher Fix
+Tomb Raider: Underworld: Ultrawide Fix</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>

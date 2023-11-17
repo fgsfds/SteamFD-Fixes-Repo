@@ -405,10 +405,12 @@ Prince of Persia: The Sands of Time
 - No Intro Fix
 
 Prince of Persia: The Two Thrones
+- Launcher Fix
 - Unofficial Patch
 - No Intro Fix
 
 Prince of Persia: Warrior Within
+- Launcher Fix
 - Unofficial Patch
 - No Intro Fix
 
@@ -591,6 +593,9 @@ Tomb Raider: Legend
 Tomb Raider: The Last Revelation
 - tomb4 + The Times Exclusive Level
 - No Intro Fix
+
+Tomb Raider: Underworld
+- Ultrawide Fix
 
 Transformers: Fall of Cybertron
 - Black Screen Fix
