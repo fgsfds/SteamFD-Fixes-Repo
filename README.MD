@@ -79,15 +79,21 @@ Borderlands 2
 - No Intro Fix
 
 Bound By Flame
+- Yellow Visual Glitch on UI Fix (AMD GPU)
 - No Intro Fix
 
 Broken Sword 1 - Shadow of the Templars: Director's Cut
+- Better In-Game Font
 - No Intro Fix
 
 Bully: Scholarship Edition
 - Widescreen Fix
 - Silent Patch
 - No Intro Fix
+
+Caesar 3
+- Julius
+- Augustus
 
 Castlevania: Lords of Shadow - Ultimate Edition
 - No Intro Fix

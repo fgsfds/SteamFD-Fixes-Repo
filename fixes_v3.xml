@@ -755,6 +755,22 @@ Lock cursor to game window - Both the original version and the "Terminal Cut" ha
     <GameId>243930</GameId>
     <GameName>Bound By Flame</GameName>
     <FileFix>
+      <Name>Yellow Visual Glitch on UI Fix (AMD GPU)</Name>
+      <Description>*Bound By Flame - Yellow Visual Glitches On UI Fix (DXVK v2.2)*
+https://www.gog.com/forum/bound_by_flame/yellow_visual_glitches_on_the_ui
+
+This issue affects AMD GPU users. The yellow visual glitches on the UI is because the game was made using Nvidia specific shader features and AMD was never able to properly work around all the bugs/issues that resulted. This fix involves using DXVK to render the game in Vulkan.</Description>
+      <Guid>f7530b6c-3a07-4ade-acc7-6afc4305dd19</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#AMD</string>
+        <string>#bugfixes</string>
+      </Tags>
+      <Version>1</Version>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bound_by_flame_ui_fix.zip</Url>
+      <MD5>717733E8D2A1BBA55EA0FE4F2EE304F1</MD5>
+    </FileFix>
+    <FileFix>
       <Name>No Intro Fix</Name>
       <Description>Blank replacements for intro videos</Description>
       <Guid>85757b57-e93c-4f84-b8ab-7e0c3b3a356a</Guid>
@@ -771,6 +787,21 @@ Lock cursor to game window - Both the original version and the "Terminal Cut" ha
   <FixesList>
     <GameId>57640</GameId>
     <GameName>Broken Sword 1 - Shadow of the Templars: Director's Cut</GameName>
+    <FileFix>
+      <Name>Better In-Game Font</Name>
+      <Description>*Broken Sword 1 Director's Cut - Better In-Game Font*
+https://www.pcgamingwiki.com/wiki/Broken_Sword%3A_Shadow_of_the_Templars%3A_Director%27s_Cut#Replace_in-game_font
+
+The default font used by the in-game help and diary is difficult to read at high resolutions. With this fix the default font is substituted with a system font which is easier to read.</Description>
+      <Guid>697159cf-2d1a-46b4-8294-061f777d715c</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#graphics_improvement</string>
+      </Tags>
+      <Version>1</Version>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/broken_sword_1_font_fix.zip</Url>
+      <MD5>7A4463946579D58245E20FE4F741B6C0</MD5>
+    </FileFix>
     <FileFix>
       <Name>No Intro Fix</Name>
       <Description>Removal of intro videos</Description>
@@ -843,6 +874,68 @@ SilentPatch attempts to fix Bully memory management completely, so it behaves in
       <FilesToDelete>
         <string>Movies\RockStar.wmv</string>
       </FilesToDelete>
+    </FileFix>
+  </FixesList>
+  <FixesList>
+    <GameId>517790</GameId>
+    <GameName>Caesar 3</GameName>
+    <FileFix>
+      <Name>Julius</Name>
+      <Description>*Julius 1.7.0*
+https://github.com/bvschaik/julius
+
+Julius is a fully working open-source version of Caesar 3, with the same logic as the original, but with some UI enhancements, that can be played on multiple platforms.
+
+The goal of the project is to have exactly the same game logic as Caesar 3, with the same look and feel. This means that the saved games are 100% compatible with Caesar 3, and any gameplay bugs present in the original Caesar 3 game will also be present in Julius.
+
+Enhancements for Julius include:
+- Support for widescreen resolutions
+- Windowed mode support for 32-bit desktops
+- A lot of small in-game quality of life improvements</Description>
+      <Guid>28375a9d-a7a6-465c-b841-556a96608d14</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#bugfixes</string>
+        <string>#enhancements</string>
+        <string>#source_port</string>
+        <string>#ultrawide</string>
+        <string>#widescreen</string>
+      </Tags>
+      <Version>1</Version>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/caesar3_julius_v170.zip</Url>
+      <MD5>51FAB99E94729B0B254307D53F22FF9F</MD5>
+    </FileFix>
+    <FileFix>
+      <Name>Augustus</Name>
+      <Description>*Augustus 3.2.0*
+https://github.com/Keriew/augustus
+
+The aim of this project is to provide enhanced, customizable gameplay to Caesar 3 using project Julius UI enhancements.
+
+Augustus is able to load Caesar 3 and Julius saves, however saves made with Augustus will not work outside Augustus.
+
+Gameplay enhancements include:
+- Roadblocks
+- Market special orders
+- Global labour pool
+- Partial warehouse storage
+- Increased game limits
+- Zoom controls
+- And more!
+Because of gameplay changes and additions, save files from Augustus are NOT compatible with Caesar 3 or Julius. Augustus is able to load Caesar 3 save files, but not the other way around. If you want vanilla experience with visual and UI improvements, or want to use save files in base Caesar 3, check Julius.</Description>
+      <Guid>4e06c271-e9b0-43bc-be81-ce92cb9b472d</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#bugfixes</string>
+        <string>#enhancements</string>
+        <string>#non_vanilla</string>
+        <string>#source_port</string>
+        <string>#ultrawide</string>
+        <string>#widescreen</string>
+      </Tags>
+      <Version>1</Version>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/caesar3_augustus_v320.zip</Url>
+      <MD5>DF462E2CE7AAE8403CA79855F4EC74EB</MD5>
     </FileFix>
   </FixesList>
   <FixesList>
@@ -2209,7 +2302,9 @@ Performance and bug fixes for the PC versions of FF13 and FF13-2.
       <Guid>81c98dd3-4ea9-4851-b0de-ea58a2894ffd</Guid>
       <SupportedOSes>Windows</SupportedOSes>
       <Tags>
-        <string>#enhancements,#bugfixes,#fps_unlock</string>
+        <string>#bugfixes</string>
+        <string>#enhancements</string>
+        <string>#fps_unlock</string>
       </Tags>
       <Version>1</Version>
       <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ff13_fix_164.zip</Url>
@@ -2240,7 +2335,9 @@ Performance and bug fixes for the PC versions of FF13 and FF13-2.
       <Guid>81c98dd3-4ea9-4851-b0de-ea58a2894ff1</Guid>
       <SupportedOSes>Windows</SupportedOSes>
       <Tags>
-        <string>#enhancements,#bugfixes,#fps_unlock</string>
+        <string>#bugfixes</string>
+        <string>#enhancements</string>
+        <string>#fps_unlock</string>
       </Tags>
       <Version>1</Version>
       <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ff13_fix_164.zip</Url>
@@ -5175,7 +5272,7 @@ Added an option to change goggles' light color</Description>
     <GameName>Tomb Raider I</GameName>
     <FileFix>
       <Name>TR1X + Unfinished Business</Name>
-      <Description>*TR1X v2.16*
+      <Description>*TR1X v3.0.2*
 https://github.com/LostArtefacts/TR1X
 
 This is an open source implementation of the classic Tomb Raider I game (1996), made by reverse engineering the TombATI / GLRage variant of the original game and replacing proprietary audio/video libraries with open source variants.
@@ -5196,10 +5293,10 @@ Also includes Unfinished Business addon.
         <string>#ultrawide</string>
         <string>#widescreen</string>
       </Tags>
-      <Version>1</Version>
-      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/tomb_raider_1_tr1x_v216.zip</Url>
-      <ConfigFile>Tomb1Main_ConfigTool.exe</ConfigFile>
-      <MD5>393950FBAA1E6C259D311D552A23B6A4</MD5>
+      <Version>2</Version>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/tomb_raider_1_tr1x_v302.zip</Url>
+      <ConfigFile>TR1X_ConfigTool.exe</ConfigFile>
+      <MD5>AF2885D1801D7C4F2631E3372044D459</MD5>
     </FileFix>
     <FileFix>
       <Name>No Intro Fix</Name>

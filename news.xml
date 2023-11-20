@@ -244,12 +244,18 @@ Updated Raze to 1.8.1 for Duke 3D, Shadow Warrior, Redneck Rampage, Blood, NAM, 
 	<NewsEntity>
 		<Version>28</Version>
 		<Date>2023-11-20T00:00:00</Date>
-		<Content>Superheater version before 0.10.0 are deprecated and won't get any new fixes.
+		<Content>Superheater versions before 0.10.0 are deprecated and won't get any new fixes.
 Update to 0.10.0
 
 Added:
+Caesar 3: Julius, Augustus 
 Prince of Persia: The Two Thrones: Launcher Fix
 Prince of Persia: Warrior Within: Launcher Fix
-Tomb Raider: Underworld: Ultrawide Fix</Content>
+Tomb Raider: Underworld: Ultrawide Fix
+Bound by Flame: Yellow Visual Glitch on UI Fix
+Broken Sword 1: Better In-Game Font
+
+Updated:
+Tomb Raider 1: TR1X to v3.0.2</Content>
 	</NewsEntity>
 </ArrayOfNewsEntity>
