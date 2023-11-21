@@ -10,7 +10,7 @@ Alien: Isolation
 - Save confirmation dialog skipper
 - MotherVR
 - No Intro Fix
-- No Intro Fix
+- No Intro Fix (Linux native)
 
 Aliens: Colonial Marines
 - Improved Xenomorph AI
@@ -66,6 +66,8 @@ Blood Omen 2: Legacy of Kain
 - No Intro Fix
 
 Blood: Fresh Supply
+- NotBlood
+- Raze
 - Voxel Pack
 
 Blood: One Unit Whole Blood
@@ -423,6 +425,10 @@ Prince of Persia: Warrior Within
 Project: Snowblind
 - Widescreen Fix
 
+Prototype
+- Ultimate Fix
+- Ultimate Fix for AMD
+
 Psychonauts
 - Widescreen Fix
 - No Intro Fix
@@ -451,6 +457,12 @@ Redneck Rampage Rides Again
 
 Remember Me
 - No Intro Fix
+
+Resident Evil
+- Fusion Fix
+
+Resident Evil 0
+- Fusion Fix
 
 Resident Evil 4 (2005)
 - re4_tweaks
@@ -498,6 +510,9 @@ Septerra Core
 
 Shadow Warrior (Classic)
 - Raze + Addons
+
+SiN Gold
+- Dominatrix
 
 Sleeping Dogs: Definitive Edition
 - No Intro Fix

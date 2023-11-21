@@ -82,7 +82,7 @@ This Mod brings current generation VR support to the game Alien: Isolation</Desc
       </FilesToDelete>
     </FileFix>
     <FileFix>
-      <Name>No Intro Fix</Name>
+      <Name>No Intro Fix (Linux native)</Name>
       <Description>Removal of intro videos</Description>
       <Guid>7ab13599-656e-433d-a973-109a46a93440</Guid>
       <SupportedOSes>Linux</SupportedOSes>
@@ -647,6 +647,50 @@ Adds adaptive widescreen support based on your current resolution.</Description>
     <GameId>1010750</GameId>
     <GameName>Blood: Fresh Supply</GameName>
     <FileFix>
+      <Name>NotBlood</Name>
+      <Description>*NotBlood*
+https://github.com/clipmove/NotBlood
+
+NotBlood is a gameplay modification of Blood, based upon the reverse-engineer port NBlood
+
+Select Launch DOS Blood: One Unit Whole to launch NotBlood</Description>
+      <Guid>8bd92099-4d55-47fb-961d-033ab3cb5570</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#controller_support</string>
+        <string>#enhancements</string>
+        <string>#source_port</string>
+        <string>#ultrawide</string>
+        <string>#widescreen</string>
+      </Tags>
+      <Version>1</Version>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blood_fs_notblood.zip</Url>
+      <InstallFolder>DOS</InstallFolder>
+      <MD5>2FBC8EB1283A6A6D560553ABC33C3E84</MD5>
+    </FileFix>
+    <FileFix>
+      <Name>Raze</Name>
+      <Description>*Raze 1.8.1*
+https://github.com/ZDoom/Raze
+
+Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.
+
+Select Launch DOS Blood: One Unit Whole to launch Raze</Description>
+      <Guid>40d4fed2-060f-46f8-9977-f1dd7c26a868</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#controller_support</string>
+        <string>#enhancements</string>
+        <string>#source_port</string>
+        <string>#ultrawide</string>
+        <string>#widescreen</string>
+      </Tags>
+      <Version>2</Version>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blood_fs_raze_v181.zip</Url>
+      <InstallFolder>DOS</InstallFolder>
+      <MD5>C908826B4F0F5CB99B03949AF84D7F5D</MD5>
+    </FileFix>
+    <FileFix>
       <Name>Voxel Pack</Name>
       <Description>*Blood-Voxel-Pack v0.95*
 https://github.com/fgsfds/Blood-Voxel-Pack
@@ -763,7 +807,7 @@ This issue affects AMD GPU users. The yellow visual glitches on the UI is becaus
       <Guid>f7530b6c-3a07-4ade-acc7-6afc4305dd19</Guid>
       <SupportedOSes>Windows</SupportedOSes>
       <Tags>
-        <string>#AMD</string>
+        <string>#amd</string>
         <string>#bugfixes</string>
       </Tags>
       <Version>1</Version>
@@ -2595,7 +2639,7 @@ This modification completely rewrites GTA controls handling and ditches DirectIn
     <GameName>Grand Theft Auto IV: The Complete Edition</GameName>
     <FileFix>
       <Name>Fusion Fix</Name>
-      <Description>*GTAIV EFLC FusionFix v1.77*
+      <Description>*GTAIV EFLC FusionFix v2.0*
 https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix
 
 This projects aims to fix some issues in Grand Theft Auto IV: Complete Edition.</Description>
@@ -2604,12 +2648,13 @@ This projects aims to fix some issues in Grand Theft Auto IV: Complete Edition.<
       <Tags>
         <string>#bugfixes</string>
         <string>#crashfix</string>
+        <string>#logitech</string>
       </Tags>
-      <Version>1</Version>
-      <Url>https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v1.77/GTAIV.EFLC.FusionFix.zip</Url>
+      <Version>2</Version>
+      <Url>https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v2.0/GTAIV.EFLC.FusionFix.zip</Url>
       <InstallFolder>GTAIV</InstallFolder>
       <ConfigFile>GTAIV\plugins\GTAIV.EFLC.FusionFix.ini</ConfigFile>
-      <MD5>6FBA373A391BD1033C58C19DD6CDC5E7</MD5>
+      <MD5>443869C1E434BD3A947DBD796060B5DE</MD5>
     </FileFix>
     <FileFix>
       <Name>ColAccel</Name>
@@ -3529,23 +3574,26 @@ Added an option to set deadzone for left stick and right stick on gamepad (other
       <Description>Collection of must have fixes to make the game work
 
 *Manhunt Widescreen Fix*
-*d3d8-wrapper v1.38*
 https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/manhunt
+
+- Fixed Aspect Ratio
+- Fixed HUD
+- Fixed Field of View
+- Fixed FMVs
+- Fixed Menus
+- Fixed Scanlines, TV noise
+- Fixed ScreenFx, BloodDrops and Lights
+- Adds Xbox Hud and PS2 Subtitles style options
+
+*d3d8-wrapper v1.38*
 https://github.com/ThirteenAG/d3d8-wrapper
 
-Fixed Aspect Ratio
-Fixed HUD
-Fixed Field of View
-Fixed FMVs
-Adjustable FOV via ini
-Added an option to change save game directory
-
-*MHNoDRM*
+*MHNoDRM v1.0*
 https://github.com/Fire-Head/MHNoDRM
 
 MHNoDRM is a plugin that removes persistently active anti-piracy measures in Steam release of Manhunt accidentally left by Rockstar Games since 22 May 2010 update. It's made by emulating correct SecuROM triggers behavior and provides an alternative way to fix the game without replacing/modifying original executable.
 
-*Manhunt.AudioFix*
+*Manhunt.AudioFix build 5*
 https://github.com/ermaccer/Manhunt.AudioFix
 
 This plugin will stop any audio or music from looping.</Description>
@@ -3557,17 +3605,17 @@ This plugin will stop any audio or music from looping.</Description>
         <string>#ultrawide</string>
         <string>#widescreen</string>
       </Tags>
-      <Version>1</Version>
-      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/manhunt_fixer.zip</Url>
+      <Version>2</Version>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/manhunt_fixer_v2.zip</Url>
       <ConfigFile>d3d8.ini</ConfigFile>
-      <MD5>D032109F7A38640D2B39760303FDDC48</MD5>
+      <MD5>9157640FB85A86C148E1D66122F65710</MD5>
     </FileFix>
     <FileFix>
       <Name>MHP</Name>
       <Dependencies>
         <guid>5af13294-80ba-4681-b65e-0ade9812c101</guid>
       </Dependencies>
-      <Description>*MPH v 1.1*
+      <Description>*MPH v 1.2*
 https://github.com/Fire-Head/MHP
 
 MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt to the PC.</Description>
@@ -3577,8 +3625,8 @@ MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt t
         <string>#enhancements</string>
         <string>#graphics_improvement</string>
       </Tags>
-      <Version>1</Version>
-      <Url>https://github.com/Fire-Head/MHP/releases/download/1.1/MHP.zip</Url>
+      <Version>2</Version>
+      <Url>https://github.com/Fire-Head/MHP/releases/download/1.2/MHP.zip</Url>
       <InstallFolder>scripts</InstallFolder>
       <ConfigFile>scripts\MHP.ini</ConfigFile>
       <MD5>91A3F637BEE6E5DF261D3B07D9DF3759</MD5>
@@ -4083,6 +4131,52 @@ This patch adds widescreen support to Project: Snowblind. In particular, it make
     </FileFix>
   </FixesList>
   <FixesList>
+    <GameId>10150</GameId>
+    <GameName>Prototype</GameName>
+    <FileFix>
+      <Name>Ultimate Fix</Name>
+      <Description>*Prototype Resolution and FOV Fix*
+https://community.pcgamingwiki.com/files/file/1486-prototype-resolution-and-fov-fix/
+
+This fix makes the game run at your desktop resolution
+
+*Crash after starting or loading a game fix*
+https://www.pcgamingwiki.com/wiki/Prototype#Crash_after_starting_or_loading_a_game
+
+Increased the amount of memory available to the stack allocator, preventing crash on game loading
+
+Also includes low FPS fix and low sound fix</Description>
+      <Guid>a41eb1c7-b5f6-46ee-b4c6-7ddf769f7a45</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#crashfix</string>
+        <string>#fps_unlock</string>
+        <string>#ultrawide</string>
+        <string>#widescreen</string>
+      </Tags>
+      <Version>1</Version>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/prototype_wide.zip</Url>
+      <MD5>4508332F32242F1FFB21C8A1B48CFC4C</MD5>
+    </FileFix>
+    <FileFix>
+      <Name>Ultimate Fix for AMD</Name>
+      <Description>Same as Ultimate Fix but also includes shadows fix for AMD GPUs
+https://www.pcgamingwiki.com/wiki/Prototype#No_shadows_with_AMD.2FATI_graphics_cards</Description>
+      <Guid>e7a6b004-dde1-4027-a444-4999824b82ee</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#amd</string>
+        <string>#crashfix</string>
+        <string>#fps_unlock</string>
+        <string>#ultrawide</string>
+        <string>#widescreen</string>
+      </Tags>
+      <Version>1</Version>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/prototype_amd.zip</Url>
+      <MD5>9267AB6FA2E244DC556180927CB12B78</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
     <GameId>3830</GameId>
     <GameName>Psychonauts</GameName>
     <FileFix>
@@ -4297,6 +4391,59 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
         <string>ExampleGame\Movies\BIK_Boot_Legal_DD_SCEA.bik</string>
         <string>ExampleGame\Movies\BIK_Boot_NVIDIA.bik</string>
       </FilesToDelete>
+    </FileFix>
+  </FixesList>
+  <FixesList>
+    <GameId>304240</GameId>
+    <GameName>Resident Evil</GameName>
+    <FileFix>
+      <Name>Fusion Fix</Name>
+      <Description>*Resident Evil Fusion Fix*
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/re1
+
+- Added an option to make all resolutions available in main menu, previously the game was hardcoded to use a predefined list up to 2560x1600
+- Added an option to hide the mouse cursor after a set interval
+- Added an option to enable door skip
+- Added an option to enable borderless windowed mode
+- Added an option to disable color correction
+- Added an option to disable noise filter
+- Added an option to enable Logitech G LIGHTSYNC RGB Lighting</Description>
+      <Guid>0fc9f86a-c3af-4e0e-b90b-45da91d7f676</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#enhancements</string>
+        <string>#logitech</string>
+      </Tags>
+      <Version>1</Version>
+      <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re1/ResidentEvil.FusionFix.zip</Url>
+      <ConfigFile>scripts\ResidentEvil.FusionFix.ini</ConfigFile>
+      <MD5>0F943E7829173CA7A4F66636E4963BBC</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
+    <GameId>339340</GameId>
+    <GameName>Resident Evil 0</GameName>
+    <FileFix>
+      <Name>Fusion Fix</Name>
+      <Description>*Resident Evil 0 Fusion Fix*
+https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/re0
+
+- Added an option to hide the mouse cursor after a set interval
+- Added an option to enable door skip
+- Added an option to enable borderless windowed mode
+- Added an option to disable color correction
+- Added an option to disable noise filter
+- Added an option to enable Logitech G LIGHTSYNC RGB Lighting</Description>
+      <Guid>c6a7ce64-d334-4b39-a6f8-15f3081bbd93</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#enhancements</string>
+        <string>#logitech</string>
+      </Tags>
+      <Version>1</Version>
+      <Url>https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re0/ResidentEvil0.FusionFix.zip</Url>
+      <ConfigFile>scripts\ResidentEvil0.FusionFix.ini</ConfigFile>
+      <MD5>B1D406C634FBFBF4E71240388618D31F</MD5>
     </FileFix>
   </FixesList>
   <FixesList>
@@ -4704,6 +4851,31 @@ Includes Wanton Destruction and Twin Dragon addons.
       <Version>2</Version>
       <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sw_raze_v181.zip</Url>
       <MD5>653F08727B454A5680438338EE79BC0B</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
+    <GameId>1313</GameId>
+    <GameName>SiN Gold</GameName>
+    <FileFix>
+      <Name>Dominatrix</Name>
+      <Description>*Dominatrix v1*
+https://github.com/rohit-n/dominatrix
+
+- No more hardcoded resolutions
+- Controller support
+- Weapon radial menu
+- Gamepad friendly virtual keyboard
+- Better menu/interface scaling</Description>
+      <Guid>1e571587-253f-42a4-b9b1-7a988e7f4a75</Guid>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Tags>
+        <string>#controller_support</string>
+        <string>#source_port</string>
+        <string>#ultrawide</string>
+      </Tags>
+      <Version>1</Version>
+      <Url>https://github.com/rohit-n/dominatrix/releases/download/v1/dominatrix-mingw-v1-x86_64.zip</Url>
+      <MD5>614ED4A7DB5FEEFD8625DDB95FE93381</MD5>
     </FileFix>
   </FixesList>
   <FixesList>

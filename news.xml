@@ -258,4 +258,18 @@ Broken Sword 1: Better In-Game Font
 Updated:
 Tomb Raider 1: TR1X to v3.0.2</Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>29</Version>
+		<Date>2023-11-22T00:00:00</Date>
+		<Content>Added:
+Resident Evil / Resident Evil 0: Fusion Fix
+Blood Fresh Supply: NotBlood, Raze
+Prototype: Ultimate Fix, Ultimate Fix for AMD
+SiN Gold: Dominatrix
+
+Updated:
+Grand Theft Auto IV: FusionFix to v2.0
+Manhunt: Fixer to v2.0, MPH to v1.2
+</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>
