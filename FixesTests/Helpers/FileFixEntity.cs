@@ -1,16 +1,18 @@
-﻿namespace FixesTests.Helpers
+﻿using System.Xml.Serialization;
+
+namespace FixesTests.Helpers
 {
-    public sealed class FixesList
+    public sealed class FixesList()
     {
         public int GameId { get; set; }
+
         public string GameName { get; set; }
-        public List<FixEntity> Fixes { get; set; }
-        private FixesList()
-        {
-        }
+
+        [XmlElement("FileFix", typeof(FileFixEntity))]
+        public List<object> Fixes { get; set; }
     }
 
-    public sealed partial class FixEntity
+    public sealed partial class FileFixEntity
     {
         public string Name { get; set; }
         public int Version { get; set; }

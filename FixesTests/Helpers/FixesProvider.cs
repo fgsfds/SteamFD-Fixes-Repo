@@ -8,7 +8,7 @@ namespace FixesTests.Helpers
         {
             XmlSerializer xmlSerializer = new(typeof(List<FixesList>));
 
-            var fixesXml = File.ReadAllText("..\\..\\..\\..\\fixes_v2.xml");
+            var fixesXml = File.ReadAllText("..\\..\\..\\..\\fixes_v3.xml");
 
             using (TextReader reader = new StringReader(fixesXml))
             {

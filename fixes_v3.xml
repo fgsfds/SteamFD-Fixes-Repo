@@ -3629,7 +3629,7 @@ MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt t
       <Url>https://github.com/Fire-Head/MHP/releases/download/1.2/MHP.zip</Url>
       <InstallFolder>scripts</InstallFolder>
       <ConfigFile>scripts\MHP.ini</ConfigFile>
-      <MD5>91A3F637BEE6E5DF261D3B07D9DF3759</MD5>
+      <MD5>7A6DCCBC699265E56D70E19E961E4ABE</MD5>
     </FileFix>
   </FixesList>
   <FixesList>

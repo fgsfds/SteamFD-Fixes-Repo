@@ -44,22 +44,28 @@ namespace FixesTests
             {
                 foreach (var fix in fixes.Fixes)
                 {
-                    if (fix.Url is null)
+                    if (fix is not FileFixEntity fileFix)
                     {
                         continue;
                     }
 
-                    if (!fix.Url.EndsWith(".zip"))
+                    if (fileFix.Url is null)
                     {
-                        Trace.TraceError($"{fixes.GameName}, url is not a zip: {fix.Url}");
+                        continue;
+                    }
+
+                    if (!fileFix.Url.EndsWith(".zip") &&
+                        !fileFix.Url.EndsWith(".7z"))
+                    {
+                        Trace.TraceError($"{fixes.GameName}, url is not a zip or 7zip: {fileFix.Url}");
                         isFailed = true;
 
                         continue;
                     }
 
-                    if (fix.Url.Contains("/blob/"))
+                    if (fileFix.Url.Contains("/blob/"))
                     {
-                        Trace.TraceError($"{fixes.GameName}, invalid Url: {fix.Url}");
+                        Trace.TraceError($"{fixes.GameName}, invalid Url: {fileFix.Url}");
                         isFailed = true;
 
                         continue;
@@ -69,14 +75,14 @@ namespace FixesTests
 
                     if (!branchName.Equals("master"))
                     {
-                        url = new Uri(fix.Url.Replace("/master/", $"/{branchName}/"));
+                        url = new Uri(fileFix.Url.Replace("/master/", $"/{branchName}/"));
                     }
                     else
                     {
-                        url = new Uri(fix.Url);
+                        url = new Uri(fileFix.Url);
                     }
 
-                    var fileCheckResult = await FileChecker.CheckOnlineFileAsync(client, url, fix.MD5);
+                    var fileCheckResult = await FileChecker.CheckOnlineFileAsync(client, url, fileFix.MD5);
 
                     if (fileCheckResult is not null)
                     {
