@@ -20,6 +20,8 @@ Arx Fatalis
 
 Assassin's Creed
 - Eagle Patch
+- Freezes Fix
+- Black Bars Fix for Ultrawide
 - No Intro Fix
 
 Assassin's Creed II
@@ -234,8 +236,8 @@ Fable - The Lost Chapters
 
 Fallout
 - Fallout Et Tu
-- Censorship Fix
 - Fixt Vanilla
+- Censorship Fix
 
 Fallout 2
 - Unofficial Patch
@@ -544,6 +546,9 @@ The Callisto Protocol
 
 The Dark Eye: Chains of Satinav
 - No Intro Fix
+
+The First Templar
+- Launcher Skip
 
 The Longest Journey
 - ScummVM

@@ -272,4 +272,20 @@ Grand Theft Auto IV: FusionFix to v2.0
 Manhunt: Fixer to v2.0, MPH to v1.2
 </Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>30</Version>
+		<Date>2023-11-26T00:00:00</Date>
+		<Content>Fixes' descriptions now support markdown.
+Descriptions will display incorrectly in Superheater lower than 0.11.0.
+		
+Added:
+Assassin's Creed: Freezes Fix, Black Bars Fix for Ultrawide
+The First Templar: Launcher Skip
+
+Updated:
+Grand Theft Auto IV: FusionFix to v2.1
+Star Wars Dark Forces: Force Engine to v1.09.540
+Crysis / Crysis Wars: C1-Launcher to v5
+</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>
