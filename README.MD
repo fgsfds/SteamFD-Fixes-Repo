@@ -1,16 +1,8 @@
 **CURRENTLY AVAILABLE FIXES**
 
-Alan Wake
-- No Intro Fix
-
-Alan Wake's American Nightmare
-- No Intro Fix
-
 Alien: Isolation
 - Save confirmation dialog skipper
 - MotherVR
-- No Intro Fix
-- No Intro Fix (Linux native)
 
 Aliens: Colonial Marines
 - Improved Xenomorph AI
@@ -22,7 +14,6 @@ Assassin's Creed
 - Eagle Patch
 - Freezes Fix
 - Black Bars Fix for Ultrawide
-- No Intro Fix
 
 Assassin's Creed II
 - Eagle Patch
@@ -30,20 +21,14 @@ Assassin's Creed II
 Batman: Arkham Asylum GOTY Edition
 - Advanced Launcher
 - Official PS3 DLCs
-- No Intro Fix
 
 Batman: Arkham City GOTY
 - Advanced Launcher
-- No Intro Fix
 
 Battlestations: Pacific
 - Xliveless
 - Steamless Exe
 - DLC Pack
-- No Intro Fix
-
-Bayonetta
-- No Intro Fix
 
 Beyond Good & Evil
 - Startup and widescreen fix
@@ -60,12 +45,14 @@ Blake Stone: Aliens of Gold
 Blake Stone: Planet Strike
 - bstone
 
+Blasphemous
+- Ultrawide Fix
+
 Blood II: The Chosen + Expansion
 - Ultimate Fix
 
 Blood Omen 2: Legacy of Kain
 - Re-vamped
-- No Intro Fix
 
 Blood: Fresh Supply
 - NotBlood
@@ -79,31 +66,23 @@ Blood: One Unit Whole Blood
 BloodRayne: Terminal Cut
 - Tweaks
 
-Borderlands 2
-- No Intro Fix
-
 Bound By Flame
 - Yellow Visual Glitch on UI Fix (AMD GPU)
-- No Intro Fix
 
 Broken Sword 1 - Shadow of the Templars: Director's Cut
 - Better In-Game Font
-- No Intro Fix
 
 Bully: Scholarship Edition
 - Widescreen Fix
 - Silent Patch
-- No Intro Fix
 
 Caesar 3
 - Julius
 - Augustus
 
-Castlevania: Lords of Shadow - Ultimate Edition
-- No Intro Fix
-
-Castlevania: Lords of Shadow 2
-- No Intro Fix
+Call of Juarez
+- Black Bars Removal
+- Ultrawide Fix + Black Bars Removal
 
 Chantelise
 - Official DRM-Free Patch
@@ -117,11 +96,9 @@ Condemned: Criminal Origins
 
 Control Ultimate Edition
 - HDR Ultrawide DLSS RT Patch
-- No Intro Fix
 
 Crash Bandicoot™ N. Sane Trilogy
 - Ultrawide Fix
-- No Intro Fix
 
 Crazy Taxi
 - SilentPatch
@@ -132,9 +109,6 @@ Crysis
 Crysis Wars
 - C1-Launcher
 
-Cyberdimension Neptunia: 4 Goddesses Online
-- No Intro Fix
-
 Daikatana
 - Patch 1.3
 
@@ -144,20 +118,17 @@ DARK SOULS™ III
 DARK SOULS™: Prepare To Die Edition
 - DSFix
 
-Darksiders II Deathinitive Edition
-- No Intro Fix
-
-Darksiders Warmastered Edition
-- No Intro Fix
-
-DarkStar One
-- No Intro Fix
-
 Dead Island Definitive Edition
 - Essential Fix
 
 Dead Island: Riptide Definitive Edition
 - Essential Fix
+
+Dead Rising 2
+- Controller Fix
+
+Dead Rising 2: Off the Record
+- Controller Fix
 
 Dead Space (2008)
 - Mouse Fix
@@ -168,9 +139,6 @@ Dead Space 2
 Deadly Premonition: The Director's Cut
 - dpfix
 - Ultrawide Fix
-
-Demonicon
-- No Intro Fix
 
 Desperados - Wanted Dead or Alive
 - Resolution Fix
@@ -188,17 +156,8 @@ Deus Ex: Invisible War
 Disciples II: Gallean's Return
 - GL Wrapper
 
-Dishonored
-- No Intro Fix
-
-Dishonored 2
-- No Intro Fix
-
-Dishonored RHCP
-- No Intro Fix
-
-Dishonored®: Death of the Outsider™
-- No Intro Fix
+Disciples II: Rise of the Elves
+- GL Wrapper
 
 DOOM (1993)
 - Crispy Doom
@@ -221,18 +180,6 @@ Duke Nukem 3D
 
 Duke Nukem: Manhattan Project
 - Enhanced Edition
-
-Enclave
-- No Intro Fix
-
-Etherlords
-- No Intro Fix
-
-Etherlords II
-- No Intro Fix
-
-Fable - The Lost Chapters
-- No Intro Fix
 
 Fallout
 - Fallout Et Tu
@@ -271,14 +218,10 @@ Freedom Force
 Freedom Force vs. the 3rd Reich
 - Universal Widescreen Fix
 
-Gorky 17
-- No Intro Fix
-
 Grand Theft Auto III
 - Widescren Fix
 - Silent Patch
 - GInput
-- No Intro Fix
 
 Grand Theft Auto IV: The Complete Edition
 - Fusion Fix
@@ -289,17 +232,14 @@ Grand Theft Auto: San Andreas
 - Widescren Fix
 - Silent Patch
 - GInput
-- No Intro Fix
 
 Grand Theft Auto: Vice City
 - Widescren Fix
 - Silent Patch
 - GInput
-- No Intro Fix
 
 GUN
 - Widescreen Fix
-- No Intro Fix
 
 Heretic: Shadow of the Serpent Riders
 - Crispy Heretic + Widescreen Sprites
@@ -313,19 +253,18 @@ Hexen: Deathkings of the Dark Citadel
 Hitman 2: Silent Assassin
 - Widescreen Fix
 - Censorship Fix
-- No Intro Fix
 
 Hitman: Blood Money
 - Widescreen Fix
-- No Intro Fix
 
 Hitman: Codename 47
 - Widescreen Fix
-- No Intro Fix
 
 Hitman: Contracts
 - Widescreen Fix
-- No Intro Fix
+
+Hollow Knight
+- Ultrawide Fix
 
 Hyperdimension Neptunia Re;Birth1
 - Neptastic Mod
@@ -344,9 +283,6 @@ Kane & Lynch: Dead Men
 - FOV Fix
 - Ultrawide Fix
 
-Killer is Dead
-- No Intro Fix
-
 Killing Time
 - Community Patch
 
@@ -355,11 +291,9 @@ Kingpin
 
 Legacy of Kain: Defiance
 - Widescreen Fix
-- No Intro Fix
 
 Legacy of Kain: Soul Reaver
 - sr1patch
-- No Intro Fix
 
 Legacy of Kain: Soul Reaver 2
 - Soul Fixer
@@ -371,9 +305,6 @@ Mafia
 Manhunt
 - Manhunt Fixer
 - MHP
-
-Mars: War Logs
-- No Intro Fix
 
 Max Payne
 - Widescreen Fix
@@ -397,14 +328,11 @@ NieR:Automata™
 Obscure
 - Widescreen Fix
 
-Of Orcs And Men
-- No Intro Fix
-
-Parkan 2
-- No Intro Fix
-
 PowerSlave (DOS Classic Edition)
 - Raze
+
+PowerSlave Exhumed
+- Fixes Collection
 
 Prey
 - Ultra Graphics Fix
@@ -412,17 +340,14 @@ Prey
 
 Prince of Persia: The Sands of Time
 - Widescreen Fix
-- No Intro Fix
 
 Prince of Persia: The Two Thrones
 - Launcher Fix
 - Unofficial Patch
-- No Intro Fix
 
 Prince of Persia: Warrior Within
 - Launcher Fix
 - Unofficial Patch
-- No Intro Fix
 
 Project: Snowblind
 - Widescreen Fix
@@ -433,7 +358,6 @@ Prototype
 
 Psychonauts
 - Widescreen Fix
-- No Intro Fix
 
 Quake 4
 - Ultra Graphics Fix
@@ -445,20 +369,14 @@ Recettear: An Item Shop's Tale
 Red Dead Redemption 2
 - No Black Bars
 
-Red Faction Guerrilla Re-Mars-tered
-- No Intro Fix
-
-Red Faction II
-- No Intro Fix
+Red Faction
+- Dash Faction
 
 Redneck Rampage
 - Raze
 
 Redneck Rampage Rides Again
 - Raze
-
-Remember Me
-- No Intro Fix
 
 Resident Evil
 - Fusion Fix
@@ -488,21 +406,8 @@ Resident Evil Revelations 2
 Return to Castle Wolfenstein
 - Unofficial Patch
 
-Rise of the Argonauts
-- No Intro Fix
-
-Risen
-- No Intro Fix
-
-Risen 2 - Dark Waters
-- No Intro Fix
-
-Risen 3 - Titan Lords
-- No Intro Fix
-
 RoboCop: Rogue City
 - Ultrawide Fix
-- No Intro Fix
 
 Second Sight
 - Widescreen Fix
@@ -516,48 +421,20 @@ Shadow Warrior (Classic)
 SiN Gold
 - Dominatrix
 
-Sleeping Dogs: Definitive Edition
-- No Intro Fix
-
 Sniper Elite
 - Widescreen Fix
 
 Spyro™ Reignited Trilogy
 - Ultrawide Fix
-- No Intro Fix
-
-STAR WARS™ Jedi Knight II: Jedi Outcast™
-- No Intro Fix
-
-STAR WARS™ Jedi Knight: Jedi Academy™
-- No Intro Fix
 
 STAR WARS™: Dark Forces
 - The Force Engine
-
-Sudeki
-- No Intro Fix
-
-The Bureau: XCOM Declassified
-- No Intro Fix
-
-The Callisto Protocol
-- No Intro Fix
-
-The Dark Eye: Chains of Satinav
-- No Intro Fix
 
 The First Templar
 - Launcher Skip
 
 The Longest Journey
 - ScummVM
-
-The Talos Principle 2
-- No Intro Fix
-
-The Technomancer
-- No Intro Fix
 
 Thief Gold
 - TFix
@@ -570,17 +447,14 @@ Thief™ II: The Metal Age
 
 TimeShift
 - Crash Fix
-- No Intro Fix
 
 Tom Clancy's Splinter Cell
 - Widescreen Fix
 - Improved Loading Screens
 - Texture Shader Fixes
-- No Intro Fix
 
 Tom Clancy's Splinter Cell: Chaos Theory
 - Widescreen Fix
-- No Intro Fix
 
 Tom Clancy's Splinter Cell: Conviction
 - Fusion Mod
@@ -588,28 +462,20 @@ Tom Clancy's Splinter Cell: Conviction
 Tom Clancy's Splinter Cell: Double Agent
 - Widescreen Fix
 
-Tomb Raider (VI): The Angel of Darkness
-- No Intro Fix
-
 Tomb Raider I
 - TR1X + Unfinished Business
-- No Intro Fix
 
 Tomb Raider II
 - TR2Main + Golden Mask
-- No Intro Fix
 
 Tomb Raider III: Adventures of Lara Croft
 - tomb3 + The Lost Artefact
-- No Intro Fix
 
 Tomb Raider: Anniversary
 - Ultrawide Fix
-- No Intro Fix
 
 Tomb Raider: Chronicles
 - tomb5
-- No Intro Fix
 
 Tomb Raider: Legend
 - Crash Fix
@@ -618,23 +484,15 @@ Tomb Raider: Legend
 
 Tomb Raider: The Last Revelation
 - tomb4 + The Times Exclusive Level
-- No Intro Fix
 
 Tomb Raider: Underworld
 - Ultrawide Fix
 
 Transformers: Fall of Cybertron
 - Black Screen Fix
-- No Intro Fix
 
 Tropico 3 - Steam Special Edition
 - Official DRM-Free Patch
-
-Two Worlds II HD
-- No Intro Fix
-
-Two Worlds: Epic Edition
-- No Intro Fix
 
 Unreal Gold
 - 227i Patch
@@ -643,9 +501,6 @@ Vampire: The Masquerade - Bloodlines
 - Mandatory Fixes
 - Unofficial Patch Basic
 - Unofficial Patch Plus
-
-Velvet Assassin
-- No Intro Fix
 
 Warhammer 40,000: Dawn of War - Dark Crusade
 - Camera Zoom Mod
@@ -667,3 +522,4 @@ XIII - Classic
 - Unofficial Patch 1.4
 - 2560x1080 Resolution
 
+No Intro Fixes for: Alan Wake, Alan Wake, Alan Wake's American Nightmare, Alien: Isolation, Assassin's Creed, Batman: Arkham Asylum GOTY Edition, Batman: Arkham City GOTY, Battlestations: Pacific, Bayonetta, Blood Omen 2: Legacy of Kain, Borderlands 2, Bound By Flame, Broken Sword 1 - Shadow of the Templars: Director's Cut, Bully: Scholarship Edition, Castlevania: Lords of Shadow - Ultimate Edition, Castlevania: Lords of Shadow 2, Control Ultimate Edition, Crash Bandicoot™ N. Sane Trilogy, Cyberdimension Neptunia: 4 Goddesses Online, Darksiders II Deathinitive Edition, Darksiders Warmastered Edition, DarkStar One, Dead Rising 2, Dead Rising 2: Off the Record, Demonicon, Dishonored, Dishonored 2, Dishonored RHCP, Dishonored®: Death of the Outsider™, En Garde!, Enclave, Etherlords, Etherlords II, Fable - The Lost Chapters, Gorky 17, Grand Theft Auto III, Grand Theft Auto: San Andreas, Grand Theft Auto: Vice City, GUN, Hitman 2: Silent Assassin, Hitman: Blood Money, Hitman: Codename 47, Hitman: Contracts, Killer is Dead, Legacy of Kain: Defiance, Legacy of Kain: Soul Reaver, Mars: War Logs, Of Orcs And Men, Parkan 2, PowerSlave Exhumed, Prince of Persia: The Sands of Time, Prince of Persia: The Two Thrones, Prince of Persia: Warrior Within, Psychonauts, Red Faction Guerrilla Re-Mars-tered, Red Faction II, Remember Me, Rise of the Argonauts, Risen, Risen 2 - Dark Waters, Risen 3 - Titan Lords, RoboCop: Rogue City, Sleeping Dogs: Definitive Edition, Spyro™ Reignited Trilogy, STAR WARS™ Jedi Knight II: Jedi Outcast™, STAR WARS™ Jedi Knight: Jedi Academy™, Sudeki, The Bureau: XCOM Declassified, The Callisto Protocol, The Dark Eye: Chains of Satinav, The Talos Principle 2, The Technomancer, TimeShift, Tom Clancy's Splinter Cell, Tom Clancy's Splinter Cell: Chaos Theory, Tomb Raider (VI): The Angel of Darkness, Tomb Raider I, Tomb Raider II, Tomb Raider III: Adventures of Lara Croft, Tomb Raider: Anniversary, Tomb Raider: Chronicles, Tomb Raider: The Last Revelation, Transformers: Fall of Cybertron, Two Worlds II HD, Two Worlds: Epic Edition, Velvet Assassin

@@ -632,6 +632,25 @@ BStone is unofficial source port for "Blake Stone" game series: "Aliens Of Gold"
     </FileFix>
   </FixesList>
   <FixesList>
+    <GameId>774361</GameId>
+    <GameName>Blasphemous</GameName>
+    <FileFix>
+      <Name>Ultrawide Fix</Name>
+      <Guid>fdf2ed89-6880-47e9-b5ce-89344c479e93</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Description>## Blasphemous ultrawide and wider mod
+*by Rose*
+
+https://community.pcgamingwiki.com/files/file/1910-blasphemous-ultrawide-and-wider-mod/</Description>
+      <Tags>
+        <string>#ultrawide</string>
+      </Tags>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blasphemous_ultrawide.zip</Url>
+      <MD5>9D6D51CB8121A8FD1C4E627799E82500</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
     <GameId>299050</GameId>
     <GameName>Blood II: The Chosen + Expansion</GameName>
     <FileFix>
@@ -1079,6 +1098,43 @@ Because of gameplay changes and additions, save files from Augustus are NOT comp
       </Tags>
       <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/caesar3_augustus_v320.zip</Url>
       <MD5>DF462E2CE7AAE8403CA79855F4EC74EB</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
+    <GameId>3020</GameId>
+    <GameName>Call of Juarez</GameName>
+    <FileFix>
+      <Name>Black Bars Removal</Name>
+      <Guid>1aefa8f6-5ab8-42ef-9d76-b91bdc158984</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Description>Removes black bars on top and bottom of the screen
+
+https://community.pcgamingwiki.com/files/file/1494-call-of-juarez-aspect-fov-fix/</Description>
+      <Tags>
+        <string>#enhancements</string>
+      </Tags>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/call_of_juarez_noblackbars.zip</Url>
+      <MD5>393DD6575F80F1FB238F13750FC6E5A1</MD5>
+    </FileFix>
+    <FileFix>
+      <Name>Ultrawide Fix + Black Bars Removal</Name>
+      <Guid>f761088f-cc34-487a-9d36-df4cef6123df</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Description>Fix for aspect ratio at 21:9 resolutions. Select variant with or without black bars.
+
+https://community.pcgamingwiki.com/files/file/1494-call-of-juarez-aspect-fov-fix/</Description>
+      <Tags>
+        <string>#enhancements</string>
+        <string>#ultrawide</string>
+      </Tags>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/call_of_juarez_ultrawide.zip</Url>
+      <Variants>
+        <string>Without Black Bars</string>
+        <string>With Black Bars</string>
+      </Variants>
+      <MD5>EFC332E221DDC9A654A9D6A3C5820FB5</MD5>
     </FileFix>
   </FixesList>
   <FixesList>
@@ -1658,6 +1714,72 @@ Allows for easy, understandable editing of the DSfix configuration without havin
     </FileFix>
   </FixesList>
   <FixesList>
+    <GameId>45740</GameId>
+    <GameName>Dead Rising 2</GameName>
+    <TextFix>
+      <Name>Controller Fix</Name>
+      <Guid>cd7310d6-a797-4309-a5d7-4e5ce6bb6f2f</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Description>To fix XInput controllers Disable Steam Input in the game properties
+
+![](https://raw.githubusercontent.com/fgsfds/SteamFD-Fixes-Repo/master/img/dead_rising_2_controller.png)</Description>
+      <Tags>
+        <string>#controller_support</string>
+      </Tags>
+    </TextFix>
+    <FileFix>
+      <Name>No Intro Fix</Name>
+      <Guid>069a91c7-5bcb-4770-a5ed-a4201d1be3af</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Description>## DR2Hookary
+*by Xinerki*
+
+https://github.com/Xinerki/DR2Hookary
+
+This is a DR2Hookary with No Intro Fix only</Description>
+      <Tags>
+        <string>#nointro</string>
+      </Tags>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dead_rising_2_nointro.zip</Url>
+      <MD5>4525EF3AFFE8E03B2D01FC4D94076057</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
+    <GameId>45770</GameId>
+    <GameName>Dead Rising 2: Off the Record</GameName>
+    <TextFix>
+      <Name>Controller Fix</Name>
+      <Guid>6f044247-47d1-4af7-a551-0fd92795daea</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Description>To fix XInput controllers Disable Steam Input in the game properties
+
+![](https://raw.githubusercontent.com/fgsfds/SteamFD-Fixes-Repo/test/img/dead_rising_2_controller.png)</Description>
+      <Tags>
+        <string>#controller_support</string>
+      </Tags>
+    </TextFix>
+    <FileFix>
+      <Name>No Intro Fix</Name>
+      <Guid>4f48438f-8296-46aa-a341-350b41200b5a</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Description>## DR2Hookary
+*by Xinerki*
+
+https://github.com/Xinerki/DR2Hookary
+
+This is a DR2Hookary with No Intro Fix only</Description>
+      <Tags>
+        <string>#nointro</string>
+      </Tags>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dead_rising_2_nointro.zip</Url>
+      <MD5>4525EF3AFFE8E03B2D01FC4D94076057</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
     <GameId>17470</GameId>
     <GameName>Dead Space (2008)</GameName>
     <FileFix>
@@ -1902,6 +2024,40 @@ The patch contains various bugfixes and game improvements such as widescreen sup
     <FileFix>
       <Name>GL Wrapper</Name>
       <Guid>d51c5a6e-d8ff-41f6-9b58-8273f0916d13</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows Linux</SupportedOSes>
+      <Description>## GL Wrapper
+*by Verok*
+
+[https://web.archive.org/web/20211010082542/https://verokster.blogspot.com/2019/03/disciples-i-ii-gl-wrapper-patch.html](https://web.archive.org/web/20211010082542/https://verokster.blogspot.com/2019/03/disciples-i-ii-gl-wrapper-patch.html)
+
+This patch/wrapper redirect legacy DirectDraw graphics into OpenGL and allows play games on modern PC with Windows 10. Added proper windowed mode and several upscale filters for better gaming on modern screens.
+
+- Games render via OpenGL
+- Games can now easily minimize on new OS
+- Games can now easily switch into windowed/fullscreen mode
+- Added several upscaling filters (ScaleNx, Super Eagle, Sal, ScaleHq and xBRz)
+- Added game speed selection. Game can run faster now, up to 3x
+- AI thinks much faster
+- 32bpp rendering
+- Added selection of any resolutions (4x3, 16x10, 16x9 ...) up to 4-8K
+- Disciples II: Added option to select widescreen battle window
+- Disciples II: Added new borders image for ingame windows/dialogs. Thanks to Мотлин.</Description>
+      <Tags>
+        <string>#enhancements</string>
+        <string>#ultrawide</string>
+        <string>#widescreen</string>
+      </Tags>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/disciples_glwrapper.zip</Url>
+      <MD5>98D9CFC19967E78540C677A6C8808A7A</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
+    <GameId>1630</GameId>
+    <GameName>Disciples II: Rise of the Elves</GameName>
+    <FileFix>
+      <Name>GL Wrapper</Name>
+      <Guid>d51c5a6e-d8ff-41f6-9b58-8273f0916d14</Guid>
       <Version>1</Version>
       <SupportedOSes>Windows Linux</SupportedOSes>
       <Description>## GL Wrapper
@@ -2271,6 +2427,25 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
     </FileFix>
   </FixesList>
   <FixesList>
+    <GameId>1654660</GameId>
+    <GameName>En Garde!</GameName>
+    <FileFix>
+      <Name>No Intro Fix</Name>
+      <Guid>b0ac9296-b346-4397-842b-2d274a3b80d3</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows Linux</SupportedOSes>
+      <Description>Removal of the intro videos</Description>
+      <Tags>
+        <string>#nointro</string>
+      </Tags>
+      <FilesToDelete>
+        <string>EnGarde\Content\Movies\Startup\KowloonAndFireplaceSplash.bk2</string>
+        <string>EnGarde\Content\Movies\Startup\KowloonAndFireplaceSplash.uasset</string>
+        <string>EnGarde\Content\Movies\Startup\KowloonAndFireplaceSplash.mp4</string>
+      </FilesToDelete>
+    </FileFix>
+  </FixesList>
+  <FixesList>
     <GameId>253980</GameId>
     <GameName>Enclave</GameName>
     <FileFix>
@@ -2409,7 +2584,7 @@ The goal of Fallout Fixt is to enhance, fix and improve the Fallout 1 experience
         <string>#crashfix</string>
         <string>#enhancements</string>
       </Tags>
-      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/fallout1_fixt..zip</Url>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/fallout1_fixt.zip</Url>
       <MD5>9DC98C291FA12F39CA8FA850C696A370</MD5>
     </FileFix>
     <FileFix>
@@ -3428,6 +3603,22 @@ This fix downgrades game to version 1.01</Description>
     </FileFix>
   </FixesList>
   <FixesList>
+    <GameId>367520</GameId>
+    <GameName>Hollow Knight</GameName>
+    <FileFix>
+      <Name>Ultrawide Fix</Name>
+      <Guid>8adb8784-4109-4814-9d25-dbc50666c731</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Description>Removes black bars at 21:9 resolutions</Description>
+      <Tags>
+        <string>#ultrawide</string>
+      </Tags>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hollow_knight_ultrawide.zip</Url>
+      <MD5>CA23DB23F9E8566125AB32FC1E718DAF</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
     <GameId>282900</GameId>
     <GameName>Hyperdimension Neptunia Re;Birth1</GameName>
     <FileFix>
@@ -3939,12 +4130,12 @@ This plugin will stop any audio or music from looping.</Description>
     <FileFix>
       <Name>MHP</Name>
       <Guid>3cc82ef8-0b6d-481f-834b-3d67ae81d956</Guid>
-      <Version>2</Version>
+      <Version>3</Version>
       <SupportedOSes>Windows</SupportedOSes>
       <Dependencies>
         <guid>5af13294-80ba-4681-b65e-0ade9812c101</guid>
       </Dependencies>
-      <Description>## MPH v 1.2
+      <Description>## MPH v1.2a
 *by Fire-Head*
 
 [https://github.com/Fire-Head/MHP](https://github.com/Fire-Head/MHP)
@@ -3954,10 +4145,10 @@ MHPatches is a plugin that brings some of PS2 graphics and features of Manhunt t
         <string>#enhancements</string>
         <string>#graphics_improvement</string>
       </Tags>
-      <Url>https://github.com/Fire-Head/MHP/releases/download/1.2/MHP.zip</Url>
+      <Url>https://github.com/Fire-Head/MHP/releases/download/1.2a/MHP.zip</Url>
       <InstallFolder>scripts</InstallFolder>
       <ConfigFile>scripts\MHP.ini</ConfigFile>
-      <MD5>7A6DCCBC699265E56D70E19E961E4ABE</MD5>
+      <MD5>79EFB8FABA25C06EBB3D3E975C024787</MD5>
     </FileFix>
   </FixesList>
   <FixesList>
@@ -4275,6 +4466,63 @@ Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nuk
       </Tags>
       <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/powerslavedos_raze_v181.zip</Url>
       <MD5>D493D1E8C6BF8DEAF80B56256C74C65B</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
+    <GameId>1678430</GameId>
+    <GameName>PowerSlave Exhumed</GameName>
+    <FileFix>
+      <Name>Fixes Collection</Name>
+      <Guid>b80cfac0-b5e2-4ba3-95ea-280d5193b80d</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows Linux</SupportedOSes>
+      <Description>## Cobra Staff Pixel Fix
+*by CreamyElephant*
+
+https://www.moddb.com/games/powerslave-exhumed/addons/cobra-staff-pixel-fix
+
+## Player Hitbox fix
+*by Dexiaz*
+
+https://www.moddb.com/games/powerslave-exhumed/addons/player-hitbox-fix-by-dexiaz
+
+## M60 cycle fix 
+*by Razzius*
+
+https://www.moddb.com/games/powerslave-exhumed/downloads/m60-cycle-fix-no-more-burstfire
+
+## Floating 'Vase08' Fix</Description>
+      <Tags>
+        <string>#bugfixes</string>
+      </Tags>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/powerslave_kex_fixes.zip</Url>
+      <MD5>C08C87C13F408EBCF74305C398329E61</MD5>
+    </FileFix>
+    <FileFix>
+      <Name>No Intro Fix</Name>
+      <Guid>edb1b28a-d60f-4bc1-a5b2-5f70cab10874</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows Linux</SupportedOSes>
+      <Description>Removal of the intro videos</Description>
+      <Tags>
+        <string>#nointro</string>
+      </Tags>
+      <FilesToDelete>
+        <string>movies\intro-de.mp4</string>
+        <string>movies\intro-de.ogv</string>
+        <string>movies\intro-en.mp4</string>
+        <string>movies\intro-en.ogv</string>
+        <string>movies\intro-es.mp4</string>
+        <string>movies\intro-es.ogv</string>
+        <string>movies\intro-fr.mp4</string>
+        <string>movies\intro-fr.ogv</string>
+        <string>movies\Kex.mp4</string>
+        <string>movies\Kex.ogv</string>
+        <string>movies\NightDive.mp4</string>
+        <string>movies\NightDive.ogv</string>
+        <string>movies\throwback.mp4</string>
+        <string>movies\throwback.ogv</string>
+      </FilesToDelete>
     </FileFix>
   </FixesList>
   <FixesList>
@@ -4661,6 +4909,49 @@ Removes the black bars appearing top, bottom, left, &amp; right especially durin
       </Tags>
       <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/rdr2_no_black_bars_v1.zip</Url>
       <MD5>84CD8AD2AA63E7EF5301C634F35954B1</MD5>
+    </FileFix>
+  </FixesList>
+  <FixesList>
+    <GameId>20530</GameId>
+    <GameName>Red Faction</GameName>
+    <FileFix>
+      <Name>Dash Faction</Name>
+      <Guid>e63a5a27-5a2b-4031-87a0-b97b64615051</Guid>
+      <Version>1</Version>
+      <SupportedOSes>Windows</SupportedOSes>
+      <Description>## Dash Faction v1.8.0
+
+Dash Faction is a Red Faction game modification designed to fix original game bugs, improve compatibility with modern hardware and software, extend functionality, and improve graphical quality and engine performance.
+
+**Features:**
+- Multiplayer level auto-downloader (uses https://autodl.factionfiles.com just like Pure Faction)
+- Spectate mode (first person or free camera)
+- Widescreen support
+- Windowed and borderless display modes
+- Autosaving support for singleplayer
+- Better graphical quality (anti-aliasing, higher texture color depth, anisotropic filtering, higher scanner view and mirror resolutions, LOD model improvements and more)
+- Improved security (enabled Data Execution Prevention, multiple buffer overflow fixes)
+- Multiple game limits raised/removed
+- Improved scoreboard with Kills/Deaths column
+- Information about killer's weapon displayed in chat
+- Option to disable level ambient sounds
+- ui.vpp cheating prevention
+- Multiple fixes for high FPS (currently limited to 240), especially the infamous exploding submarine bug
+- Country-specific edition support (properly handles game directory structure for German and French editions)
+- Improved game performance
+- Voting support for dedicated servers
+- Hit-sound support for dedicated servers
+- Other usability and stability enhancements</Description>
+      <Tags>
+        <string>#fps_unlock</string>
+        <string>#graphics_improvement</string>
+        <string>#multiplayer</string>
+        <string>#nointro</string>
+        <string>#ultrawide</string>
+        <string>#widescreen</string>
+      </Tags>
+      <Url>https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/red_faction_dashfaction_v180.zip</Url>
+      <MD5>F3420F957A8B8BDC21BE62B10C0482F8</MD5>
     </FileFix>
   </FixesList>
   <FixesList>

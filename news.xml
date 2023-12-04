@@ -288,4 +288,23 @@ Star Wars Dark Forces: Force Engine to v1.09.540
 Crysis / Crysis Wars: C1-Launcher to v5
 </Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>31</Version>
+		<Date>2023-12-04T00:00:00</Date>
+		<Content>Added:
+Call of Juarez: Black Bars Removal, Ultrawide Fix
+Disciples II: Rise of the Elves: GL Wrapper
+PowerSlave Exhumed: Fixes Collection, No Intro Fix
+Red Faction: Dash Faction
+
+Ultrawide Fixes for:
+Blasphemous, Hollow Knight
+
+No Intro Fixes for:
+Dead Rising 2 / Off the Record, En Garde!
+
+Updated:
+Manhunt: MPH to v1.2a
+</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>
