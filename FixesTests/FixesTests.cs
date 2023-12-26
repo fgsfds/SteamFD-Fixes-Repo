@@ -1,3 +1,4 @@
+using FixesTests.Fixes;
 using FixesTests.Helpers;
 using System.Diagnostics;
 
