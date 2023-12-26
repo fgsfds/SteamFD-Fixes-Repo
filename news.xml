@@ -307,4 +307,10 @@ Updated:
 Manhunt: MPH to v1.2a
 </Content>
 	</NewsEntity>
+	<NewsEntity>
+		<Version>32</Version>
+		<Date>2023-12-26T00:00:00</Date>
+		<Content>Format of the fixes database has been changed once again. Superheater versions lower than 0.12.0 won't receive any new fixes. Update ASAP.
+</Content>
+	</NewsEntity>
 </ArrayOfNewsEntity>
