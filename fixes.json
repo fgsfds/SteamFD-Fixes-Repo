@@ -417,13 +417,16 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bge_fix_v1.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bge_fix_v2.7z",
         "ConfigFile": "bge.ini",
         "FilesToDelete": [
           "sally_clean.bf"
         ],
-        "RunAfterInstall": "patch.bat",
-        "MD5": "48543ABBC2208BD2CFF89CAD10518136",
+        "RunAfterInstall": "",
+        "MD5": "5BA2AC43E7F0060D84FBE3D70EFB7B3D",
+        "FilesToPatch": [
+          "sally_clean.bf"
+        ],
         "Name": "Startup and widescreen fix",
         "Guid": "a3b34fff-e7a0-49eb-aa44-0ef863dff80d",
         "Version": 1,
@@ -883,13 +886,13 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/caesar3_augustus_v320.zip",
-        "MD5": "DF462E2CE7AAE8403CA79855F4EC74EB",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/caesar3_augustus_v400.zip",
+        "MD5": "D22179428FC1556A9652C80A4531CEA4",
         "Name": "Augustus",
         "Guid": "4e06c271-e9b0-43bc-be81-ce92cb9b472d",
-        "Version": 1,
+        "Version": 2,
         "SupportedOSes": "Windows",
-        "Description": "## Augustus v3.2.0\n*by Keriew*\n\n[https://github.com/Keriew/augustus](https://github.com/Keriew/augustus)\n\nThe aim of this project is to provide enhanced, customizable gameplay to Caesar 3 using project Julius UI enhancements.\n\nAugustus is able to load Caesar 3 and Julius saves, however saves made with Augustus will not work outside Augustus.\n\n**Gameplay enhancements include:**\n- Roadblocks\n- Market special orders\n- Global labour pool\n- Partial warehouse storage\n- Increased game limits\n- Zoom controls\n- And more!\n\nBecause of gameplay changes and additions, save files from Augustus are NOT compatible with Caesar 3 or Julius. Augustus is able to load Caesar 3 save files, but not the other way around. If you want vanilla experience with visual and UI improvements, or want to use save files in base Caesar 3, check Julius.",
+        "Description": "## Augustus v4.0.0\n*by Keriew*\n\n[https://github.com/Keriew/augustus](https://github.com/Keriew/augustus)\n\nThe aim of this project is to provide enhanced, customizable gameplay to Caesar 3 using project Julius UI enhancements.\n\nAugustus is able to load Caesar 3 and Julius saves, however saves made with Augustus will not work outside Augustus.\n\n**Gameplay enhancements include:**\n- Roadblocks\n- Market special orders\n- Global labour pool\n- Partial warehouse storage\n- Increased game limits\n- Zoom controls\n- And more!\n\nBecause of gameplay changes and additions, save files from Augustus are NOT compatible with Caesar 3 or Julius. Augustus is able to load Caesar 3 save files, but not the other way around. If you want vanilla experience with visual and UI improvements, or want to use save files in base Caesar 3, check Julius.",
         "Tags": [
           "#bugfixes",
           "#enhancements",
@@ -1316,17 +1319,17 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/doom3_le.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/doom_3_le_v14.zip",
         "ConfigFile": "d3le\\autoexec.cfg",
-        "MD5": "DB3461F483857554D730988DE6BF2A57",
+        "MD5": "5DA4A993E1839469D7E321AAEB18232C",
         "Name": "The Lost Mission",
         "Guid": "ebbcf676-2401-4a8f-9058-b50a67252292",
-        "Version": 1,
+        "Version": 2,
         "SupportedOSes": "Windows, Linux",
         "Dependencies": [
           "bc919ea0-c25f-4c98-bda4-a8ed6444c934"
         ],
-        "Description": "## The Lost Mission v1.3\n*by Arl.*\n\n\u003Cimg src=\u0022https://media.moddb.com/images/members/1/211/210342/profile/lm.png\u0022 /\u003E\n\n[https://www.moddb.com/mods/the-lost-mission](https://www.moddb.com/mods/the-lost-mission)\n\nThis is a port of the BFG Edition campaing \u0027The Lost Mission\u0027 for 2004\u0027s Doom 3 release.\n\nResurrection of Evil expansion pack is also required.\n\n**Select from Mods menu in the base game or add LostMission.exe as a non-steam game.**",
+        "Description": "## The Lost Mission v1.4\n*by Arl.*\n\n\u003Cimg src=\u0022https://media.moddb.com/images/members/1/211/210342/profile/lm.png\u0022 /\u003E\n\n[https://www.moddb.com/mods/the-lost-mission](https://www.moddb.com/mods/the-lost-mission)\n\nThis is a port of the BFG Edition campaing \u0027The Lost Mission\u0027 for 2004\u0027s Doom 3 release.\n\nResurrection of Evil expansion pack is also required.\n\n**Select from Mods menu in the base game or add LostMission.exe as a non-steam game.**",
         "Tags": [
           "#additional_content"
         ]
@@ -2528,15 +2531,15 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v2.3.1/GTAIV.EFLC.FusionFix.zip",
+        "Url": "https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v2.4.0/GTAIV.EFLC.FusionFix.zip",
         "InstallFolder": "GTAIV",
         "ConfigFile": "GTAIV\\plugins\\GTAIV.EFLC.FusionFix.ini",
-        "MD5": "2A065E0FB62FFE8CAA29674FB752F26D",
+        "MD5": "EDB9008D844EBF3D27F81938622BC89B",
         "Name": "Fusion Fix",
         "Guid": "f46efd2c-9bb5-430e-9e38-b5fce605860f",
-        "Version": 3,
+        "Version": 4,
         "SupportedOSes": "Windows",
-        "Description": "## GTAIV EFLC FusionFix v2.3.1\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)\n\nThis projects aims to fix some issues in Grand Theft Auto IV: Complete Edition",
+        "Description": "## GTAIV EFLC FusionFix v2.4.0\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)\n\nThis projects aims to fix some issues in Grand Theft Auto IV: Complete Edition",
         "Tags": [
           "#bugfixes",
           "#crashfix",
@@ -3436,10 +3439,10 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/ThirteenAG/MaxPayne3.FusionFix/releases/download/v1.4.0/MaxPayne3.FusionFix.zip",
+        "Url": "https://github.com/ThirteenAG/MaxPayne3.FusionFix/releases/download/v2.0.0/MaxPayne3.FusionFix.zip",
         "InstallFolder": "Max Payne 3",
         "ConfigFile": "Max Payne 3\\plugins\\MaxPayne3.FusionFix.ini",
-        "MD5": "EA215D51FABEE05A50334FC448E460E5",
+        "MD5": "FD613DBCAD502712AA924860411DE9DE",
         "Name": "Fusion Fix",
         "Guid": "d9641d60-6883-4fde-8dac-1d627b66afd9",
         "Version": 1,
@@ -3447,9 +3450,11 @@
         "Dependencies": [
           "d6a9eb21-4b37-40aa-9598-e91488e3c38e"
         ],
-        "Description": "## FusionFix v1.4.0\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/MaxPayne3.FusionFix](https://github.com/ThirteenAG/MaxPayne3.FusionFix)\n\nThis is a small project intended to add ability to hide skip button in Max Payne 3. Additionally, added an option to increase the size of subtitle text outlines and prevent Hoboken Alleys coop map from crashing the game.",
+        "Description": "## FusionFix v2.0.0\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/MaxPayne3.FusionFix](https://github.com/ThirteenAG/MaxPayne3.FusionFix)\n\r\nNew menu options\r\n\n- Borderless Windowed\r\n- Gamepad Icons\r\n- SkipIntro, added an option to skip intro\r\n\r\nNew options, can be edited in **MaxPayne3.FusionFix.ini**\r\n\r\n- HideSkipButton, added an option to hide skip in cutscenes\r\n- DisableGlobalLeaderboards, prevents Hoboken Alleys coop map from crashing the game\r\n- OutlinesSizeMultiplier, added an option to increase the size of subtitle text outlines\r\n- LightSyncRGB, only Logitech hardware is supported, requires Logitech G HUB app",
         "Tags": [
-          "#crashfix"
+          "#crashfix",
+          "#nointro",
+          "#logitech"
         ]
       },
       {
@@ -3737,13 +3742,16 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_tt_patch_v1.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_tt_patch_v2.zip",
         "ConfigFile": "patch.ini",
         "FilesToDelete": [
+          ""
+        ],
+        "RunAfterInstall": "",
+        "MD5": "D3542A5EEB41A672793154950771556B",
+        "FilesToPatch": [
           "pop3.bf"
         ],
-        "RunAfterInstall": "patch.bat",
-        "MD5": "E8E1D29F44F141486EF4FA6EE1C77340",
         "Name": "Unofficial Patch",
         "Guid": "76cca9e6-522c-426c-b612-a6a8499f7d2e",
         "Version": 1,
@@ -5147,14 +5155,14 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/tomb_raider_1_tr1x_v302.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/tomb_raider_1_tr1x_v305.zip",
         "ConfigFile": "TR1X_ConfigTool.exe",
-        "MD5": "AF2885D1801D7C4F2631E3372044D459",
+        "MD5": "B7E65325CF2E01BF226D3E01E0C9CF43",
         "Name": "TR1X \u002B Unfinished Business",
         "Guid": "174629fa-0e1c-4d6a-9184-5c16923a202c",
-        "Version": 2,
+        "Version": 3,
         "SupportedOSes": "Windows",
-        "Description": "## TR1X v3.0.2\n\n[https://github.com/LostArtefacts/TR1X](https://github.com/LostArtefacts/TR1X)\n\nThis is an open source implementation of the classic Tomb Raider I game (1996), made by reverse engineering the TombATI / GLRage variant of the original game and replacing proprietary audio/video libraries with open source variants.\n\nIt adds support for modern OSes, high resolution, bugfixes and gameplay improvements.\n\nAlso includes Unfinished Business addon.\n\n**Disable Steam Input for a proper controller support**",
+        "Description": "## TR1X v3.0.5\n\n[https://github.com/LostArtefacts/TR1X](https://github.com/LostArtefacts/TR1X)\n\nThis is an open source implementation of the classic Tomb Raider I game (1996), made by reverse engineering the TombATI / GLRage variant of the original game and replacing proprietary audio/video libraries with open source variants.\n\nIt adds support for modern OSes, high resolution, bugfixes and gameplay improvements.\n\nAlso includes Unfinished Business addon.\n\n**Disable Steam Input for a proper controller support**",
         "Tags": [
           "#additional_content",
           "#bugfixes",

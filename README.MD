@@ -1,8 +1,5 @@
 **CURRENTLY AVAILABLE FIXES**
 
-Catherine Classic
-- Optimal Sound Settings
-
 Alien: Isolation
 - Save confirmation dialog skipper
 - MotherVR
@@ -87,6 +84,9 @@ Call of Juarez
 - Black Bars Removal
 - Ultrawide Fix + Black Bars Removal
 
+Catherine Classic
+- Optimal Sound Settings
+
 Chantelise
 - Official DRM-Free Patch
 
@@ -112,14 +112,27 @@ Crysis
 Crysis Wars
 - C1-Launcher
 
-Daikatana
-- Patch 1.3
-
 DARK SOULS™ III
 - Proper PC Experience Mod
 
 DARK SOULS™: Prepare To Die Edition
 - DSFix
+
+DOOM (1993)
+- Crispy Doom
+
+DOOM 3
+- dhewm3
+- The Lost Mission
+
+DOOM 3: Resurrection of Evil
+- Resolution Autoexec
+
+DOOM II
+- Crispy Doom
+
+Daikatana
+- Patch 1.3
 
 Dead Island Definitive Edition
 - Essential Fix
@@ -162,19 +175,6 @@ Disciples II: Gallean's Return
 Disciples II: Rise of the Elves
 - GL Wrapper
 
-DOOM (1993)
-- Crispy Doom
-
-DOOM 3
-- dhewm3
-- The Lost Mission
-
-DOOM 3: Resurrection of Evil
-- Resolution Autoexec
-
-DOOM II
-- Crispy Doom
-
 Duke Nukem 2
 - Rigel Engine
 
@@ -183,6 +183,15 @@ Duke Nukem 3D
 
 Duke Nukem: Manhattan Project
 - Enhanced Edition
+
+FINAL FANTASY X/X-2 HD Remaster
+- Final Fantasy X/X-2 Launcher+
+
+FINAL FANTASY XIII
+- FF13Fix
+
+FINAL FANTASY XIII-2
+- FF13Fix
 
 Fallout
 - Fallout Et Tu
@@ -195,15 +204,6 @@ Fallout 2
 
 Far Cry
 - Far Cry Fix
-
-FINAL FANTASY X/X-2 HD Remaster
-- Final Fantasy X/X-2 Launcher+
-
-FINAL FANTASY XIII
-- FF13Fix
-
-FINAL FANTASY XIII-2
-- FF13Fix
 
 FlatOut
 - ZPatch
@@ -220,6 +220,9 @@ Freedom Force
 
 Freedom Force vs. the 3rd Reich
 - Universal Widescreen Fix
+
+GUN
+- Widescreen Fix
 
 Grand Theft Auto III
 - Widescren Fix
@@ -240,9 +243,6 @@ Grand Theft Auto: Vice City
 - Widescren Fix
 - Silent Patch
 - GInput
-
-GUN
-- Widescreen Fix
 
 Heretic: Shadow of the Serpent Riders
 - Crispy Heretic + Widescreen Sprites
@@ -412,6 +412,9 @@ Return to Castle Wolfenstein
 RoboCop: Rogue City
 - Ultrawide Fix
 
+STAR WARS™: Dark Forces
+- The Force Engine
+
 Second Sight
 - Widescreen Fix
 
@@ -429,9 +432,6 @@ Sniper Elite
 
 Spyro™ Reignited Trilogy
 - Ultrawide Fix
-
-STAR WARS™: Dark Forces
-- The Force Engine
 
 The First Templar
 - Launcher Skip
@@ -525,4 +525,4 @@ XIII - Classic
 - Unofficial Patch 1.4
 - 2560x1080 Resolution
 
-No Intro Fixes for: Far Cry 2, Far Cry 2, Alan Wake, Alan Wake's American Nightmare, Alien: Isolation, Assassin's Creed, Batman: Arkham Asylum GOTY Edition, Batman: Arkham City GOTY, Battlestations: Pacific, Bayonetta, Blood Omen 2: Legacy of Kain, Borderlands 2, Bound By Flame, Broken Sword 1 - Shadow of the Templars: Director's Cut, Bully: Scholarship Edition, Castlevania: Lords of Shadow - Ultimate Edition, Castlevania: Lords of Shadow 2, Control Ultimate Edition, Crash Bandicoot™ N. Sane Trilogy, Cyberdimension Neptunia: 4 Goddesses Online, Darksiders II Deathinitive Edition, Darksiders Warmastered Edition, DarkStar One, Dead Rising 2, Dead Rising 2: Off the Record, Demonicon, Dishonored, Dishonored 2, Dishonored RHCP, Dishonored®: Death of the Outsider™, En Garde!, Enclave, Etherlords, Etherlords II, Fable - The Lost Chapters, Gorky 17, Grand Theft Auto III, Grand Theft Auto: San Andreas, Grand Theft Auto: Vice City, GUN, Hitman 2: Silent Assassin, Hitman: Blood Money, Hitman: Codename 47, Hitman: Contracts, Killer is Dead, Legacy of Kain: Defiance, Legacy of Kain: Soul Reaver, Mars: War Logs, Of Orcs And Men, Parkan 2, PowerSlave Exhumed, Prince of Persia: The Sands of Time, Prince of Persia: The Two Thrones, Prince of Persia: Warrior Within, Psychonauts, Red Faction Guerrilla Re-Mars-tered, Red Faction II, Remember Me, Rise of the Argonauts, Risen, Risen 2 - Dark Waters, Risen 3 - Titan Lords, RoboCop: Rogue City, Sleeping Dogs: Definitive Edition, Spyro™ Reignited Trilogy, STAR WARS™ Jedi Knight II: Jedi Outcast™, STAR WARS™ Jedi Knight: Jedi Academy™, Sudeki, The Bureau: XCOM Declassified, The Callisto Protocol, The Dark Eye: Chains of Satinav, The Talos Principle 2, The Technomancer, TimeShift, Tom Clancy's Splinter Cell, Tom Clancy's Splinter Cell: Chaos Theory, Tomb Raider (VI): The Angel of Darkness, Tomb Raider I, Tomb Raider II, Tomb Raider III: Adventures of Lara Croft, Tomb Raider: Anniversary, Tomb Raider: Chronicles, Tomb Raider: The Last Revelation, Transformers: Fall of Cybertron, Two Worlds II HD, Two Worlds: Epic Edition, Velvet Assassin
+No Intro Fixes for: Alan Wake, Alan Wake, Alan Wake's American Nightmare, Alien: Isolation, Assassin's Creed, Batman: Arkham Asylum GOTY Edition, Batman: Arkham City GOTY, Battlestations: Pacific, Bayonetta, Blood Omen 2: Legacy of Kain, Borderlands 2, Bound By Flame, Broken Sword 1 - Shadow of the Templars: Director's Cut, Bully: Scholarship Edition, Castlevania: Lords of Shadow - Ultimate Edition, Castlevania: Lords of Shadow 2, Control Ultimate Edition, Crash Bandicoot™ N. Sane Trilogy, Cyberdimension Neptunia: 4 Goddesses Online, DarkStar One, Darksiders II Deathinitive Edition, Darksiders Warmastered Edition, Dead Rising 2, Dead Rising 2: Off the Record, Demonicon, Dishonored, Dishonored 2, Dishonored RHCP, Dishonored®: Death of the Outsider™, En Garde!, Enclave, Etherlords, Etherlords II, Fable - The Lost Chapters, Far Cry 2, GUN, Gorky 17, Grand Theft Auto III, Grand Theft Auto: San Andreas, Grand Theft Auto: Vice City, Hitman 2: Silent Assassin, Hitman: Blood Money, Hitman: Codename 47, Hitman: Contracts, Killer is Dead, Legacy of Kain: Defiance, Legacy of Kain: Soul Reaver, Mars: War Logs, Of Orcs And Men, Parkan 2, PowerSlave Exhumed, Prince of Persia: The Sands of Time, Prince of Persia: The Two Thrones, Prince of Persia: Warrior Within, Psychonauts, Red Faction Guerrilla Re-Mars-tered, Red Faction II, Remember Me, Rise of the Argonauts, Risen, Risen 2 - Dark Waters, Risen 3 - Titan Lords, RoboCop: Rogue City, STAR WARS™ Jedi Knight II: Jedi Outcast™, STAR WARS™ Jedi Knight: Jedi Academy™, Sleeping Dogs: Definitive Edition, Spyro™ Reignited Trilogy, Sudeki, The Bureau: XCOM Declassified, The Callisto Protocol, The Dark Eye: Chains of Satinav, The Talos Principle 2, The Technomancer, TimeShift, Tom Clancy's Splinter Cell, Tom Clancy's Splinter Cell: Chaos Theory, Tomb Raider (VI): The Angel of Darkness, Tomb Raider I, Tomb Raider II, Tomb Raider III: Adventures of Lara Croft, Tomb Raider: Anniversary, Tomb Raider: Chronicles, Tomb Raider: The Last Revelation, Transformers: Fall of Cybertron, Two Worlds II HD, Two Worlds: Epic Edition, Velvet Assassin
