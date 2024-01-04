@@ -1,10 +1,15 @@
 [
   {
+    "Date": "2024-01-05T00:00:00",
+    "Content": "### Added:\n**TES II Daggerfall**: Daggerfall Unity\n\n**No Intro Fixes** for: Deus Ex: Mankind Divided, Far Cry 2\n\n### Updated:\n**Raze** (Duke Nukem 3D, Shadow Warrior, Blood etc.) to v1.9.1\n\n**Caesar III**: Augustus to v4.0.0\n\n**Doom 3**: The Lost Mission to v1.4\n\n**GTA IV**: FusionFix to v2.4.3\n\n**Max Payne 3**: FusionFix to v2.0.0"
+  },
+  {
     "Date": "2023-12-26T00:00:00",
     "Content": "### Added:\n**Catherine Classic**: Optimal Sound Settings\n\n"
-  },{
+  },
+  {
     "Date": "2023-12-04T00:00:00",
-    "Content": "### Added:\n**Blasphemous**: Ultrawide Fix\n\n**Call of Juarez**: Black Bars Removal, Ultrawide Fix\n\n**Disciples II: Rise of the Elves**: GL Wrapper\n\n**Hollow Knight**: Ultrawide Fix\n\n**PowerSlave Exhumed**: Fixes Collection\n\n**Red Faction**: Dash Faction\n\n### Updated:\n**Manhunt**: MPH to v1.2a\n\n### No Intro Fixes for:\nDead Rising 2 / Off the Record, En Garde!, PowerSlave Exhumed\n"
+    "Content": "### Added:\n**Blasphemous**: Ultrawide Fix\n\n**Call of Juarez**: Black Bars Removal, Ultrawide Fix\n\n**Disciples II: Rise of the Elves**: GL Wrapper\n\n**Hollow Knight**: Ultrawide Fix\n\n**PowerSlave Exhumed**: Fixes Collection\n\n**Red Faction**: Dash Faction\n\n**No Intro Fixes** for:\nDead Rising 2 / Off the Record, En Garde!, PowerSlave Exhumed\n\n### Updated:\n**Manhunt**: MPH to v1.2a"
   },
   {
     "Date": "2023-11-26T00:00:00",

@@ -11,7 +11,7 @@
         "Guid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
         "Version": 2,
         "SupportedOSes": "Windows, Linux",
-        "Description": "## Raze v1.9.1\n\n\u003Cimg src=\u0022https://raze.zdoom.org/assets/images/logo/Raze-Full-Logo.png\u0022 /\u003E\n\n[https://github.com/ZDoom/Raze](https://github.com/ZDoom/Raze)\n\nRaze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI."
+        "Description": "## !!! Update Superheater to version 0.13.0 before installing !!!\r\n\r\n## Raze v1.9.1\n\n\u003Cimg src=\u0022https://raze.zdoom.org/assets/images/logo/Raze-Full-Logo.png\u0022 /\u003E\n\n[https://github.com/ZDoom/Raze](https://github.com/ZDoom/Raze)\n\nRaze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI."
       }
     ]
   },
@@ -391,7 +391,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bsp_nointro_v1.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/bsp_nointro.zip",
         "InstallFolder": "movies",
         "MD5": "7BDB52D64B83C72FA9D298A87960ECBA",
         "Name": "No Intro Fix",
@@ -780,7 +780,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/boundbyflame_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/boundbyflame_nointro.zip",
         "InstallFolder": "boot\\datapc\\video",
         "MD5": "E24F7AE825C8C5790967AD1979F71C97",
         "Name": "No Intro Fix",
@@ -1114,7 +1114,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/control_nointro_v1.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/control_nointro.zip",
         "MD5": "7B5BB2E61DE719E24015487EB914FB2A",
         "Name": "No Intro Fix",
         "Guid": "7312ecf2-ebd2-4e4e-8a4f-e2b52e6af322",
@@ -1230,7 +1230,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/cyberdimension_neptunia_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/cyberdimension_neptunia_nointro.zip",
         "InstallFolder": "CyberdimensionNeptunia4GoddessesOnline\\Content\\Sound",
         "MD5": "24A07171280BCE9724E4EB8B3D2A0C42",
         "Name": "No Intro Fix",
@@ -1425,7 +1425,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/darkstar_one_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/darkstar_one_nointro.zip",
         "InstallFolder": "video\\Movies\\Eng",
         "MD5": "70AF41D187306E33B3154F6FD20562B0",
         "Name": "No Intro Fix",
@@ -1445,7 +1445,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/darksiders_2_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/darksiders_2_nointro.zip",
         "MD5": "AB64A2D457F23352241EA2384297E133",
         "Name": "No Intro Fix",
         "Guid": "469f2790-7cde-4a29-9b16-ecb2b226a755",
@@ -1541,7 +1541,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dead_rising_2_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/dead_rising_2_nointro.zip",
         "MD5": "4525EF3AFFE8E03B2D01FC4D94076057",
         "Name": "No Intro Fix",
         "Guid": "069a91c7-5bcb-4770-a5ed-a4201d1be3af",
@@ -1571,7 +1571,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dead_rising_2_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/dead_rising_2_nointro.zip",
         "MD5": "4525EF3AFFE8E03B2D01FC4D94076057",
         "Name": "No Intro Fix",
         "Guid": "4f48438f-8296-46aa-a341-350b41200b5a",
@@ -2030,7 +2030,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/enclave_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/enclave_nointro.zip",
         "InstallFolder": "Sbz1\\Videos",
         "MD5": "CF9ECF1F748B4E110303620EFD602AE0",
         "Name": "No Intro Fix",
@@ -2160,7 +2160,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/fable_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/fable_nointro.zip",
         "InstallFolder": "data\\Video",
         "MD5": "BD16680513C44E02D1264F810127FC6E",
         "Name": "No Intro Fix",
@@ -2545,7 +2545,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta3vssa_nointro_v1.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/gta3vssa_nointro.zip",
         "InstallFolder": "movies",
         "MD5": "29B7A2F603BA99E85A8BF39AE7E5EAB2",
         "Name": "No Intro Fix",
@@ -2670,7 +2670,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta3vssa_nointro_v1.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/gta3vssa_nointro.zip",
         "InstallFolder": "movies",
         "MD5": "29B7A2F603BA99E85A8BF39AE7E5EAB2",
         "Name": "No Intro Fix",
@@ -2740,7 +2740,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta3vssa_nointro_v1.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/gta3vssa_nointro.zip",
         "InstallFolder": "movies",
         "MD5": "29B7A2F603BA99E85A8BF39AE7E5EAB2",
         "Name": "No Intro Fix",
@@ -2857,7 +2857,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman2_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/hitman2_nointro.zip",
         "MD5": "60758D75B77B9393F6F6F34CC20710EB",
         "Name": "No Intro Fix",
         "Guid": "db7af868-27cb-46f6-bcf3-4e98fe43c5d4",
@@ -2894,7 +2894,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman4_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/hitman4_nointro.zip",
         "MD5": "A043DC91CD302E877D90F7306BE1D204",
         "Name": "No Intro Fix",
         "Guid": "d48343a8-89a2-49f5-83b0-f155e2c9f678",
@@ -2928,7 +2928,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman1_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/hitman1_nointro.zip",
         "InstallFolder": "Cutscenes\\Intro",
         "MD5": "9D542E56522716B32D7CD515FC9BA3A6",
         "Name": "No Intro Fix",
@@ -2963,7 +2963,7 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman3_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/hitman3_nointro.zip",
         "MD5": "B5C942B36A3A8FD09224138A847DA480",
         "Name": "No Intro Fix",
         "Guid": "8a324a28-498a-4af9-bdec-fddf7cf33e9a",
@@ -3377,7 +3377,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/mars_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/mars_nointro.zip",
         "InstallFolder": "boot\\datapc\\video",
         "MD5": "D1A57D76B044B68036D19513E6A018F7",
         "Name": "No Intro Fix",
@@ -3579,7 +3579,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/of_orcs_and_men_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/of_orcs_and_men_nointro.zip",
         "InstallFolder": "boot\\datapc\\video",
         "MD5": "74D80904E25510F0990FE00D0BBFF0AA",
         "Name": "No Intro Fix",
@@ -4519,7 +4519,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sw_jedi_outcast_academy_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/sw_jedi_outcast_academy_nointro.zip",
         "InstallFolder": "GameData\\base",
         "MD5": "312C455392AE87079CA7A298ED17BD8F",
         "Name": "No Intro Fix",
@@ -4539,7 +4539,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sw_jedi_outcast_academy_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/sw_jedi_outcast_academy_nointro.zip",
         "InstallFolder": "GameData\\base",
         "MD5": "312C455392AE87079CA7A298ED17BD8F",
         "Name": "No Intro Fix",
@@ -4930,7 +4930,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/technomancer_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/technomancer_nointro.zip",
         "InstallFolder": "boot\\data\\video",
         "MD5": "4A0846F9B541B78884FBE18ECCEBE544",
         "Name": "No Intro Fix",
@@ -5194,7 +5194,7 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_6_nointro.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/tomb_raider_6_nointro.zip",
         "InstallFolder": "data\\FMV",
         "MD5": "822DD88DA8C737A5C23250052F40E64E",
         "Name": "No Intro Fix",
