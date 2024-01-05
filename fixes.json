@@ -6,8 +6,8 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/raze_191.zip",
-        "MD5": "CABFD3709AEA69BD18D1065DD9D811A3",
-        "Name": "Raze Common",
+        "MD5": "FE86C9EE0546789D68D879AB508A0B52",
+        "Name": "Raze Shared",
         "Guid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
         "Version": 2,
         "SupportedOSes": "Windows, Linux",
@@ -651,6 +651,7 @@
         "Guid": "40d4fed2-060f-46f8-9977-f1dd7c26a868",
         "Version": 3,
         "SupportedOSes": "Windows",
+        "Description": "#### Select **Launch DOS Blood** to start **Raze**",
         "Tags": [
           "#controller_support",
           "#enhancements",
@@ -1971,6 +1972,7 @@
         "Guid": "0eda6b8e-36d2-442a-996f-2e1488d5be5e",
         "Version": 3,
         "SupportedOSes": "Windows",
+        "Description": "#### Select **Play Duke Nukem 3D** to start **Raze**",
         "Tags": [
           "#controller_support",
           "#enhancements",
@@ -3524,6 +3526,7 @@
         "Guid": "e385891c-3ee3-4cdb-a312-a96d44266661",
         "Version": 4,
         "SupportedOSes": "Windows",
+        "Description": "#### Select **Play NAM** to start **Raze**",
         "Tags": [
           "#enhancements",
           "#source_port",
@@ -3629,6 +3632,7 @@
         "Guid": "ee67b437-3104-4282-adcd-88b508a69c58",
         "Version": 4,
         "SupportedOSes": "Windows",
+        "Description": "#### Select **Play PowerSlave** to start **Raze**",
         "Tags": [
           "#enhancements",
           "#source_port",
@@ -4633,7 +4637,7 @@
         "Guid": "7601db85-75eb-4f52-80c2-8e230b4c548d",
         "Version": 3,
         "SupportedOSes": "Windows",
-        "Description": "**Includes Wanton Destruction and Twin Dragon addons**\n\n*Select \u0022Launch Shadow Warrior source port\u0022 when starting the game*",
+        "Description": "#### Includes **Wanton Destruction** and **Twin Dragon** addons\n\n#### Select **Launch Shadow Warrior source port** to start **Raze**",
         "Tags": [
           "#controller_support",
           "#enhancements",
@@ -5824,6 +5828,7 @@
         "Guid": "3bfe92ec-20e0-4d9e-bf3f-d94ec129ee77",
         "Version": 4,
         "SupportedOSes": "Windows",
+        "Description": "#### Select **Play World War II GI** to start **Raze**",
         "Tags": [
           "#enhancements",
           "#source_port",

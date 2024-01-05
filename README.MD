@@ -1,7 +1,7 @@
 **CURRENTLY AVAILABLE FIXES**
 
 !Shared
-- Raze Common
+- Raze Shared
 
 Alien: Isolation
 - Save confirmation dialog skipper
