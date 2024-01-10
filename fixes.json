@@ -16,6 +16,25 @@
     ]
   },
   {
+    "GameId": 61500,
+    "GameName": "Age of Wonders",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/age_of_wonders_crashfix.zip",
+        "MD5": "32861E3B68005E799B667E3C9AD1C531",
+        "Name": "Unofficial patch",
+        "Guid": "ca623468-0e2d-45e2-8cc4-56248f3b3f7e",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "## Age of Wonders unofficial patch\r\n*by int19h*\r\n\r\n[https://github.com/int19h/aow-patch](https://github.com/int19h/aow-patch)\r\n\r\nThis unofficial patch for Age of Wonders 1.36 tentatively fixes the \u0022Exception during MapViewer.ShowScene\u0022 error that can be seen when running AoW on Windows 8 and above, or under Wine on Linux. ",
+        "Tags": [
+          "#crashfix"
+        ]
+      }
+    ]
+  },
+  {
     "GameId": 108710,
     "GameName": "Alan Wake",
     "Fixes": [
@@ -2005,6 +2024,23 @@
     ]
   },
   {
+    "GameId": 245280,
+    "GameName": "ENSLAVED\u2122: Odyssey to the West\u2122 Premium Edition",
+    "Fixes": [
+      {
+        "$type": "TextFix",
+        "Name": "No Intro Fix",
+        "Guid": "f511d82c-dd03-4115-ac14-0cfa3b06eee9",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "##Enslaved: Odyssey to the West - No Intro Fix\r\n\r\nIn Steam, right-click on the Enslaved: Odyssey to the West game and select Properties.\r\nIn the General/Launch Options section paste the following command;\r\n\r\n-nostartupmovies",
+        "Tags": [
+          "#nointro"
+        ]
+      }
+    ]
+  },
+  {
     "GameId": 1654660,
     "GameName": "En Garde!",
     "Fixes": [
@@ -2750,6 +2786,31 @@
         "Version": 1,
         "SupportedOSes": "Windows, Linux",
         "Description": "Blank replacements for intro videos",
+        "Tags": [
+          "#nointro"
+        ]
+      }
+    ]
+  },
+  {
+    "GameId": 414340,
+    "GameName": "Hellblade: Senua\u0027s Sacrifice",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "FilesToDelete": [
+          "Content\\Movies\\NinjaTheory_Logo.bik",
+          "Content\\Movies\\Qloc_Logo_4k.bik",
+          "Content\\Movies\\Qloc_Logo_1080.bik",
+          "Content\\Movies\\ThirdParty_Logo.bik",
+          "Content\\Movies\\ThirdParty_Logo_ONION.bik",
+          "Content\\Movies\\UE4_Logo.bik"
+        ],
+        "Name": "No Intro Fix",
+        "Guid": "25867f62-b258-4c15-8876-6d3d6a80c188",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "Removal of intro videos.",
         "Tags": [
           "#nointro"
         ]
@@ -3508,6 +3569,26 @@
         "Description": "## Max Payne 3 Fix v1.0\n*by Lyall*\n\n[https://github.com/Lyall/MaxPayne3Fix](https://github.com/Lyall/MaxPayne3Fix)\n\nThis is a fix for several issues with ultrawide/wider displays in Max Payne 3.\n\n- Corrects \u003E2.3 aspect ratios causing the game to enter multi-monitor mode.\n- Stops fullscreen mode from using your highest-available resolution. (Thanks Rose!)\n- Correctly scaled FMV playback.\n- Correctly scaled loading screens.\n- Spanned or centred 16:9 HUD adjustment.\n- Gameplay FOV adjustment without affecting cutscenes/other camera types.",
         "Tags": [
           "#ultrawide"
+        ]
+      }
+    ]
+  },
+  {
+    "GameId": 496810,
+    "GameName": "MegaTagmension Blanc \u002B Neptune VS Zombies",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/neptune_vs_zombies_nointro.zip",
+        "InstallFolder": "data\\ui\\logo",
+        "MD5": "6CA4348087F22F5A17CDE48C2E61A379",
+        "Name": "No Intro Fix",
+        "Guid": "e8e1ce0d-c4cc-4215-b770-16efa84fe942",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "##MegaTagmension Blanc \u002B Neptune VS Zombies - No Intro Fix\r\n*by \u3010\u30CD\u30C3\u30D7\u3011\u2014 Excal \u2014*\r\n\r\n[https://steamcommunity.com/sharedfiles/filedetails/?id=2979729763](https://steamcommunity.com/sharedfiles/filedetails/?id=2979729763)\r\n\r\nSkips the annoying company intro logos that takes 3 seconds before you could skip them.\r\n\r\n\r\n",
+        "Tags": [
+          "#nointro"
         ]
       }
     ]
@@ -4770,6 +4851,27 @@
     ]
   },
   {
+    "GameId": 571530,
+    "GameName": "Superdimension Neptune VS Sega Hard Girls",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/neptune_vs_sega_resolution_fix.zip",
+        "ConfigFile": "nep_config.txt",
+        "MD5": "5F1C2B91B3B42C155ED413F2F8678542",
+        "Name": "Resolution Unlock Mod",
+        "Guid": "9e75d6ac-1cc3-478e-8e7c-3bd161d0ebad",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "## Superdimension Neptune VS Sega Hard Girls - Resolution Unlock\r\n*by Mad Cat Lad*\r\n\r\n[https://steamcommunity.com/sharedfiles/filedetails/?id=946915551](https://steamcommunity.com/sharedfiles/filedetails/?id=946915551)\r\n\r\nThis mod allows changing the render resolution beyond the max default 1080p and includes support for downsampling. Also disables the blurry outlines on characters by default.\r\n\r\nFor the best possible crisp edge details the default settings in nep_config.txt are set to downsample from 4K to your monitors resolution. To change this, click the config file button (or open nep_config.txt in the game folder) and enter your chosen resolution e.g.  render_width 2560 \u0026 render_height 1440p and click save.\r\n\r\nNote: If you encounter the \u0022missing leaves in trees bug\u0022 you can set \u0022disable_outlines 0\u0022 in nep_config.txt. However, this brings back the blurry outlines so it may be worth putting up with this minor bug.",
+        "Tags": [
+          "#enhancements",
+          "#graphic_improvements"
+        ]
+      }
+    ]
+  },
+  {
     "GameId": 65930,
     "GameName": "The Bureau: XCOM Declassified",
     "Fixes": [
@@ -5067,10 +5169,10 @@
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/sc/SplinterCell.WidescreenFix.zip",
         "ConfigFile": "system\\scripts\\SplinterCell.WidescreenFix.ini",
-        "MD5": "99D5BC0ED53B7BCE5A715878E0E878EA",
+        "MD5": "7A400861C50AF23EB8CB25021704AABD",
         "Name": "Widescreen Fix",
         "Guid": "9da1a9db-2049-46ac-a6ce-b956999e7806",
-        "Version": 1,
+        "Version": 2,
         "SupportedOSes": "Windows",
         "Description": "## Splinter Cell Widescreen Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/sc](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/sc)\n\n- Fixed Resolution\n- Fixed Aspect Ratio\n- Fixed HUD\n- Fixed Field of View\n- Fixed FMVs",
         "Tags": [
@@ -5124,10 +5226,10 @@
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scct/SplinterCellChaosTheory.WidescreenFix.zip",
         "ConfigFile": "System\\scripts\\SplinterCellChaosTheory.WidescreenFix.ini",
-        "MD5": "473386C2EBF671363D894CFAE6B5315A",
+        "MD5": "1599FE6AA8A9201BF0580C4803ECF99D",
         "Name": "Widescreen Fix",
         "Guid": "d2797d6c-e7c0-48d9-9cf9-ff3210a26df8",
-        "Version": 1,
+        "Version": 2,
         "SupportedOSes": "Windows",
         "Description": "## Splinter Cell Widescreen Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scct](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scct)\n\n- Fixed Resolution\n- Fixed Aspect Ratio\n- Fixed HUD\n- Fixed Field of View\n- Fixed FMVs\n- Added an option to change goggles\u0027 light color",
         "Tags": [
@@ -5179,10 +5281,10 @@
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scda/SplinterCellDoubleAgent.WidescreenFix.zip",
         "ConfigFile": "SCDA-Offline\\System\\scripts\\SplinterCellDoubleAgent.WidescreenFix.ini",
-        "MD5": "D9238A89E7A5B28F4C5DAA6153CC9AF2",
+        "MD5": "9369D574739321D794147A2AD0F55AA5",
         "Name": "Widescreen Fix",
         "Guid": "89de542e-bc87-49a6-904a-6c2360340e5d",
-        "Version": 1,
+        "Version": 2,
         "SupportedOSes": "Windows",
         "Description": "## Splinter Cell Widescreen Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scda](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scda)\n\n- Fixed Resolution\n- Fixed Aspect Ratio\n- Fixed HUD\n- Fixed Field of View\n- Fixed FMVs\n- Added an option to change goggles\u0027 light color",
         "Tags": [
