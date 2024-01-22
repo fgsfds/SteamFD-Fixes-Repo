@@ -2029,11 +2029,23 @@
     "Fixes": [
       {
         "$type": "TextFix",
+        "Name": "Graphics Enhancements",
+        "Guid": "355cfe63-bab9-4655-8a80-3dc6313036ef",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "##Enslaved: Odyssey to the West - Graphics Enhancements\r\n\r\n[https://www.pcgamingwiki.com/wiki/Enslaved:_Odyssey_to_the_West#Enhancements](https://www.pcgamingwiki.com/wiki/Enslaved:_Odyssey_to_the_West#Enhancements)\r\n\r\nThis will fix the very noticable shadow banding on characters and improve graphics. Edit the \u0060MonkeyEngine.ini\u0060 in the folder \u0060[YOUR_DOCUMENTS]\\My Games\\UnrealEngine3\\MonkeyGame\\Config\\\u0060 with a text editor and change the values to the ones listed below;\r\n\r\n\u0060\u0060\u0060\r\nMaxMultisamples=1\r\nShadowFilterQualityBias=8\r\nMinShadowResolution=128\r\nMaxShadowResolution=2048\r\nShadowFilterRadius=5.0\r\nShadowDepthBias=0.036\r\nMaxAnisotropy=16\r\n\u0060\u0060\u0060\r\n\r\nNOTE: The \u0022MaxMultisamples\u0022 value is Anti-Aliasing and can be set to a desired value of (1, 2, 4, 8, 16) depending on your GPU capabilities.\r\n\r\n\r\n",
+        "Tags": [
+          "#bugfixes",
+          "#enhancements"
+        ]
+      },
+      {
+        "$type": "TextFix",
         "Name": "No Intro Fix",
         "Guid": "f511d82c-dd03-4115-ac14-0cfa3b06eee9",
         "Version": 1,
         "SupportedOSes": "Windows",
-        "Description": "##Enslaved: Odyssey to the West - No Intro Fix\r\n\r\nIn Steam, right-click on the Enslaved: Odyssey to the West game and select Properties.\r\nIn the General/Launch Options section paste the following command;\r\n\r\n-nostartupmovies",
+        "Description": "##Enslaved: Odyssey to the West - No Intro Fix\r\n\r\nIn Steam, right-click on the Enslaved: Odyssey to the West game and select Properties.\r\nIn the General/Launch Options section paste the following command;\r\n\r\n\u0060-nostartupmovies\u0060",
         "Tags": [
           "#nointro"
         ]
@@ -2603,15 +2615,15 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v2.4.3/GTAIV.EFLC.FusionFix.zip",
+        "Url": "https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v2.5.2/GTAIV.EFLC.FusionFix.zip",
         "InstallFolder": "GTAIV",
         "ConfigFile": "GTAIV\\plugins\\GTAIV.EFLC.FusionFix.ini",
-        "MD5": "343EA5E47AA377AE2F80DA1BFAE1F7AA",
+        "MD5": "AB7A83FC16F69FF8F028A9F3D4DE709A",
         "Name": "Fusion Fix",
         "Guid": "f46efd2c-9bb5-430e-9e38-b5fce605860f",
-        "Version": 4,
+        "Version": 5,
         "SupportedOSes": "Windows",
-        "Description": "## GTAIV EFLC FusionFix v2.4.3\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)\n\nThis projects aims to fix some issues in Grand Theft Auto IV: Complete Edition",
+        "Description": "## GTAIV EFLC FusionFix v2.5.2\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)\n\nThis projects aims to fix some issues in Grand Theft Auto IV: Complete Edition",
         "Tags": [
           "#bugfixes",
           "#crashfix",
@@ -2644,9 +2656,54 @@
         "Guid": "e8329022-256a-493d-8b08-785e85e74370",
         "Version": 1,
         "SupportedOSes": "Windows",
-        "Description": "## dxvk v2.3\n\n[https://github.com/doitsujin/dxvk](https://github.com/doitsujin/dxvk)\n\nA Vulkan-based translation layer for Direct3D 9/10/11 which increases performance in some cases.",
+        "Description": "## dxvk v2.3\n\n[https://github.com/doitsujin/dxvk](https://github.com/doitsujin/dxvk)\n\nA Vulkan-based translation layer for Direct3D 9/10/11 which increases performance in some cases.\r\n\r\nWhile increasing performance, dxvk may cause heavy graphics glitches.",
         "Tags": [
           "#performance_improvement"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta4_limit_removal.zip",
+        "InstallFolder": "GTAIV",
+        "MD5": "C6EE04E2BE811F0765B0039472C1D05F",
+        "Name": "Graphics Restrictions Removal",
+        "Guid": "a922bab6-e3a4-4864-8cfa-48fda187b941",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "Removes graphics settings restrictions in case the game wrongfully detects only 512Mb of VRAM.",
+        "Tags": [
+          "#graphics_improvement"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/gta4_music_restore.zip",
+        "InstallFolder": "GTAIV",
+        "MD5": "023E223A1C57162C701E7CDE6A223985",
+        "Name": "Music Restoration",
+        "Guid": "16ec1dd4-e1c0-43ab-836d-bab15bc2ba95",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "## Radio Downgrader v1.80\r\n[https://www.nexusmods.com/gta4/mods/234](https://www.nexusmods.com/gta4/mods/234)\r\n\r\nThis mod restores all 50 songs that were deleted in The Complete Edition.",
+        "Tags": [
+          "#additional_content"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta4_music_plus.zip",
+        "InstallFolder": "GTAIV",
+        "MD5": "AFFC15EA47AEF79EE4E99386A83BD555",
+        "Name": "Music Plus",
+        "Guid": "f454de6e-7bfd-44f8-badd-4014ec6992e0",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Dependencies": [
+          "16ec1dd4-e1c0-43ab-836d-bab15bc2ba95"
+        ],
+        "Description": "## Radio Downgrader v1.80\r\n[https://www.nexusmods.com/gta4/mods/234](https://www.nexusmods.com/gta4/mods/234)\r\n\r\nThis mod restores 100 beta songs and combines old Vladivostok FM songs with the new ones.",
+        "Tags": [
+          "#additional_content"
         ]
       }
     ]
@@ -3536,18 +3593,18 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/ThirteenAG/MaxPayne3.FusionFix/releases/download/v2.0.0/MaxPayne3.FusionFix.zip",
+        "Url": "https://github.com/ThirteenAG/MaxPayne3.FusionFix/releases/download/v2.1.0/MaxPayne3.FusionFix.zip",
         "InstallFolder": "Max Payne 3",
         "ConfigFile": "Max Payne 3\\plugins\\MaxPayne3.FusionFix.ini",
-        "MD5": "FD613DBCAD502712AA924860411DE9DE",
+        "MD5": "6875785C17A97627ED515C34233AAFCD",
         "Name": "Fusion Fix",
         "Guid": "d9641d60-6883-4fde-8dac-1d627b66afd9",
-        "Version": 1,
+        "Version": 2,
         "SupportedOSes": "Windows",
         "Dependencies": [
           "d6a9eb21-4b37-40aa-9598-e91488e3c38e"
         ],
-        "Description": "## FusionFix v2.0.0\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/MaxPayne3.FusionFix](https://github.com/ThirteenAG/MaxPayne3.FusionFix)\n\r\nNew menu options\r\n\n- Borderless Windowed\r\n- Gamepad Icons\r\n- SkipIntro, added an option to skip intro\r\n\r\nNew options, can be edited in **MaxPayne3.FusionFix.ini**\r\n\r\n- HideSkipButton, added an option to hide skip in cutscenes\r\n- DisableGlobalLeaderboards, prevents Hoboken Alleys coop map from crashing the game\r\n- OutlinesSizeMultiplier, added an option to increase the size of subtitle text outlines\r\n- LightSyncRGB, only Logitech hardware is supported, requires Logitech G HUB app",
+        "Description": "## FusionFix v2.1.0\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/MaxPayne3.FusionFix](https://github.com/ThirteenAG/MaxPayne3.FusionFix)\n\r\nNew menu options\r\n\n- Borderless Windowed\r\n- Gamepad Icons\r\n- SkipIntro, added an option to skip intro\r\n\r\nNew options, can be edited in **MaxPayne3.FusionFix.ini**\r\n\r\n- HideSkipButton, added an option to hide skip in cutscenes\r\n- DisableGlobalLeaderboards, prevents Hoboken Alleys coop map from crashing the game\r\n- OutlinesSizeMultiplier, added an option to increase the size of subtitle text outlines\r\n- LightSyncRGB, only Logitech hardware is supported, requires Logitech G HUB app",
         "Tags": [
           "#crashfix",
           "#nointro",
@@ -4377,13 +4434,13 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/re7_uw_v1.zip",
-        "MD5": "E8EE91D9F83CA58A0B06D6D5B8F90CF2",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/re7_ultrawide.zip",
+        "MD5": "217833B8E1B043767AF10F8F683DA12E",
         "Name": "Ultrawide Fix",
         "Guid": "93b3856d-b4f8-4365-ab52-a50cb77a851d",
         "Version": 1,
         "SupportedOSes": "Windows",
-        "Description": "## REFramework v1.5.1\n*by praydog*\n\n[https://github.com/praydog/REFramework](https://github.com/praydog/REFramework)\n\nRemoves pillarboxing and extends FOV in ultrawide resolutions",
+        "Description": "## REFramework v1.5.2\n*by praydog*\n\n[https://github.com/praydog/REFramework](https://github.com/praydog/REFramework)\n\nRemoves pillarboxing and extends FOV in ultrawide resolutions",
         "Tags": [
           "#ultrawide"
         ]
@@ -4448,6 +4505,22 @@
           "#fps_unlock",
           "#ultrawide"
         ]
+      }
+    ]
+  },
+  {
+    "GameId": 1196590,
+    "GameName": "Resident Evil Village",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/re8_ultrawide.zip",
+        "MD5": "7E7D7529FE86E9BF977CBCE29638E131",
+        "Name": "Ultrawide Fix",
+        "Guid": "fd9ffc39-4416-423f-9f79-4138fe442da6",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "## REFramework v1.5.2\n*by praydog*\n\n[https://github.com/praydog/REFramework](https://github.com/praydog/REFramework)\n\nExtends FOV in ultrawide resolutions"
       }
     ]
   },
@@ -4866,7 +4939,7 @@
         "Description": "## Superdimension Neptune VS Sega Hard Girls - Resolution Unlock\r\n*by Mad Cat Lad*\r\n\r\n[https://steamcommunity.com/sharedfiles/filedetails/?id=946915551](https://steamcommunity.com/sharedfiles/filedetails/?id=946915551)\r\n\r\nThis mod allows changing the render resolution beyond the max default 1080p and includes support for downsampling. Also disables the blurry outlines on characters by default.\r\n\r\nFor the best possible crisp edge details the default settings in nep_config.txt are set to downsample from 4K to your monitors resolution. To change this, click the config file button (or open nep_config.txt in the game folder) and enter your chosen resolution e.g.  render_width 2560 \u0026 render_height 1440p and click save.\r\n\r\nNote: If you encounter the \u0022missing leaves in trees bug\u0022 you can set \u0022disable_outlines 0\u0022 in nep_config.txt. However, this brings back the blurry outlines so it may be worth putting up with this minor bug.",
         "Tags": [
           "#enhancements",
-          "#graphic_improvements"
+          "#graphics_improvement"
         ]
       }
     ]
@@ -4968,6 +5041,26 @@
           "#ultrawide",
           "#widescreen",
           "#bugfixes"
+        ]
+      }
+    ]
+  },
+  {
+    "GameId": 22320,
+    "GameName": "The Elder Scrolls III: Morrowind",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/morrowind_nointro.zip",
+        "InstallFolder": "Data Files\\Video",
+        "MD5": "3D739F2331C907383F8D3962FFBF5D62",
+        "Name": "No Intro Fix",
+        "Guid": "1e81f2a7-d3e2-404b-8e29-c2741607e893",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "Removal of the intro videos",
+        "Tags": [
+          "#nointro"
         ]
       }
     ]
@@ -5320,14 +5413,14 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/tomb_raider_1_tr1x_v305.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/tomb_raider_1_tr1x_v311.zip",
         "ConfigFile": "TR1X_ConfigTool.exe",
-        "MD5": "B7E65325CF2E01BF226D3E01E0C9CF43",
+        "MD5": "B64A03E37D58668558521503F0AE6D38",
         "Name": "TR1X \u002B Unfinished Business",
         "Guid": "174629fa-0e1c-4d6a-9184-5c16923a202c",
-        "Version": 3,
+        "Version": 4,
         "SupportedOSes": "Windows",
-        "Description": "## TR1X v3.0.5\n\n[https://github.com/LostArtefacts/TR1X](https://github.com/LostArtefacts/TR1X)\n\nThis is an open source implementation of the classic Tomb Raider I game (1996), made by reverse engineering the TombATI / GLRage variant of the original game and replacing proprietary audio/video libraries with open source variants.\n\nIt adds support for modern OSes, high resolution, bugfixes and gameplay improvements.\n\nAlso includes Unfinished Business addon.\n\n**Disable Steam Input for a proper controller support**",
+        "Description": "## TR1X v3.1.1\n\n[https://github.com/LostArtefacts/TR1X](https://github.com/LostArtefacts/TR1X)\n\nThis is an open source implementation of the classic Tomb Raider I game (1996), made by reverse engineering the TombATI / GLRage variant of the original game and replacing proprietary audio/video libraries with open source variants.\n\nIt adds support for modern OSes, high resolution, bugfixes and gameplay improvements.\n\nAlso includes Unfinished Business addon.\n\n**Disable Steam Input for a proper controller support**",
         "Tags": [
           "#additional_content",
           "#bugfixes",
@@ -5890,6 +5983,25 @@
         "Description": "## Warhammer 40k - Camera Zoom Mod\n*by Pridit*\n\n[https://community.pcgamingwiki.com/files/file/33-warhammer-40k-camera-zoom-mod/](https://community.pcgamingwiki.com/files/file/33-warhammer-40k-camera-zoom-mod/)\n\nIt allows you to zoom out farther than normal to get a somewhat better view of the battle field. ",
         "Tags": [
           "#enhancements"
+        ]
+      }
+    ]
+  },
+  {
+    "GameId": 55150,
+    "GameName": "Warhammer 40,000: Space Marine - Anniversary Edition",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/space_marine_cpu_fix.zip",
+        "MD5": "F82BA4D0C80850479160CB38959614BF",
+        "Name": "Core Fix",
+        "Guid": "13df8d35-6b29-43a9-9c09-60503af89807",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "##Space Marine Core Fix\r\n*by adrian-lebioda*\r\n\r\n[https://github.com/adrian-lebioda/SpaceMarineCoreFix](https://github.com/adrian-lebioda/SpaceMarineCoreFix)\r\n\r\nDLL fixing issue with multicore processors in Space Marine game\r\n\r\n",
+        "Tags": [
+          "#bugfixes"
         ]
       }
     ]
