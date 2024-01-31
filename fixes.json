@@ -6,6 +6,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/raze_191.zip",
+        "FileSize": 13706878,
         "MD5": "FE86C9EE0546789D68D879AB508A0B52",
         "Name": "Raze Shared",
         "Guid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
@@ -22,6 +23,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/age_of_wonders_crashfix.zip",
+        "FileSize": 76076,
         "MD5": "32861E3B68005E799B667E3C9AD1C531",
         "Name": "Unofficial patch",
         "Guid": "ca623468-0e2d-45e2-8cc4-56248f3b3f7e",
@@ -82,6 +84,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/AlienIsolation.SkipSaveConfirmationDialog/releases/download/AlienIsolation.SkipSaveConfirmationDialog-v1.1/AlienIsolation.SkipSaveConfirmationDialog.zip",
+        "FileSize": 1086605,
         "MD5": "6E53A3C35D8B5A1DD730363D175C678E",
         "Name": "Save confirmation dialog skipper",
         "Guid": "49ec2b86-08b9-4634-bfd9-54bde951347a",
@@ -95,6 +98,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/alien_isolation_mothervr_081.zip",
+        "FileSize": 6435276,
         "MD5": "BF63E254EBD08FF3DB44AC6C516C29CE",
         "Name": "MotherVR",
         "Guid": "be584cd5-fc22-4d43-a72e-90b2e74b68dd",
@@ -146,12 +150,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/aliens_colonial_marines_teather.zip",
+        "FileSize": 7958,
         "InstallFolder": "PecanGame\\Config",
         "MD5": "DD0695160A7C4F5A6A794C32D7CAD2B4",
         "Name": "Improved Xenomorph AI",
         "Guid": "a6527396-6489-4580-a052-2f5086add450",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Replaced **AttachPawnToTeather** with **AttachPawnToTether** in the config\n\nThis results in improved wall and ceiling climbing for the xenomorphs",
         "Tags": [
           "#bugfixes",
@@ -167,6 +172,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/arx/ArxLibertatis/releases/download/1.2.1/arx-libertatis-1.2.1-windows.zip",
+        "FileSize": 11746336,
         "MD5": "F256AD08D83B9CA1878FACEB84B5E73F",
         "Name": "Arx Libertatis",
         "Guid": "5b27cab7-3042-4bdc-bc66-32a2a30c97f0",
@@ -188,12 +194,16 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ass_creed_1_eagle_patch.zip",
+        "FileSize": 1109458,
         "ConfigFile": "scripts\\EaglePatchAC1.ini",
         "MD5": "664C557522C6E396E089636FED6B4FFE",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Eagle Patch",
         "Guid": "6f3c0fa7-4cdf-4a8f-a96c-3185afc27b91",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Assassin\u0027s Creed 1 - Eagle Patch\n*by Sergeanur*\n\n[https://github.com/Sergeanur/EaglePatch](https://github.com/Sergeanur/EaglePatch)\n\n**EaglePatchAC1** is an ASI plugin that fixes a number of issues in **Assassin\u0027s Creed: Director\u0027s Cut Edition**\n\nFeatures:\n- Unlocked multisampling on high resolutions\n- Added support of all XInput controllers\n- Added detection of hotplugged controllers\n- Removed support of DInput controllers\n- Gamepad and kb/mouse controls work at the same time (read note below)\n- Added ini setting for enabling PS3-like controls\n- Added ini setting to skip intro videos (without having to rename files)\n- [DX10 only] Fixed doubling of resolution modes in settings",
         "Tags": [
           "#controller_support",
@@ -219,11 +229,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ass_creed_1_black_bars.zip",
+        "FileSize": 15170296,
         "MD5": "E0D02EED60D5D98BF04DDD59BF8CF319",
         "Name": "Black Bars Fix for Ultrawide",
         "Guid": "91b82183-b0df-42e1-87f9-92461cedcb73",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "[https://community.pcgamingwiki.com/files/file/1460-assassins-creed-aspect-ratio-fix/](https://community.pcgamingwiki.com/files/file/1460-assassins-creed-aspect-ratio-fix/)\n\nModified EXEs that remove black bars at UW resolutions",
         "Tags": [
           "#ultrawide"
@@ -255,12 +266,16 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ass_creed_2_eagle_patch.zip",
+        "FileSize": 1109180,
         "ConfigFile": "scripts\\EaglePatchAC2.ini",
         "MD5": "4D1C58445479AE50BDDEC4BC453DF179",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Eagle Patch",
         "Guid": "ca50f9c0-b5d7-45ee-907e-4e4d0910cb5d",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Assassin\u0027s Creed 2 - Eagle Patch\n*by Sergeanur*\n\n[https://github.com/Sergeanur/EaglePatch](https://github.com/Sergeanur/EaglePatch)\n\n**EaglePatchAC2** is an ASI plugin that fixes a number of issues in **Assassin\u0027s Creed II**.\n\nFeatures:\n- Improved shadow map size from 1024 to 4096 (only when shadow quality is maxed out in game\u0027s settings; can be disabled in ini)\n- Draw distance maxed out for buildings, peds and flags (can be disabled in ini)\n- Enables UPlay bonuses - Auditore Crypt, Altair robes, extra knifes, bonus dye (can be disabled in ini)\n- Added support of all XInput controllers\n- Added detection of hotplugged controllers\n- Removed support of DInput controllers\n- Gamepad and kb/mouse controls work at the same time (read note below)\n- Added ini setting for enabling PS3-like controls\n- Added ini setting to skip intro videos (without having to rename files)",
         "Tags": [
           "#additional_content",
@@ -279,6 +294,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/batman_1_bmlauncher.zip",
+        "FileSize": 6043005,
         "InstallFolder": "Binaries",
         "MD5": "811CA7364E3517153A32CE98753FEDEB",
         "Name": "Advanced Launcher",
@@ -296,14 +312,26 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/batman_1_dlc.zip",
+        "FileSize": 368547949,
         "MD5": "230C26C2E79F9421744DF1C1AF523943",
         "Name": "Official PS3 DLCs",
         "Guid": "d09ea14a-4918-4685-8642-e8fb8c98e67b",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Insane Night Challenge Map Pack\n\n- Totally Insane Challenge Map\n- Nocturnal Hunter Challenge Map\n\n## Play As The Joker\n\n- Play challenge maps as Joker",
         "Tags": [
           "#additional_content"
+        ]
+      },
+      {
+        "$type": "TextFix",
+        "Name": "Failed to compile global shader fix",
+        "Guid": "fe2c337d-1012-4f7f-9de0-91192cdf0fe7",
+        "Version": 1,
+        "SupportedOSes": "Linux",
+        "Description": "\u003Cimg src=\u0022https://i.imgur.com/tPhDonT.png\u0022 height=\u0022300\u0022 width=\u0022400\u0022/\u003E\r\n\r\nInstall and use **Proton GE** to run this game on Linux\r\n\r\n[https://github.com/GloriousEggroll/proton-ge-custom](https://github.com/GloriousEggroll/proton-ge-custom)",
+        "Tags": [
+          "#crashfix"
         ]
       },
       {
@@ -318,7 +346,7 @@
         "Name": "No Intro Fix",
         "Guid": "2fd18a0b-0964-4622-b4ec-ad6a0d5f087b",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of intro videos",
         "Tags": [
           "#nointro"
@@ -333,6 +361,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/batman_2_bmlauncher.zip",
+        "FileSize": 10351176,
         "InstallFolder": "Binaries\\Win32",
         "MD5": "1A0F35532DFDADCE045BCCCB9AED059D",
         "Name": "Advanced Launcher",
@@ -357,7 +386,7 @@
         "Name": "No Intro Fix",
         "Guid": "20b58415-d31d-4c41-a624-9f4655a909a0",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of intro videos",
         "Tags": [
           "#nointro"
@@ -372,24 +401,29 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/xliveless.zip",
+        "FileSize": 86442,
         "FilesToDelete": [
           "redist\\gfwlivesetup.exe"
         ],
         "MD5": "AE4C9CCA675EBC957A00DAAFBDE261AE",
+        "WineDllOverrides": [
+          "xlive"
+        ],
         "Name": "Xliveless",
         "Guid": "c66d2759-e890-4662-a18d-f4ea4fd63cd0",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Replacement of **xlive.dll** that enables games that require Games For Windows Live to be played offline without having to install GFWL."
       },
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bsp_steamless_v1.zip",
+        "FileSize": 1090967,
         "MD5": "942B5AC858AA88A1644B589A2A3DBED9",
         "Name": "Steamless Exe",
         "Guid": "e94c8993-3acc-4cd3-a803-643aa170f29d",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Steamless Exe that fixes crash on start",
         "Tags": [
           "#crashfix"
@@ -398,11 +432,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/bsp_dlc_v1.zip",
+        "FileSize": 1036854694,
         "MD5": "D4C9E5F58A3A997DD14913E0B28E7A74",
         "Name": "DLC Pack",
         "Guid": "a46d676b-1a98-4eae-bd57-9ededc5ba3f7",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Battlestations Pacific DLC Pack (Offline Mode)\n*by N_Trainz*\n\n[https://www.moddb.com/games/battlestations-pacific/addons/battlestations-pacific-dlc-pack-offline-mode](https://www.moddb.com/games/battlestations-pacific/addons/battlestations-pacific-dlc-pack-offline-mode)\n\nThis mod adds the DLC that you can no longer purchase from Games For Windows LIVE\u00AE as Microsoft\u00AE closed down the store. This is an offline version of the DLC. Enjoy the battles with the new maps.\n\n**What you get with this pack: **\n- 18 new pieces of nose art \n- P-51 Mustang \n- Alaska Class \n- G5N Liz \n- Montana Class \n- Kuma Torpedo Class \n- Super Yamato Class\n- Midway \n- Philippine Islands \n- Leyte Gulf \n- Aleutian Islands\n- The Volcano Map \n- Choke Point Map",
         "Tags": [
           "#additional_content"
@@ -411,6 +446,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/bsp_nointro.zip",
+        "FileSize": 2735,
         "InstallFolder": "movies",
         "MD5": "7BDB52D64B83C72FA9D298A87960ECBA",
         "Name": "No Intro Fix",
@@ -438,7 +474,7 @@
         "Name": "No Intro Fix",
         "Guid": "744e2510-ec3c-4f54-9f25-5c1c8e962b65",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of the intro videos",
         "Tags": [
           "#nointro"
@@ -453,21 +489,40 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bge_fix_v2.7z",
-        "ConfigFile": "bge.ini",
+        "FileSize": 101876839,
         "FilesToDelete": [
           "sally_clean.bf"
         ],
-        "MD5": "5BA2AC43E7F0060D84FBE3D70EFB7B3D",
+        "MD5": "E49B5BD4141647C1D2C81E21EF16B012",
         "FilesToPatch": [
           "sally_clean.bf"
         ],
-        "Name": "Startup and widescreen fix",
+        "Name": "Startup and controller fix",
         "Guid": "a3b34fff-e7a0-49eb-aa44-0ef863dff80d",
         "Version": 1,
         "SupportedOSes": "Windows",
-        "Description": "## Startup fix\n*from GOG version*\n\n## Widescreen fix\n*by nemesis2000*\n\n[http://ps2wide.net/pc.html#bge](http://ps2wide.net/pc.html#bge)\n\n**Going wider than 16:9 will break UI**",
+        "Description": "## Startup fix and controller support\n*from GOG version*\r\n\r\nPatches the game to match GOG version that doesn\u0027t crash on start and suports XInput controllers",
         "Tags": [
           "#crashfix",
+          "#controller_support"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bge_widescreen.7z",
+        "FileSize": 71905,
+        "ConfigFile": "bge.ini",
+        "MD5": "660F9F0E6C0AF029E3676F967DFBA249",
+        "WineDllOverrides": [
+          "bgew",
+          "d3d9"
+        ],
+        "Name": "Widescreen Fix",
+        "Guid": "43211660-740f-459d-8f6c-3eded94a0d44",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "## Widescreen fix\n*by nemesis2000*\n\n[http://ps2wide.net/pc.html#bge](http://ps2wide.net/pc.html#bge)\n\n**Going wider than 16:9 will break UI**",
+        "Tags": [
           "#widescreen"
         ]
       }
@@ -480,6 +535,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/RollinBarrel/binary-domaim/releases/download/v0.92/domaim.zip",
+        "FileSize": 17780,
         "ConfigFile": "domaim.exe",
         "MD5": "E55D1855409857BFDE1A5C90ABB3EE04",
         "Name": "Mouse Improvement Mod",
@@ -500,6 +556,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/Lyall/BipedFix/releases/download/v1.0.2/BipedFix_v1.0.2.zip",
+        "FileSize": 638061,
         "MD5": "583A87FC9F5F0EFA13D3542994AE4675",
         "Name": "Ultrawide Fix",
         "Guid": "efb503f3-d737-4e8f-b970-809fb071fb50",
@@ -520,13 +577,14 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blake_stone_bstone_v1.zip",
+        "FileSize": 2036290,
         "InstallFolder": "Blake Stone - Aliens of Gold",
         "MD5": "C53DA3F74BCF5EC8AD60D37C3E7EFFCB",
         "Name": "bstone",
         "Guid": "bc8649ea-8ec2-4abe-9c61-3317c80e0c39",
         "Version": 1,
         "SupportedOSes": "Windows, Linux",
-        "Description": "## bstone v1.2.12-2\n*by bibendovsky*\n\n[https://github.com/bibendovsky/bstone](https://github.com/bibendovsky/bstone)\n\nBStone is unofficial source port for \u0022Blake Stone\u0022 game series: \u0022Aliens Of Gold\u0022 and \u0022Planet Strike\u0022.\n\n**Features:**\n- High resolution vanilla rendering\n- 3D-rendering\n- Upscale texture filter\n- Support for external textures\n- Allows to customize control bindings\n- 3D-audio\n- Separate volume control of sound effects and music",
+        "Description": "## bstone v1.2.12-2\n*by bibendovsky*\n\n[https://github.com/bibendovsky/bstone](https://github.com/bibendovsky/bstone)\n\nBStone is unofficial source port for \u0022Blake Stone\u0022 game series: \u0022Aliens Of Gold\u0022 and \u0022Planet Strike\u0022.\n\n**Features:**\n- High resolution vanilla rendering\n- 3D-rendering\n- Upscale texture filter\n- Support for external textures\n- Allows to customize control bindings\n- 3D-audio\n- Separate volume control of sound effects and music\r\n\r\n**bstone doesn\u0027t support controllers, use keyboard and mouse layout**",
         "Tags": [
           "#enhancements",
           "#source_port",
@@ -543,13 +601,14 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blake_stone_bstone_v1.zip",
+        "FileSize": 2036290,
         "InstallFolder": "Blake Stone - Planet Strike",
         "MD5": "C53DA3F74BCF5EC8AD60D37C3E7EFFCB",
         "Name": "bstone",
         "Guid": "5e1c6726-0263-40bd-a084-f908ed1295ae",
         "Version": 1,
         "SupportedOSes": "Windows, Linux",
-        "Description": "## bstone v1.2.12-2\n*by bibendovsky*\n\n[https://github.com/bibendovsky/bstone](https://github.com/bibendovsky/bstone)\n\nBStone is unofficial source port for \u0022Blake Stone\u0022 game series: \u0022Aliens Of Gold\u0022 and \u0022Planet Strike\u0022.\n\n**Features:**\n- High resolution vanilla rendering\n- 3D-rendering\n- Upscale texture filter\n- Support for external textures\n- Allows to customize control bindings\n- 3D-audio\n- Separate volume control of sound effects and music",
+        "Description": "## bstone v1.2.12-2\n*by bibendovsky*\n\n[https://github.com/bibendovsky/bstone](https://github.com/bibendovsky/bstone)\n\nBStone is unofficial source port for \u0022Blake Stone\u0022 game series: \u0022Aliens Of Gold\u0022 and \u0022Planet Strike\u0022.\n\n**Features:**\n- High resolution vanilla rendering\n- 3D-rendering\n- Upscale texture filter\n- Support for external textures\n- Allows to customize control bindings\n- 3D-audio\n- Separate volume control of sound effects and music\r\n\r\n**bstone doesn\u0027t support controllers, use keyboard and mouse layout**",
         "Tags": [
           "#enhancements",
           "#source_port",
@@ -566,12 +625,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blasphemous_ultrawide.zip",
+        "FileSize": 635250,
         "MD5": "9D6D51CB8121A8FD1C4E627799E82500",
         "Name": "Ultrawide Fix",
         "Guid": "fdf2ed89-6880-47e9-b5ce-89344c479e93",
         "Version": 1,
         "SupportedOSes": "Windows",
-        "Description": "## Blasphemous ultrawide and wider mod\n*by Rose*\n\nhttps://community.pcgamingwiki.com/files/file/1910-blasphemous-ultrawide-and-wider-mod/",
+        "Description": "## Blasphemous ultrawide and wider mod\n*by Rose*\n\n[https://community.pcgamingwiki.com/files/file/1910-blasphemous-ultrawide-and-wider-mod/](https://community.pcgamingwiki.com/files/file/1910-blasphemous-ultrawide-and-wider-mod/)",
         "Tags": [
           "#ultrawide"
         ]
@@ -585,11 +645,20 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blood_2_fix.zip",
+        "FileSize": 3497403,
         "MD5": "17DC3D02204E7621EB838CD91DC04F06",
+        "WineDllOverrides": [
+          "D3DImm",
+          "DDraw",
+          "dinput",
+          "dxwrapper",
+          "SharpDX",
+          "SharpDX.XInput"
+        ],
         "Name": "Ultimate Fix",
         "Guid": "404ef14f-d6ca-4e5e-a0da-924e5810acbe",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Startup and (ultra)widescreen fix\n\n**Includes:**\n\ndgVoodoo2\n\n[https://github.com/dege-diosg/dgVoodoo2](https://github.com/dege-diosg/dgVoodoo2)\n\nWidescreen patch\n\n[https://www.wsgf.org/phpBB3/viewtopic.php?f=64\u0026t=27171](https://www.wsgf.org/phpBB3/viewtopic.php?f=64\u0026t=27171)\n\nHigh resolution fix\n\n[http://dege.freeweb.hu/Patches/patches/](http://dege.freeweb.hu/Patches/patches)",
         "Tags": [
           "#crashfix",
@@ -606,7 +675,11 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/lok_blood_omen_2_revamped.zip",
+        "FileSize": 256353,
         "MD5": "8E3244D2E28B253A2FEF10C628A65D0E",
+        "WineDllOverrides": [
+          "d3d8"
+        ],
         "Name": "Re-vamped",
         "Guid": "3b9b9ec0-b906-44f7-b9e2-eb256adfd009",
         "Version": 1,
@@ -644,12 +717,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blood_fs_notblood.zip",
+        "FileSize": 16429746,
         "InstallFolder": "DOS",
         "MD5": "2FBC8EB1283A6A6D560553ABC33C3E84",
         "Name": "NotBlood",
         "Guid": "8bd92099-4d55-47fb-961d-033ab3cb5570",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## NotBlood\n*by clipmove*\n\n\u003Cimg src=\u0022https://raw.githubusercontent.com/clipmove/NotBlood/master/.github/workflows/logo.png\u0022 /\u003E\n\n[https://github.com/clipmove/NotBlood](https://github.com/clipmove/NotBlood)\n\nNotBlood is a gameplay modification of Blood, based upon the reverse-engineer port NBlood\n\n**Select Launch DOS Blood: One Unit Whole to launch NotBlood**",
         "Tags": [
           "#controller_support",
@@ -662,6 +736,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blood_fs_raze.zip",
+        "FileSize": 2825,
         "InstallFolder": "DOS",
         "MD5": "E1B518332EAB63C5D9820A8DCDB74AB8",
         "SharedFixGuid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
@@ -669,7 +744,7 @@
         "Name": "Raze",
         "Guid": "40d4fed2-060f-46f8-9977-f1dd7c26a868",
         "Version": 3,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "#### Select **Launch DOS Blood** to start **Raze**",
         "Tags": [
           "#controller_support",
@@ -682,6 +757,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/Blood-Voxel-Pack/releases/download/v0.96/voxels_freshsupply_v096.zip",
+        "FileSize": 8552745,
         "FilesToBackup": [
           "BloodEX.kpf"
         ],
@@ -694,7 +770,8 @@
         "Description": "## Blood Voxel Pack v0.96\n\n\u003Cimg src=\u0022https://repository-images.githubusercontent.com/208063900/7d4b1280-836c-11ea-9221-3ae509326ea2\u0022 /\u003E\n\n[https://github.com/fgsfds/Blood-Voxel-Pack](https://github.com/fgsfds/Blood-Voxel-Pack)\n\nThis pack provides voxel replacements for sprites in Blood.",
         "Tags": [
           "#graphics_improvement"
-        ]
+        ],
+        "Notes": "bat file won\u0027t work on linux"
       }
     ]
   },
@@ -705,11 +782,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blood_notblood.zip",
+        "FileSize": 87270790,
         "MD5": "7B69B926EE3F095C5F4412AF9203E05D",
         "Name": "NotBlood",
         "Guid": "8bd92099-4d55-47fb-961d-033ab3cb5570",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## NotBlood\n*by clipmove*\n\n\u003Cimg src=\u0022https://raw.githubusercontent.com/clipmove/NotBlood/master/.github/workflows/logo.png\u0022 /\u003E\n\n[https://github.com/clipmove/NotBlood](https://github.com/clipmove/NotBlood)\n\nNotBlood is a gameplay modification of Blood, based upon the reverse-engineer port NBlood.",
         "Tags": [
           "#controller_support",
@@ -722,12 +800,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blood_raze.zip",
+        "FileSize": 70844258,
         "MD5": "5C2543C508992B39789BDCD52D8E88A1",
         "SharedFixGuid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
         "Name": "Raze",
         "Guid": "40d4fed2-060f-46f8-9977-f1dd7c26a868",
         "Version": 3,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Tags": [
           "#controller_support",
           "#enhancements",
@@ -745,6 +824,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/nipkownix/BloodRayne_tweaks/releases/download/1.7/BloodRayne_tweaks1.7.zip",
+        "FileSize": 83154,
         "MD5": "57B513D045FEB5C0E107908B41995EE0",
         "Name": "Tweaks",
         "Guid": "4ff95e6a-804a-4d17-8c2f-969780514d11",
@@ -772,7 +852,7 @@
         "Name": "No Intro Fix",
         "Guid": "d6227361-7199-49cd-9aee-520799a68696",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of intro videos",
         "Tags": [
           "#nointro"
@@ -787,6 +867,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bound_by_flame_ui_fix.zip",
+        "FileSize": 2271963,
         "MD5": "717733E8D2A1BBA55EA0FE4F2EE304F1",
         "Name": "Yellow Visual Glitch on UI Fix (AMD GPU)",
         "Guid": "f7530b6c-3a07-4ade-acc7-6afc4305dd19",
@@ -801,6 +882,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/boundbyflame_nointro.zip",
+        "FileSize": 10174,
         "InstallFolder": "boot\\datapc\\video",
         "MD5": "E24F7AE825C8C5790967AD1979F71C97",
         "Name": "No Intro Fix",
@@ -821,11 +903,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/broken_sword_1_font_fix.zip",
+        "FileSize": 264750,
         "MD5": "7A4463946579D58245E20FE4F741B6C0",
         "Name": "Better In-Game Font",
         "Guid": "697159cf-2d1a-46b4-8294-061f777d715c",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Broken Sword 1 Director\u0027s Cut - Better In-Game Font\n\n[https://www.pcgamingwiki.com/wiki/Broken_Sword%3A_Shadow_of_the_Templars%3A_Director%27s_Cut#Replace_in-game_font](https://www.pcgamingwiki.com/wiki/Broken_Sword%3A_Shadow_of_the_Templars%3A_Director%27s_Cut#Replace_in-game_font)\n\nThe default font used by the in-game help and diary is difficult to read at high resolutions. With this fix the default font is substituted with a system font which is easier to read.",
         "Tags": [
           "#graphics_improvement"
@@ -839,7 +922,7 @@
         "Name": "No Intro Fix",
         "Guid": "365dd4d4-ca68-4fb9-beb4-e80623cce3a4",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of intro videos",
         "Tags": [
           "#nointro"
@@ -854,12 +937,16 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/bully/Bully.WidescreenFix.zip",
+        "FileSize": 1215360,
         "ConfigFile": "plugins\\Bully.WidescreenFix.ini",
         "MD5": "BEBB512D6C9997FD538C6CC0C756BC48",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Widescreen Fix",
         "Guid": "9c129caf-ec64-4b87-9d9f-373b41fe7fff",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Bully: Scholarship Edition Widescreen Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/bully](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/bully)\n\n- Fixed Resolution (Ultra-Wide)\n- Fixed Aspect Ratio (Ultra-Wide)\n- Fixed HUD (Ultra-Wide)\n- Fixed Field of View (Ultra-Wide)\n- Fixed FMVs\n- Unlocked all resolutions supported by the OS\n- Fixed an issue when last selected resolution is reset upon startup\n- Adjustable FOV via ini",
         "Tags": [
           "#ultrawide",
@@ -869,12 +956,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/bully_silent_v1.zip",
+        "FileSize": 63567,
         "ConfigFile": "plugins\\SilentPatchBully.ini",
         "MD5": "C4AE89B39BC89C750500503C2E265582",
         "Name": "Silent Patch",
         "Guid": "270bcc84-cadb-451b-956f-e7489b154d93",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Dependencies": [
           "9c129caf-ec64-4b87-9d9f-373b41fe7fff"
         ],
@@ -906,6 +994,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/caesar3_julius_v170.zip",
+        "FileSize": 1563968,
         "MD5": "51FAB99E94729B0B254307D53F22FF9F",
         "Name": "Julius",
         "Guid": "28375a9d-a7a6-465c-b841-556a96608d14",
@@ -923,6 +1012,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/caesar3_augustus_v400.zip",
+        "FileSize": 25746273,
         "MD5": "D22179428FC1556A9652C80A4531CEA4",
         "Name": "Augustus",
         "Guid": "4e06c271-e9b0-43bc-be81-ce92cb9b472d",
@@ -947,11 +1037,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/call_of_juarez_noblackbars.zip",
+        "FileSize": 8547,
         "MD5": "393DD6575F80F1FB238F13750FC6E5A1",
         "Name": "Black Bars Removal",
         "Guid": "1aefa8f6-5ab8-42ef-9d76-b91bdc158984",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removes black bars on top and bottom of the screen\n\nhttps://community.pcgamingwiki.com/files/file/1494-call-of-juarez-aspect-fov-fix/",
         "Tags": [
           "#enhancements"
@@ -960,6 +1051,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/call_of_juarez_ultrawide.zip",
+        "FileSize": 6701424,
         "Variants": [
           "Without Black Bars",
           "With Black Bars"
@@ -968,7 +1060,7 @@
         "Name": "Ultrawide Fix \u002B Black Bars Removal",
         "Guid": "f761088f-cc34-487a-9d36-df4cef6123df",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Fix for aspect ratio at 21:9 resolutions. Select variant with or without black bars.\n\nhttps://community.pcgamingwiki.com/files/file/1494-call-of-juarez-aspect-fov-fix/",
         "Tags": [
           "#enhancements",
@@ -1031,7 +1123,7 @@
         "Name": "Optimal Sound Settings",
         "Guid": "816455fd-0e39-4629-8fb1-c7a09ce3310d",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Optimal Sound Settings\r\n*by XaivierX*\r\n[https://steamcommunity.com/sharedfiles/filedetails/?id=2103627775](https://steamcommunity.com/sharedfiles/filedetails/?id=2103627775)\r\n\r\nThe game\u0027s default audio settings are all set to 10. This can make it hard to hear what characters are saying and the end-of-level church bell is far too loud. These settings will even everything out.\r\n\r\nModify the sound values to these settings in the Audio section of the game\u0027s Configuration menu.\r\n\r\n- Master Volume: 10\r\n- Sound FX Volume: 7\r\n- Music Volume: 9\r\n- Dialog Volume: 10\r\n- Cinematic Volume: 8\r\n- Environment Volume: 8",
         "Tags": [
           "#enhancements"
@@ -1046,11 +1138,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/chantelise_drmfree.zip",
+        "FileSize": 28618054,
         "MD5": "3AE0A392E9E65B56A110E87BAB9B6ACD",
         "Name": "Official DRM-Free Patch",
         "Guid": "2a6ce248-5a07-4318-9110-da97324d7629",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Chantelise - Official DRM-Free Patch\n\n[https://web.archive.org/web/20201205135931/http://www.carpefulgur.com/chantelise/downloads.htm](https://web.archive.org/web/20201205135931/http://www.carpefulgur.com/chantelise/downloads.htm)\n\nThis official patch makes the game DRM-Free. The game version number is unchanged. \n\nAfter installing the patch, the game can be run directly from the chantelise.exe executable without having to run Steam.",
         "Tags": [
           "#drm_free"
@@ -1065,17 +1158,35 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/coldfear/ColdFear.WidescreenFix.zip",
+        "FileSize": 1193088,
         "ConfigFile": "scripts\\ColdFear.WidescreenFix.ini",
         "MD5": "99010354298B64BA640FA7EE81B521F8",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Widescreen Fix",
         "Guid": "53b41e26-cddf-4764-a82b-bd900f3ffc24",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Cold Fear Widescreen Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/coldfear](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/coldfear)\n\n- Fixed Resolution\n- Fixed HUD\n- Fixed Field of View\n- Fixed FMVs\n- Added an option to disable cutscene borders\n- Added an option to make FMVs fullscreen",
         "Tags": [
           "#ultrawide",
           "#widescreen"
         ]
+      },
+      {
+        "$type": "FileFix",
+        "FilesToDelete": [
+          "data\\movie\\Logo_Dar.bik",
+          "data\\movie\\Logo_Ubi.bik",
+          "data\\movie\\Renderware.bik",
+          "data\\movie\\RW.bik"
+        ],
+        "Name": "No Intro Fix",
+        "Guid": "e4f3ad53-c733-4e74-972b-d4f15e06ca43",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Description": "Removal of the intro videos"
       }
     ]
   },
@@ -1086,12 +1197,16 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/condemned/Condemned.WidescreenFix.zip",
+        "FileSize": 3104391,
         "ConfigFile": "scripts\\Condemned.WidescreenFix.ini",
         "MD5": "EBAD54382A328E8C004CE28CAF643BBD",
+        "WineDllOverrides": [
+          "d3d9"
+        ],
         "Name": "Widescreen Fix",
         "Guid": "ac84995d-e902-44be-bc80-bf6ffc9f8f38",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Condemned: Criminal Origins Widescreen Fix*\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/condemned](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/condemned)\n\n- Fixed Resolution (Config.exe)\n- Fixed Aspect Ratio (Ultra-Wide)\n- Fixed HUD (Ultra-Wide)\n- Added an option to fix stretched menu\n- Added an option to fix low framerate\n- Added an option to fix issue when controls aren\u0027t saved\n- Added an option to make windowed mode borderless",
         "Tags": [
           "#widescreen"
@@ -1100,6 +1215,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/condemned_missing_files.7z",
+        "FileSize": 86399217,
         "MD5": "9E4AD23DBD42DDAE3611917A5FA60AF6",
         "Name": "Missing Steam Files",
         "Guid": "85ea019e-6bfc-4e11-b337-4c6662abc554",
@@ -1119,11 +1235,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/control_hdr_v15.7z",
+        "FileSize": 70621730,
         "MD5": "740092E7B61C38A94C12FFA44D227929",
         "Name": "HDR Ultrawide DLSS RT Patch",
         "Guid": "9b1ad1ba-2a82-46e1-9704-d813b46b66af",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## CONTROL - HDR Ultrawide DLSS RT Patch v1.5\n*by filoppi*\n\n[https://www.nexusmods.com/control/mods/90](https://www.nexusmods.com/control/mods/90)\n\n- Native HDR (gets rid of color banding, greater contrast and brighter highlights, more natural colors).\n- Improved quality of SDR output (10bit-\u003Eno more color banding, slightly better dynamic range).\n- Upgraded DLSS to 3.1.30 and improved its implementation (it\u0027s also now compatible with FSR 2.X injection).\n- Added DLAA support (DLSS at native resolution).\n- Added a new \u0022Max\u0022 texture setting to improve the slow texture streaming (min 8GB\u002B VRAM, 10GB\u002B are recommended).\n- Added a new setting to use 3x as samples for ray tracing and volumetrics, increasing the quality and reducing noise (this is VERY expensive).\n- Fixed broken ray tracing reflections.\n- Fixed low shadow quality when ray tracing was on.\n- Full UltraWide support: unlock any resolution and aspect ratio, including 32:9\u002B.\n- Some FOV and LOD fixes for UW. Fixed UI issues at non 16:9 aspect ratios (e.g. enemies health bars were displaced).\n- Added a FOV Multiplier config setting *m_fFOVMultiplier* (the game and UI are designed for the default FOV, so only use for accessibility reasons).\n- Add a config to skip the intro video *m_bSkipIntroVideos*.\n- Improved window\u002Bborderless\u002Bfullscreen management.\n- Fixed the game not launching correctly on non Nvidia non AMD GPUs (e.g. Intel Arc).\n- Restored film grain with DLSS. Tweaked the film grain implementation.\n- Minor crash fixes, bug fixes and features.",
         "Tags": [
           "#enhancements",
@@ -1135,7 +1252,11 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/control_nointro.zip",
+        "FileSize": 24441,
         "MD5": "7B5BB2E61DE719E24015487EB914FB2A",
+        "WineDllOverrides": [
+          "iphlpapi"
+        ],
         "Name": "No Intro Fix",
         "Guid": "7312ecf2-ebd2-4e4e-8a4f-e2b52e6af322",
         "Version": 1,
@@ -1154,11 +1275,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/crash_ultrawide.zip",
+        "FileSize": 11476651,
         "MD5": "AE4BB59B7B50F6CA8C63888712803FA0",
         "Name": "Ultrawide Fix",
         "Guid": "fad07899-3e37-4fb8-88a5-31823a04988c",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Crash Bandicoot N. Sane Trilogy Widescreen Fix\n*by jackfuste*\n\n[https://community.pcgamingwiki.com/files/file/1404-crash-bandicoot-n-sane-trilogy-widescreen-fix/](https://community.pcgamingwiki.com/files/file/1404-crash-bandicoot-n-sane-trilogy-widescreen-fix/)\n\nRemoves black bars for all resolutions in Crash Bandicoot N. Sane Trilogy.",
         "Tags": [
           "#ultrawide"
@@ -1172,7 +1294,7 @@
         "Name": "No Intro Fix",
         "Guid": "714faa45-84bc-4744-8619-4d9ce92ba1dc",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of the intro videos",
         "Tags": [
           "#nointro"
@@ -1187,11 +1309,15 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/CookiePLMonster/SilentPatchCT/releases/download/BUILD-1/SilentPatchCT.zip",
+        "FileSize": 1110565,
         "MD5": "3A2790B53ED7217A1EC07233B3484A48",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "SilentPatch",
         "Guid": "29122dcf-0b7b-426f-ba36-ba513c700806",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## SilentPatch for Crazy Taxi\n*by CookiePLMonster*\n\n[https://github.com/CookiePLMonster/SilentPatchCT](https://github.com/CookiePLMonster/SilentPatchCT)\n\nThis modification fixes several bugs in the Steam version of Crazy Taxi. While some of the bugs (such as broken analog steering) already had unofficial fixes in the past, they are shipped as an executable edit and they can have some side effects depending on the gamepad used. SilentPatch also fixes several other bugs not covered by other fixes, e.g. a crash when booting the game with steering wheels connected. With this patch, the game is fully playable with a steering wheel (and a shifter), providing a full arcade experience.\n\n**Featured fixes**\n- Issues with analog steering and pressure sensitive triggers have been fixed. This applies both to XInput and DirectInput controllers.\n- A crash when starting the game with specific DirectInput devices (e.g. steering wheels) has been fixed.\n- Analog stick deadzones have been refined slightly to improve steering responsiveness and make it feel closer to the Dreamcast release.\n- Alt \u002B F4 now works correctly.\n- When using the Windowed mode, window size has been corrected to avoid distorting the image.\n- When using the Windowed mode, maximizing is now disallowed by disabling the Maximize button rather by making it non-functional.\n- Restored several missing cheats/hotkeys from the original PC version. These are:\n- Reset Camera (Shift\u002BAlt\u002BF5)\n- Cinematic Camera (Shift\u002BAlt\u002BF6)\n- First Person Camera (Shift\u002BAlt\u002BF7)\n- Show Speedometer (Shift\u002BAlt\u002BF8)\n",
         "Tags": [
           "#bugfixes",
@@ -1207,6 +1333,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ccomrade/c1-launcher/releases/download/v5/c1-launcher-v5-build.zip",
+        "FileSize": 119980,
         "MD5": "CC0E21F8241AAB967A1BEC3312A18733",
         "Name": "C1-Launcher",
         "Guid": "5bc1ab26-9396-4b7d-a18b-29fe3ae196f8",
@@ -1229,6 +1356,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ccomrade/c1-launcher/releases/download/v5/c1-launcher-v5-build.zip",
+        "FileSize": 119980,
         "MD5": "CC0E21F8241AAB967A1BEC3312A18733",
         "Name": "C1-Launcher",
         "Guid": "bfd8ac2d-27ba-4c13-8686-803c1582a138",
@@ -1251,12 +1379,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/cyberdimension_neptunia_nointro.zip",
+        "FileSize": 2392,
         "InstallFolder": "CyberdimensionNeptunia4GoddessesOnline\\Content\\Sound",
         "MD5": "24A07171280BCE9724E4EB8B3D2A0C42",
         "Name": "No Intro Fix",
         "Guid": "a8109e97-70bd-433f-b649-fbd01dc3a89b",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Cyberdimension Neptunia: 4 Goddesses Online - Skip intro videos\n\n[https://www.pcgamingwiki.com/wiki/Cyberdimension_Neptunia:_4_Goddesses_Online#Skip_intro_videos](https://www.pcgamingwiki.com/wiki/Cyberdimension_Neptunia:_4_Goddesses_Online#Skip_intro_videos)",
         "Tags": [
           "#nointro"
@@ -1271,8 +1400,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dark_souls_3_pc_experience_17.zip",
+        "FileSize": 102478,
         "InstallFolder": "Game",
         "MD5": "8CF024052A2F34B660E314273358A884",
+        "WineDllOverrides": [
+          "d3d11"
+        ],
         "Name": "Proper PC Experience Mod",
         "Guid": "5e18ebc4-f428-4581-bf0d-3d64cbac1226",
         "Version": 1,
@@ -1293,19 +1426,40 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dark_souls_dsfix_v1.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dark_souls_dsfix_v24.zip",
+        "FileSize": 392119,
         "InstallFolder": "DATA",
-        "ConfigFile": "DATA\\DSFixGUI.exe",
-        "MD5": "194D6BF28BE4CA912455293FA95B9ABE",
+        "ConfigFile": "DATA\\DSfix.ini",
+        "MD5": "4BB6091F9244B001303B66DEDB3A847D",
+        "WineDllOverrides": [
+          "DINPUT8"
+        ],
         "Name": "DSFix",
         "Guid": "3b050833-82c5-49d0-85ca-e688b5c911bc",
         "Version": 1,
-        "SupportedOSes": "Windows",
-        "Description": "## DSFix v2.4\n*by Durante*\n\n[https://www.nexusmods.com/darksouls/mods/19](https://www.nexusmods.com/darksouls/mods/19)\n\nDSfix is a wrapper .dll that allows your to adjust Dark Souls\u0027 rendering resolution, improve the quality of the game\u0027s DoF effect, add SSAO and SMAA, hide and show the mouse cursor and hud using a toggle key, take screenshots, periodically back up your save game, change the game\u0027s language, load texture mods and more.\n\n## Morten242s UI for DSfix\n*by Morten242*\n\n[https://www.nexusmods.com/darksouls/mods/45](https://www.nexusmods.com/darksouls/mods/45)\n\nAllows for easy, understandable editing of the DSfix configuration without having to mess around directly with the configuration file.",
+        "SupportedOSes": "Windows, Linux",
+        "Description": "## DSFix v2.4\n*by Durante*\n\n[https://www.nexusmods.com/darksouls/mods/19](https://www.nexusmods.com/darksouls/mods/19)\n\nDSfix is a wrapper .dll that allows your to adjust Dark Souls\u0027 rendering resolution, improve the quality of the game\u0027s DoF effect, add SSAO and SMAA, hide and show the mouse cursor and hud using a toggle key, take screenshots, periodically back up your save game, change the game\u0027s language, load texture mods and more.",
         "Tags": [
           "#enhancements",
           "#graphics_improvement"
         ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dark_souls_dsfixgui_v151.zip",
+        "FileSize": 29276,
+        "InstallFolder": "DATA",
+        "ConfigFile": "DATA\\DSFixGUI.exe",
+        "MD5": "789F777AF7ABBD39D47CBCC46249087F",
+        "Name": "DSFix GUI",
+        "Guid": "174b80d6-e374-4b27-a9f5-d39b42b338dd",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "## Morten242s UI for DSfix\n*by Morten242*\n\n[https://www.nexusmods.com/darksouls/mods/45](https://www.nexusmods.com/darksouls/mods/45)\n\nAllows for easy, understandable editing of the DSfix configuration without having to mess around directly with the configuration file.",
+        "Tags": [
+          "#enhancements"
+        ],
+        "Notes": "exe can\u0027t be run from SS on steam"
       }
     ]
   },
@@ -1316,6 +1470,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/doom1_crispy_v1.zip",
+        "FileSize": 8762094,
         "InstallFolder": "base",
         "MD5": "75D001F5BA186AD3391791D40FA44A47",
         "Name": "Crispy Doom",
@@ -1339,12 +1494,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/doom3_dhewm.zip",
+        "FileSize": 7670937,
         "ConfigFile": "base\\autoexec.cfg",
         "MD5": "4CF690489183A6B78F498DED175DF542",
         "Name": "dhewm3",
         "Guid": "bc919ea0-c25f-4c98-bda4-a8ed6444c934",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## dhewm3 v1.5.2\n\n[https://github.com/dhewm/dhewm3](https://github.com/dhewm/dhewm3)\n\ndhewm3 is a source port of the original Doom3. \n\nCompared to the original version of Doom3, dhewm3 has many bugfixes, supports EAX-like sound effects on all operating systems and hardware (via OpenAL Softs EFX support), has much better support for widescreen resolutions.",
         "Tags": [
           "#enhancements",
@@ -1356,12 +1512,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/doom_3_le_v14.zip",
+        "FileSize": 284729903,
         "ConfigFile": "d3le\\autoexec.cfg",
         "MD5": "5DA4A993E1839469D7E321AAEB18232C",
         "Name": "The Lost Mission",
         "Guid": "ebbcf676-2401-4a8f-9058-b50a67252292",
         "Version": 2,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Dependencies": [
           "bc919ea0-c25f-4c98-bda4-a8ed6444c934"
         ],
@@ -1379,13 +1536,14 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/doom3_autoexec.zip",
+        "FileSize": 224,
         "InstallFolder": "d3xp",
         "ConfigFile": "d3xp\\autoexec.cfg",
         "MD5": "C23F0C4236E08138EA1DE12F005141C6",
         "Name": "Resolution Autoexec",
         "Guid": "ed424b58-a0dc-4686-babc-9ea630208deb",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "**autoexec.cfg** with pre-defined resolution\n\nChange dimensions to your desired numbers\n\n**Requires dhewm3**",
         "Tags": [
           "#ultrawide",
@@ -1401,6 +1559,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/doom2_crispy_v1.zip",
+        "FileSize": 11564923,
         "MD5": "E299A23DBA519B6AD2DB737E8403A1EF",
         "Name": "Crispy Doom",
         "Guid": "90e84122-5f4e-4c78-995b-bb58c9144bde",
@@ -1423,11 +1582,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/daikatana_patch13_v1.zip",
+        "FileSize": 61113179,
         "MD5": "DAC606450866FEE1B095E5518B2141F1",
         "Name": "Patch 1.3",
         "Guid": "8a6ff69b-eaf6-4026-b735-e0be3140c347",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Daikatana 1.3 Build: 08-17-2023\n\n[https://bitbucket.org/daikatana13/daikatana](https://bitbucket.org/daikatana13/daikatana)\n\nDaikatana 1.3 is a community created game patch for Daikatana. It offers very substantial fixes and updates to Daikatana, and is updated constantly.\n\n**Significant Updates:**\n- Multiplayer support is available through Qtracker.\n- Adds support for widescreen resolutions and anisotropic filtering.\n- Loading now doesn\u0027t require the ticking sound to be played. Loading is much faster.\n- Updated and greatly improved AI paths and nodes.\n- Options to play without sidekicks.\n- Option to make sidekicks invincible.\n- HD texture support.\n- Glowmap support.\n- Supported added for mouse buttons.\n- And many more.",
         "Tags": [
           "#bugfixes",
@@ -1446,6 +1606,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/darkstar_one_nointro.zip",
+        "FileSize": 277,
         "InstallFolder": "video\\Movies\\Eng",
         "MD5": "70AF41D187306E33B3154F6FD20562B0",
         "Name": "No Intro Fix",
@@ -1466,11 +1627,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/darksiders_2_nointro.zip",
+        "FileSize": 1887,
         "MD5": "AB64A2D457F23352241EA2384297E133",
         "Name": "No Intro Fix",
         "Guid": "469f2790-7cde-4a29-9b16-ecb2b226a755",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Blank replacements for intro videos",
         "Tags": [
           "#nointro"
@@ -1494,7 +1656,7 @@
         "Name": "No Intro Fix",
         "Guid": "ba6f8f32-50d2-4107-a3f4-a7475fd24e96",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of intro videos",
         "Tags": [
           "#nointro"
@@ -1509,6 +1671,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dead_island_de_essential.zip",
+        "FileSize": 14400,
         "InstallFolder": "DI",
         "MD5": "65AA1F21EA3BE43C789CB9F74470FDA9",
         "Name": "Essential Fix",
@@ -1530,6 +1693,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dead_island_de_essential.zip",
+        "FileSize": 14400,
         "InstallFolder": "DIR",
         "MD5": "65AA1F21EA3BE43C789CB9F74470FDA9",
         "Name": "Essential Fix",
@@ -1562,6 +1726,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/dead_rising_2_nointro.zip",
+        "FileSize": 1160368,
         "MD5": "4525EF3AFFE8E03B2D01FC4D94076057",
         "Name": "No Intro Fix",
         "Guid": "069a91c7-5bcb-4770-a5ed-a4201d1be3af",
@@ -1592,6 +1757,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/dead_rising_2_nointro.zip",
+        "FileSize": 1160368,
         "MD5": "4525EF3AFFE8E03B2D01FC4D94076057",
         "Name": "No Intro Fix",
         "Guid": "4f48438f-8296-46aa-a341-350b41200b5a",
@@ -1611,6 +1777,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dead_space_mouse_fix_v1.zip",
+        "FileSize": 226824,
         "MD5": "A36C677E1998C58E1FC2ABF5070C5B35",
         "Name": "Mouse Fix",
         "Guid": "6f7d51bf-f87c-4cc8-8f19-b09d8cbcb60b",
@@ -1627,6 +1794,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dead_space_2_mouse_fix_v1.zip",
+        "FileSize": 364732,
         "MD5": "386319AD71703FDEEF070E80F1EAD8E1",
         "Name": "Mouse Fix",
         "Guid": "c2884e09-5746-4eed-8e41-8b8529fd8f2a",
@@ -1643,8 +1811,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/deadly_premonotion_dpfix095.zip",
+        "FileSize": 1608545,
         "ConfigFile": "DPfix.ini",
         "MD5": "FE2D788A4444C524DEF546E178C9F202",
+        "WineDllOverrides": [
+          "winmm",
+          "d3d9"
+        ],
         "Name": "dpfix",
         "Guid": "a9fa9377-54b7-4de0-bf4e-0001c988c885",
         "Version": 1,
@@ -1655,11 +1828,13 @@
           "#enhancements",
           "#graphics_improvement",
           "#nointro"
-        ]
+        ],
+        "Notes": "The game doesn\u0027t work on linux at all"
       },
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/deadly_premonition_ultrawide.zip",
+        "FileSize": 439,
         "MD5": "C27D0C4EA503ED3BF678BAA6351FAC81",
         "Name": "Ultrawide Fix",
         "Guid": "402a5bd2-a4dd-41ba-b438-d2ee9a205a74",
@@ -1705,6 +1880,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/desperados_resolutions.zip",
+        "FileSize": 2858460,
         "Variants": [
           "1920x1080",
           "2560x1080"
@@ -1713,7 +1889,7 @@
         "Name": "Resolution Fix",
         "Guid": "d207c355-0d68-43fd-a1ee-16a931421145",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Resolution Fix\n\n[https://community.pcgamingwiki.com/files/file/1576-desperados-wanted-dead-or-alive-fov-fix/](https://community.pcgamingwiki.com/files/file/1576-desperados-wanted-dead-or-alive-fov-fix/)\n\nWide and ultrawide resolutions support\n\nSelect desired resolution from a drop down menu",
         "Tags": [
           "#ultrawide",
@@ -1729,12 +1905,13 @@
       {
         "$type": "FileFix",
         "Url": "https://kentie.net/article/dxguide/files/DeusExe-v8.1.zip",
+        "FileSize": 121856,
         "InstallFolder": "System",
         "MD5": "AF3A1FB0C0FDB5DCFE86182ED6F1CC5C",
         "Name": "Deus Exe",
         "Guid": "4c16fb0b-81ea-4145-b2f7-97fc9a536db8",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Deus Exe v8.1\n\n[https://kentie.net/article/dxguide/#downloads](https://kentie.net/article/dxguide/#downloads)\n\nDeus Exe is a replacement executable for Deus Ex. It\u0027s compatible with the GOTY edition of the game, which includes the Steam version. It fixes various issues running on modern computers, helps you configure the game, and includes a mod manager.",
         "Tags": [
           "#crashfix",
@@ -1751,6 +1928,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/deusex_hr_telemetry.zip",
+        "FileSize": 4221490,
         "MD5": "E63DBE08C0B426DA985234AD842A8257",
         "Name": "Crash Fix",
         "Guid": "19e378bc-7cf0-4353-9e4e-e995f64bca71",
@@ -1764,6 +1942,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/CookiePLMonster/DXHRDC-GFX/releases/latest/download/DXHRDC-GFX.zip",
+        "FileSize": 1314418,
         "MD5": "2D561C55E77270F2767F30B9BB137EFE",
         "Name": "Gold Filter Restoration",
         "Guid": "2c7b801b-c966-47a2-8f0a-8387a40afa14",
@@ -1784,6 +1963,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/deusex_2_visible_upgrade.zip",
+        "FileSize": 10356262,
         "MD5": "122ED67EC74CB9DC4F98C4F7947785F3",
         "Name": "Visible Upgrade",
         "Guid": "3f782807-0ca7-4a93-aeb1-489ba23d8fde",
@@ -1823,11 +2003,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/disciples_glwrapper.zip",
+        "FileSize": 13255009,
         "MD5": "98D9CFC19967E78540C677A6C8808A7A",
         "Name": "GL Wrapper",
         "Guid": "d51c5a6e-d8ff-41f6-9b58-8273f0916d13",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## GL Wrapper\n*by Verok*\n\n[https://web.archive.org/web/20211010082542/https://verokster.blogspot.com/2019/03/disciples-i-ii-gl-wrapper-patch.html](https://web.archive.org/web/20211010082542/https://verokster.blogspot.com/2019/03/disciples-i-ii-gl-wrapper-patch.html)\n\nThis patch/wrapper redirect legacy DirectDraw graphics into OpenGL and allows play games on modern PC with Windows 10. Added proper windowed mode and several upscale filters for better gaming on modern screens.\n\n- Games render via OpenGL\n- Games can now easily minimize on new OS\n- Games can now easily switch into windowed/fullscreen mode\n- Added several upscaling filters (ScaleNx, Super Eagle, Sal, ScaleHq and xBRz)\n- Added game speed selection. Game can run faster now, up to 3x\n- AI thinks much faster\n- 32bpp rendering\n- Added selection of any resolutions (4x3, 16x10, 16x9 ...) up to 4-8K\n- Disciples II: Added option to select widescreen battle window\n- Disciples II: Added new borders image for ingame windows/dialogs. Thanks to \u041C\u043E\u0442\u043B\u0438\u043D.",
         "Tags": [
           "#enhancements",
@@ -1844,11 +2025,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/disciples_glwrapper.zip",
+        "FileSize": 13255009,
         "MD5": "98D9CFC19967E78540C677A6C8808A7A",
         "Name": "GL Wrapper",
         "Guid": "d51c5a6e-d8ff-41f6-9b58-8273f0916d14",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## GL Wrapper\n*by Verok*\n\n[https://web.archive.org/web/20211010082542/https://verokster.blogspot.com/2019/03/disciples-i-ii-gl-wrapper-patch.html](https://web.archive.org/web/20211010082542/https://verokster.blogspot.com/2019/03/disciples-i-ii-gl-wrapper-patch.html)\n\nThis patch/wrapper redirect legacy DirectDraw graphics into OpenGL and allows play games on modern PC with Windows 10. Added proper windowed mode and several upscale filters for better gaming on modern screens.\n\n- Games render via OpenGL\n- Games can now easily minimize on new OS\n- Games can now easily switch into windowed/fullscreen mode\n- Added several upscaling filters (ScaleNx, Super Eagle, Sal, ScaleHq and xBRz)\n- Added game speed selection. Game can run faster now, up to 3x\n- AI thinks much faster\n- 32bpp rendering\n- Added selection of any resolutions (4x3, 16x10, 16x9 ...) up to 4-8K\n- Disciples II: Added option to select widescreen battle window\n- Disciples II: Added new borders image for ingame windows/dialogs. Thanks to \u041C\u043E\u0442\u043B\u0438\u043D.",
         "Tags": [
           "#enhancements",
@@ -1961,6 +2143,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/duke_nukem_2_rigel_v1.zip",
+        "FileSize": 2364010,
         "MD5": "303344CFCDE824F22A4E1BAD716BBF91",
         "Name": "Rigel Engine",
         "Guid": "ab4bba28-8e93-415a-96f8-c9a1e1dd3989",
@@ -1983,6 +2166,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/duke3d_raze.zip",
+        "FileSize": 2818,
         "InstallFolder": "Duke Nukem 3D",
         "MD5": "61A144B1B1BD840E9D2DD5C61D802189",
         "SharedFixGuid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
@@ -1990,7 +2174,7 @@
         "Name": "Raze",
         "Guid": "0eda6b8e-36d2-442a-996f-2e1488d5be5e",
         "Version": 3,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "#### Select **Play Duke Nukem 3D** to start **Raze**",
         "Tags": [
           "#controller_support",
@@ -2009,11 +2193,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/duke_nukem_mp_enhanced.zip",
+        "FileSize": 3954993,
         "MD5": "F6F0861871265B21CDE0416F64599FD6",
         "Name": "Enhanced Edition",
         "Guid": "bcbd7a3c-d6f6-4b43-9967-f69e34e1c065",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Enhanced Edition\n\n[https://www.zoom-platform.com/product/duke-nukem-manhattan-project](https://www.zoom-platform.com/product/duke-nukem-manhattan-project)\n\n- Improved Launcher with New Features.\n- All supported resolutions now listed and selectable.\n- All supported languages now listed and selectable.\n- Enabled Anisotropic Filtering.\n- Level Editor now included as Game Launcher selection.\n- Uzi machine gun now included.\n- Support for loading mods from the launcher (\u0022Custom Content Directory\u0022).\n- UI and FOV support for 16:9 Widescreen Resolutions and 21:9 Ultra Widescreen Resolutions are now included.\n- New boot sequence launch logos.",
         "Tags": [
           "#enhancements",
@@ -2081,6 +2266,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/enclave_nointro.zip",
+        "FileSize": 693,
         "InstallFolder": "Sbz1\\Videos",
         "MD5": "CF9ECF1F748B4E110303620EFD602AE0",
         "Name": "No Intro Fix",
@@ -2145,6 +2331,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ffx_launcher_v20.7z",
+        "FileSize": 100591514,
         "MD5": "99B3C1E7303C709D1C28EA6FE8A1C899",
         "Name": "Final Fantasy X/X-2 Launcher\u002B",
         "Guid": "fdd56330-3952-4757-abc7-4deb3a457bd1",
@@ -2165,6 +2352,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ff13_fix_164.zip",
+        "FileSize": 128835,
         "InstallFolder": "white_data\\prog\\win\\bin",
         "ConfigFile": "white_data\\prog\\win\\bin\\FF13Fix.ini",
         "MD5": "4670BF0B83675E75AD2770D5E48DC005",
@@ -2188,6 +2376,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ff13_fix_164.zip",
+        "FileSize": 128835,
         "InstallFolder": "alba_data\\prog\\win\\bin",
         "ConfigFile": "alba_data\\prog\\win\\bin\\FF13Fix.ini",
         "MD5": "4670BF0B83675E75AD2770D5E48DC005",
@@ -2211,6 +2400,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/fable_nointro.zip",
+        "FileSize": 2299,
         "InstallFolder": "data\\Video",
         "MD5": "BD16680513C44E02D1264F810127FC6E",
         "Name": "No Intro Fix",
@@ -2231,12 +2421,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/fallout1_ettu.zip",
+        "FileSize": 1121061159,
         "ConfigFile": "config\\fo1_settings.ini",
         "MD5": "6383B35184736F4DBF59EB1FC11728CF",
         "Name": "Fallout Et Tu",
         "Guid": "c59d1026-191a-4763-aea8-634ef1b68ee1",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Fallout1in2 v1.9.3324\n*by rotators*\n\n[https://github.com/rotators/Fo1in2](https://github.com/rotators/Fo1in2)\n\nThis project brings FALLOUT 1 into the engine of FALLOUT 2.\n\n- Replicates FALLOUT 1 in 2 almost 1:1.\n- Comes with the Hero Appearance mod integrated (Bald Dude, Long Hair Dude, Black Dude, Punk Girl).\n- FALLOUT 2 styled merchant inventory restocking.\n- Party members and generic NPCs can be pushed out of the way.\n- Party members level up and change their appearance based on worn armor.\n- Party members can be controlled in combat.\n- Automatic door opening and closing.\n- Traverse the wastes on your very own motorcycle!\n- Selected FALLOUT 2 weapons have been added (sparingly!) to the game world in ways that don\u0027t break the game balance.\n- Weapons can be upgraded in FALLOUT 2 style.\n- Explore classic FALLOUT 2 style cavern and new mining site encounter maps.\n- Stumble over FALLOUT 2 critters such as Geckos in encounter maps.\n- The original endgame is too easy? Try the new tougher mutants setting!\n- Continue playing after the main story has been completed.\n- Lots of bugfixes, making the game run more stable than even the original with patches.",
         "Tags": [
           "#additional_content",
@@ -2247,11 +2438,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/fallout1_fixt.zip",
+        "FileSize": 70623679,
         "MD5": "9DC98C291FA12F39CA8FA850C696A370",
         "Name": "Fixt Vanilla",
         "Guid": "4f969951-a992-471b-990a-f3255c019c70",
         "Version": 2,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Fallout Fixt  v0.81a\n\n\u003Cimg src=\u0022https://www.nma-fallout.com/attachments/2zqvevb-jpg.2737/\u0022 /\u003E\n\n[https://www.nma-fallout.com/resources/fallout-fixt-full-all-fixes-and-mods.8/](https://www.nma-fallout.com/resources/fallout-fixt-full-all-fixes-and-mods.8/)\n\nThe goal of Fallout Fixt is to enhance, fix and improve the Fallout 1 experience. This includes fixing bugs, restoring features, modifying balance, adding features, and many fixes to text/dialog. In addition to that, all other available mods and patches are rolled into Fixt (see below), meaning that Fallout Fixt is the only thing needed for \u0022the best\u0022 Fallout 1 experience. As of the most recent version, this mod fixes roughly 150 bugs still present in the unofficial patches, and adds roughly 170 features. In addition, there are hundreds if not thousands of text\u0026dialog fixes.\n\n**Things included in this patch:**\n- Official Interplay patches (1.1, 1.2)\n- TeamX patches (1.2, 1.21, 1.3.5)\n- No Children Fix\n- Cathedral Crash Fix (and other fixes by Sduibek for the Cathedral, Military Base and The Glow crashes)\n- Nimrod\u0027s Dialog Fixes\n- FreeSpace variable is set to 0 by default, so you won\u0027t have to worry about that crash either.\n\n**Not compatible with Fallout Et Tu**",
         "Tags": [
           "#bugfixes",
@@ -2263,11 +2455,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/fallout1_censorship_v1.zip",
+        "FileSize": 820092,
         "MD5": "1D58B4C7687C6BC1C4D9E0732ADD2053",
         "Name": "Censorship Fix",
         "Guid": "e21ec5b7-e51f-4101-83e8-16145dfb4a6a",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Fallout Censorship Fix v1.3\n*by FatWombat55*\n\n[https://www.moddb.com/games/fallout/downloads/fallout-12-censorship-fix-gogsteam](https://www.moddb.com/games/fallout/downloads/fallout-12-censorship-fix-gogsteam)\n\nRestores children, censored dialogue and skilldex images\n\n**Already included in Fixt patch and Fallout Et Tu**",
         "Tags": [
           "#censorship_fix"
@@ -2282,6 +2475,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/fallout2_upu_v28.zip",
+        "FileSize": 55659730,
         "FilesToDelete": [
           "data\\art\\tiles\\grid000.FRM",
           "data\\worldmap.dat",
@@ -2292,7 +2486,7 @@
         "Name": "Unofficial Patch",
         "Guid": "fdd24add-a7c0-4730-a29c-21cf71e07bb0",
         "Version": 3,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Fallout 2 Unofficial Patch, updated v28\n*by BGforgeNet*\n\n[https://github.com/BGforgeNet/Fallout2_Unofficial_Patch](https://github.com/BGforgeNet/Fallout2_Unofficial_Patch)\n\nThe Unofficial Fallout 2 Patch is the ultimate patch available for Fallout 2. It fixes practically all outstanding bugs in the game, including script changes to properly implement characters, such as the infamously buggy T-Ray.\n\n**Already included in the Restoration Project**",
         "Tags": [
           "#bugfixes",
@@ -2302,6 +2496,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/fallout2_rpu_v28.zip",
+        "FileSize": 884634619,
         "FilesToDelete": [
           "data\\art\\tiles\\grid000.FRM",
           "data\\worldmap.dat",
@@ -2312,7 +2507,7 @@
         "Name": "Restoration Project ",
         "Guid": "18c827ca-9d30-4f6f-acf0-d50fe588a8ce",
         "Version": 2,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Fallout2 Restoration Project v28\n*by BGforgeNet*\n\n[https://github.com/BGforgeNet/Fallout2_Restoration_Project](https://github.com/BGforgeNet/Fallout2_Restoration_Project)\n\nThe purpose of this project is to add back into Fallout 2 all the missing content (locations, NPCs, quests, items, etc) that were pulled or left unfinished in the original game.\nThis expansion attempts to stay true to what made Fallout great and thus the new content you find is not something I felt that would be cool to see, but rather a reality of what the original devs wanted. I admit that I had to make some judgment calls here and there, but the core of what you will see is something originally thought up by the Fallout 2 devs.",
         "Tags": [
           "#additional_content",
@@ -2330,11 +2525,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/farcry1_fix.zip",
+        "FileSize": 1027898179,
         "MD5": "4BF8E2BCF7ADCB424F0095CE43F48AA6",
         "Name": "Far Cry Fix",
         "Guid": "d648cb75-e839-4ebc-97d6-4cf874f15ec1",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Far Cry Fix\n\n[https://steamcommunity.com/sharedfiles/filedetails/?id=2143784069](https://steamcommunity.com/sharedfiles/filedetails/?id=2143784069)\n\n- This fix pack corrects the aspect ratio, game UI and field of view for widescreen resolutions;\n- replaces original in-game videos with their widescreen versions;\n- solves a problem with AI seeing a player through objects;\n- adds a quick save \u0026 load function;\n- eliminates bugs and crashes.\n- Also includes 64-bit patches and a configuration file with the highest possible graphics settings.\n\n**64-bit only**",
         "Tags": [
           "#bugfixes",
@@ -2368,6 +2564,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/flatout_1_ZPatchFO1_v1.5.zip",
+        "FileSize": 2743482,
         "ConfigFile": "ZPatchFO1.ini",
         "MD5": "CE729C46BF7BDBD41473BD41BFCC15C5",
         "Name": "ZPatch",
@@ -2391,6 +2588,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/flatout_2_ZPatchFO2_v2.4.zip",
+        "FileSize": 2681145,
         "ConfigFile": "ZPatchFO2.ini",
         "MD5": "0A6A1FC1F1716CF77A8342B56338AA22",
         "Name": "ZPatch",
@@ -2415,6 +2613,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/narzoul/DDrawCompat/releases/download/v0.4.0/DDrawCompat-v0.4.0.zip",
+        "FileSize": 785877,
         "MD5": "9E9CC4DBA3DB793517C728EE0507D8B9",
         "Name": "Performance Fix",
         "Guid": "e43f3767-80ae-4ad9-9bb2-a9d40ba4f0a2",
@@ -2434,6 +2633,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/freedom_force_mouse_fix.zip",
+        "FileSize": 1417002,
         "MD5": "4E2B53B9E87E847FA5B5AE6850FDC961",
         "Name": "Cursor fix",
         "Guid": "b041bccf-5637-481f-b6a8-ac51e53c089b",
@@ -2447,6 +2647,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/freedom_force_widescreen.zip",
+        "FileSize": 1330975,
         "MD5": "9BA59F8863E6DD32EAF2EE9013FB28A1",
         "Name": "Universal Widescreen Fix",
         "Guid": "12dd8560-a94e-4868-a109-66ff460f44d3",
@@ -2467,6 +2668,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/freedom_force_2_widescreen.zip",
+        "FileSize": 1330970,
         "MD5": "71ECD95FAFFE412075E596E27DF4A0A4",
         "Name": "Universal Widescreen Fix",
         "Guid": "b813e025-f955-4e57-9c48-89914dfc453b",
@@ -2487,6 +2689,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gun/Gun.WidescreenFix.zip",
+        "FileSize": 1191701,
         "ConfigFile": "scripts\\Gun.WidescreenFix.ini",
         "MD5": "2AEA0D3DE4DE52B4384C4EA5EB3E5A6F",
         "Name": "Widescreen Fix",
@@ -2546,12 +2749,16 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gta3/GTA3.WidescreenFix.zip",
+        "FileSize": 1222260,
         "ConfigFile": "scripts\\GTA3.WidescreenFix.ini",
         "MD5": "1F81347A4459619F05197A5E37652529",
-        "Name": "Widescren Fix",
+        "WineDllOverrides": [
+          "d3d8"
+        ],
+        "Name": "Widescreen Fix",
         "Guid": "d8f77b17-7fbb-48dc-9cd8-a56298df6dc6",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Widescreen Fix \n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3)\n\n- Fixed Aspect Ratio\n- Fixed HUD\n- Fixed Field of View\n\nMany different options available in the config",
         "Tags": [
           "#ultrawide",
@@ -2561,12 +2768,16 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta3_silent_v1.zip",
+        "FileSize": 271696,
         "ConfigFile": "scripts\\SilentPatchIII.ini",
         "MD5": "F510FC031913BF2806E3FEA691B00C0D",
+        "WineDllOverrides": [
+          "ddraw"
+        ],
         "Name": "Silent Patch",
         "Guid": "8a05daea-b579-4fa0-9e7d-91abcf914271",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Dependencies": [
           "d8f77b17-7fbb-48dc-9cd8-a56298df6dc6"
         ],
@@ -2579,12 +2790,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta3_ginput_v1.zip",
+        "FileSize": 154506,
         "ConfigFile": "scripts\\GInputIII.ini",
         "MD5": "EBFB086988D95AA52C26F7B2ECCC5F02",
         "Name": "GInput",
         "Guid": "cb9380c0-2c61-4f3d-b100-832304b0d694",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Dependencies": [
           "d8f77b17-7fbb-48dc-9cd8-a56298df6dc6"
         ],
@@ -2596,6 +2808,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/gta3vssa_nointro.zip",
+        "FileSize": 1630,
         "InstallFolder": "movies",
         "MD5": "29B7A2F603BA99E85A8BF39AE7E5EAB2",
         "Name": "No Intro Fix",
@@ -2616,13 +2829,17 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v2.5.2/GTAIV.EFLC.FusionFix.zip",
+        "FileSize": 62165506,
         "InstallFolder": "GTAIV",
         "ConfigFile": "GTAIV\\plugins\\GTAIV.EFLC.FusionFix.ini",
         "MD5": "AB7A83FC16F69FF8F028A9F3D4DE709A",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Fusion Fix",
         "Guid": "f46efd2c-9bb5-430e-9e38-b5fce605860f",
         "Version": 5,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## GTAIV EFLC FusionFix v2.5.2\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)\n\nThis projects aims to fix some issues in Grand Theft Auto IV: Complete Edition",
         "Tags": [
           "#bugfixes",
@@ -2633,12 +2850,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/IV.EFLC.ColAccel/releases/download/v1.5/IV.EFLC.ColAccel.zip",
+        "FileSize": 61499,
         "InstallFolder": "GTAIV\\plugins",
         "MD5": "E1B074D567919A8E002B7E6F6AF749E0",
         "Name": "ColAccel",
         "Guid": "38a898bc-d88f-4a15-9876-b3b84a8549f0",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Dependencies": [
           "f46efd2c-9bb5-430e-9e38-b5fce605860f"
         ],
@@ -2649,9 +2867,49 @@
       },
       {
         "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/gta4_music_restore.zip",
+        "FileSize": 1504033450,
+        "InstallFolder": "GTAIV",
+        "MD5": "B55931771EC623462FF2D89318DA3F60",
+        "Name": "Music Restoration",
+        "Guid": "16ec1dd4-e1c0-43ab-836d-bab15bc2ba95",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Description": "## Radio Downgrader v1.80\r\n[https://www.nexusmods.com/gta4/mods/234](https://www.nexusmods.com/gta4/mods/234)\r\n\r\nThis mod restores all 50 songs that were deleted in The Complete Edition.",
+        "Tags": [
+          "#additional_content"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta4_music_plus.zip",
+        "FileSize": 24694,
+        "InstallFolder": "GTAIV",
+        "MD5": "73EAE00C84F968A5EB8E1998D165D5FA",
+        "Name": "Music Plus",
+        "Guid": "f454de6e-7bfd-44f8-badd-4014ec6992e0",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Dependencies": [
+          "16ec1dd4-e1c0-43ab-836d-bab15bc2ba95"
+        ],
+        "Description": "## Radio Downgrader v1.80\r\n[https://www.nexusmods.com/gta4/mods/234](https://www.nexusmods.com/gta4/mods/234)\r\n\r\nThis mod restores 100 beta songs and combines old Vladivostok FM songs with the new ones.",
+        "Tags": [
+          "#additional_content"
+        ]
+      },
+      {
+        "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dxvk_x32.zip",
+        "FileSize": 4173602,
         "InstallFolder": "GTAIV",
         "MD5": "D98254EF3D3910C818449F5C6A483998",
+        "WineDllOverrides": [
+          "d3d9",
+          "d3d10core",
+          "d3d11",
+          "dxgi"
+        ],
         "Name": "dxvk",
         "Guid": "e8329022-256a-493d-8b08-785e85e74370",
         "Version": 1,
@@ -2664,46 +2922,16 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta4_limit_removal.zip",
+        "FileSize": 179,
         "InstallFolder": "GTAIV",
         "MD5": "C6EE04E2BE811F0765B0039472C1D05F",
         "Name": "Graphics Restrictions Removal",
         "Guid": "a922bab6-e3a4-4864-8cfa-48fda187b941",
         "Version": 1,
         "SupportedOSes": "Windows",
-        "Description": "Removes graphics settings restrictions in case the game wrongfully detects only 512Mb of VRAM.",
+        "Description": "Removes graphics settings restrictions in case the game wrongfully detects only 512Mb of VRAM after installing DXVK.",
         "Tags": [
           "#graphics_improvement"
-        ]
-      },
-      {
-        "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/gta4_music_restore.zip",
-        "InstallFolder": "GTAIV",
-        "MD5": "B55931771EC623462FF2D89318DA3F60",
-        "Name": "Music Restoration",
-        "Guid": "16ec1dd4-e1c0-43ab-836d-bab15bc2ba95",
-        "Version": 1,
-        "SupportedOSes": "Windows",
-        "Description": "## Radio Downgrader v1.80\r\n[https://www.nexusmods.com/gta4/mods/234](https://www.nexusmods.com/gta4/mods/234)\r\n\r\nThis mod restores all 50 songs that were deleted in The Complete Edition.",
-        "Tags": [
-          "#additional_content"
-        ]
-      },
-      {
-        "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gta4_music_plus.zip",
-        "InstallFolder": "GTAIV",
-        "MD5": "73EAE00C84F968A5EB8E1998D165D5FA",
-        "Name": "Music Plus",
-        "Guid": "f454de6e-7bfd-44f8-badd-4014ec6992e0",
-        "Version": 1,
-        "SupportedOSes": "Windows",
-        "Dependencies": [
-          "16ec1dd4-e1c0-43ab-836d-bab15bc2ba95"
-        ],
-        "Description": "## Radio Downgrader v1.80\r\n[https://www.nexusmods.com/gta4/mods/234](https://www.nexusmods.com/gta4/mods/234)\r\n\r\nThis mod restores 100 beta songs and combines old Vladivostok FM songs with the new ones.",
-        "Tags": [
-          "#additional_content"
         ]
       }
     ]
@@ -2714,14 +2942,18 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gtasa/GTASA.WidescreenFix.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gtasa_widescreen.zip",
+        "FileSize": 6881085,
         "ConfigFile": "scripts\\GTASA.WidescreenFix.ini",
-        "MD5": "03555B75EEDB1093125C97F71BE69B26",
-        "Name": "Widescren Fix",
+        "MD5": "952C0E98A6745D0E28A15C2B107F4D9D",
+        "WineDllOverrides": [
+          "vorbisFile"
+        ],
+        "Name": "Widescreen Fix",
         "Guid": "0c283cd8-d599-41e7-8adf-6c20f3baad04",
-        "Version": 1,
-        "SupportedOSes": "Windows",
-        "Description": "## Widescreen Fix \n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3)\n\n- Fixed Aspect Ratio\n- Fixed HUD\n- Fixed Field of View\n\nMany different options available in the config",
+        "Version": 2,
+        "SupportedOSes": "Windows, Linux",
+        "Description": "## Widescreen Fix \n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3)\n\n- Fixed Aspect Ratio\n- Fixed HUD\n- Fixed Field of View\n\nMany different options available in the config.\r\n\r\n#### This fix also downgrades *gta-sa.exe* to version 1.0 because mods aren\u0027t compatible with the later version.",
         "Tags": [
           "#ultrawide",
           "#widescreen"
@@ -2729,14 +2961,15 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://silent.rockstarvision.com/uploads/SilentPatchSA.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gtasa_silent_v11.zip",
+        "FileSize": 152601,
         "InstallFolder": "scripts",
         "ConfigFile": "scripts\\SilentPatchSA.ini",
         "MD5": "239614B1E02EED405C4222819E9A365C",
         "Name": "Silent Patch",
         "Guid": "3bcf4b1a-8471-4ba7-8117-8745e7885152",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Dependencies": [
           "0c283cd8-d599-41e7-8adf-6c20f3baad04"
         ],
@@ -2749,12 +2982,13 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gtasa_ginput_v1.zip",
+        "FileSize": 166987,
         "ConfigFile": "scripts\\GInputSA.ini",
         "MD5": "416176AB85C77D1C84A2B57C200ACCAB",
         "Name": "GInput",
         "Guid": "5af511ba-373b-4a76-ac56-26404c143242",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Dependencies": [
           "0c283cd8-d599-41e7-8adf-6c20f3baad04"
         ],
@@ -2766,6 +3000,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/gta3vssa_nointro.zip",
+        "FileSize": 1630,
         "InstallFolder": "movies",
         "MD5": "29B7A2F603BA99E85A8BF39AE7E5EAB2",
         "Name": "No Intro Fix",
@@ -2786,12 +3021,16 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gtavc/GTAVC.WidescreenFix.zip",
+        "FileSize": 1225090,
         "ConfigFile": "scripts\\GTAVC.WidescreenFix.ini",
         "MD5": "8DEC9B85415C8865F15DD1E23FAB66EE",
-        "Name": "Widescren Fix",
+        "WineDllOverrides": [
+          "d3d8"
+        ],
+        "Name": "Widescreen Fix",
         "Guid": "8c16cb5f-e2cd-4535-ae49-92394a26a44d",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Widescreen Fix \n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gta3)\n\n- Fixed Aspect Ratio\n- Fixed HUD\n- Fixed Field of View\n\nMany different options available in the config",
         "Tags": [
           "#ultrawide",
@@ -2801,12 +3040,16 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gtavc_silent_v1.zip",
+        "FileSize": 182489,
         "ConfigFile": "scripts\\SilentPatchVC.ini",
         "MD5": "0EDD9D80D8874E60E30B8A7CACAAE56C",
+        "WineDllOverrides": [
+          "ddraw"
+        ],
         "Name": "Silent Patch",
         "Guid": "25d283f1-f185-479a-b73d-4bb374461951",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Dependencies": [
           "8c16cb5f-e2cd-4535-ae49-92394a26a44d"
         ],
@@ -2818,13 +3061,14 @@
       },
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gtavs_ginput_v1.zip",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/gtavc_ginput_v1.zip",
+        "FileSize": 163957,
         "ConfigFile": "scripts\\GInputVC.ini",
         "MD5": "C87CCF56D520F3F6A4FDE20EC6173E47",
         "Name": "GInput",
         "Guid": "0bc6acef-d261-49a7-af02-88265125467b",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Dependencies": [
           "8c16cb5f-e2cd-4535-ae49-92394a26a44d"
         ],
@@ -2836,6 +3080,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/gta3vssa_nointro.zip",
+        "FileSize": 1630,
         "InstallFolder": "movies",
         "MD5": "29B7A2F603BA99E85A8BF39AE7E5EAB2",
         "Name": "No Intro Fix",
@@ -2881,6 +3126,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/heretic_crispy_v1.zip",
+        "FileSize": 7467461,
         "InstallFolder": "base",
         "MD5": "4BE5E4A4B8D0767A3776C4C8BAD5C495",
         "Name": "Crispy Heretic \u002B Widescreen Sprites",
@@ -2904,6 +3150,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hexen_crispy_v1.zip",
+        "FileSize": 7652668,
         "InstallFolder": "base",
         "MD5": "7DDAF0AEE94534FB2141A8C20F9CD9EE",
         "Name": "Crispy Hexen \u002B Widescreen Sprites",
@@ -2927,6 +3174,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hexendd_crispy_v1.zip",
+        "FileSize": 8067856,
         "InstallFolder": "base",
         "MD5": "8548801738D47C8CD01AAC1C4E59A3EE",
         "Name": "Crispy Hexen \u002B Widescreen Sprites",
@@ -2950,6 +3198,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman2_widescreen.zip",
+        "FileSize": 2542451,
         "ConfigFile": "scripts\\h2.ini",
         "MD5": "AC673E478BBDB13A2A4F16E112C6EF23",
         "Name": "Widescreen Fix",
@@ -2965,6 +3214,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/hitman2_censorship.zip",
+        "FileSize": 451591575,
         "MD5": "D1573CBFD186D2C7101C49EAA2D90B23",
         "Name": "Censorship Fix",
         "Guid": "e36c6ada-fec3-4e4a-8f27-deb6be8b007e",
@@ -2978,6 +3228,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/hitman2_nointro.zip",
+        "FileSize": 585,
         "MD5": "60758D75B77B9393F6F6F34CC20710EB",
         "Name": "No Intro Fix",
         "Guid": "db7af868-27cb-46f6-bcf3-4e98fe43c5d4",
@@ -3000,6 +3251,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman4_widescreen.zip",
+        "FileSize": 59136,
         "ConfigFile": "h4.ini",
         "MD5": "E5CFF3BB2616BD410F2738DEF9DAD74D",
         "Name": "Widescreen Fix",
@@ -3015,6 +3267,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/hitman4_nointro.zip",
+        "FileSize": 1252,
         "MD5": "A043DC91CD302E877D90F7306BE1D204",
         "Name": "No Intro Fix",
         "Guid": "d48343a8-89a2-49f5-83b0-f155e2c9f678",
@@ -3034,6 +3287,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman1_widescreen.zip",
+        "FileSize": 2338700,
         "ConfigFile": "scripts\\h47.ini",
         "MD5": "25583D860EDA97D75F3FAE4F69A4386E",
         "Name": "Widescreen Fix",
@@ -3049,6 +3303,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/hitman1_nointro.zip",
+        "FileSize": 221619,
         "InstallFolder": "Cutscenes\\Intro",
         "MD5": "9D542E56522716B32D7CD515FC9BA3A6",
         "Name": "No Intro Fix",
@@ -3069,6 +3324,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hitman3_widescreen.zip",
+        "FileSize": 2484585,
         "ConfigFile": "scripts\\h3.ini",
         "MD5": "B76071F61B85EA43990CE0867DC0B40E",
         "Name": "Widescreen Fix",
@@ -3084,6 +3340,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/hitman3_nointro.zip",
+        "FileSize": 584,
         "MD5": "B5C942B36A3A8FD09224138A847DA480",
         "Name": "No Intro Fix",
         "Guid": "8a324a28-498a-4af9-bdec-fddf7cf33e9a",
@@ -3106,6 +3363,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/hollow_knight_ultrawide.zip",
+        "FileSize": 989675,
         "MD5": "CA23DB23F9E8566125AB32FC1E718DAF",
         "Name": "Ultrawide Fix",
         "Guid": "8adb8784-4109-4814-9d25-dbc50666c731",
@@ -3125,6 +3383,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/tlaik/neptastic/releases/download/v1.1.7/Neptastic_Mod_v1.1.7.zip",
+        "FileSize": 47673,
         "ConfigFile": "nep.ini",
         "MD5": "7328A9B6DAC468B69E61246956350C69",
         "Name": "Neptastic Mod",
@@ -3148,6 +3407,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/tlaik/neptastic/releases/download/v1.1.7/Neptastic_Mod_v1.1.7.zip",
+        "FileSize": 47673,
         "ConfigFile": "nep.ini",
         "MD5": "7328A9B6DAC468B69E61246956350C69",
         "Name": "Neptastic Mod",
@@ -3171,6 +3431,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/tlaik/neptastic/releases/download/v1.1.7/Neptastic_Mod_v1.1.7.zip",
+        "FileSize": 47673,
         "InstallFolder": "Birth3",
         "ConfigFile": "Birth3\\nep.ini",
         "MD5": "7328A9B6DAC468B69E61246956350C69",
@@ -3194,6 +3455,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/justcause/JustCause.WidescreenFix.zip",
+        "FileSize": 1192758,
         "ConfigFile": "scripts\\JustCause.WidescreenFix.ini",
         "MD5": "5DFA343F78C0F38DBD569247868A4C50",
         "Name": "Widescreen Fix",
@@ -3215,25 +3477,33 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/xliveless.zip",
+        "FileSize": 86442,
         "FilesToDelete": [
           "XLiveRedist\\XLiveRedist01.02.0241.00.msi"
         ],
         "MD5": "AE4C9CCA675EBC957A00DAAFBDE261AE",
+        "WineDllOverrides": [
+          "xlive"
+        ],
         "Name": "Xliveless",
         "Guid": "8c931665-155c-49fe-b554-3f869e5c6166",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Replacement of **xlive.dll** that enables games that require Games For Windows Live to be played offline without having to install GFWL."
       },
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/kanelynch_fov_v1.zip",
+        "FileSize": 1149176,
         "ConfigFile": "eASIer.txt",
         "MD5": "BCC424CB8A31DF31314AECA0E0190FC0",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "FOV Fix",
         "Guid": "704fda16-cb4e-48a8-ac8a-1643ee15c03e",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Dependencies": [
           "8c931665-155c-49fe-b554-3f869e5c6166"
         ],
@@ -3245,11 +3515,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/kanelynch_219_v1.zip",
+        "FileSize": 3240732,
         "MD5": "D80FB17DBD91E1962CB2555779289654",
         "Name": "Ultrawide Fix",
         "Guid": "d03ce0f1-aa61-44f2-9a84-27b2fa605820",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "##Kane and Lynch - 21:9 FIX\n*by czarman*\n\n[https://community.pcgamingwiki.com/files/file/2300-kane-and-lynch-219-fix/](https://community.pcgamingwiki.com/files/file/2300-kane-and-lynch-219-fix/)\n\nFixes aspect ratio at 21:9 resolutions",
         "Tags": [
           "#ultrawide"
@@ -3287,6 +3558,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/killing_time_community_31.zip",
+        "FileSize": 25921971,
         "MD5": "70C4BC4AA391657FDB7503DA8899186B",
         "Name": "Community Patch",
         "Guid": "df1a0632-b66b-42e7-8e12-4c4790c0715e",
@@ -3308,6 +3580,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/kingpin_patch_v9.zip",
+        "FileSize": 80816,
         "MD5": "EC04389E69C246DFBD5075E2C95D28F3",
         "Name": "Unofficial Patch",
         "Guid": "8a719a2f-031b-4b0c-b264-b666c55acc96",
@@ -3330,6 +3603,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/lok_defiance_widescreen.zip",
+        "FileSize": 58764,
         "ConfigFile": "sr3.ini",
         "MD5": "B0152C0C21408CF355B90E480BAA929A",
         "Name": "Widescreen Fix",
@@ -3365,6 +3639,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/lok_soul_reaver_sr1patch.zip",
+        "FileSize": 216259648,
         "MD5": "EC5A0E16D32458A299F352CAC19F8430",
         "Name": "sr1patch",
         "Guid": "9ae11558-532d-40d1-b5a5-3bbec2925b29",
@@ -3402,6 +3677,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/lok_soul_reaver_2_fixer.zip",
+        "FileSize": 240267,
         "MD5": "27CFF8D039AEA1E97C088FC028530123",
         "Name": "Soul Fixer",
         "Guid": "ca3f1459-877f-42fe-8808-5e27baa87bbc",
@@ -3418,6 +3694,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/lok_soul_reaver_2_enhancer.zip",
+        "FileSize": 4905,
         "MD5": "2415FA08A67735D9A2A9C5DA7C8D75B4",
         "Name": "Enhancer",
         "Guid": "6fafd969-173a-41b2-8aac-79b1ea6f8b59",
@@ -3434,6 +3711,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mafia/Mafia.WidescreenFix.zip",
+        "FileSize": 1429548,
         "InstallFolder": "Mafia",
         "ConfigFile": "Mafia\\scripts\\Mafia.WidescreenFix.ini",
         "MD5": "2CBE8F68B839E40E26484724E662A535",
@@ -3456,6 +3734,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/manhunt_fixer_v2.zip",
+        "FileSize": 9939474,
         "ConfigFile": "d3d8.ini",
         "MD5": "9157640FB85A86C148E1D66122F65710",
         "Name": "Manhunt Fixer",
@@ -3473,6 +3752,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/Fire-Head/MHP/releases/download/1.2a/MHP.zip",
+        "FileSize": 348224,
         "InstallFolder": "scripts",
         "ConfigFile": "scripts\\MHP.ini",
         "MD5": "79EFB8FABA25C06EBB3D3E975C024787",
@@ -3498,6 +3778,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/mars_nointro.zip",
+        "FileSize": 3246,
         "InstallFolder": "boot\\datapc\\video",
         "MD5": "D1A57D76B044B68036D19513E6A018F7",
         "Name": "No Intro Fix",
@@ -3518,6 +3799,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mp1/MaxPayne.WidescreenFix.zip",
+        "FileSize": 1228310,
         "ConfigFile": "scripts\\MaxPayne.WidescreenFix.ini",
         "MD5": "AE2A3BCA2820B44DAD1059D9F2042B33",
         "Name": "Widescreen Fix",
@@ -3533,6 +3815,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/max_payne_indirectsound_v1.zip",
+        "FileSize": 189577,
         "MD5": "EB9A02CB0AECBC9B524E2354C423553A",
         "Name": "IndirectSound",
         "Guid": "429410a0-e119-49fa-bee0-4746462afd8d",
@@ -3543,6 +3826,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/max_payne_jpeg_v1.zip",
+        "FileSize": 103873,
         "MD5": "D7E7F47902CD3302E32FDEE8BB5C6F5C",
         "Name": "Corrupt JPEG data Fix",
         "Guid": "0a78381e-87eb-4196-b657-2a56b18e7bda",
@@ -3562,6 +3846,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mp2/MaxPayne2.WidescreenFix.zip",
+        "FileSize": 1226774,
         "ConfigFile": "scripts\\MaxPayne2.WidescreenFix.ini",
         "MD5": "4FDC08E228E7AF789E7C178FCC75588B",
         "Name": "Widescreen Fix",
@@ -3583,6 +3868,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/asi_loader_640.zip",
+        "FileSize": 1083519,
         "InstallFolder": "Max Payne 3",
         "MD5": "70DC92A460350E4D5E74138E3D39736F",
         "Name": "ASI Loader",
@@ -3594,6 +3880,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/MaxPayne3.FusionFix/releases/download/v2.1.0/MaxPayne3.FusionFix.zip",
+        "FileSize": 2168459,
         "InstallFolder": "Max Payne 3",
         "ConfigFile": "Max Payne 3\\plugins\\MaxPayne3.FusionFix.ini",
         "MD5": "6875785C17A97627ED515C34233AAFCD",
@@ -3614,6 +3901,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/max_payne_3_uwfix_v1.zip",
+        "FileSize": 24705,
         "ConfigFile": "Max Payne 3\\plugins\\MaxPayne3Fix.ini",
         "MD5": "494A500A329CF3D27406C7F9282D184A",
         "Name": "Ultrawide Fix",
@@ -3637,6 +3925,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/neptune_vs_zombies_nointro.zip",
+        "FileSize": 245,
         "InstallFolder": "data\\ui\\logo",
         "MD5": "6CA4348087F22F5A17CDE48C2E61A379",
         "Name": "No Intro Fix",
@@ -3657,6 +3946,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nam_raze.zip",
+        "FileSize": 3023,
         "MD5": "D7611A1F80A605CBAE5D90D382429914",
         "SharedFixGuid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
         "SharedFixInstallFolder": "NAM",
@@ -3681,6 +3971,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nier_automata_naomi.zip",
+        "FileSize": 1381951,
         "ConfigFile": "NAIOM-GUI.exe",
         "MD5": "1434115BD225E5FB337D50A7D1F0DC85",
         "Name": "NAOMI",
@@ -3701,6 +3992,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/obscure_widescreen_v1.zip",
+        "FileSize": 1201580,
         "MD5": "DE6AC315F1B5D30289D76005DDF661F2",
         "Name": "Widescreen Fix",
         "Guid": "392944cf-4bee-4367-8aaa-72acb8d63dc7",
@@ -3721,6 +4013,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/of_orcs_and_men_nointro.zip",
+        "FileSize": 9732,
         "InstallFolder": "boot\\datapc\\video",
         "MD5": "74D80904E25510F0990FE00D0BBFF0AA",
         "Name": "No Intro Fix",
@@ -3763,6 +4056,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/powerslavedos_raze.zip",
+        "FileSize": 3025,
         "MD5": "F504E1EFC134A6496B2FA0BA81FF82B2",
         "SharedFixGuid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
         "SharedFixInstallFolder": "PWRSLAVE",
@@ -3787,11 +4081,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/powerslave_kex_fixes.zip",
+        "FileSize": 54339,
         "MD5": "C08C87C13F408EBCF74305C398329E61",
         "Name": "Fixes Collection",
         "Guid": "b80cfac0-b5e2-4ba3-95ea-280d5193b80d",
         "Version": 1,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## Cobra Staff Pixel Fix\n*by CreamyElephant*\n\nhttps://www.moddb.com/games/powerslave-exhumed/addons/cobra-staff-pixel-fix\n\n## Player Hitbox fix\n*by Dexiaz*\n\nhttps://www.moddb.com/games/powerslave-exhumed/addons/player-hitbox-fix-by-dexiaz\n\n## M60 cycle fix \n*by Razzius*\n\nhttps://www.moddb.com/games/powerslave-exhumed/downloads/m60-cycle-fix-no-more-burstfire\n\n## Floating \u0027Vase08\u0027 Fix",
         "Tags": [
           "#bugfixes"
@@ -3833,6 +4128,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/prey_graphics.zip",
+        "FileSize": 483,
         "InstallFolder": "base",
         "ConfigFile": "base\\autoexec.cfg",
         "MD5": "A881991DB82CBB7D8BB4D40E57CE83E6",
@@ -3848,6 +4144,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/prey_ultrawide.zip",
+        "FileSize": 4885475,
         "InstallFolder": "base",
         "ConfigFile": "base\\autoexec.cfg",
         "MD5": "FA0B6547919A369C409453398B380D49",
@@ -3869,6 +4166,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_sot_patch_v1.zip",
+        "FileSize": 54321,
         "ConfigFile": "pop.ini",
         "MD5": "3FD332D672612283797F3B5D4A205D23",
         "Name": "Widescreen Fix",
@@ -3921,6 +4219,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_tt_patch_v2.zip",
+        "FileSize": 3083744,
         "ConfigFile": "patch.ini",
         "MD5": "D3542A5EEB41A672793154950771556B",
         "FilesToPatch": [
@@ -3976,6 +4275,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_ww_patch_v1.zip",
+        "FileSize": 3737976,
         "ConfigFile": "pop2.ini",
         "MD5": "D209781030480942D89F4DBA20DCA354",
         "Name": "Unofficial Patch",
@@ -4017,6 +4317,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/snowblind_widescreen_fix_v1.zip",
+        "FileSize": 9391,
         "ConfigFile": "snowblind-widescreen.ini",
         "MD5": "BDE59B415C1B526F06F3F71BBB01EDEB",
         "Name": "Widescreen Fix",
@@ -4038,6 +4339,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/prototype_wide.zip",
+        "FileSize": 6179008,
         "MD5": "4508332F32242F1FFB21C8A1B48CFC4C",
         "Name": "Ultimate Fix",
         "Guid": "a41eb1c7-b5f6-46ee-b4c6-7ddf769f7a45",
@@ -4054,6 +4356,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/prototype_amd.zip",
+        "FileSize": 6175394,
         "MD5": "9267AB6FA2E244DC556180927CB12B78",
         "Name": "Ultimate Fix for AMD",
         "Guid": "e7a6b004-dde1-4027-a444-4999824b82ee",
@@ -4077,13 +4380,17 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/psychonauts/Psychonauts.WidescreenFix.zip",
+        "FileSize": 1217889,
         "ConfigFile": "scripts\\Psychonauts.WidescreenFix.ini",
         "MD5": "0195ECDF52EB87D1390998AC2CC1575E",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Widescreen Fix",
         "Guid": "2423c6c5-9e2d-43c2-9bb2-9fab0f3eaa27",
         "Version": 1,
-        "SupportedOSes": "Windows",
-        "Description": "## Psychonauts Widescreen Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/psychonauts](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/psychonauts)\n\n- Fixed HUD\n- Fixed FMVs",
+        "SupportedOSes": "Windows, Linux",
+        "Description": "## Psychonauts Widescreen Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/psychonauts](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/psychonauts)\n\n- Fixed HUD\n- Fixed FMVs\r\n\r\n#### On Linux, enable Proton for this fix and XInput controllers to work",
         "Tags": [
           "#ultrawide",
           "#widescreen"
@@ -4113,6 +4420,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/quake4_graphics.zip",
+        "FileSize": 435,
         "InstallFolder": "q4base",
         "ConfigFile": "q4base\\autoexec.cfg",
         "MD5": "E5739F658F91F78618E772C1747560A8",
@@ -4125,6 +4433,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/quake4_ultrawide.zip",
+        "FileSize": 12152746,
         "InstallFolder": "q4base",
         "ConfigFile": "q4base\\autoexec.cfg",
         "MD5": "35A17E5A8DB8E90560F2F691423AA91E",
@@ -4146,6 +4455,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/recettear_drmfree.zip",
+        "FileSize": 3310334,
         "MD5": "7AE83426EDE6AF22269193E9C68C9200",
         "Name": "Official DRM-Free Patch",
         "Guid": "30f36266-e18c-4864-a340-168c164a5b63",
@@ -4165,6 +4475,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/rdr2_no_black_bars_v1.zip",
+        "FileSize": 265586,
         "MD5": "84CD8AD2AA63E7EF5301C634F35954B1",
         "Name": "No Black Bars",
         "Guid": "03cd34f5-ba0e-42de-86f9-b05b63064574",
@@ -4184,6 +4495,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/red_faction_dashfaction_v180.zip",
+        "FileSize": 4323341,
         "MD5": "F3420F957A8B8BDC21BE62B10C0482F8",
         "Name": "Dash Faction",
         "Guid": "e63a5a27-5a2b-4031-87a0-b97b64615051",
@@ -4216,7 +4528,7 @@
         "Name": "No Intro Fix",
         "Guid": "8740c3bd-85bd-46fe-87e7-4249b1c05644",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of the intro videos",
         "Tags": [
           "#nointro"
@@ -4238,7 +4550,7 @@
         "Name": "No Intro Fix",
         "Guid": "402f6445-37aa-4ae6-b04b-ca011d17061f",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of the intro videos",
         "Tags": [
           "#nointro"
@@ -4253,6 +4565,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/redneck_raze.zip",
+        "FileSize": 63012282,
         "MD5": "9E613EA32F99C418B2F0394339E7E6B7",
         "SharedFixGuid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
         "SharedFixInstallFolder": "Redneck",
@@ -4278,6 +4591,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/redneckra_raze.zip",
+        "FileSize": 37421278,
         "MD5": "92E801E169301CFA76CC578426554E01",
         "SharedFixGuid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
         "SharedFixInstallFolder": "AGAIN",
@@ -4325,6 +4639,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re1/ResidentEvil.FusionFix.zip",
+        "FileSize": 1245557,
         "ConfigFile": "scripts\\ResidentEvil.FusionFix.ini",
         "MD5": "0F943E7829173CA7A4F66636E4963BBC",
         "Name": "Fusion Fix",
@@ -4346,6 +4661,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re0/ResidentEvil0.FusionFix.zip",
+        "FileSize": 1214863,
         "ConfigFile": "scripts\\ResidentEvil0.FusionFix.ini",
         "MD5": "B1D406C634FBFBF4E71240388618D31F",
         "Name": "Fusion Fix",
@@ -4367,6 +4683,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/nipkownix/re4_tweaks/releases/download/1.9.1/re4_tweaks1.9.1.zip",
+        "FileSize": 5241361,
         "InstallFolder": "Bin32",
         "ConfigFile": "Bin32\\dinput8.ini",
         "MD5": "B5644F93ECE7D1B442D05C193E76BAEF",
@@ -4390,6 +4707,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/Lyall/RE5Fix/releases/download/v1.0.4/RE5Fix_v1.0.4.zip",
+        "FileSize": 17656,
         "ConfigFile": "RE5Fix.ini",
         "MD5": "AA3EEF19CB9DC0AE169AD0C88FA302F0",
         "Name": "RE5Fix",
@@ -4413,6 +4731,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re6/ResidentEvil6.FusionFix.zip",
+        "FileSize": 1221944,
         "ConfigFile": "scripts\\ResidentEvil6.FusionFix.ini",
         "MD5": "8DE3F4C6F4043A7255937117532B1888",
         "Name": "Fusion Fix",
@@ -4435,6 +4754,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/re7_ultrawide.zip",
+        "FileSize": 4052582,
         "MD5": "217833B8E1B043767AF10F8F683DA12E",
         "Name": "Ultrawide Fix",
         "Guid": "93b3856d-b4f8-4365-ab52-a50cb77a851d",
@@ -4454,6 +4774,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/rerev/ResidentEvilRevelations.FusionFix.zip",
+        "FileSize": 1246883,
         "ConfigFile": "scripts\\ResidentEvilRevelations.FusionFix.ini",
         "MD5": "5DD5F8633F18B2ED4F626FC7027ECD69",
         "Name": "Fusion Fix",
@@ -4470,6 +4791,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/Lyall/RERevFix/releases/download/v1.0.0/RERevFix.v1.0.0.zip",
+        "FileSize": 16372,
         "ConfigFile": "RERevFix.ini",
         "MD5": "411C16D2FE725CA34E335DC078232074",
         "Name": "RERevFix",
@@ -4492,6 +4814,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/rerev2/ResidentEvilRevelations2.FusionFix.zip",
+        "FileSize": 1237454,
         "ConfigFile": "scripts\\ResidentEvilRevelations2.FusionFix.ini",
         "MD5": "D0FF02A7F03359CCCC38BE4F2F4EDAA8",
         "Name": "Fusion Fix",
@@ -4515,6 +4838,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/re8_ultrawide.zip",
+        "FileSize": 4066149,
         "MD5": "7E7D7529FE86E9BF977CBCE29638E131",
         "Name": "Ultrawide Fix",
         "Guid": "fd9ffc39-4416-423f-9f79-4138fe442da6",
@@ -4531,6 +4855,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/rtcw_patch_142d.zip",
+        "FileSize": 1654787,
         "MD5": "482BE194A3EBF4D0C1EB9CA664834838",
         "Name": "Unofficial Patch",
         "Guid": "744976d0-1b6b-4528-be77-026da7adefb5",
@@ -4642,6 +4967,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/RoseTheFlower/UltrawideIndex/releases/download/robocoprc/Robocop.ultrawide.v1.0.zip",
+        "FileSize": 236230,
         "InstallFolder": "Game\\Binaries\\Win64",
         "MD5": "46B7CDC03A3099C0C5A4DF2D5BCE3F52",
         "Name": "Ultrawide Fix",
@@ -4678,6 +5004,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/sw_jedi_outcast_academy_nointro.zip",
+        "FileSize": 372,
         "InstallFolder": "GameData\\base",
         "MD5": "312C455392AE87079CA7A298ED17BD8F",
         "Name": "No Intro Fix",
@@ -4698,6 +5025,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/sw_jedi_outcast_academy_nointro.zip",
+        "FileSize": 372,
         "InstallFolder": "GameData\\base",
         "MD5": "312C455392AE87079CA7A298ED17BD8F",
         "Name": "No Intro Fix",
@@ -4718,11 +5046,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dark_forces_fengine_v1_09_540.zip",
+        "FileSize": 7591318,
         "MD5": "F729E3850FB71E6A2415062503F035B7",
         "Name": "The Force Engine",
         "Guid": "65572422-e300-4e54-b960-423c900d1028",
         "Version": 3,
-        "SupportedOSes": "Windows, Linux",
+        "SupportedOSes": "Windows",
         "Description": "## The Force Engine v1.09.540\n*by luciusDXL*\n\n[https://theforceengine.github.io/](https://theforceengine.github.io/)\n\nThe Force Engine is a project with the goal to reverse engineer and rebuild the Jedi Engine for modern systems and the games that used that engine - Dark Forces and Outlaws. The project will include modern, built-in tools, such as a level editor and will make it easy to play Dark Forces and Outlaws on modern systems as well as the many community mods designed to work with the original games.",
         "Tags": [
           "#enhancements",
@@ -4740,16 +5069,37 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/secondsight/SecondSight.WidescreenFix.zip",
+        "FileSize": 1208955,
         "ConfigFile": "scripts\\SecondSight.WidescreenFix.ini",
         "MD5": "2AC049BA5EF4EB57CA145598D089294C",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Widescreen Fix",
         "Guid": "ebfc6fda-07db-4c42-8ae8-67d9d0588ebc",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "##Second Sight Widescreen Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/secondsight](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/secondsight)\n\n- Fixed Resolution\n- Fixed Aspect Ratio\n- Fixed HUD\n- Fixed Field of View",
         "Tags": [
           "#ultrawide",
           "#widescreen"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "FilesToDelete": [
+          "trailers\\stngc.ogg",
+          "trailers\\stngc.raw",
+          "trailers\\stngf.ogg",
+          "trailers\\stngf.raw"
+        ],
+        "Name": "No Intro Fix",
+        "Guid": "a8049fa0-35bf-4e38-87e9-6a6e3d6f8fbc",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Description": "Removal of intro videos",
+        "Tags": [
+          "#nointro"
         ]
       }
     ]
@@ -4761,6 +5111,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/septerra_core_sr_v1.04.zip",
+        "FileSize": 6029428,
         "ConfigFile": "Septerra.cfg",
         "MD5": "839BD152BE70BC9B7486498FE8212947",
         "Name": "SR",
@@ -4784,13 +5135,14 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sw_raze.zip",
+        "FileSize": 25459009,
         "MD5": "113743B6938DFF6E96DC5CAF0CB4254E",
         "SharedFixGuid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
         "SharedFixInstallFolder": "Shadow Warrior",
         "Name": "Raze \u002B Addons",
         "Guid": "7601db85-75eb-4f52-80c2-8e230b4c548d",
         "Version": 3,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "#### Includes **Wanton Destruction** and **Twin Dragon** addons\n\n#### Select **Launch Shadow Warrior source port** to start **Raze**",
         "Tags": [
           "#controller_support",
@@ -4809,6 +5161,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/rohit-n/dominatrix/releases/download/v1/dominatrix-mingw-v1-x86_64.zip",
+        "FileSize": 4884847,
         "MD5": "614ED4A7DB5FEEFD8625DDB95FE93381",
         "Name": "Dominatrix",
         "Guid": "1e571587-253f-42a4-b9b1-7a988e7f4a75",
@@ -4850,6 +5203,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/sniperelite/SniperElite.WidescreenFix.zip",
+        "FileSize": 1191433,
         "ConfigFile": "scripts\\SniperElite.WidescreenFix.ini",
         "MD5": "1D0BC9635F1D6B8F42A647AC7457081E",
         "Name": "Widescreen Fix",
@@ -4871,6 +5225,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/spyro/SpyroReignitedTrilogy.WidescreenFix.zip",
+        "FileSize": 499556,
         "MD5": "27A3FC8C97C6A8B504A28CE3533E2C14",
         "Name": "Ultrawide Fix",
         "Guid": "07a79c35-d5e4-4cd0-8780-33915f2fc43c",
@@ -4930,6 +5285,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/neptune_vs_sega_resolution_fix.zip",
+        "FileSize": 163244,
         "ConfigFile": "nep_config.txt",
         "MD5": "5F1C2B91B3B42C155ED413F2F8678542",
         "Name": "Resolution Unlock Mod",
@@ -5029,6 +5385,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/daggerfall_unity_100.zip",
+        "FileSize": 50292992,
         "MD5": "B069334DA152EDE2D0D2BAD538F510C0",
         "Name": "Daggerfall Unity",
         "Guid": "deeed117-4849-421b-81e2-41d07e9f9a1a",
@@ -5052,6 +5409,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/morrowind_nointro.zip",
+        "FileSize": 492,
         "InstallFolder": "Data Files\\Video",
         "MD5": "3D739F2331C907383F8D3962FFBF5D62",
         "Name": "No Intro Fix",
@@ -5089,6 +5447,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tlj_scummvm_v271.zip",
+        "FileSize": 84930817,
         "MD5": "5F3ECA4F67CD5BDC0E87D286C761EC3E",
         "Name": "ScummVM",
         "Guid": "0d8dc7ba-0216-4189-af2d-804cf128d9b1",
@@ -5130,6 +5489,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/technomancer_nointro.zip",
+        "FileSize": 2820,
         "InstallFolder": "boot\\data\\video",
         "MD5": "4A0846F9B541B78884FBE18ECCEBE544",
         "Name": "No Intro Fix",
@@ -5150,6 +5510,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/thief_1_tfix_127.zip",
+        "FileSize": 85828839,
         "MD5": "CE4F12E5815C1325EF93D5F42F0CB5F1",
         "Name": "TFix",
         "Guid": "6e177dbc-854c-45ac-b384-73c8fc4e27a2",
@@ -5175,6 +5536,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/thief_3_sneaky.zip",
+        "FileSize": 558086948,
         "ConfigFile": "System\\SneakyTweaker.exe",
         "MD5": "480603B97E799A1B7B2BB90B0287E6E1",
         "Name": "Sneaky Upgrade",
@@ -5201,6 +5563,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/thief_2_tfix_127.zip",
+        "FileSize": 472274109,
         "MD5": "31392B722E8DCD4AFCD033EDFC3A863A",
         "Name": "T2Fix",
         "Guid": "b63dfbc3-f678-4348-9f14-a4cbbd2946ac",
@@ -5226,6 +5589,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/timeshift_crashfix.zip",
+        "FileSize": 4683471,
         "MD5": "AD7C62A1DBE8CDFEFB61D1CC8092C7A7",
         "Name": "Crash Fix",
         "Guid": "0a2babb9-0bea-4d2e-b11b-ff7dc154a76b",
@@ -5261,6 +5625,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/sc/SplinterCell.WidescreenFix.zip",
+        "FileSize": 2885609,
         "ConfigFile": "system\\scripts\\SplinterCell.WidescreenFix.ini",
         "MD5": "49CB3056CEF1688C6EA7F6E45E08D7FC",
         "Name": "Widescreen Fix",
@@ -5276,6 +5641,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sc_loading_screens_v1.zip",
+        "FileSize": 3585989,
         "MD5": "CD29724E420BEABC04D52A202008D7FD",
         "Name": "Improved Loading Screens",
         "Guid": "0ee10d29-aada-4156-b922-43e1eb5ad0d7",
@@ -5286,6 +5652,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sc_textures_fix_v1.zip",
+        "FileSize": 5799044,
         "MD5": "544E12E2E250DD2ED77F5A824B8FEF25",
         "Name": "Texture Shader Fixes",
         "Guid": "e637be0c-be3a-45cc-9cc2-146f6e83e91d",
@@ -5299,6 +5666,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/sc_no_intro_v1.zip",
+        "FileSize": 1741,
         "MD5": "CF82E60031D5E0610D00B579EED0C16E",
         "Name": "No Intro Fix",
         "Guid": "ffc5c3d3-adc1-48c8-85e6-29687e6e9356",
@@ -5318,6 +5686,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scct/SplinterCellChaosTheory.WidescreenFix.zip",
+        "FileSize": 2416408,
         "ConfigFile": "System\\scripts\\SplinterCellChaosTheory.WidescreenFix.ini",
         "MD5": "1599FE6AA8A9201BF0580C4803ECF99D",
         "Name": "Widescreen Fix",
@@ -5333,6 +5702,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/scct_no_intro_v1.zip",
+        "FileSize": 1973,
         "MD5": "B0383754971502D7E4902B6C82A7CA6F",
         "Name": "No Intro Fix",
         "Guid": "5957032c-24ff-4035-a994-c06076431899",
@@ -5352,6 +5722,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scc/SplinterCellConviction.FusionMod.zip",
+        "FileSize": 1278331,
         "ConfigFile": "src\\system\\d3d9.ini",
         "MD5": "B574AF0DC7345245060E8020AFC3581D",
         "Name": "Fusion Mod",
@@ -5373,6 +5744,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scda/SplinterCellDoubleAgent.WidescreenFix.zip",
+        "FileSize": 3022720,
         "ConfigFile": "SCDA-Offline\\System\\scripts\\SplinterCellDoubleAgent.WidescreenFix.ini",
         "MD5": "9369D574739321D794147A2AD0F55AA5",
         "Name": "Widescreen Fix",
@@ -5394,6 +5766,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/tomb_raider_6_nointro.zip",
+        "FileSize": 833,
         "InstallFolder": "data\\FMV",
         "MD5": "822DD88DA8C737A5C23250052F40E64E",
         "Name": "No Intro Fix",
@@ -5414,6 +5787,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/tomb_raider_1_tr1x_v311.zip",
+        "FileSize": 300674726,
         "ConfigFile": "TR1X_ConfigTool.exe",
         "MD5": "B64A03E37D58668558521503F0AE6D38",
         "Name": "TR1X \u002B Unfinished Business",
@@ -5460,6 +5834,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_2_tr2main_v090.zip",
+        "FileSize": 96943643,
         "ConfigFile": "config.exe",
         "MD5": "9FA9D3CBABE2A2D4A822FB13B30329A4",
         "Name": "TR2Main \u002B Golden Mask",
@@ -5501,6 +5876,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_3_tomb3_v202.zip",
+        "FileSize": 67186154,
         "ConfigFile": "tomb3_ConfigTool.exe",
         "MD5": "66F7DC196BF416916E17C04C19F1BF05",
         "Name": "tomb3 \u002B The Lost Artefact",
@@ -5541,6 +5917,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tra_ultrawide_v2.zip",
+        "FileSize": 1330792,
         "MD5": "B695BC8E77D6478608CEE31BA9393E39",
         "Name": "Ultrawide Fix",
         "Guid": "f62bb511-f826-4cae-8f95-6a456baf2791",
@@ -5561,7 +5938,7 @@
         "Name": "No Intro Fix",
         "Guid": "8609bbaf-d69f-4b24-b187-21280581e9c7",
         "Version": 2,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of the intro videos",
         "Tags": [
           "#nointro"
@@ -5576,6 +5953,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_5_tomb5_v320.zip",
+        "FileSize": 1746538,
         "MD5": "449863BE0ADE52F4E5222F134088AE31",
         "Name": "tomb5",
         "Guid": "961faa6b-e4da-44d9-b001-fb0b5aadf942",
@@ -5615,6 +5993,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/trl_crashfix_v1.zip",
+        "FileSize": 1957547,
         "MD5": "E076306E6237950945427BD3AEEB1881",
         "Name": "Crash Fix",
         "Guid": "17689082-a5d1-419a-abc7-b72a88fb3909",
@@ -5628,6 +6007,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/trl_ultrawide_v3.zip",
+        "FileSize": 1330830,
         "MD5": "5F6913CA21F897BFC2C7A152666825B2",
         "Name": "Ultrawide Fix",
         "Guid": "dc159632-2156-4d81-b3b5-b4c253ac3391",
@@ -5644,7 +6024,7 @@
           "nvidia.bik",
           "title.bik"
         ],
-        "Name": "No Intro FIx",
+        "Name": "No Intro Fix",
         "Guid": "c8b206c4-59a7-4eaf-8aa5-86ffcfe984e9",
         "Version": 2,
         "SupportedOSes": "Windows, Linux",
@@ -5662,6 +6042,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tomb_raider_4_tomb4_v221.zip",
+        "FileSize": 87316211,
         "MD5": "17DE369F768900C4B1BA74ACA1540A4C",
         "Name": "tomb4 \u002B The Times Exclusive Level",
         "Guid": "76150313-3255-401a-b316-17556e8e80c3",
@@ -5721,6 +6102,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tffoc_black_screen_v1.zip",
+        "FileSize": 402800,
         "MD5": "17A63B857A9F6F934840210C8C7D4C7A",
         "Name": "Black Screen Fix",
         "Guid": "5c68e172-e3e5-422f-a28b-7da315dbdb2c",
@@ -5734,6 +6116,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tffoc_no_intro_v1.zip",
+        "FileSize": 3225,
         "MD5": "3AB19E74C46D8D63F71AA5CAB2ECE02D",
         "Name": "No Intro Fix",
         "Guid": "1a02b1c2-8422-4588-b88f-e6fd37ad3e03",
@@ -5753,6 +6136,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/tropico_3_drmfree.zip",
+        "FileSize": 2445999,
         "MD5": "49EC9D4D3751C103115A890D625F07ED",
         "Name": "Official DRM-Free Patch",
         "Guid": "3910c5b1-3caa-4ef5-96a2-76c9e1ec0f1e",
@@ -5819,6 +6203,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/unreal_227_v1.zip",
+        "FileSize": 91334333,
         "MD5": "FD7CFC50CBA366B0A09F5DDB17640A2F",
         "Name": "227i Patch",
         "Guid": "d5f480c5-815e-4627-b00e-09594492da92",
@@ -5839,6 +6224,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/vtmb_common.zip",
+        "FileSize": 9816610,
         "MD5": "C15CB4A49DDF22B13A93C69E1F0FC8A0",
         "Name": "Mandatory Fixes",
         "Guid": "5b94fa25-0954-4dbc-94de-f9232cba1ea8",
@@ -5854,6 +6240,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/vtmb_up_v115.zip",
+        "FileSize": 541641335,
         "MD5": "A7ABAD01FEAA88EC49D93F1DD60A4D88",
         "Name": "Unofficial Patch Basic",
         "Guid": "9cb964f2-66e5-4c1e-9a21-b53171092684",
@@ -5870,6 +6257,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/vtmb_upp_v115.zip",
+        "FileSize": 126845784,
         "MD5": "CAEE603640276F46F4EAF4D3969AC5F2",
         "Name": "Unofficial Patch Plus",
         "Guid": "81715538-a4b8-4a04-a92e-e2e11b7b9e98",
@@ -5918,6 +6306,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dawn_of_war_camerazoom.zip",
+        "FileSize": 7544,
         "MD5": "9A28BD5A612C32D13F51662D9A96599D",
         "Name": "Camera Zoom Mod",
         "Guid": "13a51fb2-eb42-49c8-8904-1dbd8e4ba654",
@@ -5937,6 +6326,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dawn_of_war_widescreen.zip",
+        "FileSize": 21500386,
         "Variants": [
           "16x9",
           "16x10",
@@ -5956,6 +6346,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dawn_of_war_config.zip",
+        "FileSize": 1266284,
         "MD5": "1731C477AEA1DE8A42C286669387EFCF",
         "Name": "Config Utility",
         "Guid": "3a2d0917-ba1a-4a16-a307-8021c60cfa4f",
@@ -5975,6 +6366,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dawn_of_war_camerazoom.zip",
+        "FileSize": 7544,
         "MD5": "9A28BD5A612C32D13F51662D9A96599D",
         "Name": "Camera Zoom Mod",
         "Guid": "f10e5924-d1ea-440b-a4e8-04af23faddcc",
@@ -5994,6 +6386,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/space_marine_cpu_fix.zip",
+        "FileSize": 13422,
         "MD5": "F82BA4D0C80850479160CB38959614BF",
         "Name": "Core Fix",
         "Guid": "13df8d35-6b29-43a9-9c09-60503af89807",
@@ -6013,6 +6406,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/wolf3d_ecwolf_v141.zip",
+        "FileSize": 2068180,
         "MD5": "49FA8C627A16DA7B48D404A01ED1EEA4",
         "Name": "ECWolf",
         "Guid": "15655624-45f8-4f31-926c-e5fd14b6d902",
@@ -6035,6 +6429,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/wwiigi_raze.zip",
+        "FileSize": 3025,
         "MD5": "642FFF9089E60BBC0B34F190DAE5B1C0",
         "SharedFixGuid": "e2cfbadc-fe21-4898-bf47-e6a9c7f784d4",
         "SharedFixInstallFolder": "WW2GI",
@@ -6059,6 +6454,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/xiii_patch_v1.zip",
+        "FileSize": 37890878,
         "FilesToDelete": [
           "system\\User.ini",
           "system\\XIII.ini"
@@ -6078,6 +6474,7 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/xiii_uw_v1.zip",
+        "FileSize": 4899,
         "FilesToDelete": [
           "system\\User.ini",
           "system\\XIII.ini"
