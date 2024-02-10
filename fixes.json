@@ -13,6 +13,23 @@
         "Version": 2,
         "SupportedOSes": "Windows, Linux",
         "Description": "## !!! Update Superheater to version 0.13.0 before installing !!!\r\n\r\n## Raze v1.9.1\n\n\u003Cimg src=\u0022https://raze.zdoom.org/assets/images/logo/Raze-Full-Logo.png\u0022 /\u003E\n\n[https://github.com/ZDoom/Raze](https://github.com/ZDoom/Raze)\n\nRaze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI."
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/xidi_420_dinput8_x86.zip",
+        "FileSize": 146293,
+        "MD5": "BF850AB9058E05654248D341DAB65AAB",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
+        "Name": "Xidi dinput8 x86",
+        "Guid": "bbd16e7a-8cce-4166-9db7-9cbf0b233a5a",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Description": "### Xidi v4.2.0\r\n[https://github.com/samuelgr/Xidi](https://github.com/samuelgr/Xidi)\r\n\r\nXidi improves the gameplay experience when using modern XInput-based controllers (such as Xbox controllers) with older games that use DirectInput or WinMM to communicate with game controllers. In more technical terms, Xidi provides both DirectInput and WinMM interfaces for games to use and communicates with XInput-based game controllers natively using XInput, translating between the two interfaces as needed.",
+        "Tags": [
+          "#controller_support"
+        ]
       }
     ]
   },
@@ -558,6 +575,9 @@
         "Url": "https://github.com/Lyall/BipedFix/releases/download/v1.0.2/BipedFix_v1.0.2.zip",
         "FileSize": 638061,
         "MD5": "583A87FC9F5F0EFA13D3542994AE4675",
+        "WineDllOverrides": [
+          "winhttp"
+        ],
         "Name": "Ultrawide Fix",
         "Guid": "efb503f3-d737-4e8f-b970-809fb071fb50",
         "Version": 1,
@@ -627,10 +647,13 @@
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/blasphemous_ultrawide.zip",
         "FileSize": 635250,
         "MD5": "9D6D51CB8121A8FD1C4E627799E82500",
+        "WineDllOverrides": [
+          "winhttp"
+        ],
         "Name": "Ultrawide Fix",
         "Guid": "fdf2ed89-6880-47e9-b5ce-89344c479e93",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Blasphemous ultrawide and wider mod\n*by Rose*\n\n[https://community.pcgamingwiki.com/files/file/1910-blasphemous-ultrawide-and-wider-mod/](https://community.pcgamingwiki.com/files/file/1910-blasphemous-ultrawide-and-wider-mod/)",
         "Tags": [
           "#ultrawide"
@@ -683,7 +706,7 @@
         "Name": "Re-vamped",
         "Guid": "3b9b9ec0-b906-44f7-b9e2-eb256adfd009",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Blood Omen 2: Re-vamped\n\n[https://classicrebirth.com/index.php/blood-omen-2-re-vamped/](https://classicrebirth.com/index.php/blood-omen-2-re-vamped/)\n\nRe-vamped is a plug\u0026play patch (i.e. just one DLL, no extra fiddling required) aimed at fixing several problems with the Steam and GOG digital releases of Legacy of Kain: Blood Omen 2.\n\n- Integrates D3D8to9 for better support of recent graphics cards;\n- Fixes random audio crashes caused by FMOD and illegal memory access during loading transitions;\n- Fixes issues with mouse freely roaming away from the game\u2019s window;\n- Enables the game to run in windowed mode (becomes borderless windowed if you pick the same resolution as your desktop) and adds various framerates speeds (30, 60, 120 fps) , with dedicated options in game;\n- Replaces the broken hardware FSAA (Full Scene Anti Aliasing) with a more modern SMAA (Subpixel Morphological Anti Aliasing) usable in 32 bit modes;\n- Fixes motion blur to work while Anti Aliasing is enabled, improves the general quality of the effect, and adds an option in game to toggle it;\n- Implements hardware gamma adjustments via shaders, making the gamma settings functional in windowed mode;\n- Replaces DirectInput7 with DirectInput8 and XInput, allowing most controllers to be detectable and with all buttons functioning;\n- Reworks the BINK player to run at the current resolution and centers the video accordingly;\n- Adds adaptive widescreen support based on your current resolution.",
         "Tags": [
           "#bugfixes",
@@ -695,9 +718,9 @@
       {
         "$type": "FileFix",
         "FilesToDelete": [
-          "data\\bo2intro.dat",
-          "data\\crystal.dat",
-          "data\\eidos.dat"
+          "DATA\\bo2intro.dat",
+          "DATA\\crystal.dat",
+          "DATA\\eidos.dat"
         ],
         "Name": "No Intro Fix",
         "Guid": "28c545ad-b5c9-46e2-ae06-b9e2b7596e7b",
@@ -826,6 +849,9 @@
         "Url": "https://github.com/nipkownix/BloodRayne_tweaks/releases/download/1.7/BloodRayne_tweaks1.7.zip",
         "FileSize": 83154,
         "MD5": "57B513D045FEB5C0E107908B41995EE0",
+        "WineDllOverrides": [
+          "winmm"
+        ],
         "Name": "Tweaks",
         "Guid": "4ff95e6a-804a-4d17-8c2f-969780514d11",
         "Version": 1,
@@ -877,7 +903,8 @@
         "Tags": [
           "#amd",
           "#bugfixes"
-        ]
+        ],
+        "Notes": "not required on linux?"
       },
       {
         "$type": "FileFix",
@@ -1409,7 +1436,7 @@
         "Name": "Proper PC Experience Mod",
         "Guid": "5e18ebc4-f428-4581-bf0d-3d64cbac1226",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Proper PC Experience Mod v1.7\n*by ellekz*\n\n[https://www.nexusmods.com/darksouls3/mods/1545](https://www.nexusmods.com/darksouls3/mods/1545)\n\n- High Refresh Rate\n\nForces the game to use your monitor\u0027s highest refresh rate instead of 60 Hz. If you want a custom refresh rate and not the highest one, you can create a d3d11_refreshrate.ini file in the installation directory with your preferred refresh rate number in it (e.g. \u0022120\u0022 for 120 Hz).\n\n- High FPS\n\nDefaults to 120 FPS to avoid physics glitches. You can still customize the FPS limit by using a d3d11_fps.ini file with the desired number in it. You should prefer to use Nvidia\u0027s Control Panel or RTSS to cap the game\u0027s frame rate though.\n\n- G-Sync\n\nGame is smooth as butter now with high refresh rate and high FPS.\n\n- Ultrawide\n\nSome enemies might render at a low frame rate at the very edge of your screen. Not too distracting though when it happens.\n\n- Increased FOV\n\nAdds 25\u00B0 on 16:9 monitors, 15\u00B0 on 21:9 monitors, and 10\u00B0 on 32:9 monitors. You can customize how much FOV should be added by using a d3d11_fov.ini file (e.g. \u00220\u0022 would add nothing to the default FOV).\n\n- Skip Intro\n\nNo more getting flashbanged or losing valuable life time waiting that could be spent playing instead.",
         "Tags": [
           "#enhancements",
@@ -1507,7 +1534,8 @@
           "#source_port",
           "#ultrawide",
           "#widescreen"
-        ]
+        ],
+        "Notes": "port doesn\u0027t work on deck"
       },
       {
         "$type": "FileFix",
@@ -1595,7 +1623,8 @@
           "#multiplayer",
           "#ultrawide",
           "#widescreen"
-        ]
+        ],
+        "Notes": "not compatible with proton"
       }
     ]
   },
@@ -1721,7 +1750,8 @@
         "Description": "To fix XInput controllers Disable Steam Input in the game properties\n\n![](https://raw.githubusercontent.com/fgsfds/SteamFD-Fixes-Repo/master/img/dead_rising_2_controller.png)",
         "Tags": [
           "#controller_support"
-        ]
+        ],
+        "Notes": "xinput controller works out of the box on linux"
       },
       {
         "$type": "FileFix",
@@ -1752,7 +1782,8 @@
         "Description": "To fix XInput controllers Disable Steam Input in the game properties\n\n![](https://raw.githubusercontent.com/fgsfds/SteamFD-Fixes-Repo/test/img/dead_rising_2_controller.png)",
         "Tags": [
           "#controller_support"
-        ]
+        ],
+        "Notes": "xinput controller works out of the box on linux"
       },
       {
         "$type": "FileFix",
@@ -1989,7 +2020,7 @@
         "Guid": "31073a27-8a0e-4fe8-8bf2-a65109e372c1",
         "Version": 1,
         "SupportedOSes": "Windows",
-        "Description": "##Deus Ex: Mankind Divided - No Intro Fix \u0026 Skip Launcher\r\n\r\nIn Steam, right-click on the Deus Ex: Mankind Divided game and select Properties.\r\nIn the General/Launch Options section paste the following command;\r\n\r\n-benchmark",
+        "Description": "##Deus Ex: Mankind Divided - No Intro Fix \u0026 Skip Launcher\r\n\r\nIn Steam, right-click on the Deus Ex: Mankind Divided game and select Properties.\r\nIn the General/Launch Options section paste the following command;\r\n\r\n\u0060-benchmark\u0060",
         "Tags": [
           "#nointro"
         ]
@@ -2204,7 +2235,8 @@
           "#enhancements",
           "#ultrawide",
           "#widescreen"
-        ]
+        ],
+        "Notes": "doesn\u0027t work with proton"
       }
     ]
   },
@@ -2229,7 +2261,7 @@
         "Name": "No Intro Fix",
         "Guid": "f511d82c-dd03-4115-ac14-0cfa3b06eee9",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "##Enslaved: Odyssey to the West - No Intro Fix\r\n\r\nIn Steam, right-click on the Enslaved: Odyssey to the West game and select Properties.\r\nIn the General/Launch Options section paste the following command;\r\n\r\n\u0060-nostartupmovies\u0060",
         "Tags": [
           "#nointro"
@@ -2567,10 +2599,13 @@
         "FileSize": 2743482,
         "ConfigFile": "ZPatchFO1.ini",
         "MD5": "CE729C46BF7BDBD41473BD41BFCC15C5",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "ZPatch",
         "Guid": "8d0d37db-bcd6-47b9-858f-121a7402e368",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## ZPatch FO1 v1.5\n*by Zolika1351*\n\n[https://zolika1351.pages.dev/mods/fo1patch](https://zolika1351.pages.dev/mods/fo1patch)\n\n- Fix the stretched HUD and zoomed in FOV without breaking menus\n- Remove 100FPS limit\n- Remove forced VSync\n- Fix crash when exiting race with FPS unlocked\n- Force borderless windowed mode\n- Skip intro videos and remove the 5 second wait on the legal screen",
         "Tags": [
           "#fps_unlock",
@@ -2591,10 +2626,13 @@
         "FileSize": 2681145,
         "ConfigFile": "ZPatchFO2.ini",
         "MD5": "0A6A1FC1F1716CF77A8342B56338AA22",
+        "WineDllOverrides": [
+          "winmm"
+        ],
         "Name": "ZPatch",
         "Guid": "227999c5-a823-4461-8f95-453c6a343bd2",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## ZPatch FO2 v2.4\n*by Zolika1351*\n\n[https://zolika1351.pages.dev/mods/fo2patch](https://zolika1351.pages.dev/mods/fo2patch)\n\n- Use OpenSpy for Multiplayer\n- Fix the stretched HUD and zoomed in FOV without breaking menus\n- Remove 100FPS limit\n- Remove forced VSync\n- Force borderless windowed mode\n- Add splitscreen option into Multiplayer menu and fix instant quit (Will break online multiplayer, enable only when needed)\n- Increase the 524KB menucar limit\n- Fix backface culling on menu cars\n- Skip intro videos and remove the 5 second wait on the legal screen",
         "Tags": [
           "#fps_unlock",
@@ -2692,6 +2730,9 @@
         "FileSize": 1191701,
         "ConfigFile": "scripts\\Gun.WidescreenFix.ini",
         "MD5": "2AEA0D3DE4DE52B4384C4EA5EB3E5A6F",
+        "WineDllOverrides": [
+          "d3d9"
+        ],
         "Name": "Widescreen Fix",
         "Guid": "a8f25be0-49d1-4bd3-8fb5-384c42639f3d",
         "Version": 1,
@@ -2828,19 +2869,19 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v2.5.2/GTAIV.EFLC.FusionFix.zip",
-        "FileSize": 62165506,
+        "Url": "https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/download/v2.5.5/GTAIV.EFLC.FusionFix.zip",
+        "FileSize": 62171975,
         "InstallFolder": "GTAIV",
         "ConfigFile": "GTAIV\\plugins\\GTAIV.EFLC.FusionFix.ini",
-        "MD5": "AB7A83FC16F69FF8F028A9F3D4DE709A",
+        "MD5": "77957AF2FAD54E961E67DC55E1709C68",
         "WineDllOverrides": [
           "dinput8"
         ],
         "Name": "Fusion Fix",
         "Guid": "f46efd2c-9bb5-430e-9e38-b5fce605860f",
-        "Version": 5,
+        "Version": 6,
         "SupportedOSes": "Windows, Linux",
-        "Description": "## GTAIV EFLC FusionFix v2.5.2\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)\n\nThis projects aims to fix some issues in Grand Theft Auto IV: Complete Edition",
+        "Description": "## GTAIV EFLC FusionFix v2.5.5\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)\n\nThis projects aims to fix some issues in Grand Theft Auto IV: Complete Edition",
         "Tags": [
           "#bugfixes",
           "#crashfix",
@@ -3101,17 +3142,17 @@
       {
         "$type": "FileFix",
         "FilesToDelete": [
-          "Content\\Movies\\NinjaTheory_Logo.bik",
-          "Content\\Movies\\Qloc_Logo_4k.bik",
-          "Content\\Movies\\Qloc_Logo_1080.bik",
-          "Content\\Movies\\ThirdParty_Logo.bik",
-          "Content\\Movies\\ThirdParty_Logo_ONION.bik",
-          "Content\\Movies\\UE4_Logo.bik"
+          "HellbladeGame\\Content\\Movies\\NinjaTheory_Logo.bik",
+          "HellbladeGame\\Content\\Movies\\Qloc_Logo_4k.bik",
+          "HellbladeGame\\Content\\Movies\\Qloc_Logo_1080.bik",
+          "HellbladeGame\\Content\\Movies\\ThirdParty_Logo.bik",
+          "HellbladeGame\\Content\\Movies\\ThirdParty_Logo_ONION.bik",
+          "HellbladeGame\\Content\\Movies\\UE4_Logo.bik"
         ],
         "Name": "No Intro Fix",
         "Guid": "25867f62-b258-4c15-8876-6d3d6a80c188",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of intro videos.",
         "Tags": [
           "#nointro"
@@ -3606,6 +3647,10 @@
         "FileSize": 58764,
         "ConfigFile": "sr3.ini",
         "MD5": "B0152C0C21408CF355B90E480BAA929A",
+        "WineDllOverrides": [
+          "d3d9",
+          "sr3w"
+        ],
         "Name": "Widescreen Fix",
         "Guid": "e02c7010-5c85-40a1-b83b-d8731cfe0df4",
         "Version": 1,
@@ -3614,7 +3659,8 @@
         "Tags": [
           "#ultrawide",
           "#widescreen"
-        ]
+        ],
+        "Notes": "not compatible with linux"
       },
       {
         "$type": "FileFix",
@@ -3641,10 +3687,14 @@
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/lok_soul_reaver_sr1patch.zip",
         "FileSize": 216259648,
         "MD5": "EC5A0E16D32458A299F352CAC19F8430",
+        "WineDllOverrides": [
+          "winplay",
+          "fmod"
+        ],
         "Name": "sr1patch",
         "Guid": "9ae11558-532d-40d1-b5a5-3bbec2925b29",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## sr1patch\n*by wrace *\n\n- Returns a dynamic soundtrack, or rather its similarity (Yes, it is far from the console versions, but nevertheless!)\n- fixes most of the various problems, includes support of subtitles and achievements\n- also adds a debug menu to the game for particularly curious inquisitive enthusiasts - the menu is called by the \u0022~\u0022 [tilde] key on the keyboard\n- and now also native support of WideScreen,\n- native support of all gamepads and support of vibration for XInput gamepads,\n- support of mouse and additional hotkeys (section [Hotkeys] in kain2.txt in help)\n- and additional menu item \u0027New Game\u002B\u0027 to start it with already solved block puzzles.",
         "Tags": [
           "#bugfixes",
@@ -3679,10 +3729,13 @@
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/lok_soul_reaver_2_fixer.zip",
         "FileSize": 240267,
         "MD5": "27CFF8D039AEA1E97C088FC028530123",
+        "WineDllOverrides": [
+          "d3d8"
+        ],
         "Name": "Soul Fixer",
         "Guid": "ca3f1459-877f-42fe-8808-5e27baa87bbc",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Soul Reaver 2: Soul Fixer*\n\n[https://classicrebirth.com/index.php/soul-reaver-2-soul-fixer/](https://classicrebirth.com/index.php/soul-reaver-2-soul-fixer/)\n\nSoul Fixer is a plug\u0026play patch (i.e. just one DLL, no extra fiddling required) aimed at fixing several problems with the Steam and GoG digital releases of Legacy of Kain: Soul Reaver 2.\n\n- Replaces Direct3D8 with Direct3D9 (thanks Direct3D8to9!) for better support of recent graphics cards and to allow software like Reshade;\n- Fixes random audio crashes/softlocks caused by FMOD;\n- Fixes issues with irresponsive resolution switching, mouse kidnapping, and tabbing in/out;\n- Enables the game to run in windowed mode (becomes borderless windowed if you pick the same resolution as your desktop) and adds various framerates speeds (30, 60, 120 fps) , with dedicated options in game;\n- Add an in-game option to toggle VSync for fullscreen mode;\n- Replaces the broken hardware FSAA (Full Scene Anti Aliasing) with a more modern SMAA (Subpixel Morphological Anti Aliasing) usable in 32 bit modes;\n- Fixes Motion Blur (aka \u201CFull screen effects\u201D) to work while Anti Aliasing is enabled, improves the general quality of the effect, and adds an option in game to toggle it whenever it\u2019s possible;\n- Implements hardware gamma adjustments via shaders, making the gamma settings functional in windowed mode;\n- Replaces DirectInput7 with DirectInput8 and XInput, allowing most controllers to be detectable and with all buttons functioning;\n- Reworks the BINK player to run at the current resolution and zooms/aligns the video accordingly;\n- Integrates and reworks nemesis2000\u2019s widescreen fix to function according to your currently selected resolution (i.e. no need to specify the aspect ratio in a configuration file, it auto adjusts the aspect ratio) and adds a couple other fixes for some 2D elements displaying with square pixels instead of stretched (logos, Dark Chronicles);\n- Allows the English executable to run with any officially localized version of the game\u2019s data \u2013 just switch bigfile.dat and you\u2019re good.",
         "Tags": [
           "#bugfixes",
@@ -3696,10 +3749,16 @@
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/lok_soul_reaver_2_enhancer.zip",
         "FileSize": 4905,
         "MD5": "2415FA08A67735D9A2A9C5DA7C8D75B4",
+        "WineDllOverrides": [
+          "dinput"
+        ],
         "Name": "Enhancer",
         "Guid": "6fafd969-173a-41b2-8aac-79b1ea6f8b59",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
+        "Dependencies": [
+          "ca3f1459-877f-42fe-8808-5e27baa87bbc"
+        ],
         "Description": "## Set of optional features for improving Legacy of Kain: Soul Reaver 2 gameplay\n*by Wrace*\n\n[https://steamcommunity.com/sharedfiles/filedetails/?id=2970772395](https://steamcommunity.com/sharedfiles/filedetails/?id=2970772395)\n\n- Adds additional items to the Pause menu which allow to skip (speed up) ingame cinematics, save the game at any location, and manipulate with some parameters of hero (including Invincible feature).\n- Adds additional feature for the in-game Map which allows to teleport between locations on that map which are accessible at this time (century), excepting Stronghold (because the last one has important triggers which must be always activated by the user), by providing the appropriate hint at the left bottom corner of the map.\n- Activates the official game\u0027s feature Autoface Toggle Mode (Defiance default feature - holding autoface without necessity to hold its button).\n- Fixes the old bug with the movement forward in the autoface (can\u0027t move) and swim (move forward instead of turn) modes if one uses the \u201Ckeyboard \u002B mouse\u201D control scheme."
       }
     ]
@@ -3715,14 +3774,35 @@
         "InstallFolder": "Mafia",
         "ConfigFile": "Mafia\\scripts\\Mafia.WidescreenFix.ini",
         "MD5": "2CBE8F68B839E40E26484724E662A535",
+        "WineDllOverrides": [
+          "d3d8"
+        ],
         "Name": "Widescreen Fix",
         "Guid": "f02cb30d-1101-4890-a55f-cd53d0a7942f",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Mafia Widescreen Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/mafia](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/mafia)\n\n- Fixed Aspect Ratio\n- Fixed HUD\n- Fixed Field of View\n- Fixed FMVs\n- Added an option to increase draw distance\n- Added an option to change fps limit\n- Added an option to fix issue with settings\n- Added an option to make windowed mode borderless\n- Added an option to set deadzone for left stick and right stick on gamepad (otherwise camera just spins on its own)",
         "Tags": [
           "#ultrawide",
           "#widescreen"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "FilesToDelete": [
+          "Mafia\\logo1.bik",
+          "Mafia\\logo2.bik",
+          "Mafia\\Logo3.bik",
+          "Mafia\\logo1.avi",
+          "Mafia\\logo2.avi"
+        ],
+        "Name": "No Intro Fix",
+        "Guid": "b21eb91c-bb2f-4053-94e3-5c1245eb0f0d",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Description": "Removal of intro videos",
+        "Tags": [
+          "#nointro"
         ]
       }
     ]
@@ -3737,6 +3817,10 @@
         "FileSize": 9939474,
         "ConfigFile": "d3d8.ini",
         "MD5": "9157640FB85A86C148E1D66122F65710",
+        "WineDllOverrides": [
+          "d3d8",
+          "dinput8"
+        ],
         "Name": "Manhunt Fixer",
         "Guid": "5af13294-80ba-4681-b65e-0ade9812c101",
         "Version": 2,
@@ -3867,31 +3951,19 @@
     "Fixes": [
       {
         "$type": "FileFix",
-        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/asi_loader_640.zip",
-        "FileSize": 1083519,
-        "InstallFolder": "Max Payne 3",
-        "MD5": "70DC92A460350E4D5E74138E3D39736F",
-        "Name": "ASI Loader",
-        "Guid": "d6a9eb21-4b37-40aa-9598-e91488e3c38e",
-        "Version": 1,
-        "SupportedOSes": "Windows",
-        "Description": "## Ultimate ASI Loader v6.4.0\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/Ultimate-ASI-Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader)\n\nThis is a DLL file which adds ASI plugin loading functionality to any game."
-      },
-      {
-        "$type": "FileFix",
-        "Url": "https://github.com/ThirteenAG/MaxPayne3.FusionFix/releases/download/v2.1.0/MaxPayne3.FusionFix.zip",
-        "FileSize": 2168459,
+        "Url": "https://github.com/ThirteenAG/MaxPayne3.FusionFix/releases/download/v2.1.1/MaxPayne3.FusionFix.zip",
+        "FileSize": 2164400,
         "InstallFolder": "Max Payne 3",
         "ConfigFile": "Max Payne 3\\plugins\\MaxPayne3.FusionFix.ini",
-        "MD5": "6875785C17A97627ED515C34233AAFCD",
+        "MD5": "96AF40CC75A907EC20662FDB451BA4C0",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Fusion Fix",
         "Guid": "d9641d60-6883-4fde-8dac-1d627b66afd9",
         "Version": 2,
-        "SupportedOSes": "Windows",
-        "Dependencies": [
-          "d6a9eb21-4b37-40aa-9598-e91488e3c38e"
-        ],
-        "Description": "## FusionFix v2.1.0\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/MaxPayne3.FusionFix](https://github.com/ThirteenAG/MaxPayne3.FusionFix)\n\r\nNew menu options\r\n\n- Borderless Windowed\r\n- Gamepad Icons\r\n- SkipIntro, added an option to skip intro\r\n\r\nNew options, can be edited in **MaxPayne3.FusionFix.ini**\r\n\r\n- HideSkipButton, added an option to hide skip in cutscenes\r\n- DisableGlobalLeaderboards, prevents Hoboken Alleys coop map from crashing the game\r\n- OutlinesSizeMultiplier, added an option to increase the size of subtitle text outlines\r\n- LightSyncRGB, only Logitech hardware is supported, requires Logitech G HUB app",
+        "SupportedOSes": "Windows, Linux",
+        "Description": "## FusionFix v2.1.1\n*by ThirteenAG*\n\n\u003Cimg src=\u0022https://user-images.githubusercontent.com/4904157/63623173-921aaf00-c601-11e9-8b84-fc5803269323.png\u0022 /\u003E\n\n[https://github.com/ThirteenAG/MaxPayne3.FusionFix](https://github.com/ThirteenAG/MaxPayne3.FusionFix)\n\r\nNew menu options\r\n\n- Borderless Windowed\r\n- Gamepad Icons\r\n- SkipIntro, added an option to skip intro\r\n\r\nNew options, can be edited in **MaxPayne3.FusionFix.ini**\r\n\r\n- HideSkipButton, added an option to hide skip in cutscenes\r\n- DisableGlobalLeaderboards, prevents Hoboken Alleys coop map from crashing the game\r\n- OutlinesSizeMultiplier, added an option to increase the size of subtitle text outlines\r\n- LightSyncRGB, only Logitech hardware is supported, requires Logitech G HUB app",
         "Tags": [
           "#crashfix",
           "#nointro",
@@ -3907,14 +3979,29 @@
         "Name": "Ultrawide Fix",
         "Guid": "6bb2e8f6-416a-4068-a190-e6dc7a335a14",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Dependencies": [
-          "d6a9eb21-4b37-40aa-9598-e91488e3c38e"
+          "d9641d60-6883-4fde-8dac-1d627b66afd9"
         ],
         "Description": "## Max Payne 3 Fix v1.0\n*by Lyall*\n\n[https://github.com/Lyall/MaxPayne3Fix](https://github.com/Lyall/MaxPayne3Fix)\n\nThis is a fix for several issues with ultrawide/wider displays in Max Payne 3.\n\n- Corrects \u003E2.3 aspect ratios causing the game to enter multi-monitor mode.\n- Stops fullscreen mode from using your highest-available resolution. (Thanks Rose!)\n- Correctly scaled FMV playback.\n- Correctly scaled loading screens.\n- Spanned or centred 16:9 HUD adjustment.\n- Gameplay FOV adjustment without affecting cutscenes/other camera types.",
         "Tags": [
           "#ultrawide"
         ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/asi_loader_640.zip",
+        "FileSize": 1083519,
+        "InstallFolder": "Max Payne 3",
+        "MD5": "70DC92A460350E4D5E74138E3D39736F",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
+        "Name": "[Deprecated] ASI Loader",
+        "Guid": "d6a9eb21-4b37-40aa-9598-e91488e3c38e",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "## Ultimate ASI Loader v6.4.0\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/Ultimate-ASI-Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader)\n\nThis is a DLL file which adds ASI plugin loading functionality to any game."
       }
     ]
   },
@@ -3994,6 +4081,9 @@
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/obscure_widescreen_v1.zip",
         "FileSize": 1201580,
         "MD5": "DE6AC315F1B5D30289D76005DDF661F2",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Widescreen Fix",
         "Guid": "392944cf-4bee-4367-8aaa-72acb8d63dc7",
         "Version": 1,
@@ -4002,6 +4092,22 @@
         "Tags": [
           "#ultrawide",
           "#widescreen"
+        ],
+        "Notes": "the game doesn\u0027t work on linux"
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/obscure_proton_fix.zip",
+        "FileSize": 1532666713,
+        "MD5": "5EE45E75B9D0C13F7B935FA0833C5D0F",
+        "Name": "Proton Fix",
+        "Guid": "d6cd4c28-11ac-41b5-8b05-db581aac8c12",
+        "Version": 1,
+        "SupportedOSes": "Linux",
+        "Description": "Fixes the game not starting on Linux using Proton",
+        "Tags": [
+          "#widescreen",
+          "#crashfix"
         ]
       }
     ]
@@ -4169,14 +4275,28 @@
         "FileSize": 54321,
         "ConfigFile": "pop.ini",
         "MD5": "3FD332D672612283797F3B5D4A205D23",
+        "WineDllOverrides": [
+          "d3d9"
+        ],
         "Name": "Widescreen Fix",
         "Guid": "08d7bc44-afbf-430d-98c2-375da2ec5c6a",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Prince of Persia: The Sands of Time v1.0.0.1\n*by nemesis2000*\n\n[http://ps2wide.net/pc.html#popst](http://ps2wide.net/pc.html#popst)",
         "Tags": [
           "#ultrawide",
           "#widescreen"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "SharedFixGuid": "bbd16e7a-8cce-4166-9db7-9cbf0b233a5a",
+        "Name": "Xidi",
+        "Guid": "8d0b2820-16ee-48f2-924b-4dc18ed07b96",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Tags": [
+          "#controller_support"
         ]
       },
       {
@@ -4225,10 +4345,14 @@
         "FilesToPatch": [
           "pop3.bf"
         ],
+        "WineDllOverrides": [
+          "d3d9",
+          "d3d9_res"
+        ],
         "Name": "Unofficial Patch",
         "Guid": "76cca9e6-522c-426c-b612-a6a8499f7d2e",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## The Unofficial Patch 1.4.3\n*by DawidFreeman*\n\n[https://www.nexusmods.com/princeofpersiathetwothrones/mods/10](https://www.nexusmods.com/princeofpersiathetwothrones/mods/10)\n\nThis patch will fix most of the problems left for 18 years by UBISOFT",
         "Tags": [
           "#bugfixes",
@@ -4239,11 +4363,22 @@
       },
       {
         "$type": "FileFix",
+        "SharedFixGuid": "bbd16e7a-8cce-4166-9db7-9cbf0b233a5a",
+        "Name": "Xidi",
+        "Guid": "ace940f2-3dca-4812-b97f-dce4ce217b5a",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Tags": [
+          "#controller_support"
+        ]
+      },
+      {
+        "$type": "FileFix",
         "InstallFolder": "Video",
         "FilesToDelete": [
-          "Video\\LOGORP.bik",
-          "Video\\UBIMC.bik",
-          "Video\\UBISOFT.bik"
+          "Video\\LOGORP.BIK",
+          "Video\\UBIMC.BIK",
+          "Video\\UBISOFT.BIK"
         ],
         "Name": "No Intro Fix",
         "Guid": "4ceee222-be15-434b-a797-68a50b26f1e3",
@@ -4275,13 +4410,17 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/pop_ww_patch_v1.zip",
-        "FileSize": 3737976,
+        "FileSize": 2628346,
         "ConfigFile": "pop2.ini",
-        "MD5": "D209781030480942D89F4DBA20DCA354",
+        "MD5": "F18FB3A539A380401126C69263D9CBEA",
+        "WineDllOverrides": [
+          "d3d9",
+          "pop2w"
+        ],
         "Name": "Unofficial Patch",
         "Guid": "a0d168d7-1959-4fc9-8cde-2d5f80f63412",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## The Unofficial Patch 1.0.1\n*by DawidFreeman*\n\n[https://www.nexusmods.com/princeofpersiawarriorwithin/mods/10](https://www.nexusmods.com/princeofpersiawarriorwithin/mods/10)\n\nA collection of fixes for Prince of Persia Warrior Withing to make this game playable for modern PCs.\n\n- Mouse Fix ( Removed Mouse Dead Zones and some parts of the acceleration)\n- Removed Camera Blockers when you run.\n- Fixed Camera Speed on Y Axis.\n- 100 FPS cap to fix audio desync ( For some reason 60fps is broken but on 100fps the game works fine.)\n- Proper 16:9 and FOV options (YOU HAVE TO EDIT pop2.ini FILE TO ADD YOUR RESOLUTION)",
         "Tags": [
           "#bugfixes",
@@ -4292,12 +4431,23 @@
       },
       {
         "$type": "FileFix",
+        "SharedFixGuid": "bbd16e7a-8cce-4166-9db7-9cbf0b233a5a",
+        "Name": "Xidi",
+        "Guid": "fb298c72-4634-40b6-8fca-97df8896def2",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Tags": [
+          "#controller_support"
+        ]
+      },
+      {
+        "$type": "FileFix",
         "InstallFolder": "Video",
         "FilesToDelete": [
-          "Video\\LOGORP.bik",
-          "Video\\UBIMC.bik",
-          "Video\\UBIMTL.bik",
-          "Video\\UBISOFT.bik"
+          "Video\\LOGORP.BIK",
+          "Video\\UBIMC.BIK",
+          "Video\\UBIMTL.BIK",
+          "Video\\UBISOFT.BIK"
         ],
         "Name": "No Intro Fix",
         "Guid": "b1fd31f1-7e15-498e-849e-3f715ca91010",
@@ -4642,14 +4792,31 @@
         "FileSize": 1245557,
         "ConfigFile": "scripts\\ResidentEvil.FusionFix.ini",
         "MD5": "0F943E7829173CA7A4F66636E4963BBC",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Fusion Fix",
         "Guid": "0fc9f86a-c3af-4e0e-b90b-45da91d7f676",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Resident Evil Fusion Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/re1](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/re1)\n\n- Added an option to make all resolutions available in main menu, previously the game was hardcoded to use a predefined list up to 2560x1600\n- Added an option to hide the mouse cursor after a set interval\n- Added an option to enable door skip\n- Added an option to enable borderless windowed mode\n- Added an option to disable color correction\n- Added an option to disable noise filter\n- Added an option to enable Logitech G LIGHTSYNC RGB Lighting",
         "Tags": [
           "#enhancements",
           "#logitech"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/rer_elevator_fix.zip",
+        "FileSize": 15559561,
+        "MD5": "49692F3609CDA921B5E32B468C119724",
+        "Name": "Elevator animations fix",
+        "Guid": "2e27c715-f7be-4ee0-b3a1-588a4c9ba508",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Description": "## Fix for swapped elevator animations\r\n*by fds29*\r\n\r\n[https://community.pcgamingwiki.com/files/file/2877-fix-for-swapped-elevator-animations-in-resident-evil-hd-remaster/](https://community.pcgamingwiki.com/files/file/2877-fix-for-swapped-elevator-animations-in-resident-evil-hd-remaster/)\r\n\r\nThis fixes the swapped elevator animations in Resident Evil when traveling to and from the lowest floor of the laboratory near the end of the game to confront Wesker: the animation for going up is played when going down and vice versa.\r\n\r\nThis oversight is not present on GameCube and Wii and was introduced to the modern versions.",
+        "Tags": [
+          "#bugfixes"
         ]
       }
     ]
@@ -4664,10 +4831,13 @@
         "FileSize": 1214863,
         "ConfigFile": "scripts\\ResidentEvil0.FusionFix.ini",
         "MD5": "B1D406C634FBFBF4E71240388618D31F",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Fusion Fix",
         "Guid": "c6a7ce64-d334-4b39-a6f8-15f3081bbd93",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Resident Evil 0 Fusion Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/re0](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/re0)\n\n- Added an option to hide the mouse cursor after a set interval\n- Added an option to enable door skip\n- Added an option to enable borderless windowed mode\n- Added an option to disable color correction\n- Added an option to disable noise filter\n- Added an option to enable Logitech G LIGHTSYNC RGB Lighting",
         "Tags": [
           "#enhancements",
@@ -4686,12 +4856,18 @@
         "FileSize": 5241361,
         "InstallFolder": "Bin32",
         "ConfigFile": "Bin32\\dinput8.ini",
+        "FilesToBackup": [
+          "Bin32\\bio4.exe"
+        ],
         "MD5": "B5644F93ECE7D1B442D05C193E76BAEF",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "re4_tweaks",
         "Guid": "28b4ad6e-47b1-4cad-8e1d-e66b7d2c69ba",
         "Version": 1,
-        "SupportedOSes": "Windows",
-        "Description": "## re4_tweaks v1.9.1\n*by nipkownix*\n\n[https://github.com/nipkownix/re4_tweaks](https://github.com/nipkownix/re4_tweaks)\n\nA project designed to fix and tweak the \u0022UHD\u0022 port of Resident Evil 4 on Steam.",
+        "SupportedOSes": "Windows, Linux",
+        "Description": "## re4_tweaks v1.9.1\n*by nipkownix*\n\n[https://github.com/nipkownix/re4_tweaks](https://github.com/nipkownix/re4_tweaks)\n\nA project designed to fix and tweak the \u0022UHD\u0022 port of Resident Evil 4 on Steam.\r\n\r\nSee the link above for the full changes list.",
         "Tags": [
           "#bugfixes",
           "#enhancements",
@@ -4710,10 +4886,13 @@
         "FileSize": 17656,
         "ConfigFile": "RE5Fix.ini",
         "MD5": "AA3EEF19CB9DC0AE169AD0C88FA302F0",
+        "WineDllOverrides": [
+          "xinput1_3"
+        ],
         "Name": "RE5Fix",
         "Guid": "0d30b6de-b08f-437b-a5f2-eec90c0e1c61",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## RE5Fix v1.0.4\n*by Lyall*\n\n[https://github.com/Lyall/RE5Fix](https://github.com/Lyall/RE5Fix)\n\nThis is a DLL hook that fixes various issues with Resident Evil 5 relating to ultrawide support and more.\n\n- FOV adjustment.*\n- Uncap 120 FPS limit.*\n- Remove yellow colour filter.*\n- Adjust shadow quality.*\n- Remove 4096x4096 resolution limit.\n- Fixed UI scaling using ultrawide.\n- Fixed ERROR 09: Unsupported Function crash using ultrawide.\n- Fixed stretched movie playback.\n\n*Disabled by default. Check config in order to change these settings.",
         "Tags": [
           "#crashfix",
@@ -4734,6 +4913,9 @@
         "FileSize": 1221944,
         "ConfigFile": "scripts\\ResidentEvil6.FusionFix.ini",
         "MD5": "8DE3F4C6F4043A7255937117532B1888",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Fusion Fix",
         "Guid": "1e2c81fb-cb4d-47a6-bbdf-25be71e259ac",
         "Version": 1,
@@ -4774,12 +4956,15 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/rerev/ResidentEvilRevelations.FusionFix.zip",
-        "FileSize": 1246883,
+        "FileSize": 1450614,
         "ConfigFile": "scripts\\ResidentEvilRevelations.FusionFix.ini",
-        "MD5": "5DD5F8633F18B2ED4F626FC7027ECD69",
+        "MD5": "68C6D45F49042407DD3127199BEE5A4E",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Fusion Fix",
         "Guid": "bf59f76e-b8fa-48f6-97f4-2201c4d5f5c2",
-        "Version": 1,
+        "Version": 2,
         "SupportedOSes": "Windows",
         "Description": "## Resident Evil Revelations Fusion Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/rerev](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/rerev)\n\n- Unlocks all available display resolutions\n- Unlocks FPS when FRAME RATE option is set to VARIABLE\n- Added UltraWide support\n- (X) FMVs are stretched in UltraWide\n- Added an option to disable damage overlay\n- Added an option to enable borderless windowed mode\n- Added an option to increase FOV\n- Added an option to enable Logitech G LIGHTSYNC RGB Lighting\n\n**Warning**\n\nThis game uses Valve Anti Cheat for raid mode in multiplayer.\n\nIt is recommended NOT to play this mode with this fix installed.",
         "Tags": [
@@ -4794,11 +4979,11 @@
         "FileSize": 16372,
         "ConfigFile": "RERevFix.ini",
         "MD5": "411C16D2FE725CA34E335DC078232074",
-        "Name": "RERevFix",
+        "Name": "[Deprecated] RERevFix",
         "Guid": "60728c70-6503-49f3-8d7f-8c9d07f7e8c9",
         "Version": 1,
         "SupportedOSes": "Windows",
-        "Description": "## RERevFix v1.0\n*by Lyall* \n\n[https://github.com/Lyall/RERevFix](https://github.com/Lyall/RERevFix)\n\nThis is a DLL hook that fixes various issues with Resident Evil Revelations relating to ultrawide support and more.\n\n- Support for ultrawide/custom resolutions.\n- FOV adjustment.\n- Uncap 120 FPS limit.\n- Adjust shadow quality.\n\n**Warning**\n\nThis game uses Valve Anti Cheat for raid mode in multiplayer.\n\nIt is recommended NOT to play this mode with this fix installed.",
+        "Description": "# Use Fusion Fix instead\r\n\r\n## RERevFix v1.0\n*by Lyall* \n\n[https://github.com/Lyall/RERevFix](https://github.com/Lyall/RERevFix)\n\nThis is a DLL hook that fixes various issues with Resident Evil Revelations relating to ultrawide support and more.\n\n- Support for ultrawide/custom resolutions.\n- FOV adjustment.\n- Uncap 120 FPS limit.\n- Adjust shadow quality.\n\n**Warning**\n\nThis game uses Valve Anti Cheat for raid mode in multiplayer.\n\nIt is recommended NOT to play this mode with this fix installed.",
         "Tags": [
           "#enhancements",
           "#fps_unlock",
@@ -4817,6 +5002,9 @@
         "FileSize": 1237454,
         "ConfigFile": "scripts\\ResidentEvilRevelations2.FusionFix.ini",
         "MD5": "D0FF02A7F03359CCCC38BE4F2F4EDAA8",
+        "WineDllOverrides": [
+          "dinput8"
+        ],
         "Name": "Fusion Fix",
         "Guid": "5b112d57-c2b8-4170-9d14-4fc29e2b5125",
         "Version": 1,
@@ -5051,7 +5239,7 @@
         "Name": "The Force Engine",
         "Guid": "65572422-e300-4e54-b960-423c900d1028",
         "Version": 3,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## The Force Engine v1.09.540\n*by luciusDXL*\n\n[https://theforceengine.github.io/](https://theforceengine.github.io/)\n\nThe Force Engine is a project with the goal to reverse engineer and rebuild the Jedi Engine for modern systems and the games that used that engine - Dark Forces and Outlaws. The project will include modern, built-in tools, such as a level editor and will make it easy to play Dark Forces and Outlaws on modern systems as well as the many community mods designed to work with the original games.",
         "Tags": [
           "#enhancements",
@@ -5474,7 +5662,7 @@
         "Name": "No Intro Fix",
         "Guid": "a70a88b2-2b2e-4cda-bd5a-953e9a4dbd16",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "Removal of the intro videos",
         "Tags": [
           "#nointro"
@@ -6141,7 +6329,7 @@
         "Name": "Official DRM-Free Patch",
         "Guid": "3910c5b1-3caa-4ef5-96a2-76c9e1ec0f1e",
         "Version": 1,
-        "SupportedOSes": "Windows",
+        "SupportedOSes": "Windows, Linux",
         "Description": "## Tropico 3 - DRM-Free Patch\n\n[https://www.patches-scrolls.de/patch/4536/7](https://www.patches-scrolls.de/patch/4536/7)\n\nInstalling this patch makes the game DRM-Free. The game version number is unchanged. \n\nAfter installing the patch, the game can be run directly from the tropico3.exe executable without having to run Steam.",
         "Tags": [
           "#drm_free"
@@ -6490,6 +6678,54 @@
         "Description": "Sets resolution to 2560x1080",
         "Tags": [
           "#ultrawide"
+        ]
+      }
+    ]
+  },
+  {
+    "GameId": 638970,
+    "GameName": "Yakuza 0",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/yakuza_0_noborders.zip",
+        "FileSize": 672181,
+        "MD5": "82E287D788C49D75CAE0AD40F21A598C",
+        "Name": "Remove Letterbox Artworks Mod",
+        "Guid": "e09f927f-e301-4869-b0d1-1e7aa994f15b",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Description": "##Remove Letterbox Artworks Mod\r\n*by Slow*\r\n\r\n[https://steamcommunity.com/sharedfiles/filedetails/?id=1661318564](https://steamcommunity.com/sharedfiles/filedetails/?id=1661318564)\r\n\r\nThis small mod allows people with non 16:9 displays enjoy the game without distracting images on letterbox bars.",
+        "Tags": [
+          "#ultrawide"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/yakuza_0_hd.zip",
+        "FileSize": 46654219,
+        "MD5": "7065BD18993528C25E92192CA83DEA0A",
+        "Name": "4K Font and Title Screen Mod",
+        "Guid": "c9bd9f71-8c25-4391-82d5-505f5d00abef",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Description": "##4K Font and Title Screen Mod (Original Font)\r\n*by Chauck*\r\n\r\n[https://www.nexusmods.com/yakuza0/mods/7](https://www.nexusmods.com/yakuza0/mods/7)\r\n\r\nReplaces the standard low resolution text in the game with much higher resolution text using the same font.\r\nAlso replaces the title screen logo with a much higher resolution version.",
+        "Tags": [
+          "#graphics_improvement"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/nointro/yakuza_0_nointro.zip",
+        "FileSize": 58493,
+        "MD5": "DB5B6F319C5506085629CD68F610AA5D",
+        "Name": "No Intro Fix",
+        "Guid": "08e4e512-ca97-4a22-aba2-81b24e0b159d",
+        "Version": 1,
+        "SupportedOSes": "Windows, Linux",
+        "Description": "##Yakuza 0 Straight To Menu\r\n*by Parallax Error*\r\n\r\n[https://www.nexusmods.com/yakuza0/mods/272](https://www.nexusmods.com/yakuza0/mods/272)\r\n\r\nRemoves the SEGA screen, Real Yakuza Use A Gamepad and preview video so that you load straight into the main menu upon booting up the game.",
+        "Tags": [
+          "#nointro"
         ]
       }
     ]

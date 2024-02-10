@@ -1,5 +1,9 @@
 [
   {
+    "Date": "2024-02-10T00:00:00",
+    "Content": "### Added:\n\n**Resident Evil**: Elevator animations fix\n\n**Obscure**: Proton Fix\n\n**Prince of Persia SoT, WW, TT**: Xidi\n\n**Yakuza 0**: No Intro Fix, Remove Letterbox Mod, 4K Font Mod\n\n### Tested and enabled even more fixes for Linux/Deck"
+  },
+  {
     "Date": "2024-01-31T00:00:00",
     "Content": "### Tested and enabled many fixes for Linux/Deck"
   },

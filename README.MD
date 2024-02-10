@@ -1,8 +1,9 @@
-**CURRENTLY AVAILABLE 221 FIXES FOR 165 GAMES**
+**CURRENTLY AVAILABLE 229 FIXES FOR 166 GAMES**
 
 
 !Shared
 - Raze Shared
+- Xidi dinput8 x86
 
 Age of Wonders
 - Unofficial patch
@@ -334,9 +335,9 @@ Max Payne 2: The Fall of Max Payne
 - Widescreen Fix
 
 Max Payne 3
-- ASI Loader
 - Fusion Fix
 - Ultrawide Fix
+- [Deprecated] ASI Loader
 
 NAM
 - Raze
@@ -346,6 +347,7 @@ NieR:Automata™
 
 Obscure
 - Widescreen Fix
+- Proton Fix
 
 PowerSlave (DOS Classic Edition)
 - Raze
@@ -359,14 +361,17 @@ Prey
 
 Prince of Persia: The Sands of Time
 - Widescreen Fix
+- Xidi
 
 Prince of Persia: The Two Thrones
 - Launcher Fix
 - Unofficial Patch
+- Xidi
 
 Prince of Persia: Warrior Within
 - Launcher Fix
 - Unofficial Patch
+- Xidi
 
 Project: Snowblind
 - Widescreen Fix
@@ -399,6 +404,7 @@ Redneck Rampage Rides Again
 
 Resident Evil
 - Fusion Fix
+- Elevator animations fix
 
 Resident Evil 0
 - Fusion Fix
@@ -417,7 +423,7 @@ Resident Evil 7 Biohazard
 
 Resident Evil Revelations
 - Fusion Fix
-- RERevFix
+- [Deprecated] RERevFix
 
 Resident Evil Revelations 2
 - Fusion Fix
@@ -551,4 +557,9 @@ World War II GI
 XIII - Classic
 - Unofficial Patch 1.4
 - 2560x1080 Resolution
-No Intro Fixes for: Alan Wake, Alan Wake's American Nightmare, Alien: Isolation, Alien: Isolation, Assassin's Creed, Batman: Arkham Asylum GOTY Edition, Batman: Arkham City GOTY, Battlestations: Pacific, Bayonetta, Blood Omen 2: Legacy of Kain, Borderlands 2, Bound By Flame, Broken Sword 1 - Shadow of the Templars: Director's Cut, Bully: Scholarship Edition, Castlevania: Lords of Shadow - Ultimate Edition, Castlevania: Lords of Shadow 2, Cold Fear, Control Ultimate Edition, Crash Bandicoot™ N. Sane Trilogy, Cyberdimension Neptunia: 4 Goddesses Online, DarkStar One, Darksiders II Deathinitive Edition, Darksiders Warmastered Edition, Dead Rising 2, Dead Rising 2: Off the Record, Demonicon, Deus Ex: Mankind Divided™, Dishonored, Dishonored 2, Dishonored RHCP, Dishonored®: Death of the Outsider™, ENSLAVED™: Odyssey to the West™ Premium Edition, En Garde!, Enclave, Etherlords, Etherlords II, Fable - The Lost Chapters, Far Cry 2, GUN, Gorky 17, Grand Theft Auto III, Grand Theft Auto: San Andreas, Grand Theft Auto: Vice City, Hellblade: Senua's Sacrifice, Hitman 2: Silent Assassin, Hitman: Blood Money, Hitman: Codename 47, Hitman: Contracts, Killer is Dead, Legacy of Kain: Defiance, Legacy of Kain: Soul Reaver, Mars: War Logs, MegaTagmension Blanc + Neptune VS Zombies, Of Orcs And Men, Parkan 2, PowerSlave Exhumed, Prince of Persia: The Sands of Time, Prince of Persia: The Two Thrones, Prince of Persia: Warrior Within, Psychonauts, Red Faction Guerrilla Re-Mars-tered, Red Faction II, Remember Me, Rise of the Argonauts, Risen, Risen 2 - Dark Waters, Risen 3 - Titan Lords, RoboCop: Rogue City, STAR WARS™ Jedi Knight II: Jedi Outcast™, STAR WARS™ Jedi Knight: Jedi Academy™, Second Sight, Sleeping Dogs: Definitive Edition, Spyro™ Reignited Trilogy, Sudeki, The Bureau: XCOM Declassified, The Callisto Protocol, The Dark Eye: Chains of Satinav, The Elder Scrolls III: Morrowind, The Talos Principle 2, The Technomancer, TimeShift, Tom Clancy's Splinter Cell, Tom Clancy's Splinter Cell: Chaos Theory, Tomb Raider (VI): The Angel of Darkness, Tomb Raider I, Tomb Raider II, Tomb Raider III: Adventures of Lara Croft, Tomb Raider: Anniversary, Tomb Raider: Chronicles, Tomb Raider: Legend, Tomb Raider: The Last Revelation, Transformers: Fall of Cybertron, Two Worlds II HD, Two Worlds: Epic Edition, Velvet Assassin
+
+Yakuza 0
+- Remove Letterbox Artworks Mod
+- 4K Font and Title Screen Mod
+
+No Intro Fixes for: Alan Wake, Alan Wake's American Nightmare, Alien: Isolation, Alien: Isolation, Assassin's Creed, Batman: Arkham Asylum GOTY Edition, Batman: Arkham City GOTY, Battlestations: Pacific, Bayonetta, Blood Omen 2: Legacy of Kain, Borderlands 2, Bound By Flame, Broken Sword 1 - Shadow of the Templars: Director's Cut, Bully: Scholarship Edition, Castlevania: Lords of Shadow - Ultimate Edition, Castlevania: Lords of Shadow 2, Cold Fear, Control Ultimate Edition, Crash Bandicoot™ N. Sane Trilogy, Cyberdimension Neptunia: 4 Goddesses Online, DarkStar One, Darksiders II Deathinitive Edition, Darksiders Warmastered Edition, Dead Rising 2, Dead Rising 2: Off the Record, Demonicon, Deus Ex: Mankind Divided™, Dishonored, Dishonored 2, Dishonored RHCP, Dishonored®: Death of the Outsider™, ENSLAVED™: Odyssey to the West™ Premium Edition, En Garde!, Enclave, Etherlords, Etherlords II, Fable - The Lost Chapters, Far Cry 2, GUN, Gorky 17, Grand Theft Auto III, Grand Theft Auto: San Andreas, Grand Theft Auto: Vice City, Hellblade: Senua's Sacrifice, Hitman 2: Silent Assassin, Hitman: Blood Money, Hitman: Codename 47, Hitman: Contracts, Killer is Dead, Legacy of Kain: Defiance, Legacy of Kain: Soul Reaver, Mafia, Mars: War Logs, MegaTagmension Blanc + Neptune VS Zombies, Of Orcs And Men, Parkan 2, PowerSlave Exhumed, Prince of Persia: The Sands of Time, Prince of Persia: The Two Thrones, Prince of Persia: Warrior Within, Psychonauts, Red Faction Guerrilla Re-Mars-tered, Red Faction II, Remember Me, Rise of the Argonauts, Risen, Risen 2 - Dark Waters, Risen 3 - Titan Lords, RoboCop: Rogue City, STAR WARS™ Jedi Knight II: Jedi Outcast™, STAR WARS™ Jedi Knight: Jedi Academy™, Second Sight, Sleeping Dogs: Definitive Edition, Spyro™ Reignited Trilogy, Sudeki, The Bureau: XCOM Declassified, The Callisto Protocol, The Dark Eye: Chains of Satinav, The Elder Scrolls III: Morrowind, The Talos Principle 2, The Technomancer, TimeShift, Tom Clancy's Splinter Cell, Tom Clancy's Splinter Cell: Chaos Theory, Tomb Raider (VI): The Angel of Darkness, Tomb Raider I, Tomb Raider II, Tomb Raider III: Adventures of Lara Croft, Tomb Raider: Anniversary, Tomb Raider: Chronicles, Tomb Raider: Legend, Tomb Raider: The Last Revelation, Transformers: Fall of Cybertron, Two Worlds II HD, Two Worlds: Epic Edition, Velvet Assassin, Yakuza 0
