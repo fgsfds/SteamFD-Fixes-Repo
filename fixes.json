@@ -5874,12 +5874,12 @@
       {
         "$type": "FileFix",
         "Url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scct/SplinterCellChaosTheory.WidescreenFix.zip",
-        "FileSize": 2416408,
+        "FileSize": 2582219,
         "ConfigFile": "System\\scripts\\SplinterCellChaosTheory.WidescreenFix.ini",
-        "MD5": "1599FE6AA8A9201BF0580C4803ECF99D",
+        "MD5": "AA797B9A99176F44A0C68AB242D06FAD",
         "Name": "Widescreen Fix",
         "Guid": "d2797d6c-e7c0-48d9-9cf9-ff3210a26df8",
-        "Version": 2,
+        "Version": 3,
         "SupportedOSes": "Windows",
         "Description": "## Splinter Cell Widescreen Fix\n*by ThirteenAG*\n\n[https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scct](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/scct)\n\n- Fixed Resolution\n- Fixed Aspect Ratio\n- Fixed HUD\n- Fixed Field of View\n- Fixed FMVs\n- Added an option to change goggles\u0027 light color",
         "Tags": [
@@ -6008,6 +6008,29 @@
         "Dependencies": [
           "174629fa-0e1c-4d6a-9184-5c16923a202c"
         ],
+        "Description": "Removal of the intro videos",
+        "Tags": [
+          "#nointro"
+        ]
+      }
+    ]
+  },
+  {
+    "GameId": 2478970,
+    "GameName": "Tomb Raider I-III Remastered Starring Lara Croft",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "FilesToDelete": [
+          "1\\PIX\\LEGAL_1.DDS",
+          "1\\PIX\\LEGAL_2.DDS",
+          "1\\PIX\\LEGAL_3.DDS",
+          "1\\PIX\\LEGAL_4.DDS"
+        ],
+        "Name": "No Intro Fix",
+        "Guid": "df97e9c5-9bb2-475b-b80c-652336c134ce",
+        "Version": 1,
+        "SupportedOSes": "Windows",
         "Description": "Removal of the intro videos",
         "Tags": [
           "#nointro"
