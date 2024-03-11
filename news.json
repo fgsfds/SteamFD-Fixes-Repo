@@ -1,5 +1,9 @@
 [
   {
+    "Date": "2024-03-11T00:00:00",
+    "Content": "### Added:\n\n**Black Mirror I**: DDrawCompat\n\n**Deadfall Adventures**: Disable Head Bobbing\n\n**Jedi Knight: Dark Forces II / Mysteries of the Sith**: OpenJKDF2\n\n**Knights of the Old Republic**: Widescreen Fix, High Resolution Menus, Community Patch\n\n**Terraria**: Collector's Edition Exclusive Pet\n\n**Zwei**: Pixel Perfect Scaling"
+  },
+  {
     "Date": "2024-02-10T00:00:00",
     "Content": "### Added:\n\n**Resident Evil**: Elevator animations fix\n\n**Obscure**: Proton Fix\n\n**Prince of Persia SoT, WW, TT**: Xidi\n\n**Yakuza 0**: No Intro Fix, Remove Letterbox Mod, 4K Font Mod\n\n### Tested and enabled even more fixes for Linux/Deck"
   },

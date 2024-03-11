@@ -591,6 +591,28 @@
     ]
   },
   {
+    "GameId": 292930,
+    "GameName": "Black Mirror I",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/ddraw_compat_v051.zip",
+        "FileSize": 873937,
+        "MD5": "196719CEF582E0B18FC37D21C5391B42",
+        "Name": "DDrawCompat",
+        "Guid": "0a5908a7-6931-4e2d-be43-9b22b6d0e256",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "##DDrawCompat v0.5.1\r\n*by narzoul*\r\n\r\n[https://github.com/narzoul/DDrawCompat](https://github.com/narzoul/DDrawCompat)\r\n\r\nDDrawCompat is a DLL wrapper aimed at fixing compatibility and performance issues for games based on DirectDraw and Direct3D 1-7.\r\n\r\n- Increases performance and prevents visual glitches\r\n- Maintains game\u0027s original 4:3 aspect ratio in fullscreen (no stretching)\r\n- Fixes game hanging/crashing when alt-tabbing, taking screenshots etc\r\n- Prevents desktop icons/windows from moving around when using multiple monitors",
+        "Tags": [
+          "#performance_improvement",
+          "#crashfix",
+          "#bugfixes"
+        ]
+      }
+    ]
+  },
+  {
     "GameId": 358190,
     "GameName": "Blake Stone: Aliens of Gold",
     "Fixes": [
@@ -1712,6 +1734,17 @@
           "#enhancements",
           "#graphics_improvement"
         ]
+      },
+      {
+        "$type": "TextFix",
+        "Name": "No Intro Fix",
+        "Guid": "c6bee87f-e514-4917-90df-83415760e3b6",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "In Steam, right-click on the Dead Island Definitive Edition game and select Properties.\r\nIn the General/Launch Options section paste the following command;\r\n\r\n\u0060-nologos\u0060",
+        "Tags": [
+          "#nointro"
+        ]
       }
     ]
   },
@@ -1733,6 +1766,17 @@
         "Tags": [
           "#enhancements",
           "#graphics_improvement"
+        ]
+      },
+      {
+        "$type": "TextFix",
+        "Name": "No Intro Fix",
+        "Guid": "9bf05705-6074-43ec-b24f-0c685231e8fd",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "In Steam, right-click on the Dead Island Definitive Edition game and select Properties.\r\nIn the General/Launch Options section paste the following command;\r\n\r\n\u0060-nologos\u0060",
+        "Tags": [
+          "#nointro"
         ]
       }
     ]
@@ -1832,6 +1876,34 @@
         "Version": 1,
         "SupportedOSes": "Windows",
         "Description": "## Dead Space 2 Mouse Fix\n*by Methanhydrat*\n\n[https://community.pcgamingwiki.com/files/file/840-dead-space-mouse-fix/](https://community.pcgamingwiki.com/files/file/840-dead-space-mouse-fix/)\n\nThis fix makes Dead Space use raw mouse input without any additional smoothing or acceleration. It works with VSync and high frame rates and is easy to install without having to fiddle around with FPS limiters or config files."
+      }
+    ]
+  },
+  {
+    "GameId": 231330,
+    "GameName": "Deadfall Adventures",
+    "Fixes": [
+      {
+        "$type": "TextFix",
+        "Name": "Disable Head Bobbing",
+        "Guid": "aa80bb22-3e42-4f7e-9b11-aec4ea3d0380",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "Deadfall Adventures - Disable Head Bobbing\r\nBy Greenskin\r\n\r\n[https://steamcommunity.com/sharedfiles/filedetails/?id=814710743](https://steamcommunity.com/sharedfiles/filedetails/?id=814710743)\r\n\r\nThis game uses excessive head bobbing when moving which can cause motion sickness. To disable it use a text editor to edit the \u0060ADVGame.ini\u0060 located in \u0060[YOUR_DOCUMENTS]\\My Games\\Deadfall Adventures\\ADVGame\\Config\u0060 folder. \r\n\r\nNear the top, in the \u0060[Configuration] [EvilGame.UTPawn]\u0060 section, change to the values below;\r\n\r\n\u0060\u0060\u0060\r\nBob=0.000\r\nbWeaponBob=false\r\n\u0060\u0060\u0060\r\n\r\nSave the file.",
+        "Tags": [
+          "#enhancements"
+        ]
+      },
+      {
+        "$type": "TextFix",
+        "Name": "No Intro Fix",
+        "Guid": "d7cb6aa4-f45e-41e3-8daf-0d0ed5d1b8f7",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "Use a text editor to edit the \u0060ADVEngine.ini\u0060 located in \u0060[YOUR_DOCUMENTS]\\My Games\\Deadfall Adventures\\ADVGame\\Config\u0060 folder.\r\n\r\nNear the bottom, in the \u0060[FullScreenMovie]\u0060 section, locate the line \u0060StartupMovies=StartLogo\u0060 and add a \u0060;\u0060 (Semi-Colon) at the start of the line.\r\n\r\nSave the file.",
+        "Tags": [
+          "#nointro"
+        ]
       }
     ]
   },
@@ -5207,6 +5279,23 @@
     ]
   },
   {
+    "GameId": 32380,
+    "GameName": "STAR WARS\u2122 Jedi Knight: Dark Forces II",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dark_force_2_ojkdf2_v091.zip",
+        "FileSize": 25696463,
+        "MD5": "5376C542ADE2532A5A6DDD814B62BB35",
+        "Name": "OpenJKDF2",
+        "Guid": "9daf8fec-8f48-4ce8-8bc8-999e625aa47c",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "## OpenJKDF2 v0.9.1\r\n*by shinyquagsire23*\r\n\r\n[https://github.com/shinyquagsire23/OpenJKDF2](https://github.com/shinyquagsire23/OpenJKDF2)\r\n\r\nA reverse-engineered source port of the Sith engine that includes QOL improvements\r\n\r\n**Currently work in progress and may be unstable**"
+      }
+    ]
+  },
+  {
     "GameId": 6020,
     "GameName": "STAR WARS\u2122 Jedi Knight: Jedi Academy\u2122",
     "Fixes": [
@@ -5221,6 +5310,244 @@
         "Version": 1,
         "SupportedOSes": "Windows, Linux",
         "Description": "Blank replacements for intro videos",
+        "Tags": [
+          "#nointro"
+        ]
+      }
+    ]
+  },
+  {
+    "GameId": 32390,
+    "GameName": "STAR WARS\u2122 Jedi Knight: Mysteries of the Sith\u2122",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/dark_force_2_ojkdf2_v091.zip",
+        "FileSize": 25696463,
+        "MD5": "5376C542ADE2532A5A6DDD814B62BB35",
+        "Name": "OpenJKDF2",
+        "Guid": "4a22b011-711b-42b8-8d27-00b9e84bd7e6",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "## OpenJKDF2 v0.9.1\r\n*by shinyquagsire23*\r\n\r\n[https://github.com/shinyquagsire23/OpenJKDF2](https://github.com/shinyquagsire23/OpenJKDF2)\r\n\r\nA reverse-engineered source port of the Sith engine that includes QOL improvements\r\n\r\n**Currently work in progress and may be unstable**"
+      }
+    ]
+  },
+  {
+    "GameId": 32370,
+    "GameName": "STAR WARS\u2122 Knights of the Old Republic\u2122",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/swkotor_widescreen.zip",
+        "FileSize": 3210040,
+        "ConfigFile": "SUWSF.ini",
+        "MD5": "4839C637F847523021C29C923E0AC59A",
+        "Name": "Widescreen Fix",
+        "Guid": "7d5a3a00-f930-4a84-92f1-34fd2ce23a00",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "## Widesceen Fix\n*by fgsfds*\n\nFixes stretching in widescreen and wider resolutions\n\nMade using **SUWSF** by *PhantomGamers*\n\n[https://github.com/PhantomGamers/SUWSF](https://github.com/PhantomGamers/SUWSF)\r\n\r\nand **KotOR High Resolution Menus 1.5**\r\n\r\n[https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/](https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/)\r\n\r\n**Installation:**\r\n\r\n- install this widescreen fix\r\n- start the game\r\n- select your resolution from the settings\r\n- close the game\r\n- install high resolution menus for your resolution",
+        "Tags": [
+          "#widescreen",
+          "#ultrawide"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/swkotor_4_3_menus.zip",
+        "FileSize": 4710340,
+        "Variants": [
+          "800x600",
+          "960x720",
+          "1024x768",
+          "1280x960",
+          "1400x1050",
+          "1440x1080",
+          "1600x1200",
+          "1856x1392",
+          "1920x1440",
+          "2048x1536",
+          "3200x2400",
+          "4096x3072"
+        ],
+        "InstallFolder": "Override",
+        "MD5": "5C5CDD85C4E854A7A5E40ECE369EE694",
+        "Name": "High Resolution Menus 4:3",
+        "Guid": "f9f78c34-f668-475b-9941-f95d33b64af7",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Dependencies": [
+          "7d5a3a00-f930-4a84-92f1-34fd2ce23a00"
+        ],
+        "Description": "## KotOR High Resolution Menus 1.5\r\n*by ndix UR*\r\n\r\n[https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/](https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/)\r\n\r\nThis fix contaions a sets of GUI files (.gui), scaled for specific resolutions.\r\n\r\nSelect your resolution from the drop down menu.",
+        "Tags": [
+          "#graphics_improvement"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/swkotor_16_9_menus.zip",
+        "FileSize": 5896662,
+        "Variants": [
+          "1024x576",
+          "1152x648",
+          "1280x720",
+          "1360x768",
+          "1366x768",
+          "1600x900",
+          "1920x1080",
+          "2048x1152",
+          "2560x1440",
+          "3840x2160",
+          "5120x2880",
+          "6016x3384",
+          "7680x4320",
+          "8192x4608",
+          "15360x8640"
+        ],
+        "InstallFolder": "Override",
+        "MD5": "FDCF378DD08AF6D10D225A5310EDF627",
+        "Name": "High Resolution Menus 16:9",
+        "Guid": "6c522c8a-7d3b-497b-8cee-0dc4a7a6cdb0",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Dependencies": [
+          "7d5a3a00-f930-4a84-92f1-34fd2ce23a00"
+        ],
+        "Description": "## KotOR High Resolution Menus 1.5\r\n*by ndix UR*\r\n\r\n[https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/](https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/)\r\n\r\nThis fix contaions a sets of GUI files (.gui), scaled for specific resolutions.\r\n\r\nSelect your resolution from the drop down menu.",
+        "Tags": [
+          "#widescreen"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/swkotor_16_10_menus.zip",
+        "FileSize": 4714852,
+        "Variants": [
+          "1024x640",
+          "1152x720",
+          "1280x800",
+          "1440x900",
+          "1680x1050",
+          "1920x1200",
+          "2048x1280",
+          "2304x1440",
+          "2560x1600",
+          "2880x1800",
+          "3840x2400",
+          "5120x3200"
+        ],
+        "InstallFolder": "Override",
+        "MD5": "5B3F36926F75FFD205B4855FF158AAC5",
+        "Name": "High Resolution Menus 16:10",
+        "Guid": "62df89ba-9dee-418e-82aa-9e4e3e2349e2",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Dependencies": [
+          "7d5a3a00-f930-4a84-92f1-34fd2ce23a00"
+        ],
+        "Description": "## KotOR High Resolution Menus 1.5\r\n*by ndix UR*\r\n\r\n[https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/](https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/)\r\n\r\nThis fix contaions a sets of GUI files (.gui), scaled for specific resolutions.\r\n\r\nSelect your resolution from the drop down menu.",
+        "Tags": [
+          "#widescreen"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/swkotor_21_9_menus.zip",
+        "FileSize": 2360413,
+        "Variants": [
+          "1280x1080",
+          "2560x1080",
+          "3440x1440",
+          "3840x1600",
+          "5120x2160",
+          "10240x4320"
+        ],
+        "InstallFolder": "Override",
+        "MD5": "3256472BC48D798ADF674EB544F4651D",
+        "Name": "High Resolution Menus 21:9",
+        "Guid": "e65643b8-b519-4ddd-ac13-7c66bbff6559",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Dependencies": [
+          "7d5a3a00-f930-4a84-92f1-34fd2ce23a00"
+        ],
+        "Description": "## KotOR High Resolution Menus 1.5\r\n*by ndix UR*\r\n\r\n[https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/](https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/)\r\n\r\nThis fix contaions a sets of GUI files (.gui), scaled for specific resolutions.\r\n\r\nSelect your resolution from the drop down menu.",
+        "Tags": [
+          "#ultrawide"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/raw/master/fixes/swkotor_32_9_menus.zip",
+        "FileSize": 1572979,
+        "Variants": [
+          "1920x540",
+          "3840x1080",
+          "5120x1440",
+          "7680x2160"
+        ],
+        "InstallFolder": "Override",
+        "MD5": "C4CC704BA51C54ADFFA386DA59293FEB",
+        "Name": "High Resolution Menus 32:9",
+        "Guid": "99991af2-a099-4135-8854-e3ceab165f40",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Dependencies": [
+          "7d5a3a00-f930-4a84-92f1-34fd2ce23a00"
+        ],
+        "Description": "## KotOR High Resolution Menus 1.5\r\n*by ndix UR*\r\n\r\n[https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/](https://deadlystream.com/files/file/1159-kotor-high-resolution-menus/)\r\n\r\nThis fix contaions a sets of GUI files (.gui), scaled for specific resolutions.\r\n\r\nSelect your resolution from the drop down menu.",
+        "Tags": [
+          "#ultrawide"
+        ]
+      },
+      {
+        "$type": "FileFix",
+        "Url": "https://github.com/fgsfds/SteamFD-Fixes-Repo/releases/download/files/swkotor_unofficial_patch_v110.zip",
+        "FileSize": 733115799,
+        "MD5": "DC1ED2B1AB6969E848B76A3D6FB596BF",
+        "Name": "Community Patch",
+        "Guid": "cfe99c56-64e2-4b5d-bf84-b844dc48695b",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "[https://github.com/KOTORCommunityPatches/K1_Community_Patch](https://github.com/KOTORCommunityPatches/K1_Community_Patch)"
+      },
+      {
+        "$type": "FileFix",
+        "FilesToDelete": [
+          "movies\\biologo.bik",
+          "movies\\leclogo.bik",
+          "movies\\legal.bik"
+        ],
+        "Name": "No Intro Fix",
+        "Guid": "f5b6d522-3922-4631-b2c1-b0ca7880cedd",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "Removal of intro videos",
+        "Tags": [
+          "#nointro"
+        ]
+      }
+    ]
+  },
+  {
+    "GameId": 208580,
+    "GameName": "STAR WARS\u2122 Knights of the Old Republic\u2122 II: The Sith Lords\u2122",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "FilesToDelete": [
+          "Movies\\leclogo.bik",
+          "Movies\\ObsidianEnt.bik",
+          "Movies\\Legal.bik",
+          "Movies\\aspyr.bik"
+        ],
+        "Name": "No Intro Fix",
+        "Guid": "eaa67a59-d902-4d6f-9304-c7c31b4b9317",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "Removal of the intro videos",
         "Tags": [
           "#nointro"
         ]
@@ -5489,6 +5816,28 @@
     ]
   },
   {
+    "GameId": 105600,
+    "GameName": "Terraria",
+    "Fixes": [
+      {
+        "$type": "RegistryFix",
+        "Key": "HKEY_CURRENT_USER\\Software\\Terraria",
+        "ValueName": "Bunny",
+        "NewValueData": "1",
+        "ValueType": "String",
+        "Name": "Collector\u0027s Edition Exclusive Pet",
+        "Guid": "0e1cc734-8b23-44b0-b4cd-63d9c8803bf3",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "##Collector\u0027s Edition Exclusive Pet\r\n*by Deadlee6*\r\n\r\n[https://steamcommunity.com/sharedfiles/filedetails/?id=684333881](https://steamcommunity.com/sharedfiles/filedetails/?id=684333881)\r\n\r\nThis registry tweak will change your basic Terraria version into the Terraria Collectors Edition version to get the exclusive pet bunny.\r\n\r\nYou need to make a new character and it will start with a Carrot that you can use to spawn a pet Bunny. You can transfer this to any character also. The pet Bunny will change colour with your shirt colour. So if you have a white shirt the Bunny will be white and so on.",
+        "Tags": [
+          "#additional_content"
+        ],
+        "Notes": "Linux/Mac/Steam Deck method also available."
+      }
+    ]
+  },
+  {
     "GameId": 65930,
     "GameName": "The Bureau: XCOM Declassified",
     "Fixes": [
@@ -5605,6 +5954,30 @@
         "Version": 1,
         "SupportedOSes": "Windows",
         "Description": "Removal of the intro videos",
+        "Tags": [
+          "#nointro"
+        ]
+      }
+    ]
+  },
+  {
+    "GameId": 22330,
+    "GameName": "The Elder Scrolls IV: Oblivion",
+    "Fixes": [
+      {
+        "$type": "FileFix",
+        "FilesToDelete": [
+          "Data\\Video\\2k games.bik",
+          "Data\\Video\\bethesda softworks HD720p.bik",
+          "Data\\Video\\game studios.bik",
+          "Data\\Video\\Oblivion iv logo.bik",
+          "Data\\Video\\Oblivion Legal.bik"
+        ],
+        "Name": "No Intro Fix",
+        "Guid": "cdb63bb1-b0e5-4db6-b1d9-2e25edcc2e84",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "Removal of intro videos.",
         "Tags": [
           "#nointro"
         ]
@@ -6749,6 +7122,23 @@
         "Description": "##Yakuza 0 Straight To Menu\r\n*by Parallax Error*\r\n\r\n[https://www.nexusmods.com/yakuza0/mods/272](https://www.nexusmods.com/yakuza0/mods/272)\r\n\r\nRemoves the SEGA screen, Real Yakuza Use A Gamepad and preview video so that you load straight into the main menu upon booting up the game.",
         "Tags": [
           "#nointro"
+        ]
+      }
+    ]
+  },
+  {
+    "GameId": 427680,
+    "GameName": "Zwei: The Arges Adventure",
+    "Fixes": [
+      {
+        "$type": "TextFix",
+        "Name": "Pixel Perfect Scaling",
+        "Guid": "f92495c9-6575-4c47-992a-2fc567ab07f7",
+        "Version": 1,
+        "SupportedOSes": "Windows",
+        "Description": "##Zwei: The Arges Adventure - Pixel Perfect Scaling\r\n\r\n[https://www.pcgamingwiki.com/wiki/Zwei:_The_Arges_Adventure#Video](https://www.pcgamingwiki.com/wiki/Zwei:_The_Arges_Adventure#Video)\r\n\r\nThe game is limited to 854x480 internally, but the fullscreen option uses a blurry bilinear smoothing filter. Use the \u0060--pixel_perfect\u0060 launch parameter to scale the game to the highest possible multiple of its native resolution, without any blurring. For monitors with a resolution of 2560x1440 \u0060--pixel_perfect --crop\u0060 can be used to allow the game to scale to a perfect 3x.\r\n\r\nIn Steam, right-click on the Zwei: The Arges Adventure game and select Properties. In the General/Launch Options section paste one of the following commands;\r\n\r\nFor 1080p and 4K monitors use;\r\n\r\n\u0060--pixel_perfect\u0060\r\n\r\nFor 2K monitors use;\r\n\r\n\u0060--pixel_perfect --crop\u0060",
+        "Tags": [
+          "#graphics_improvement"
         ]
       }
     ]
